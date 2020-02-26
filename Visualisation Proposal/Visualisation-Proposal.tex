@@ -1,0 +1,103 @@
+% Document class options:
+% 11pt for 11 point font
+% oneside for not weird margins between odd and even pages
+% (omitting oneside gives a better margin setup for print
+% but i'm guessing  you're handing this in)
+% a4paper to A4 page size, because LaTeX by default is setup
+% to use US Letter paper size, because Donald Knuth
+% the article class, as the book class is designed for
+% larger documents and you probably don't need chapter
+% environments
+\documentclass[11pt, oneside, a4paper]{article}
+
+% Set spacing (i set it to 1.2x)
+\renewcommand{\baselinestretch}{1}
+% Indentation (set this to zero for normal prose)
+\setlength{\parindent}{0em}
+% Line breaking (spacing between paragraphs)
+\setlength{\parskip}{0.5em}
+
+% Use the whole page
+\usepackage{geometry}
+% Extra math glyphs
+\usepackage{amsmath}
+% Proper enumerate spacing
+\usepackage{enumitem}
+% More pleasing screen fonts
+\usepackage{lmodern}
+% Fancy headers
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+% Allows absolute positioning of images
+\usepackage{float}
+
+% Set no separation
+\setlist{noitemsep}
+% Set margins to reasonable
+\geometry{margin=2.5cm}
+% Sets graphics path
+\graphicspath{ {./images/} }
+% Sets up fancy headers
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Natalie Hong Visualisation Project Proposal}
+\rhead{COSC3000}
+
+\begin{document}
+\section{Introduction}
+Hi, my name is Natalie Hong and I am `first' year Software engineering 
+student. I was originally undertaking UX as an IT major and ultimately decided 
+to pursue a more development based career. I like programming, photography, 
+design and cyber security. 
+
+Now enough about me, let's get into the game. (also sorry in advance my spacing died :/)
+
+\subsection{What?}
+Faster than Water was originally a game concept built with the idea of the simulating 
+being a pirate in a traversable world map. The title itself is a parody of popular game "Faster than Light" 
+as the combat of the game is very similar to it. The main basis of the game was to collect four gems obtained by 
+defeating bosses through combat. However, to defeat these bosses, different blueprints for ships needed to be collected
+through ship combat. Depending on the type of ship that was challenged in combat could increase or decrease a player's notoriety 
+allowing for different entity interactions. Certain NPCs were also available as well as a vast environment to explore. 
+This idea of collecting gems was implemented in the story and offered unique opening and closing animations to our game. 
+
+\section{Individual Work}
+
+\subsection{Description}
+For the majority of sprints I was involved with, I was in charge of visually implementing designed assets onto 
+the game using the overlay renderer class and sprite batch methods. I also was part of the Creative Direction Team 
+who was in charge of all major decisions and design consistency. 
+
+A run down of my sprints is as follows:
+\begin{enumerate}
+    \item Sounds + Animation and basic sprites - Worked on fully implementing the sound manager for the 
+    \item User Interface + Creative Direction Team - 
+    \item Storyline team + Creative Direction Team - 
+    \item Creative Direction Team - 
+\end{enumerate}
+
+\subsection{Methods}
+
+I was also able to implement logic for  
+
+% Put the H option to ensure that figures are where you want them to be
+\begin{figure}[H]
+    \centering
+    % I am using a minipage to have two figures next to each other. If you just want one figure in a row, just remove the minipage structures entirely and just have:
+    % \includegraphics[width=0.45\textwidth]{main_menu}
+    % \caption{Main menu}
+    % Always use scale in terms of page size -- NEVER scale images in terms of the original size, or else you will get unexpected behaviour
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        % Note that the width is relative to the parent minipage
+        \includegraphics[width=0.9\linewidth]{amaru.png}
+        \caption{Main menu}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth]{ash.png}
+        \caption{Map view}
+    \end{minipage}
+\end{figure}
+    
+\end{document}
