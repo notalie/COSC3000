@@ -9,7 +9,18 @@
 % larger documents and you probably don't need chapter
 % environments
 \documentclass[11pt, oneside, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\urlstyle{same}
 % Set spacing (i set it to 1.2x)
 \renewcommand{\baselinestretch}{1}
 % Indentation (set this to zero for normal prose)
@@ -40,64 +51,42 @@
 % Sets up fancy headers
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{Natalie Hong Visualisation Project Proposal}
+\lhead{Natalie Hong Visualization Project Proposal}
 \rhead{COSC3000}
 
 \begin{document}
-\section{Introduction}
-Hi, my name is Natalie Hong and I am `first' year Software engineering 
-student. I was originally undertaking UX as an IT major and ultimately decided 
-to pursue a more development based career. I like programming, photography, 
-design and cyber security. 
+\section*{Introduction}
+Hi, my name is Natalie Hong and I am a third year Software Engineering Student. I have chosen to take this course as I enjoy visualising data spread and am super interested in the graphics section of the course as I was able to brush over it in highschool, but was never able to further my knowledge in it.
+I also am heavily involved in a certain gaming community which has serves as the main factor of choice for my visualization project decision.
 
-Now enough about me, let's get into the game. (also sorry in advance my spacing died :/)
+\section*{What?}
+What I will be visualising will be Australian character data and usage throughout 2019 for the game Super Smash Bros. Ultimate for the Nintendo Switch. 
+Since I am using an API and the data is always updating, I will be sorting each set of data into states and then into individual quarters of 2019.
+Data will be visualised on a webpage as I would like it to be publically viewed when the project is completed.
 
-\subsection{What?}
-Faster than Water was originally a game concept built with the idea of the simulating 
-being a pirate in a traversable world map. The title itself is a parody of popular game "Faster than Light" 
-as the combat of the game is very similar to it. The main basis of the game was to collect four gems obtained by 
-defeating bosses through combat. However, to defeat these bosses, different blueprints for ships needed to be collected
-through ship combat. Depending on the type of ship that was challenged in combat could increase or decrease a player's notoriety 
-allowing for different entity interactions. Certain NPCs were also available as well as a vast environment to explore. 
-This idea of collecting gems was implemented in the story and offered unique opening and closing animations to our game. 
+The data will be presented as a bubble chart in which the positioning of the bubbles will be determined by elo (skill points) and total games played, with each bubble representing a character in the game. The radius of each bubble will represent the number of individual players of each character.
+Since there are 70+ characters in this game, data visualization will be limited to displaying the top 5 characters.
 
-\section{Individual Work}
+\section*{Why?}
+There are many reasons as to why I would like to undertake this project, so I'll summarise it for you:
+\begin{itemize}
+    \item I am curious as to if the amount of individual players will influence elo gain and/or matches played 
+    \item I have a passion for this game and the data that the API offers
+    \item During the holidays, I worked on many projects similar to this one utilising the same API so I have a sense of familiarity doing this project
+    \item I enjoy web design and feel like this style of visualization will be visually pleasing 
+\end{itemize}
 
-\subsection{Description}
-For the majority of sprints I was involved with, I was in charge of visually implementing designed assets onto 
-the game using the overlay renderer class and sprite batch methods. I also was part of the Creative Direction Team 
-who was in charge of all major decisions and design consistency. 
+\section*{How?}
+To achieve the visualization page that I want I will use the following tools:
+\begin{itemize}
+    \item Python 3
+    \item Bubble Chart JS library (to be decided)
+    \item Ausmash API \href{https://api.ausmash.com.au/swagger/ui/index#/}{(Click for Documentation)}
+    \item JQuery for Interaction display
+\end{itemize}
 
-A run down of my sprints is as follows:
-\begin{enumerate}
-    \item Sounds + Animation and basic sprites - Worked on fully implementing the sound manager for the 
-    \item User Interface + Creative Direction Team - 
-    \item Storyline team + Creative Direction Team - 
-    \item Creative Direction Team - 
-\end{enumerate}
+\section*{Example Visualization}
+Before diving into the code, I decided to make some very basic designs for what the final product could be. These designs were as follows:
 
-\subsection{Methods}
 
-I was also able to implement logic for  
-
-% Put the H option to ensure that figures are where you want them to be
-\begin{figure}[H]
-    \centering
-    % I am using a minipage to have two figures next to each other. If you just want one figure in a row, just remove the minipage structures entirely and just have:
-    % \includegraphics[width=0.45\textwidth]{main_menu}
-    % \caption{Main menu}
-    % Always use scale in terms of page size -- NEVER scale images in terms of the original size, or else you will get unexpected behaviour
-    \begin{minipage}{0.5\textwidth}
-        \centering
-        % Note that the width is relative to the parent minipage
-        \includegraphics[width=0.9\linewidth]{amaru.png}
-        \caption{Main menu}
-    \end{minipage}%
-    \begin{minipage}{0.5\textwidth}
-        \centering
-        \includegraphics[width=0.9\linewidth]{ash.png}
-        \caption{Map view}
-    \end{minipage}
-\end{figure}
-    
 \end{document}
