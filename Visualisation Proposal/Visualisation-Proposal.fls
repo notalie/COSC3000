@@ -112,6 +112,9 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 INPUT /usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/./images/bubblechart.png
+INPUT ./images/bubblechart.png
+INPUT ./images/bubblechart.png
 INPUT /Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.aux
 INPUT /Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.out
 INPUT /Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.out

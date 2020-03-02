@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1582802165 "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.tex" "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.pdf" "Visualisation-Proposal" 1582802166
-  "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.aux" 1582802166 684 5e35fe93d3f1c383b570da46c6606ab3 ""
-  "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.tex" 1582802163 3933 ea5f6971ca978493e3eec31ab424c22b ""
+["pdflatex"] 1583129305 "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.tex" "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.pdf" "Visualisation-Proposal" 1583129306
+  "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.aux" 1583129306 684 5e35fe93d3f1c383b570da46c6606ab3 ""
+  "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.tex" 1583129303 4614 21fce146aff4ea16883fa57925756559 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1480098668 2840 216e6e45ad352e2456e1149f28885bee ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1480098668 2327 9d6df24f9c4f7368395224341a95523a ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -63,13 +63,14 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1553075360 4220280 cedc5cdbada92d576d190c42fb6fa844 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "Visualisation-Proposal.aux" 1582802166 684 5e35fe93d3f1c383b570da46c6606ab3 ""
-  "Visualisation-Proposal.out" 1582802165 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Visualisation-Proposal.tex" 1582802163 3933 ea5f6971ca978493e3eec31ab424c22b ""
+  "Visualisation-Proposal.aux" 1583129306 684 5e35fe93d3f1c383b570da46c6606ab3 ""
+  "Visualisation-Proposal.out" 1583129305 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Visualisation-Proposal.tex" 1583129303 4614 21fce146aff4ea16883fa57925756559 ""
+  "images/bubblechart.png" 1583124318 103449 096369ab1ca77ba71993c3039088c5a7 ""
   (generated)
+  "Visualisation-Proposal.log"
   "Visualisation-Proposal.aux"
   "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.log"
   "Visualisation-Proposal.out"
-  "Visualisation-Proposal.log"
-  "Visualisation-Proposal.pdf"
   "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Proposal/Visualisation-Proposal.pdf"
+  "Visualisation-Proposal.pdf"

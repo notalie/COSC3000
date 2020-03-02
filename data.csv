@@ -1,0 +1,2255 @@
+state, character_name, players, elo_gain, matches_played, quarter
+QLD,Bayonetta,['STeev', 'Hobbit', 'PillowTalk'],632,17,Q1
+QLD,Bowser,['Jett', 'Mittens', 'Luminescent', 'Grumbley', 'Slayden', 'Mint2', 'Kegstand', 'Nitzayra', 'Flamboyanthamster', 'Bigfatelli'],2045,77,Q1
+QLD,Bowser Jr.,['Glyph', 'BattleDolphin', 'Bigfatelli', 'Aurion'],201,9,Q1
+QLD,Captain Falcon,['Iroh', 'noobar', 'Vye', 'Cajeck', 'conso', 'VietPham', 'Thompsinus', 'Flex', 'Mason', 'Johzyn', 'Jethee', 'Zeus'],1881,88,Q1
+QLD,Chrom,['FC', 'Parralize', 'G', 'TRex', 'Thompsinus', 'Scrail', 'Kyle', 'Ari'],2898,116,Q1
+QLD,Cloud,['Crossbow', 'Himbo', 'DFS', 'Trunkle?!?', 'Bmxmann101', 'Toketchan', 'Jeff', 'Juice'],203,11,Q1
+QLD,Corrin,['Nitzayra', 'Scrail', 'Bigdaddi', 'Cajeck', 'BemaniAK', 'Seamus'],235,12,Q1
+QLD,Daisy,['Luminescent'],104,4,Q1
+QLD,Dark Pit,['Code_E', 'Flex', 'Cajeck'],219,14,Q1
+QLD,Dark Samus,['DFS', 'Himbo', 'Python', 'Nitzayra', 'Hak1?', 'hack1?', 'Modest'],1349,45,Q1
+QLD,Diddy Kong,['Delve', 'Himbo', 'UMKO', 'Flutter'],457,20,Q1
+QLD,Donkey Kong,['Cajeck', 'Omta', 'Toketchan', 'Oreo', 'Kwaksy', 'Mastodon', 'New', 'Himbo', 'Unethical', 'Baby Roy', 'McJobo', 'Flutter', 'Grumbley', 'noobar', 'Recon'],2109,80,Q1
+QLD,Dr. Mario,['Fiasco', 'conso', 'Monarch', 'Sweet'],1853,77,Q1
+QLD,Duck Hunt Duo,['Taylor'],0,1,Q1
+QLD,Falco,['conso', 'Himbo', 'Glyph', 'Blurry', 'Cajeck', 'Delve', 'BoingBoing', 'Spam', 'VB_blokeboi', 'Vance', 'Taylor', 'Switch'],2708,122,Q1
+QLD,Fox,['Bigfatelli', 'LUSH', 'Zeus', 'Nick', 'TheJazzyman', 'Sweet', 'Raibok', 'InfamousL', 'Fly', 'tony.comp'],3666,127,Q1
+QLD,Ganondorf,['JANGLIO!', 'schooner', 'Joz.', 'DaddyMD', 'KARLOS', 'Kaboose', 'FC', 'Brennn', 'conso', 'Squeaks', 'Cajeck', 'Hammerhead96'],663,29,Q1
+QLD,Greninja,['Zyphenor', 'Sifo1', 'Crimson', 'JD', 'OTAKU', 'Jethee', 'Slothrocker'],334,19,Q1
+QLD,Ice Climbers,['Spammage', 'Patchy', 'Tac-Tics'],243,17,Q1
+QLD,Ike,['SoMa', 'Ari', 'Recon', 'Jem', 'FC', 'Cancer', 'Parralize', 'Cajeck', 'Negima', 'Mason', 'Toketchan', 'Delve'],3061,154,Q1
+QLD,Incineroar,['Mecha Duck', 'Gravydice', 'Kaboose', 'BattleDolphin', 'Red', 'Negima', 'Crabs', 'WhitePages', 'JaxWan'],1858,75,Q1
+QLD,Inkling,['Cap', 'tony.comp', 'Jyoshi', 'Wildermold', 'Crabs', 'DFS', 'Scrubbs', 'Toketchan', 'CarrotAxe', 'Seymour Butts', 'Ashley', 'Rainth', 'Blizzy', 'Flutter'],3131,122,Q1
+QLD,Isabelle,['XP2000', 'Jaice', 'Gravydice', 'Dom', 'Crabs'],240,13,Q1
+QLD,Jigglypuff,['BattleDolphin', 'Ascension', 'TheJazzyman', 'Blurry', 'Crabs', 'Windows98', 'Bigfatelli'],2337,109,Q1
+QLD,Ken,['Shadrew', 'Spammage'],3291,139,Q1
+QLD,King Dedede,['Milis', 'Joser', 'WeedLan', 'Crawfish', 'Exist', 'Buckwheat', 'Bigfatelli', 'Archaze', 'Kai', 'noobar', 'Darboy44', 'Crabs'],3403,131,Q1
+QLD,King K. Rool,['Jett', 'Ben Gold', 'Gravydice', 'Michi', 'Cajeck', 'Dags', 'Jem', 'cornchip'],2843,134,Q1
+QLD,Kirby,['KaiDASH', 'New', 'Python', 'asa'],415,19,Q1
+QLD,Link,['Lt', 'Mx', 'Thompsinus', 'MaxXlevel', 'Narcissus', 'Dags', 'Crabs', 'Jewbs'],1512,58,Q1
+QLD,Little Mac,['Ascension', 'Skitz', 'Kegstand', 'AndyStandy', 'ArcaneCloud', 'Kahill', 'FC'],195,17,Q1
+QLD,Lucario,['Aurion', 'ZipperTheRipper', 'Zyphenor', 'Cajeck', 'McJobo', 'Slothrocker'],1223,63,Q1
+QLD,Lucas,['Nicc', 'Cancer', 'Zoinks', 'Python'],441,26,Q1
+QLD,Lucina,['SadHour', 'Joz.', 'Danzah', 'Scrail', 'Umbrella', 'asa', 'JediLink', 'Joser', 'Waz', 'BoingBoing', 'Cava', 'Johzyn', 'Raibok', 'Rainth', 'mophero'],3682,146,Q1
+QLD,Luigi,['Raibok', 'Scrail', 'BemaniAK', 'Mint2', 'SoMa'],1299,59,Q1
+QLD,Mario,['Rainth', 'schooner', 'conso', 'Douchedag', 'Joz.', 'Pipelin12'],374,15,Q1
+QLD,Marth,['Scrail', 'Kai', 'Baby Roy', 'Cajeck', 'Joz.'],315,15,Q1
+QLD,Mega Man,['Xondrell', 'Shitashi'],2698,153,Q1
+QLD,Metaknight,['Flex', 'TheJazzyman', 'ZipperTheRipper'],1133,53,Q1
+QLD,Mewtwo,['SoMa', 'Danzah', 'KARLOS', 'Aurion', 'Ari', 'ZipperTheRipper', 'Mint2', 'Dragio', 'Joz.'],1772,78,Q1
+QLD,Mii Brawler,['Vye', 'Combatcarl', 'McJobo'],464,22,Q1
+QLD,Mii Gunner,['Slayden', 'FC', 'UMKO'],187,9,Q1
+QLD,Mii Swordfighter,['Negima', 'Spam', 'BattleDolphin'],1594,63,Q1
+QLD,Mr. Game and Watch,['McJobo', 'Toketchan'],50,3,Q1
+QLD,Ness,['Foom', 'FreeXP', 'C_Flame', 'Delve', 'Nick', 'TheJazzyman', 'Spam', 'Blaze', 'K', 'Swate', 'ALP1NE', 'Flamboyanthamster', 'Pivit', 'Kwaksy', 'DimiChrys', 'Hill', 'Trunkle?!?', 'Pyro', 'Sc0ttyP', 'Flutter', 'Grumbley', 'Juice'],1691,81,Q1
+QLD,Pac-Man,['Xondrell', 'Timtam', 'Spam', 'Mint2', 'Jeff', 'McJobo', 'Bigfatelli'],331,11,Q1
+QLD,Palutena,['Cajeck', 'Crimson', 'Spam', 'ClassicJono', 'ALP1NE', 'Trunkle?!?', 'Crabs', 'Doa', 'JuicyPenguin', 'Aurion'],4329,175,Q1
+QLD,Peach,['Nicc', 'Bigfatelli', 'Jaice', 'Linoone', 'D4C'],1126,58,Q1
+QLD,Pichu,['Nicc', 'Sweet', 'Zilox', 'Blurry', 'Fool Of A Took', 'Lovestain', 'Blaze', 'Gravitas', 'keenanmod', 'Monarch', 'Umbrella'],2730,128,Q1
+QLD,Pikachu,['Raibok', 'DFS', 'BoingBoing', 'Mastodon', 'Blaze', 'Jabro', 'Toketchan', 'FreeLyn'],2663,113,Q1
+QLD,Pikmin & Olimar,['Jaice', 'ZipperTheRipper'],199,10,Q1
+QLD,Piranha Plant,['Glyph', 'Negima', 'Bigfatelli', 'Fool Of A Took'],25,4,Q1
+QLD,Pit,['Joz.', 'Umbrella', 'Flex', 'Fiasco', 'Code_E', 'Toketchan'],798,32,Q1
+QLD,Pokémon Trainer,['schooner', 'Mastodon', 'Octavia', 'Verse', 'Riceps', 'TRex', 'Rainth', 'Twoflour', 'brayd0z', 'Delve', 'Raven', 'asa', 'Negima', 'Aurion'],2015,88,Q1
+QLD,Random,['ALiieNzZ', 'Cajeck', 'Vye'],110,6,Q1
+QLD,Richter,['Kaboose', 'Trunkle?!?', 'Jason', 'Recon', 'Negima'],204,12,Q1
+QLD,Ridley,['MetaBhreat', 'ClassicJono', 'Aurion', 'Jakalanche', 'Wildermold', 'Groudon', 'Mittens', 'Wertz', 'Flutter', 'katoptron', 'Vance', 'Backwards Crab'],3646,151,Q1
+QLD,ROB,['Weeb', 'Swate', 'Fady', 'Verse', 'Gravitas', 'Windows98', 'Vance'],1639,68,Q1
+QLD,Robin,['Joz.', 'Crepto', 'FC'],85,7,Q1
+QLD,Rosalina & Luma,['Jaice', 'Nights'],105,2,Q1
+QLD,Roy,['LUSH', 'SiqNiq', 'Fiasco', 'Cava', 'Churropon', 'Zeus', 'FC', 'b.radordie', 'Xondrell', 'TRex', 'Crabfish', 'Toketchan', 'Dr_Jim'],3144,141,Q1
+QLD,Samus,['Himbo', 'Python', 'BigTrouble', 'Wildermold', 'Mason', 'Ant', 'Flutter', 'Bigfatelli'],1450,54,Q1
+QLD,Sheik,['Cajeck', 'Zyphenor'],14,2,Q1
+QLD,Shulk,['Fly', 'Churropon', 'Vye', 'Kaboose', 'Backwards Crab'],1214,45,Q1
+QLD,Simon,['Rowdy'],0,1,Q1
+QLD,Snake,['SadHour', 'Weeb', 'Ben Gold', 'Rainth', 'Serein', 'Cajeck', 'Sabess', 'PapaCheese', 'Unethical', 'Michi', 'PT80', 'Fly', 'Zool', 'JBirds', 'Flutter', 'Aussie Pretzel'],2875,165,Q1
+QLD,Sonic,['SpaZzy', 'Churropon', 'Bigfatelli', 'Bellboi', 'Sifo1'],275,18,Q1
+QLD,Terry,['Negima'],1437,70,Q1
+QLD,Toon Link,['Vye', 'Ash', 'Spinny', 'Umbrella', 'JaxWan', 'Pexings', 'Hobbit'],2479,104,Q1
+QLD,Villager,['Sheepishdays'],0,1,Q1
+QLD,Wario,['McJobo', 'Recon', 'Omta', 'Toketchan', 'JaxWan'],2646,125,Q1
+QLD,Wii Fit Trainer,['Dags', 'Luminescent', 'squidfist', 'Gooch', 'Greg'],2436,86,Q1
+QLD,Wolf,['XP2000', 'Bigfatelli', 'Aurion', 'McJobo', 'JANGLIO!', 'Rainth', 'Gravydice', 'Toketchan', 'Thompsinus', 'FC', 'Figaro', 'STeev', 'Code_E', 'SadHour', 'Kurogane Hammer', 'Bannose', 'Goji', 'Crimson', 'Crabfish', 'Michi', 'Kaboose', 'WhitePages', 'Archaze'],3859,191,Q1
+QLD,Yoshi,['myrist', 'Stilts', 'Yo-Yo', 'KaiDASH', 'BigTrouble', 'PapaCheese', 'Jyoshi', 'Eclipse', 'Raibok', 'Semore', 'McJobo', 'Ipkiss', 'Jethee'],1565,57,Q1
+QLD,Young Link,['schooner', 'JANGLIO!', 'BattleDolphin', 'Milis', 'Toketchan', 'BoingBoing', 'TDEE', 'LUSH', 'Omta', 'Jezmo', 'Thr333', 'Thompsinus', 'Vye'],710,33,Q1
+QLD,Zelda,['Rababity', 'Talie', 'Jaice', 'Umbrella', 'UMKO', 'Bigfatelli', 'HeaL', 'SLFB', 'Cajeck'],2113,93,Q1
+QLD,Zero Suit Samus,['Fly', 'Danzah', 'Jolt', 'Bigfatelli'],351,15,Q1
+NSW,Bayonetta,['Fruit', 'bounsies', 'Naomi Campbelltown'],48,4,Q1
+NSW,Bowser,['MegaloManiAsh', 'Truth', 'AT LOWES', 'Glace', 'WhiteShyGuy', 'Dozza'],1552,60,Q1
+NSW,Bowser Jr.,['Spike'],3355,135,Q1
+NSW,Captain Falcon,['Truth', 'Jackpot', 'UltimateScrappy', 'Spamsung', 'Pedro', 'SuicidalPenguins', 'Pierce', 'PO3', 'Scarpian'],638,32,Q1
+NSW,Chrom,['Johtothan', 'Vic', 'Trojans', 'SaucyDancer', 'KizzaBam', 'Sotsz', 'Veness', 'Hyper', 'Truth', 'BJSchoey', 'The Innkeeper', 'Shmu', 'GrayPerson'],518,31,Q1
+NSW,Cloud,['UltimateScrappy', 'Invisi', 'Manta', 'WhitePointer', 'Andrea', 'TurtleCat', 'Truth', 'Anubys'],546,25,Q1
+NSW,Corrin,['Vostok'],1674,67,Q1
+NSW,Daisy,['CAOTIC', 'Naomi Campbelltown'],44,2,Q1
+NSW,Dark Pit,['Ablice', 'kmw', 'Chris G', 'AT LOWES', 'Newiee', 'SaucyDancer'],309,11,Q1
+NSW,Dark Samus,['WhitePointer', 'Truth', 'Moog', 'Manta'],826,33,Q1
+NSW,Diddy Kong,['GumbleGore'],90,2,Q1
+NSW,Donkey Kong,['Lunchy', 'JPW', 'Jim Cool', 'Delta', 'Jackpot', 'AT LOWES', 'Vic', 'Bankdaddy', 'Trojans', 'Doctor A.Ness', 'Ryan', 'Fontana', 'Joe', 'AboRoza', 'Azranicus', 'BJSchoey', 'Fez', 'WhitePointer', 'Spamsung'],6085,259,Q1
+NSW,Dr. Mario,['Fruit', 'WhiteShyGuy', 'Truth'],41,8,Q1
+NSW,Duck Hunt Duo,['El Chimpe', 'Spike'],53,4,Q1
+NSW,Falco,['Vostok', 'Sass', 'Matter', 'Rog', 'Vic', 'SuperHiero', 'Truth', 'BahamutType0', 'Struz'],1100,46,Q1
+NSW,Fox,['Trojans', 'Fez', 'Chef', 'DeDeDez Nutz', 'Doctor A.Ness', 'Sock', 'Obscurity', 'Vanilla Vanish', 'Donk', 'BJSchoey', 'Shmu'],1619,79,Q1
+NSW,Ganondorf,['Metal Force', 'UltimateScrappy', 'Grizz', 'Pretzel', 'AT LOWES', 'Squeeze', 'Doctor A.Ness', 'Scarpian', 'Oliman', 'WhiteShyGuy', 'BarterCrow', 'doon', 'Truth'],1754,94,Q1
+NSW,Greninja,['Ulticow', 'Newiee', 'Penokemon', 'bounsies'],204,9,Q1
+NSW,Ice Climbers,['Palooka'],455,15,Q1
+NSW,Ike,['Metal Force', 'CheMarama', 'Lanatra', 'Trojans', 'Scribble', 'Johtothan', 'Lucijutsu', 'Gibson', 'Truth', 'DoomDonuts', '2Girls1Gus', 'Sketch', 'Doctor A.Ness'],2328,104,Q1
+NSW,Incineroar,['BJSchoey', 'Heckko', 'Rocket', 'CureWounds', 'Sketch', 'WhiteShyGuy', 'Cotton', 'bounsies', 'DoomDonuts', 'Skittlz'],3524,177,Q1
+NSW,Inkling,['Trojans', 'Sylem', 'Gabe', 'Andrew Lin', 'IceyFire', 'Rozzo', 'Vivere', 'Phyco', 'Ryan', 'Krisspear', 'Truth', 'Enn', 'Dreamcaster', 'SuperHiero'],3466,134,Q1
+NSW,Isabelle,['Cotton', 'Killy', 'Gords', 'Veraxana', 'jacky chung', 'BJSchoey', 'Enn', 'Bizzy'],2540,101,Q1
+NSW,Jigglypuff,['UltimateScrappy', 'Invisi', 'Spike'],497,24,Q1
+NSW,Ken,['Lain', 'Scarpian', 'Rocket'],227,19,Q1
+NSW,King Dedede,['Loza', 'DoomDonuts', 'DeDeDez Nutz', 'Fez', 'WhitePointer', 'Wumbology'],550,27,Q1
+NSW,King K. Rool,['Lumidyne', 'King K Cuk', '2Girls1Gus', 'Vostok', 'IntenseQuack', 'Johtothan'],212,15,Q1
+NSW,Kirby,['angelcoolchomp', 'UltimateScrappy', 'Staunch', 'Framah', 'Orange'],73,6,Q1
+NSW,Link,['Vic', 'Scarpian', 'DoorBashr', 'Hyper', 'SaucyDancer', 'Zesco', 'UltimateScrappy', 'Epik', 'bounsies', 'Jackpot', 'Heckko', 'LeJarde', 'Reonharto'],3250,130,Q1
+NSW,Little Mac,['Gabe', 'Rocket', 'Froppy', 'DoorBashr', 'Invisi'],2772,115,Q1
+NSW,Lucario,['bounsies', 'Rocket', 'chizzL', 'Glace'],160,8,Q1
+NSW,Lucas,['DoomDonuts', 'Vic', 'PKBeam', 'Dreep'],929,35,Q1
+NSW,Lucina,['Shmu', 'Hyper', 'Beet', 'Scarpian', 'Lain', 'AT LOWES', 'Skyreth', 'bounsies', 'Nyantic', 'Lucijutsu', 'EVAL', 'Shaoweater', 'Ryshy', 'Struz', 'Trojans', 'Bananafish', 'SuperHiero', 'Vivere', 'Nexi2k', 'BJSchoey', 'Agent Orange', 'Truth', 'Phyco', 'chizzL', 'Nacholad', 'Knoble'],1880,94,Q1
+NSW,Luigi,['El Chimpe', 'UltimateScrappy', 'Truth', 'Struz'],779,23,Q1
+NSW,Mario,['Bananafish', 'Spike', 'PO3', 'Truth', 'Scarpian', 'Joe'],2482,124,Q1
+NSW,Marth,['Beet', 'Bananafish', 'Truth', 'Scarpian', 'Ulticow', 'bounsies', 'PO3', 'SuperHiero'],770,41,Q1
+NSW,Mega Man,['Doctor A.Ness', 'Trojans'],434,20,Q1
+NSW,Metaknight,['Doctor A.Ness', 'bounsies', 'Lumidyne'],129,6,Q1
+NSW,Mewtwo,['SaucyDancer'],700,23,Q1
+NSW,Mii Brawler,['Star', 'Framah'],94,5,Q1
+NSW,Mii Gunner,['UltimateScrappy'],0,1,Q1
+NSW,Mii Swordfighter,['Star', '2Girls1Gus', 'HamNEggs'],1923,73,Q1
+NSW,Mr. Game and Watch,['Palooka'],297,12,Q1
+NSW,Ness,['Ryan', 'TurtleCat', 'Kitt', 'Luco', 'PSI_Presto', 'Lumidyne', 'Pedro', 'Ryzuul', '4par', 'Recordio', 'Shmu', 'Tikiwoki', 'Waxy', 'Dreep'],4424,162,Q1
+NSW,Pac-Man,['Party Cats', 'Froppy', 'Lain'],33,5,Q1
+NSW,Palutena,['Shmu', 'Lostish', 'Chris G', 'MishaL', 'JBird', 'bounsies', 'Shaoweater', 'Jerry Swan', 'Jang', 'AT LOWES', 'az'],860,29,Q1
+NSW,Peach,['BJSchoey', 'Haber', 'Spamsung', 'Lain', 'Naomi Campbelltown', 'Joe', 'EmanSaur'],234,23,Q1
+NSW,Pichu,['Day', 'Trojans', 'Lora', 'Shmu', 'Evil Olive', 'Cheekimelon', '2Girls1Gus', 'Haber', 'Sotsz', 'Yosh', 'Sass', 'Barack Obama', 'Skittlz', 'TurtleCat'],3475,135,Q1
+NSW,Pikachu,['Shmu', 'Arsi', 'Bambi', 'Johtothan', 'Merebry', 'Sinkusm', 'Ambrosia'],2403,110,Q1
+NSW,Pikmin & Olimar,['Muzzard', 'Mr Leak', 'Lumidyne'],1093,39,Q1
+NSW,Piranha Plant,['Sass', 'EmanSaur', '2Girls1Gus'],233,11,Q1
+NSW,Pit,['SaucyDancer', 'Ablice', 'Circle'],0,3,Q1
+NSW,Pokémon Trainer,['Vic', 'Fez', 'UltimateScrappy', 'Mr Leak', 'Enn', 'Thrillhouse', 'Stupid Cactus', 'AT LOWES', 'Lanatra', '177013', 'Dundo', 'Sif Bug', 'EmanSaur', 'PO3', 'Akhadse', 'Dreamcaster'],2121,88,Q1
+NSW,Random,['bounsies', 'Pat'],23,2,Q1
+NSW,Richter,['Trojans'],0,1,Q1
+NSW,Ridley,['2Girls1Gus', 'Kira', 'Swish', 'LeoJoeD', 'Weed', 'Pierce', 'Phazonizer', 'Fez', 'BJSchoey', 'Mr Leak', 'Delta'],3242,133,Q1
+NSW,ROB,['Heckko', 'Lumidyne', 'BJSchoey', 'Jerry Swan', 'Spike'],2217,71,Q1
+NSW,Robin,['Waxy'],0,1,Q1
+NSW,Rosalina & Luma,['Invisi', 'Phyco'],685,19,Q1
+NSW,Roy,['Vivere', 'Hyper', 'Delta', 'Doolz', 'Revman', 'StrangerDanger', 'Kaznec', 'Matter', 'Joe'],826,45,Q1
+NSW,Ryu,['Muzzard', 'Scarpian'],480,15,Q1
+NSW,Samus,['Zesco', 'Manta', 'Profile Name', 'WhitePointer'],177,5,Q1
+NSW,Sheik,['Shmu', 'Fruit', 'Trojans', 'Framah', 'chizzL'],176,9,Q1
+NSW,Shulk,['El Chimpe', 'Anubys'],98,8,Q1
+NSW,Simon,['Invisi', 'Truth', 'Nikita'],1805,71,Q1
+NSW,Snake,['Killy', 'Spike', 'Hyper', 'Kanga.exe', 'Enn', 'Framah', 'Heckko', 'Spamsung', 'Ryan', 'Hippy~'],5586,191,Q1
+NSW,Sonic,['Dreamcaster', 'AboRoza', 'The Innkeeper'],1676,66,Q1
+NSW,Toon Link,['Bananafish', 'Heckko', 'Lumidyne'],172,8,Q1
+NSW,Villager,['Ulticow', 'bounsies', 'Linconius', 'Loef', 'Bizzy'],108,9,Q1
+NSW,Wario,['Nyantic', 'Spike', 'Vic', 'Skyreth', 'Joe', 'Thrillhouse', 'Scared'],211,19,Q1
+NSW,Wii Fit Trainer,['JLPT', 'Lain', 'Agent Orange', 'Truth'],23,5,Q1
+NSW,Wolf,['BJSchoey', 'AboRoza', 'Hyper', 'Kace Mono', 'Weed', 'Truth', 'JDfreeUZI', 'EmanSaur', 'Chef', 'Jang', 'Trojans', 'Jim Cool', 'bounsies', 'Llamas', 'Sock', 'Jeese', 'Nyantic', 'Sponge', 'SuicidalPenguins', 'Heckko', 'Rae', '2Girls1Gus'],5843,239,Q1
+NSW,Yoshi,['EmanSaur', 'Veness', 'Techlord', 'Thorpenado', 'Alumina', 'Linconius'],3019,116,Q1
+NSW,Young Link,['TWIRLY', 'The Chuckstah', 'Vic', 'Doctor A.Ness'],1561,61,Q1
+NSW,Zelda,['Sketch', 'djani', 'Gords', 'EVAL', 'Cotton', 'Jerry Swan'],2008,79,Q1
+NSW,Zero Suit Samus,['Abard', 'Lumidyne', 'Joe', 'Kira', 'Truth', 'Trojans', 'CyborgSanta'],1660,66,Q1
+SA,Bayonetta,['Queen', 'Celebii'],98,3,Q1
+SA,Bowser,['Rasputin', 'Moth Plague', 'Wowser', 'Vivi'],435,17,Q1
+SA,Bowser Jr.,[],0,0,Q1
+SA,Captain Falcon,['Mimco'],0,5,Q1
+SA,Chrom,['Phong', 'Dubs', 'Ghost', 'Rakuda', 'Muscat'],278,13,Q1
+SA,Cloud,['Rowan', 'L33', 'Parathus', 'BLU', 'Misfile17'],57,5,Q1
+SA,Corrin,['Q', 'TacoSpartan', 'Amarelo'],304,11,Q1
+SA,Daisy,['Ghost'],1467,55,Q1
+SA,Dark Samus,['McCloud'],0,1,Q1
+SA,Diddy Kong,['Jacko', 'SNAP!'],59,6,Q1
+SA,Donkey Kong,['Dog Fort', 'Bruh'],92,2,Q1
+SA,Dr. Mario,['Lilhiero', 'Ghost'],0,3,Q1
+SA,Falco,['Flow Rats', 'Sly', 'Wowser', 'Con'],805,28,Q1
+SA,Fox,['Con', 'Aetos', 'Macka', 'Mikal'],904,31,Q1
+SA,Ganondorf,['Phong', 'Q1', 'Ocean', 'Vio'],48,7,Q1
+SA,Greninja,['Taicho', 'Flow Rats', 'Tideray', 'Bizz', 'Odyssey', 'TacoSpartan', 'Calzy', 'Motchel', 'Nash'],582,28,Q1
+SA,Ice Climbers,['Jon', 'Yellow'],602,24,Q1
+SA,Ike,['BLU', 'Macka', 'Ninhon'],1167,42,Q1
+SA,Incineroar,['Lulemon', 'Stabby J', 'Lilhiero'],40,5,Q1
+SA,Inkling,['Kaeser', 'Muscat', 'Rust', 'Splatter', 'Oatmeal', 'Aetos'],1751,60,Q1
+SA,Isabelle,['Amarelo'],58,3,Q1
+SA,Jigglypuff,['Rowan', 'TJ', 'Brin'],61,5,Q1
+SA,Joker,['Bizz'],49,2,Q1
+SA,Ken,['Vio'],102,4,Q1
+SA,King Dedede,['Oscar'],233,9,Q1
+SA,King K. Rool,['Jacko'],107,6,Q1
+SA,Link,['Bizz', 'Taco', 'Wowser', 'Bizzwa'],180,10,Q1
+SA,Lucas,['Cosh', 'LyokoBlight', 'Lulemon', 'Lilhiero'],30,7,Q1
+SA,Lucina,['Kaeser', 'Spewis', 'ASD', 'Royboy', 'Faelyon', 'Aetos', 'PicklesDoodly'],1250,43,Q1
+SA,Luigi,['Splatter'],284,11,Q1
+SA,Mario,['Dubs', 'Q', 'L33', 'CaptainCoolade'],400,20,Q1
+SA,Marth,['Hagan', 'Fenno', 'Tony'],0,6,Q1
+SA,Mega Man,['Jacko'],45,4,Q1
+SA,Metaknight,['Fenno', 'Jon'],46,3,Q1
+SA,Mewtwo,['Ninhon', 'Boydy'],252,9,Q1
+SA,Mii Brawler,['Nao-Cakes'],0,1,Q1
+SA,Mii Swordfighter,['Nash', 'Ghost'],36,2,Q1
+SA,Ness,['TJ', 'im23bro', 'Jack'],265,12,Q1
+SA,Pac-Man,[],0,0,Q1
+SA,Palutena,['Jacko', 'Q', 'Amarelo', 'Flow Rats'],2140,72,Q1
+SA,Peach,['Ghost', 'Muscat'],993,34,Q1
+SA,Pichu,['Yauhyeah', 'Andre', 'Rakuda', 'Paulek'],661,29,Q1
+SA,Pikachu,['Dashie', 'Balzac', 'Bizzwa', 'Stawz'],645,24,Q1
+SA,Pikmin & Olimar,['Fenno', 'Jon'],0,3,Q1
+SA,Piranha Plant,['Q', 'Jacko'],108,4,Q1
+SA,Pokémon Trainer,['Taicho', 'Yellow', 'Andre'],1371,45,Q1
+SA,Richter,['Vio'],0,1,Q1
+SA,Ridley,['Dog Fort', 'Boydy', 'Moth Plague', 'Rasputin', 'Jacko'],964,37,Q1
+SA,ROB,['im23bro', 'Oscar'],580,21,Q1
+SA,Robin,['Nao-Cakes'],77,1,Q1
+SA,Rosalina & Luma,['King'],54,1,Q1
+SA,Roy,['Andre', 'Ghost', 'Lilhiero', 'Eden', 'SNAP!', 'ASD'],695,32,Q1
+SA,Samus,['Q', 'McCloud'],60,6,Q1
+SA,Sheik,['Eden'],0,1,Q1
+SA,Shulk,['Ninhon', 'Paulek'],811,27,Q1
+SA,Simon,['Blackshadow'],59,1,Q1
+SA,Snake,['Stabby J', 'Qui', 'Hive'],1240,44,Q1
+SA,Toon Link,['Jon'],767,25,Q1
+SA,Villager,['Yellow', 'Nao-Cakes'],869,34,Q1
+SA,Wario,['Fenno', 'Jon', 'Mikal', 'Pingu'],90,12,Q1
+SA,Wii Fit Trainer,['Q'],0,1,Q1
+SA,Wolf,['BLU', 'Dog Fort', 'Aetos', 'Stawz', 'Ghost', 'Faelyon', 'Vivi', 'Jon', 'Con', 'Ninhon'],1298,64,Q1
+SA,Yoshi,['Christolaki', 'Nikes', 'Sloshi', 'Q', 'Sly'],1519,56,Q1
+SA,Young Link,['Jon', 'Dashie', 'Flinkusdinkus', 'BLU'],424,21,Q1
+SA,Zero Suit Samus,['Andre'],0,1,Q1
+ACT,Bayonetta,['Danal'],60,2,Q1
+ACT,Bowser,['Flyingcat', 'Juan', 'Patrya', 'Hugh Jass', 'Chat', '6000j', 'Powar', 'XD', 'Pazx'],2396,82,Q1
+ACT,Bowser Jr.,['MAMP'],212,15,Q1
+ACT,Captain Falcon,['Dankmeme'],0,1,Q1
+ACT,Chrom,['Jay', 'Davox', 'JP', 'MeatPi'],0,4,Q1
+ACT,Cloud,['Thegoras', 'Reshi', 'MAMP'],115,7,Q1
+ACT,Corrin,['Kai', 'ZEUS', 'Lunch', 'Casper'],41,7,Q1
+ACT,Dark Pit,['Pyren', 'Nardia'],192,9,Q1
+ACT,Dark Samus,['Bless', 'NiceNice', 'Apollo'],144,5,Q1
+ACT,Donkey Kong,['Succ', 'Zerovevo', 'RhythmEcho', '100'],0,5,Q1
+ACT,Dr. Mario,['Calamity'],0,1,Q1
+ACT,Falco,['Adeptus', 'Bless'],38,3,Q1
+ACT,Fox,['Adeptus', 'Joey'],166,9,Q1
+ACT,Ganondorf,['Joey', 'Boghara Stroganov', 'Mikael', 'Cormac', 'MapleMage', '100'],583,24,Q1
+ACT,Greninja,['Adeptus', 'MapleMage', 'Danal'],462,19,Q1
+ACT,Ice Climbers,['Danal'],0,1,Q1
+ACT,Ike,['Pyren', 'Butt', 'JJ'],379,15,Q1
+ACT,Incineroar,['Pazx', 'Nincata', 'BreakVG'],309,16,Q1
+ACT,Inkling,['TJslash', 'Akechi', 'MapleMage', 'Boghara Stroganov'],2024,78,Q1
+ACT,Isabelle,['ALMAO', 'Waveguider', 'Zesty', 'Abhi'],165,12,Q1
+ACT,Jigglypuff,['Zowayix', 'Flyingcat'],2545,96,Q1
+ACT,King Dedede,['Melty', 'Fetch'],0,2,Q1
+ACT,King K. Rool,['Nick', 'SlamFrunk!', 'MapleMage'],567,19,Q1
+ACT,Link,['James', 'Waveguider', 'Punchy', 'Daybo', 'Jay', 'Blasta', 'Atyeo', 'Yiggy'],0,11,Q1
+ACT,Little Mac,[],0,0,Q1
+ACT,Lucario,['Awex'],0,1,Q1
+ACT,Lucas,['ft', 'MAMP'],195,10,Q1
+ACT,Lucina,['Zowayix', 'TJslash', 'Mikey', 'Zac', 'Daybo', 'Nilrasha'],369,19,Q1
+ACT,Luigi,['MeatPi'],0,1,Q1
+ACT,Mario,['Adeptus'],74,2,Q1
+ACT,Marth,['Eliot'],0,1,Q1
+ACT,Mega Man,['Chat', 'PhoenixRave'],164,7,Q1
+ACT,Metaknight,['MAMP'],1012,34,Q1
+ACT,Mewtwo,['Zowayix', 'Dragon Master'],49,4,Q1
+ACT,Mii Gunner,['Reshi'],0,1,Q1
+ACT,Mii Swordfighter,['Zxv'],61,1,Q1
+ACT,Mr. Game and Watch,['Zowayix'],0,1,Q1
+ACT,Ness,['Abhi', 'Zesty', 'Doozy', 'Nardia', 'PkThnder', 'Loco Joe'],649,23,Q1
+ACT,Pac-Man,['yarb sarb', 'Okkumi'],590,22,Q1
+ACT,Palutena,['Reshi', 'Dumpy', 'Pazx', 'McGraw', 'MapleMage'],4025,158,Q1
+ACT,Peach,['Joey', 'Danal'],50,2,Q1
+ACT,Pichu,['Eight', 'Danal', 'MeatPi'],68,9,Q1
+ACT,Pikachu,['MeatPi', 'Fetch'],0,3,Q1
+ACT,Pikmin & Olimar,['Bless'],88,3,Q1
+ACT,Piranha Plant,['Akechi', 'ParaB', 'Frog', 'Zxv'],239,6,Q1
+ACT,Pit,['Nardia', 'Daybo', 'Nincata'],54,5,Q1
+ACT,Pokémon Trainer,['Skin', 'ZEUS', 'Servofood', 'Awex', 'yarb sarb'],1610,67,Q1
+ACT,Random,['Adeptus', 'MeatPi', 'Zowayix'],630,16,Q1
+ACT,Richter,['Cherry', 'Powar'],1123,51,Q1
+ACT,Ridley,['Sriks', 'Zxv', 'Zowayix'],61,3,Q1
+ACT,ROB,['Milsch', 'Succ', '4DT'],152,6,Q1
+ACT,Robin,['Mikael', 'Akechi', 'Danal'],518,17,Q1
+ACT,Rosalina & Luma,[],0,0,Q1
+ACT,Roy,['Thegoras', 'Jay', 'Melty', 'Sriks', 'Lionel'],472,26,Q1
+ACT,Shulk,['Sriks', 'Powar', 'Nilrasha'],187,11,Q1
+ACT,Simon,['Cherry', 'Frog'],2672,107,Q1
+ACT,Snake,['yarb sarb', 'DummyThicc', 'Tin Man', 'Dave&'],517,18,Q1
+ACT,Sonic,['GVOL3', 'Dr Niceyum'],0,2,Q1
+ACT,Toon Link,['Pazx'],0,1,Q1
+ACT,Villager,['Abhi', 'ALMAO'],0,2,Q1
+ACT,Wario,['GVOL3', 'Grug'],413,13,Q1
+ACT,Wii Fit Trainer,['Inf', 'PkThnder'],343,9,Q1
+ACT,Wolf,['Joey', 'Dieter', 'Dr Niceyum', 'Pazx', 'Sriks', 'SJ Groose'],794,34,Q1
+ACT,Yoshi,['<-2cm', 'TJslash', 'Micool', 'Dee.Kay'],929,36,Q1
+ACT,Young Link,['Danal', 'Ciarda', 'Boghara Stroganov', 'Dumpy', 'Zac'],1003,32,Q1
+ACT,Zelda,['Casper', 'Swampy', 'JP', 'Cryptic'],955,40,Q1
+ACT,Zero Suit Samus,['Adeptus', '6000j', 'quen', 'Lipton Iced Tea', 'JJ'],229,14,Q1
+WA,Bayonetta,['Copycat'],98,4,Q1
+WA,Bowser,['RosalinaSama', 'Oxytrexate', 'Hugh G Rection', 'Hobobloke'],1520,60,Q1
+WA,Bowser Jr.,['DehDehBeh'],0,3,Q1
+WA,Captain Falcon,['Orion', 'Jezzus', 'Apollo', 'Myxthio'],500,18,Q1
+WA,Chrom,['TPZ', 'Spud', 'Harfi', 'Tempest', 'Peahnuts', 'Poppt1', 'Elka', 'That Child', 'Dawnfire'],1447,58,Q1
+WA,Cloud,['RosalinaSama', 'Subwaytime', 'Maribro', 'Sundowns', 'SpiltSpaghetti'],200,12,Q1
+WA,Corrin,['Nabnut'],699,29,Q1
+WA,Daisy,['Cruzybecks'],109,10,Q1
+WA,Dark Pit,['Denz292'],0,1,Q1
+WA,Dark Samus,['Nommad'],137,4,Q1
+WA,Donkey Kong,['Sable', 'Krystal', 'Jtrain', 'Chub', 'Trent', 'RosalinaSama', 'Little Z', 'GrungyTree27', 'Generic'],1641,63,Q1
+WA,Dr. Mario,['Sable', 'Ash'],78,3,Q1
+WA,Duck Hunt Duo,['BigWin | Beer'],1579,56,Q1
+WA,Falco,['Anchor', 'Subwaytime', 'Bullywog', 'Ash'],75,4,Q1
+WA,Fox,['Gresh', 'M', 'TPZ', 'BigWin | Beer', 'Baeden', 'Nazzer', 'Kai_'],862,33,Q1
+WA,Ganondorf,['RosalinaSama', 'YGOduelistkosc', 'Sable', 'HBTV', 'ChuJelly?~', 'Ninjarisu', 'Temper', 'Chub', 'lukia', 'Zivhayr'],334,18,Q1
+WA,Greninja,['Turn Up', 'Maxx Wizel', 'Leapo', 'Tetters'],158,11,Q1
+WA,Ice Climbers,['Smesty'],1704,67,Q1
+WA,Ike,['TinTin', 'KIC', 'BigSizzle', 'Tom', 'StrawhatLui', 'Charcoal', '*Asterix*', 'Milkshake', 'JayVoltage', 'Big Al', 'Denz292'],745,25,Q1
+WA,Incineroar,['Zivhayr', 'BigSizzle', 'Sad'],2018,76,Q1
+WA,Inkling,['Maribro', 'Fabio', 'Shomtan', 'Sad', 'YukiDraco', 'Quindaddy-Sensei', 'Hexicate'],2903,121,Q1
+WA,Isabelle,['Lalafell', 'Turn Up'],70,7,Q1
+WA,Ken,['Jaeger', 'Sad'],0,2,Q1
+WA,King Dedede,['Jezzus', 'huske', 'HBTV', 'Leethality'],840,38,Q1
+WA,King K. Rool,['Bean', 'Jezzus', 'Little Z', 'Laf', 'RosalinaSama', 'Mr G', 'Harambe', 'Quindaddy-Sensei', 'Johan', 'Dawnfire', 'Hugh G Rection'],940,45,Q1
+WA,Kirby,['Fabio', 'HBTV', 'Keutz'],0,3,Q1
+WA,Link,['Orion', 'Copycat', 'Sable', 'Jezzus', 'SWOFT', 'Duibs', 'Arkine'],1395,54,Q1
+WA,Little Mac,['Potanox'],0,3,Q1
+WA,Lucas,['Duke', 'Rapt0r1001', 'Sep'],77,4,Q1
+WA,Lucina,['Mattawho', 'End Me', 'Tempest', 'TPZ', 'Ttam', 'Nav', 'Lalafell', 'C0V3N', 'Shraeve', 'Musitaku', 'Zes'],1755,76,Q1
+WA,Luigi,['Jarr', 'Hexicate'],1543,57,Q1
+WA,Mario,['Ttam', 'TWIDDLY', 'Swollen', 'Elemental'],521,28,Q1
+WA,Marth,['Gogo'],0,2,Q1
+WA,Metaknight,['TinTin', 'Zobby', 'M', 'RosalinaSama'],729,33,Q1
+WA,Mewtwo,['Anchor', 'DKPRO'],0,2,Q1
+WA,Mii Swordfighter,['Benjo', 'Turn Up'],760,38,Q1
+WA,Mr. Game and Watch,['Pr3zz'],596,17,Q1
+WA,Ness,['HoAN', 'Poppt1', 'Ever', 'TWIDDLY', 'Temper', 'Rapt0r1001', 'Bruce'],2299,98,Q1
+WA,Pac-Man,['Intralexic'],0,1,Q1
+WA,Palutena,['Suugarnips', 'Lalafell', 'Lachy', 'Ace', 'Muffstuff', 'Legacy'],97,10,Q1
+WA,Peach,['Captain Fabulous', 'OKCOOL', 'Cruzybecks'],21,4,Q1
+WA,Pichu,['PG Khan', 'YukiDraco', 'Barney', 'Poppt1', 'Mattawho', 'Captain Fabulous'],1547,60,Q1
+WA,Pikmin & Olimar,['Fabio', 'LoneZen', 'shane3x'],729,30,Q1
+WA,Piranha Plant,['Temper', 'Jezzus', 'Turn Up', 'Chappos', 'bunni,', 'Sleepy', 'Creep', 'Zivhayr', 'RosalinaSama'],1670,60,Q1
+WA,Pit,['Elemental'],0,1,Q1
+WA,Pokémon Trainer,['Asiatic', 'Copycat', 'Big Green', 'Nazzer', 'Sad', 'Nav', 'JonCheee', 'TicTacAttk', 'Vlade', 'Zivhayr'],518,31,Q1
+WA,Random,['ChuJelly?~', 'LoneZen', 'YukiDraco'],165,7,Q1
+WA,Richter,['Orion', 'Copycat', 'Benjo', 'Shraeve'],807,31,Q1
+WA,Ridley,['Nommad', 'Copycat', 'Barney', 'Foulbeast', 'Omni'],1999,82,Q1
+WA,ROB,['Zobby', 'Arkine'],1701,75,Q1
+WA,Robin,['Rocky', 'ChuJelly?~'],1108,48,Q1
+WA,Rosalina & Luma,['RosalinaSama'],303,15,Q1
+WA,Roy,['Harfi', 'Lion (Mec)', 'Temper', 'Ace', 'Sleepy'],844,35,Q1
+WA,Samus,['Nommad'],0,1,Q1
+WA,Shulk,['GreyMatter', 'Filthy', 'JonCheee'],906,36,Q1
+WA,Simon,['Orion', 'RosalinaSama', 'Jezzus', 'Shraeve', 'Myxthio'],131,8,Q1
+WA,Snake,['Ttam', 'KevinNyaa', 'Jtrain', 'BigWin | Beer', 'Darr', '*Asterix*', 'Harambe', 'M', 'Jarr', 'Filthy'],2406,78,Q1
+WA,Sonic,['Futurecow'],17,2,Q1
+WA,Toon Link,['Lalafell', 'shane3x'],69,4,Q1
+WA,Villager,['Leethality'],0,1,Q1
+WA,Wario,['some_dingus', 'Little Z', 'Trent'],1387,49,Q1
+WA,Wii Fit Trainer,['Mattawho', 'C0V3N', 'Darclord148'],0,3,Q1
+WA,Wolf,['Copycat', 'Sable', 'YGOduelistkosc', 'Ttam', 'That Child', 'Shraeve', 'Deku Tri', 'JJack', 'Muffstuff', 'shane3x'],608,26,Q1
+WA,Yoshi,['Random', 'BigWin | Beer', 'YoshiPkz', 'ElShaftino', 'the heron', 'That Child'],55,8,Q1
+WA,Young Link,['TWIDDLY', 'Lalafell', 'Temper', 'Fern', 'Elka', 'Generic'],67,8,Q1
+WA,Zelda,['Cruzybecks', 'Lachy', 'Keutz'],139,5,Q1
+WA,Zero Suit Samus,['Mattawho', 'Spud', 'Shiva'],111,5,Q1
+NZ,Bayonetta,['Dyl', 'iBexal', 'Wicca'],989,33,Q1
+NZ,Bowser,['Jarcino', 'CallMeHoju', 'Raaizul', 'IcyK', 'KFC', 'Ardeor'],1125,41,Q1
+NZ,Bowser Jr.,['Ichigo'],39,1,Q1
+NZ,Captain Falcon,['Jogh', 'E-Dude', 'joe', 'B2k', 'iDeeKay'],171,6,Q1
+NZ,Chrom,['dragonlei1', 'Chex', 'Red', 'Axorr', 'E-Dude'],366,16,Q1
+NZ,Cloud,['Boschey', 'HarshJello', 'Orca'],0,3,Q1
+NZ,Corrin,['StarLeo'],70,1,Q1
+NZ,Daisy,['Aluf'],691,31,Q1
+NZ,Dark Pit,['MiyKam', 'Seliph'],81,3,Q1
+NZ,Dark Samus,['Dolo'],59,1,Q1
+NZ,Donkey Kong,['dingdongkid', 'ramble', 'eGo', 'cheese', 'Simikins', 'joe', 'Red'],322,19,Q1
+NZ,Dr. Mario,['J2', 'cheese'],1272,47,Q1
+NZ,Duck Hunt Duo,['iBexal'],55,3,Q1
+NZ,Falco,['Jarcino', 'RAT', 'iDeeKay'],127,6,Q1
+NZ,Fox,['dingdongkid', 'mizu', 'Aluf'],186,10,Q1
+NZ,Ganondorf,['joe', 'Flatfeet', 'Ebola', 'Kawao'],451,23,Q1
+NZ,Greninja,['Vontell', 'PONGUS'],151,13,Q1
+NZ,Ike,['Hori', 'AbysmalAngel', 'RhiOni', 'Ichigo', 'Orca', 'MortaL', 'DKang', 'Kimchiii'],710,27,Q1
+NZ,Incineroar,['Aluf', 'Blaz', 'dingdongkid', 'SpaceApe', 'Green_Tea'],398,11,Q1
+NZ,Inkling,['HikerNob', 'Fank009', 'GammaFox', 'Crunkle', 'ramble', 'Sayora', 'Shlamp', 'Durameter'],1329,50,Q1
+NZ,Isabelle,['hazzz', 'TREE', 'Knarf97'],75,4,Q1
+NZ,Ken,['Plaz'],0,1,Q1
+NZ,King Dedede,['Dog IRL', 'alpacas'],134,2,Q1
+NZ,King K. Rool,['hazzz', 'LoneDrifter', 'Dog IRL', 'Spoo', 'iBexal'],178,8,Q1
+NZ,Kirby,['joe', 'KRB'],218,7,Q1
+NZ,Link,['Kiwicha', 'J2', 'Simikins', 'Lunchbillion'],495,16,Q1
+NZ,Little Mac,['D1NK'],0,1,Q1
+NZ,Lucina,['pap5er', 'Maruu', 'KFC', 'mizu', 'HikerNob', 'Jinxamus', 'GammaFox', 'Tangerine'],2090,84,Q1
+NZ,Mario,['Aluf', 'B2k'],328,14,Q1
+NZ,Marth,['cheese'],36,1,Q1
+NZ,Mega Man,['dingdongkid'],664,18,Q1
+NZ,Mewtwo,['Unladen'],62,1,Q1
+NZ,Mii Brawler,['alpacas'],220,7,Q1
+NZ,Mii Swordfighter,['Cusmo'],212,5,Q1
+NZ,Ness,['Phases', 'Swanji', 'SBOmega', '0cha', 'Durameter', 'jafanz', 'Knarf97'],1126,36,Q1
+NZ,Palutena,['Orca', 'Maruu', 'GammaFox', 'Cookbook', 'Knarf97', 'mizu', 'lagan'],1088,30,Q1
+NZ,Peach,['BlueVapour'],65,3,Q1
+NZ,Pichu,['Xochi', 'Bozzie', 'Red', 'Jermal', 'Wicca', 'Wontonz'],1244,43,Q1
+NZ,Pikachu,['iDeeKay', 'FloiFlob', 'iBexal', 'Kingo'],301,20,Q1
+NZ,Pikmin & Olimar,['Aluf'],60,4,Q1
+NZ,Piranha Plant,['Arrowskee', 'KFC', 'cheese', 'Ichigo', 'BoyNextDoor', 'Shonendo'],1396,40,Q1
+NZ,Pit,['MiyKam'],751,25,Q1
+NZ,Pokémon Trainer,['Durameter'],77,2,Q1
+NZ,Random,['GammaFox', 'Ichigo', 'pap5er', 'Axorr', 'Buggal0w'],175,5,Q1
+NZ,Richter,['Mal'],67,1,Q1
+NZ,Ridley,['Cusmo', 'Bozzie'],121,3,Q1
+NZ,ROB,['Beep'],0,1,Q1
+NZ,Robin,['Arrowskee'],118,5,Q1
+NZ,Rosalina & Luma,['AmCan'],0,1,Q1
+NZ,Roy,['Chex', 'Orca', 'Josto', 'Mook', 'Noisy Boy', 'iDeeKay', 'Alvaro', 'binger'],1373,56,Q1
+NZ,Samus,['CoastNZ', 'Slye', 'Snow'],58,4,Q1
+NZ,Shulk,['iDeeKay', 'Double A'],41,5,Q1
+NZ,Snake,['Aluf', 'dcs', 'SpeedyJ', 'PONGUS'],545,16,Q1
+NZ,Toon Link,['pap5er', 'Taka'],207,9,Q1
+NZ,Villager,['Blaz'],141,2,Q1
+NZ,Wario,['Aluf', 'Hori', 'BoyNextDoor', 'dcs'],47,11,Q1
+NZ,Wii Fit Trainer,['CubT'],617,19,Q1
+NZ,Wolf,['Maruu', '0zai', 'Crunkle', 'Noisy Boy', 'cheese', 'Orca', 'Plumbo'],474,24,Q1
+NZ,Yoshi,['Åsh', 'GGSammy', 'cheese', 'Wicca', 'DunedinSmashWinner'],1367,42,Q1
+NZ,Young Link,['Knee', 'cheese', 'HughManChu', 'captain_snack ', 'Viny', 'AcidLoveboi'],635,25,Q1
+NZ,Zelda,['Akabird', 'Shonendo', 'Opal'],330,9,Q1
+NZ,Zero Suit Samus,['AmCan', 'dcs'],0,2,Q1
+VIC,Bayonetta,['w00tkins', 'Sir Banana'],1043,45,Q1
+VIC,Bowser,['Booper', 'Jazzy', 'TheWalshinator', 'Hanime', 'DD', 'Kaz', 'algebra', 'muffins', 'Donkey Konk', 'YousomoKazefu'],2222,109,Q1
+VIC,Bowser Jr.,['DD', 'Duon', 'Googers', 'Bijou'],754,41,Q1
+VIC,Captain Falcon,['Hazzacka', 'Homeslice', 'Yellow', 'Simple', 'Xettman', 'Nev'],957,45,Q1
+VIC,Chrom,['Rren', 'Naga', 'Amaterasu', 'Simple', 'Snitto', 'Umbra', 'Pat Sanders', 'Saber', 'Eternal', 'DD_', 'Murkiri', 'Duon', 'Hamfish', 'Orphen', 'Supercat Meow', 'KhoiFish'],1990,83,Q1
+VIC,Cloud,['Aya', 'Jules', 'Fluffy', 'Arnie', 'Crazyworks', 'Nerdburger', 'Snoc', 'Saber', 'The Crynek', 'ponko', 'Jollus', 'Stoddy', 'Kevvlar'],3299,134,Q1
+VIC,Corrin,['Kimah', 'Splice', 'Corvid', 'JASP'],165,14,Q1
+VIC,Daisy,['Chris.py', 'Umtard', 'bebop', 'Mamba'],180,9,Q1
+VIC,Dark Pit,['RaZe', 'Virgil', 'KENSHIN', 'Neeson'],2108,110,Q1
+VIC,Dark Samus,['Microsoft J', 'Kevvlar', 'Dogivet', 'Comma', 'Noxus', 'Sir Banana', 'pk'],510,26,Q1
+VIC,Diddy Kong,['Piski', 'Spedonic', 'Falchion', 'Even Stephen'],285,15,Q1
+VIC,Donkey Kong,['Haris', 'cuminpant', 'Sodaman', 'Sei', 'B-2', 'MarchOfHell', 'DD', 'Becchino', 'Extra', 'Dr Omega', 'Donkey Konk'],1339,70,Q1
+VIC,Dr. Mario,['Shen', 'Nicks'],338,13,Q1
+VIC,Duck Hunt Duo,['RedoxKing', '45°!'],0,2,Q1
+VIC,Falco,['Jayd', 'Tim', 'Corvid', 'Earl', 'CMoon', 'Konk', 'Nothing'],2361,113,Q1
+VIC,Fox,['SKG', 'Murkiri', 'Catburger', 'SebPro101', 'Chin', 'Jdizzle', 'pk', 'Alfonzo', 'Duon', 'Nothing', 'Even Stephen'],1966,86,Q1
+VIC,Ganondorf,['Simple', 'Horde', 'Daddy Ganny', 'Jazzy', 'MGK', 'SKG', 'Kaze', 'Spedonic', 'TukkaBag', 'Snitto', 'Lewbags', 'Skeletom', 'Chaos', 'Jollus', 'Yellow'],2700,100,Q1
+VIC,Greninja,['Skitter', 'Dr Omega', 'RaZe', 'JASP', 'Prism', 'Arc', 'No Skills', 'Ergon', 'VeloCitY', 'Naga', 'B-2', 'Corvid'],1782,98,Q1
+VIC,Ice Climbers,['VineGreen', 'Jash', 'Gary'],186,11,Q1
+VIC,Ike,['Arnie', 'Insie', 'Jules', 'Dragunov', 'Duon', 'Radio#1117', 'Becchino', 'MrJibs', 'Kronk', 'DD', 'Horde', 'pk', 'Googers', 'Gary'],3990,206,Q1
+VIC,Incineroar,['Supernova', 'Dr Omega', 'Corvid', 'Thomas', 'Insie', 'Umtard', 'B-2', 'Spedonic', 'WilliWonka9306', 'Bussy', 'Extra', 'Booper', '45°!', 'Fudge'],133,20,Q1
+VIC,Inkling,['SebPro101', 'Googers', 'Sodaman', 'ABXY', 'Hunta', 'Flow', 'B-2', 'Sim', 'Jaypam', 'Duon', 'Foz', 'Nicks', 'JASP', 'Villyness', 'Skitter'],4879,218,Q1
+VIC,Isabelle,['RedoxKing', 'VineGreen', 'P9', 'Villyness'],308,17,Q1
+VIC,Jigglypuff,['Will Smith', 'FireFly', 'Dr Omega', 'P9'],16,6,Q1
+VIC,Ken,['Umtard'],79,3,Q1
+VIC,King Dedede,['cag', 'Amph', 'Aya', 'Ledge', 'Legato', 'DD'],819,37,Q1
+VIC,King K. Rool,['DD', 'Booper', 'Foz', 'Danklin', 'Horde', 'Ushi', 'Chaos', 'Bijou', 'Gary'],331,36,Q1
+VIC,Kirby,['Splice'],448,13,Q1
+VIC,Link,['Xettman', 'Green', 'antzo', 'Yutsmeff', 'Nova', 'Jdizzle', 'Ignis', 'Tibs', 'Extra'],1150,54,Q1
+VIC,Little Mac,['OnePhoAll', 'DD', '2Simple', 'FreddyFishFingers', 'Simple', 'Rap Breon', 'Zhalfrin', 'Luke', 'Snitto', 'Amph'],687,41,Q1
+VIC,Lucario,['Toffee', 'Deez', 'Jash'],366,20,Q1
+VIC,Lucas,['Jamwa', 'longboy', 'dollarydoos', 'Ushi', 'St. Avalon', 'Fortune'],1874,90,Q1
+VIC,Lucina,['El', 'RaZe', 'Saber', 'Bussy', 'Ledge', 'Catburger', 'Dragunov', 'Corvid', 'Luc', 'Lizam', 'Prism', 'SebPro101', 'Snowii', 'Jazzy', 'Ignis', 'Microsoft J', 'Tomie', 'P9', 'Googers', 'Fidel', 'Malx', 'Jollus'],3521,175,Q1
+VIC,Luigi,['DD'],0,6,Q1
+VIC,Mario,['Liam', 'Duon', 'Ignis', 'Mast'],97,4,Q1
+VIC,Marth,['Becchino', 'Fidel', 'Jash', 'KENSHIN'],246,11,Q1
+VIC,Mega Man,['TheListerMr'],163,5,Q1
+VIC,Metaknight,[],0,0,Q1
+VIC,Mewtwo,['Hazzacka', 'Ultra Instinct', 'Revax', 'Jazzy', 'Extra', 'Corvid', 'Jules'],433,35,Q1
+VIC,Mii Brawler,['Jash'],0,1,Q1
+VIC,Mii Gunner,['Revax', 'Corvid'],535,16,Q1
+VIC,Mii Swordfighter,['Danklin', 'Dyna_Hole', 'DD', 'Corvid', 'Gary'],1783,83,Q1
+VIC,Mr. Game and Watch,['Extra', 'Greenhood', 'DD'],534,41,Q1
+VIC,Ness,['Jamwa', 'JASP', 'Biggles', 'Jman', 'bjay', 'Tempest', 'Hannibal?', 'Jmez'],801,34,Q1
+VIC,Pac-Man,['VineGreen', 'Ignis', 'DD', 'Yellow'],2570,109,Q1
+VIC,Palutena,['Ignis', 'Princess', 'Bussy', 'Jazzy', 'Sodaman', 'JEANS', 'St. Avalon', 'Yehya', 'Malx', 'w00tkins', 'Vintendo'],4726,242,Q1
+VIC,Peach,['Catburger', 'bebop', 'Shenny', 'dollarydoos', 'Hazzacka', 'Supercat Meow'],1460,73,Q1
+VIC,Pichu,['Havok', 'KmS', 'Green', 'Falchion', 'Arnie', 'Dampé', 'Nev', 'Chrispy', 'ponko', 'Moxie', 'Googers'],3655,154,Q1
+VIC,Pikachu,['Orphen', 'Alpal', 'Piski', 'Hanime', 'selebu', 'Block', 'Ktan', 'Prism'],1141,51,Q1
+VIC,Pikmin & Olimar,['Corvid', 'DD', 'Bubby'],793,41,Q1
+VIC,Piranha Plant,['Jazzy', 'DD_', 'Extra', 'Snitto', 'DD', 'SebPro101'],329,17,Q1
+VIC,Pit,['RaZe', 'Revax', 'Dogivet', 'Tempest', 'Dekartea'],608,25,Q1
+VIC,Pokémon Trainer,['Corvid', 'Dr Omega', 'Pudge', 'Ergon', 'SebPro101', 'UBOA', 'haiku', 'Dampé', 'Googers', '45°!', 'AzuraSarah', 'Sim', 'VeloCitY', 'Jamwa', 'Neeson', 'SKG', 'Sam'],3569,184,Q1
+VIC,Random,['Ignis', 'SebPro101', 'DD', 'B-2', 'Bussy'],285,13,Q1
+VIC,Richter,['Corvid', 'UBOA', 'Mar', 'Jules', 'Will Smith', 'Eagle', 'P8', 'Duon', '45°!'],506,26,Q1
+VIC,Ridley,['Booper', 'FireFly', 'Googers', 'Corvid', 'Dese', 'Tomo009', 'Dyna_Hole', 'Snitto', 'Novo', 'Banjo String'],3281,147,Q1
+VIC,ROB,['Robit', 'SebPro101', 'Danza', 'MarchOfHell', 'arch', 'Extra', 'Becchino', 'Banjo String'],3754,172,Q1
+VIC,Robin,['Skitter', 'Prism', 'Crazyworks'],1171,47,Q1
+VIC,Rosalina & Luma,['Techless', 'NinStarRose'],0,3,Q1
+VIC,Roy,['Duon', 'Mockles', 'Amaterasu', 'Arnie', 'Mast', 'OldMate', 'Jake', 'Pat Sanders', 'Murkiri', 'Microsoft J', 'Sodaman', 'JASP', 'Guyanide'],3365,140,Q1
+VIC,Ryu,['Pat Sanders', 'Revax'],213,7,Q1
+VIC,Samus,['Dogivet', 'Dom', 'Microsoft J', 'TukkaBag', 'Comma', 'Kevvlar'],644,27,Q1
+VIC,Sheik,['Liam', 'Green'],0,2,Q1
+VIC,Shulk,['Conan', 'Supernova', 'Toffee', 'Speedster', 'Seer', 'Mikey', 'Neeson'],1076,56,Q1
+VIC,Simon,['JEANS', 'P8', 'Googers'],156,9,Q1
+VIC,Snake,['Tomie', 'Duon', 'Sandman', 'BigChilli', 'Jash', 'Sato', 'DD', 'Timic83', 'Bussy', 'John', 'Raid', 'uwu', 'BIGBOSS', 'Mar', 'Hazzacka', 'KhoiFish'],13950,642,Q1
+VIC,Sonic,['NinStarRose'],0,1,Q1
+VIC,Terry,[],0,0,Q1
+VIC,Toon Link,['DD', 'Becchino'],92,10,Q1
+VIC,Villager,['P9'],1996,94,Q1
+VIC,Wario,['DD', 'Extra', 'Fortune', 'Dampé', 'Sodaman', 'Nicks', 'Vintendo'],4847,224,Q1
+VIC,Wii Fit Trainer,['Sir Banana', 'Tekk'],675,35,Q1
+VIC,Wolf,['John', 'Krasic', 'Salad', 'Pudge', 'Mar', 'Saber', 'Extra', 'Fortune', 'Aya', 'Mast', 'GrannyG', 'Becchino', 'Pat Sanders', 'Fletchaa', 'SebPro101', 'Spaz', 'Googers', 'Ledge', 'Amaterasu', 'pk', 'Baz', 'KmS', '45°!', 'Catburger', 'Lewbags', 'Murkiri', 'Aatu', 'Donkey Konk', 'Corvid', 'Dylba'],6859,348,Q1
+VIC,Yoshi,['P8', 'Jazzy', 'Dylba', 'dunkMATTic', 'Jei', 'DD', 'Becchino', 'shockwave', 'Silver', 'Slimboy17', 'JASP', 'Sweens', 'Fingerless', 'Skip', 'Naga'],3545,164,Q1
+VIC,Young Link,['Jdizzle', 'Becchino', 'CG90', 'Shenny', 'P9', 'Dampé', 'Duon', 'Snitto', 'Mar'],3258,139,Q1
+VIC,Zelda,['Falchion', 'Darkness', 'humanerror', 'dunccy', 'Jash'],2232,108,Q1
+VIC,Zero Suit Samus,['Princess', 'Little Mark', 'Pat Cash', 'Husky', 'Mistletoe'],1540,71,Q1
+TAS,Bowser,[],0,0,Q1
+TAS,Donkey Kong,['Varous'],62,3,Q1
+TAS,Fox,['Swebe'],0,1,Q1
+TAS,Ganondorf,[],0,0,Q1
+TAS,Inkling,[],0,0,Q1
+TAS,Luigi,['Luma'],226,6,Q1
+TAS,Mega Man,[],0,0,Q1
+TAS,Mr. Game and Watch,[],0,0,Q1
+TAS,Ness,[],0,0,Q1
+TAS,Palutena,['Luma', 'Swebe'],681,15,Q1
+TAS,Pichu,['Chins'],0,1,Q1
+TAS,Pikachu,[],0,0,Q1
+TAS,Pikmin & Olimar,['Breadstick'],0,1,Q1
+TAS,Pit,[],0,0,Q1
+TAS,Pokémon Trainer,['Luma'],553,13,Q1
+TAS,Ridley,[],0,0,Q1
+TAS,ROB,[],0,0,Q1
+TAS,Roy,[],0,0,Q1
+TAS,Snake,[],0,0,Q1
+TAS,Wario,[],0,0,Q1
+TAS,Wolf,[],0,0,Q1
+INT,Chrom,[],0,0,Q1
+INT,Cloud,[],0,0,Q1
+INT,Dark Pit,[],0,0,Q1
+INT,Ganondorf,[],0,0,Q1
+INT,Ike,[],0,0,Q1
+INT,Lucina,[],0,0,Q1
+INT,Mii Gunner,[],0,0,Q1
+INT,Ness,[],0,0,Q1
+INT,Palutena,[],0,0,Q1
+INT,Peach,['Tommella'],0,18,Q1
+INT,Snake,[],0,0,Q1
+INT,Young Link,[],0,0,Q1
+INT,Zero Suit Samus,[],0,0,Q1
+QLD,Bayonetta,['Mx', 'Cajeck', 'Recon', 'Linoone'],335,9,Q2
+QLD,Bowser,['Ben Gold', 'Jett', 'Atare', 'Mint2', 'Stilts', 'Flamboyanthamster', 'Mittens', 'Toketchan', 'Grumbley'],2721,113,Q2
+QLD,Bowser Jr.,['Aurion', 'Bip', 'CLEH', 'McJobo', 'Zunjo', 'BattleDolphin'],372,25,Q2
+QLD,Captain Falcon,['Khanage', 'conso', 'Iroh', 'Mint2', 'Cal', 'Flex', 'Toketchan', 'Cajeck', 'Vye', 'McJobo', 'Cava', 'Sawnp', 'noobar', 'Zeus'],1215,67,Q2
+QLD,Chrom,['FC', 'MP', 'Trunkle?!?', 'Danzah', 'Breezy', 'Omta', 'SiqNiq'],1242,54,Q2
+QLD,Cloud,['CroW', 'Cajeck', 'Nitzayra', 'McJobo', 'SpaZzy'],162,9,Q2
+QLD,Corrin,['Nitzayra', 'Saemon', 'Aurion', 'Scrail'],808,52,Q2
+QLD,Daisy,['Aurion'],135,8,Q2
+QLD,Dark Pit,['FC'],1018,65,Q2
+QLD,Dark Samus,['Python', 'Kwaksy', 'Doppelganger', 'Modest', 'DFS', 'Aidento'],967,40,Q2
+QLD,Diddy Kong,['UMKO', 'Delve', 'ALP1NE', 'Cajeck', 'McJobo', 'schooner'],101,12,Q2
+QLD,Donkey Kong,['Churropon', 'noobar', 'Omta', 'Recon', 'Cajeck', 'Kaboose', 'TheJazzyman', 'conso', 'Tom', 'McJobo', 'Kwaksy', 'Wildermold', 'Toketchan', 'Zeus', 'Loki'],1679,71,Q2
+QLD,Dr. Mario,['Fiasco', 'DaddyMD'],1324,70,Q2
+QLD,Falco,['Blurry', 'Droop', 'Boost', 'McJobo', 'conso', 'Cajeck'],985,58,Q2
+QLD,Fox,['Spammage', 'InfamousL', 'Gravydice', 'Figaro', 'Bigfatelli', 'Tyran', 'LUSH', 'TheJazzyman', 'BattleDolphin', 'Spam', 'Fly'],1885,110,Q2
+QLD,Ganondorf,['Gooch', 'Brennn', 'Genghis Khant', 'DaddyMD', 'Khanage', 'Loki', 'Ascension', 'McJobo', 'KARLOS', 'schooner', 'MOTY_BaeGhouls', 'ASquirtle', 'Easy', 'Jyoshi', 'Arahpthos', 'Exist', 'Cajeck'],523,29,Q2
+QLD,Greninja,['Zyphenor', 'Sifo1', 'Aurion', 'sUWUpreme', 'Milis'],323,23,Q2
+QLD,Ice Climbers,['Spammage', 'Patchy'],2608,110,Q2
+QLD,Ike,['Jem', 'Ari', 'Genghis Khant', 'Harold', 'FC'],2741,147,Q2
+QLD,Incineroar,['Gravydice', 'Kaboose', 'sat', 'BattleDolphin', 'Level100Mudkip', 'Red', 'Hu Januce', 'Fly', 'Vasi'],1737,80,Q2
+QLD,Inkling,['Seymour Butts', 'DFS', 'Linoone', 'Negima', 'Toketchan', 'Wildermold', 'Delve', 'Bigfatelli', 'Crabs', 'Djurwny', 'Jyoshi', 'K', 'CarrotAxe'],1728,88,Q2
+QLD,Isabelle,['Joser', 'Diddle', 'McJobo'],613,19,Q2
+QLD,Jigglypuff,['BattleDolphin', 'TheJazzyman', 'XDDD', 'Bigfatelli'],2626,130,Q2
+QLD,Joker,['Joser', 'SpaZzy', 'DimiChrys', 'Churropon', 'SadHour', 'Vye', 'TheJazzyman', 'Revlis', 'Lomar', 'Toketchan', 'Flamboyanthamster', 'Wildermold', 'sUWUpreme', 'Lt', 'conso', 'Zyphenor', 'FC', 'Negima', 'Umbrella', 'Nights'],8177,379,Q2
+QLD,Ken,['Cap', 'Shadrew', 'WeedLan', 'Spammage'],2476,130,Q2
+QLD,King Dedede,['Murke', 'Joser', 'Milis', 'Zunjo', 'Exist', 'XDDD', 'McJobo', 'Crawfish', 'noobar'],6306,270,Q2
+QLD,King K. Rool,['Ben Gold', 'Prince', 'Jett', 'Michi', 'BattleDolphin', 'Danzah', 'Recon', 'JANGLIO!', 'Mint2'],2440,141,Q2
+QLD,Kirby,['KaiDASH', 'asa'],3430,150,Q2
+QLD,Link,['Mx', 'Supa', 'Thompsinus', 'Aidento', 'Lt', 'Narcissus', 'Yo-Yo', 'Pancake', 'SpaZzy', 'ArcaneCloud'],976,53,Q2
+QLD,Little Mac,['Crozzy', 'Skitz', 'squidfist', 'McJobo', 'Vasi', 'CarrotAxe', 'ArcaneCloud'],322,16,Q2
+QLD,Lucario,['Zyphenor', 'Aurion', 'schooner', 'SiqNiq', 'Groudon'],1503,80,Q2
+QLD,Lucas,['Mabi', 'Nicc', 'Jay Gee'],1046,61,Q2
+QLD,Lucina,['FC', 'Joz.', 'Churropon', 'SadHour', 'Jett', 'Cupu', 'Wildermold', 'Umbrella', 'Recon', 'Himbo', 'Ben Gold', 'BattleDolphin', 'Scrail', 'InfamousL'],3063,154,Q2
+QLD,Luigi,['Jay Gee', 'InfamousL', 'McJobo', 'Omta', 'Raibok'],567,28,Q2
+QLD,Mario,['LUSH', 'DFS', 'Hill', 'CLEH', 'Cajeck', 'FabulousDork', 'Cava', 'Raibok', '4Lamarck', 'Pipelin12'],572,20,Q2
+QLD,Marth,['conso', 'Blizzy', 'TheJazzyman', 'Harold', 'McJobo'],374,19,Q2
+QLD,Mega Man,['Shitashi', 'Slash', 'Xondrell'],2326,160,Q2
+QLD,Metaknight,['Flex', 'Pinkie', 'Milis', 'McJobo'],1705,104,Q2
+QLD,Mewtwo,['Patchy', 'Mint2', 'Joz.', 'Cajeck', 'McJobo', 'KARLOS'],992,65,Q2
+QLD,Mii Brawler,['KaiDASH', 'Skullkid', 'Vye', 'Spam'],674,42,Q2
+QLD,Mii Gunner,['UMKO', 'Aurion', 'Serein', 'Spam'],170,7,Q2
+QLD,Mii Swordfighter,['BattleDolphin', 'Negima'],653,28,Q2
+QLD,Mr. Game and Watch,['Bip', 'Aidento', 'Toketchan', 'Mittens', 'Gravydice', 'McJobo'],332,30,Q2
+QLD,Ness,['Blaze', 'Jay Gee', 'BattleDolphin', 'Delve', 'Kwaksy', 'DimiChrys', 'TheJazzyman', 'K', 'Hill', 'ALP1NE', 'Kaboose', 'Swate', 'Money_Doller', 'FreeXP', 'C_Flame', 'Pivit'],5148,224,Q2
+QLD,Pac-Man,['Cap', 'Blizzy', 'Xondrell', 'Timtam', 'Bigfatelli'],626,37,Q2
+QLD,Palutena,['Trunkle?!?', 'Cajeck', 'Doppelganger', 'Parralize', 'Antec', 'Crimson', 'Spam', 'JuicyPenguin', 'Gav', 'Stilts'],2127,108,Q2
+QLD,Peach,['Linoone', 'Nicc', 'Bigfatelli', 'Jaice', 'Aaron'],397,24,Q2
+QLD,Pichu,['Nicc', 'keenanmod', 'Kwaksy', 'Recon', 'Kaboose', 'Gravitas', 'RoZ', 'Antec', 'Negima', 'Blaze', 'Gav', 'DFS'],2438,114,Q2
+QLD,Pikachu,['BoingBoing', 'Thompsinus', 'SoMa', 'DFS', 'Toketchan', 'Raibok', 'InfamousL', 'Mastodon'],1859,117,Q2
+QLD,Pikmin & Olimar,['ZipperTheRipper', 'Boost', 'Himbo', 'Jaice'],577,28,Q2
+QLD,Piranha Plant,['Zunjo', 'Prince', 'PurplePant73', 'McJobo'],247,20,Q2
+QLD,Pit,['Yuki', 'Code_E'],0,2,Q2
+QLD,Pokémon Trainer,['Verse', 'Murke', 'BoingBoing', 'schooner', 'Slayden', 'braydoz', 'GBread', 'Limit'],2649,131,Q2
+QLD,Random,['Cajeck', 'Vye', 'SiqNiq', 'BattleDolphin'],206,10,Q2
+QLD,Richter,[],0,0,Q2
+QLD,Ridley,['Jakalanche', 'ClassicJono', 'MetaBhreat', 'Wildermold', 'Ascension', 'Wertz'],2461,137,Q2
+QLD,ROB,['Weeb', 'Swate', 'schooner', 'Saint', 'JANGLIO!', 'Mastodon'],2585,137,Q2
+QLD,Robin,['Aurion', 'Cajeck', 'HeaL', 'McJobo'],120,7,Q2
+QLD,Rosalina & Luma,['Doppelganger', 'Nights', 'Jaice'],50,3,Q2
+QLD,Roy,['Recon', 'Milis', 'SiqNiq', 'Churropon', 'LUSH', 'Kaboose', 'Fiasco', 'McJobo', 'KARLOS', 'Cava', 'Crimson', 'Gravydice', 'FC', 'Parralize'],3150,145,Q2
+QLD,Samus,['Python', 'DFS', 'McJobo', 'Yoyo', 'Aidento'],825,35,Q2
+QLD,Sheik,['LUSH', 'Thompsinus', 'Cajeck', 'Fly', 'Zyphenor', 'Raibok'],449,31,Q2
+QLD,Shulk,['NQuad1Zero', 'Churropon', 'ZipperTheRipper', 'Wildermold'],389,19,Q2
+QLD,Simon,['Mint2'],53,2,Q2
+QLD,Snake,['Loki', 'Weeb', 'SadHour', 'Michi', 'Recon', 'Serein', 'McJobo', 'PapaCheese', 'Fly', 'Moo'],1441,77,Q2
+QLD,Sonic,['Bellboi', 'SpaZzy', 'FreeLyn', 'Churropon'],495,27,Q2
+QLD,Terry,['Negima'],1563,68,Q2
+QLD,Toon Link,['Umbrella', 'Vye'],562,30,Q2
+QLD,Villager,['Gravydice'],0,1,Q2
+QLD,Wario,['Omta', 'McJobo', 'Recon', 'Himbo', 'XDDD', 'Boost', 'Johzyn'],1532,72,Q2
+QLD,Wii Fit Trainer,['squidfist', 'Luminescent', 'Dags', 'Terrence', 'Jaice'],3464,168,Q2
+QLD,Wolf,['JANGLIO!', 'Gravydice', 'Aurion', 'Sifo1', 'LUSH', 'Crimson', 'Toketchan', 'InfamousL', 'Blurry', 'Recon', 'Code_E', 'Thompsinus', 'schooner', 'McJobo', 'Moo', 'Bigfatelli'],2460,147,Q2
+QLD,Yoshi,['Stilts', 'Arby', 'Xondrell', 'ZipperTheRipper', 'Yo-Yo', 'KaiDASH'],2128,96,Q2
+QLD,Young Link,['Umbrella', 'schooner', 'Nicc', 'Cal', 'BattleDolphin', 'Mustella', 'InfamousL', 'BoingBoing', 'Thr333'],301,21,Q2
+QLD,Zelda,['Fly', 'HeaL', 'Talie', 'Rababity', 'Umbrella', 'Bigfatelli', 'Jaice'],1677,101,Q2
+QLD,Zero Suit Samus,['Daddy.', 'Jett', 'Danzah', 'Level100Mudkip', 'Jolt', 'Fly'],146,13,Q2
+NSW,Bayonetta,['Lain', 'Naomi Campbelltown', 'chizzL'],232,7,Q2
+NSW,Bowser,['Glace', 'AT LOWES', 'FumbleJr', 'Juan', 'Rocket', 'Patv', 'DoomDonuts', 'Kristoph', 'MegaloManiAsh'],577,33,Q2
+NSW,Bowser Jr.,['Spike', 'Nuke', 'FumbleJr', 'Lain', 'Cotton'],2101,113,Q2
+NSW,Captain Falcon,['Fez', 'JBird', 'Truth', 'Tru4', 'Speedy Geblin', 'Jackpot', 'Pierce', 'Scarpian'],442,29,Q2
+NSW,Chrom,['Nyantic', 'Johtothan', 'Addo', 'Vic', 'Scarpian', 'CyborgSanta'],1113,60,Q2
+NSW,Cloud,['EmanSaur', 'BahamutType0', 'Angoose', 'Invisi', 'UltimateScrappy'],422,17,Q2
+NSW,Corrin,['Vostok', 'Facts', 'Alexolotl', 'Cotton'],113,11,Q2
+NSW,Daisy,[],0,0,Q2
+NSW,Dark Pit,['AT LOWES', 'Chris G', 'kmw', 'Ablice'],307,13,Q2
+NSW,Dark Samus,['Fruit', 'igNITR0', 'WhitePointer', 'Grizz'],818,33,Q2
+NSW,Diddy Kong,['Revman', 'Ryan', 'GumbleGore'],400,12,Q2
+NSW,Donkey Kong,['Ryan', 'Lunchy', 'maGs', 'Doctor A.Ness', 'Jim Cool', 'Delta', 'ForFunMaDude', 'Spike', 'Daddy', 'MegaloManiAsh'],4620,210,Q2
+NSW,Dr. Mario,['Fruit', 'Spike'],95,4,Q2
+NSW,Falco,['Radical man', 'Beet', 'Rog', 'Fruit', 'Scrandyy', 'BahamutType0', 'Spike', 'Sass', 'Wayward'],1301,64,Q2
+NSW,Fox,['AboRoza', 'Trojans', 'Sock', 'Fez', 'Doctor A.Ness', 'BJSchoey'],606,33,Q2
+NSW,Ganondorf,['Swiftrogue', 'Metal Force', 'Oliman', 'KizzaBam', 'Pretzel', 'Veness', 'Freelandor', 'Staunch', 'Daddy', 'Grizz', 'Valadus', 'Bananafish'],762,59,Q2
+NSW,Greninja,['FumbleJr', 'Mikkle', 'Sponge', 'Revman', 'Ulticow'],92,10,Q2
+NSW,Ice Climbers,['BJSchoey'],30,2,Q2
+NSW,Ike,['Truth', 'Metal Force', 'Atlas', 'Kovie', 'Lanatra'],815,39,Q2
+NSW,Incineroar,['MDerp', 'Rocket', 'Fruit', 'Dapto Dog', 'BJSchoey', 'Zoltan', 'Heckko', 'Framah'],640,40,Q2
+NSW,Inkling,['Andrew Lin', 'Gabe', 'Doctor A.Ness', 'Phyco', 'IceyFire', 'FAir Jordans', 'Chris G', 'Pierce', 'Sylem', 'Ryan', 'Rozzo'],1476,62,Q2
+NSW,Isabelle,['Gords', 'Cotton', 'Rocket', 'Killy', 'jacky chung'],1099,62,Q2
+NSW,Jigglypuff,['Invisi', 'Spike'],556,39,Q2
+NSW,Joker,['Enn', 'Johtothan', 'Hyper', 'Mr Leak', 'Revman', 'Shmu', 'Truth', 'Framah', 'Fez', 'Toonara', 'Lora', 'Lumidyne', 'Vic', 'Sponge', 'LeoJoeD', 'Lain'],2112,111,Q2
+NSW,Ken,['Glace', 'Scarpian', 'Flurkin', 'Vic', 'Lain'],81,11,Q2
+NSW,King Dedede,['Chipotle', 'Wumbology', 'DeDeDez Nutz', 'Bamboozled', 'Tru4', 'DoomDonuts', 'Logan', 'Cheff', 'Dreamcaster', 'WhitePointer'],163,20,Q2
+NSW,King K. Rool,['Lumidyne', 'K Fool', 'Spike'],2,5,Q2
+NSW,Kirby,['angelcoolchomp', 'Staunch', 'Merebry', 'Lumidyne'],620,14,Q2
+NSW,Link,['Vic', 'DoorBashr', 'angelcoolchomp', 'Scarpian', 'Joeymccoy'],1706,61,Q2
+NSW,Little Mac,['Gabe', 'DoorBashr'],1112,59,Q2
+NSW,Lucario,['Llamas', 'AmaliKada', 'Glace', 'chizzL'],69,5,Q2
+NSW,Lucas,['Fruit', 'Vic', 'DoomDonuts', 'snipi', 'Valadus'],291,14,Q2
+NSW,Lucina,['Oliman', 'Bananafish', 'Truth', 'IceyFire', 'Scarpian', 'Day', 'Yam', 'Jisp', 'Shaoweater', 'TrogboSlice', 'Jake', 'Beet', 'Kanako', 'Gibson', 'Ambrosia'],1482,73,Q2
+NSW,Luigi,['Lumidyne', 'Truth', 'Spike', 'El Chimpe'],224,22,Q2
+NSW,Mario,['Bananafish', 'Spike', 'PO3', 'Tru4', 'Truth', 'Ambrosia', 'BJSchoey'],1419,81,Q2
+NSW,Marth,['Bananafish', 'BOOTYMEAT', 'Scarpian', 'Truth', 'Kanako'],276,14,Q2
+NSW,Mega Man,['LunoVox', 'THE247GENIOUS', 'Cometzz', 'Doctor A.Ness', 'Chipotle', 'Mega'],104,12,Q2
+NSW,Metaknight,[],0,0,Q2
+NSW,Mewtwo,['El Chimpe'],434,15,Q2
+NSW,Mii Brawler,['Framah', 'Yuzu'],42,5,Q2
+NSW,Mii Gunner,['Yuzu', 'Manta'],0,3,Q2
+NSW,Mii Swordfighter,['Star'],191,10,Q2
+NSW,Mr. Game and Watch,['Palooka', 'Ozz', 'LeoJoeD', 'Diddymykong'],758,31,Q2
+NSW,Ness,['Kitt', 'TurtleCat', 'Jisp', 'Ryzuul', 'Shmu', 'Ryan', 'Donk', 'Nyantic', '4par', 'Luco', 'Ambrosia', 'DoomDonuts', 'Cometzz', 'Day', 'Lumidyne'],1756,93,Q2
+NSW,Pac-Man,['Party Cats'],88,4,Q2
+NSW,Palutena,['Shmu', 'Lora', 'VoO0m', 'Shaoweater', 'bean', 'Truth', 'Phoenix', 'Lostish'],429,29,Q2
+NSW,Peach,['Spamsung', 'Naomi Campbelltown', 'BJSchoey', 'EmanSaur', 'Haber'],204,12,Q2
+NSW,Pichu,['Day', 'Lumidyne', 'Shmu', 'Trojans'],1115,69,Q2
+NSW,Pikachu,['Shmu', 'Llamas', 'd2mv', 'Merebry', 'SHUCKK', 'Fez', 'cubes!', 'ThisGuy222', 'Pretzel'],1923,98,Q2
+NSW,Pikmin & Olimar,['Phyco', 'Muzzard', 'Mr Leak'],103,6,Q2
+NSW,Piranha Plant,['Shadow in the Dark', 'EmanSaur', 'Jeese', 'YoungStres'],49,8,Q2
+NSW,Pokémon Trainer,['Thrillhouse', 'Fez', 'Vic', '2Girls1Gus', 'Glace', 'Dundo', 'Addo', 'Lain', 'UltimateScrappy'],1697,85,Q2
+NSW,Random,['Bass', 'Shmu'],146,3,Q2
+NSW,Richter,['Adaodao'],0,1,Q2
+NSW,Ridley,['Mr Leak', '2Girls1Gus', 'Pierce'],1445,68,Q2
+NSW,ROB,['Fortnite', 'Tallow', 'BJSchoey', 'Lumidyne', 'Ozz', 'Suntide', 'Heckko', 'Day'],1222,56,Q2
+NSW,Robin,['Lain', 'Yam', 'Fruit', 'Lumidyne'],118,19,Q2
+NSW,Rosalina & Luma,['Invisi'],154,3,Q2
+NSW,Roy,['Dugongs', 'Truth', 'Doolz', 'StrangerDanger', 'Delta', 'Jackpot', 'Jake', 'Nyantic', 'Vivere', 'Freelandor', 'Strange'],711,45,Q2
+NSW,Ryu,['Scarpian'],129,8,Q2
+NSW,Samus,['Fruit', 'Lain', 'Blackhawk'],139,5,Q2
+NSW,Sheik,['Trojans', 'Shmu', 'Spike', 'Ambrosia'],441,19,Q2
+NSW,Shulk,['Tru4', 'Metal Force', 'Pretzel', 'El Chimpe'],1780,46,Q2
+NSW,Simon,['Invisi'],1017,51,Q2
+NSW,Snake,['Kanga.exe', 'Enn', 'charies', 'Hyper', 'Lumidyne', 'Metal Force', 'Killy', 'Framah', 'Spike', 'Muzzard', 'ForFunMaDude', 'Truth', 'BD', 'Rain'],3492,176,Q2
+NSW,Sonic,['Dreamcaster', 'Kristoph'],391,21,Q2
+NSW,Terry,[],0,0,Q2
+NSW,Toon Link,['Brockandorf', 'Zedi', 'Gords', 'Lumidyne', 'Bananafish', 'EiRiK', 'Zoltan'],121,10,Q2
+NSW,Villager,['Fruit', 'Yuzu'],86,2,Q2
+NSW,Wario,['Nyantic', 'Bass'],0,2,Q2
+NSW,Wii Fit Trainer,['DiabloPacket', 'Gregalope', 'Yuzu', 'Fruit'],45,6,Q2
+NSW,Wolf,['Trojans', 'Truth', 'Hyper', 'Matter', 'AboRoza', 'Kace Mono', 'BJSchoey', 'JDfreeUZI', 'Jim Cool', 'Freelandor', '2Girls1Gus', 'bounsies', 'Shaoweater', 'Weed'],2542,125,Q2
+NSW,Yoshi,['EmanSaur', 'Veness', 'Thorpenado', 'Techlord', 'Forrest'],4399,194,Q2
+NSW,Young Link,['TWIRLY', 'Vic', 'd2mv', 'Tru4', 'BOOTYMEAT', 'The Chuckstah'],467,30,Q2
+NSW,Zelda,['igNITR0', 'Gords', 'Lostish', 'Dag'],14,4,Q2
+NSW,Zero Suit Samus,['Trojans', 'Abard', 'Joe', 'Truth', 'Lain', 'Fruit', 'Yam'],1480,65,Q2
+SA,Bayonetta,['Saikou'],52,3,Q2
+SA,Bowser,['Vivi', 'Rasputin', 'Moth Plague', 'Dog Fort'],758,23,Q2
+SA,Bowser Jr.,['Taicho'],14,1,Q2
+SA,Captain Falcon,['Jon', 'im23bro', 'Mimco', 'TruckNutz', 'Goose', 'Nash'],283,15,Q2
+SA,Cloud,['Ike Nair', 'Moobar', 'Ninhon'],0,3,Q2
+SA,Corrin,['Q', 'TacoSpartan', 'Tideray'],175,14,Q2
+SA,Daisy,['Ghost', 'Paulek'],213,22,Q2
+SA,Dark Pit,['Bonk'],64,2,Q2
+SA,Dark Samus,['Dog Fort'],27,2,Q2
+SA,Diddy Kong,['Jon', 'Jacko', 'Odyssey'],174,16,Q2
+SA,Donkey Kong,['Fenno', 'Q', 'BLU'],362,16,Q2
+SA,Dr. Mario,['TJ'],32,1,Q2
+SA,Falco,[],0,0,Q2
+SA,Fox,['Con', 'Macka', 'Bentley', 'Aetos'],411,17,Q2
+SA,Ganondorf,['Ninhon', 'JoJooKyLo'],65,2,Q2
+SA,Greninja,['Taicho', 'Spicy', 'Faelyon'],1300,58,Q2
+SA,Ice Climbers,['Jon'],517,26,Q2
+SA,Ike,['BLU', 'Queen', 'Macka'],458,21,Q2
+SA,Incineroar,['Stabby J', 'Whissle', 'Goose'],60,5,Q2
+SA,Inkling,['Muscat', 'Q', 'Rust'],683,23,Q2
+SA,Jigglypuff,['TJ', 'Brin'],699,22,Q2
+SA,Joker,['Matt', 'Ghost', 'Eden', 'Tideray', 'Bizz', 'Odyssey', 'Andre', 'Con'],626,44,Q2
+SA,Ken,['Stabby J'],0,1,Q2
+SA,King Dedede,['Dean', 'Spewis', 'Mitchell'],86,4,Q2
+SA,King K. Rool,['Boom', 'Jacko', 'Whissle'],22,7,Q2
+SA,Kirby,['Ness'],47,4,Q2
+SA,Link,['Taco'],585,20,Q2
+SA,Lucario,['Mitchell'],0,1,Q2
+SA,Lucas,['Vix'],0,1,Q2
+SA,Lucina,['BLU', 'Spewis', 'Faelyon', 'Esca', 'Q'],823,38,Q2
+SA,Mario,['Ninhon', 'L33', 'Q', 'CaptainCoolade', 'Dubs'],396,18,Q2
+SA,Marth,['Q', 'Ike Nair', 'Yellow', 'Spewis'],18,6,Q2
+SA,Mega Man,['Vee', 'Jacko'],23,5,Q2
+SA,Metaknight,['Fenno', 'Jon', 'Vivi'],105,19,Q2
+SA,Mewtwo,['Ninhon'],63,1,Q2
+SA,Mii Brawler,['Nao-Cakes', 'Ghost'],562,26,Q2
+SA,Mii Swordfighter,['Yellow'],255,6,Q2
+SA,Mr. Game and Watch,['TJ'],0,1,Q2
+SA,Ness,['Ness', 'Dean', 'Yellow', 'JDash', 'TJ', 'Jack'],274,13,Q2
+SA,Pac-Man,[],0,0,Q2
+SA,Palutena,['BLU', 'Ghost', 'Jacko', 'Odyssey', 'Vix', 'Flow Rats', 'Q'],490,29,Q2
+SA,Peach,['Ghost', 'Paulek'],0,2,Q2
+SA,Pichu,['Yauhyeah', 'Q', 'Paulek'],606,20,Q2
+SA,Pikachu,['Dashie', 'Q', 'Balzac'],582,25,Q2
+SA,Piranha Plant,['Alecat', 'Runni Eggz'],0,5,Q2
+SA,Pit,['Q', 'Ness'],0,2,Q2
+SA,Pokémon Trainer,['Taicho', 'Spicy', 'Rasputin'],136,9,Q2
+SA,Random,['Q'],0,1,Q2
+SA,Richter,[],0,0,Q2
+SA,Ridley,['Dog Fort', 'Moth Plague'],898,43,Q2
+SA,ROB,['Oscar', 'Stawz', 'im23bro', 'Ninhon'],703,40,Q2
+SA,Robin,['F1shy'],59,3,Q2
+SA,Rosalina & Luma,['Fenno', 'King'],100,4,Q2
+SA,Roy,['Eden', 'Andre'],283,15,Q2
+SA,Samus,['Q', 'BLU'],388,12,Q2
+SA,Shulk,['Ninhon', 'Yellow'],458,22,Q2
+SA,Simon,['Rasputin'],0,2,Q2
+SA,Snake,['Stabby J', 'Oscar'],1093,43,Q2
+SA,Sonic,['Boom'],0,1,Q2
+SA,Toon Link,['Jon'],110,6,Q2
+SA,Villager,['Yellow', 'Odyssey', 'Nao-Cakes'],625,24,Q2
+SA,Wario,['Jon', 'Vivi'],140,6,Q2
+SA,Wii Fit Trainer,['BLU'],0,1,Q2
+SA,Wolf,['Aetos', 'Stawz', 'Dog Fort', 'Con'],1055,56,Q2
+SA,Yoshi,['Q', 'Nikes', 'Sloshi', 'Mitch', 'Christolaki'],1164,50,Q2
+SA,Young Link,['Nash'],67,2,Q2
+SA,Zelda,['Q', 'TacoSpartan'],94,3,Q2
+SA,Zero Suit Samus,['Andre', 'King', 'Spewis'],325,19,Q2
+ACT,Bayonetta,['yarb sarb'],0,1,Q2
+ACT,Bowser,['Juan', 'Flyingcat', 'yarb sarb', 'Hugh Jass', '6000j', 'Patrya'],1378,51,Q2
+ACT,Bowser Jr.,[],0,0,Q2
+ACT,Captain Falcon,['MapleMage', 'PhoenixRave'],25,2,Q2
+ACT,Chrom,['Jay', 'Sriks', 'Pazx', 'Ryuuji1901', 'Reshi'],280,21,Q2
+ACT,Cloud,['Inxtnc', 'Dumpy'],70,4,Q2
+ACT,Corrin,['Alice'],0,1,Q2
+ACT,Daisy,['Pazx', 'Skin'],28,9,Q2
+ACT,Dark Pit,[],0,0,Q2
+ACT,Dark Samus,['Inf', 'Bless', 'yarb sarb'],164,8,Q2
+ACT,Donkey Kong,[],0,0,Q2
+ACT,Dr. Mario,['yarb sarb', 'Inf'],57,3,Q2
+ACT,Falco,['4DT'],90,2,Q2
+ACT,Fox,['Adeptus'],0,1,Q2
+ACT,Ganondorf,['Boghara Stroganov', 'Ryuuji1901', 'Faulty', 'Jank Hill', 'BizzF', 'Mikael'],318,12,Q2
+ACT,Greninja,['Adeptus', 'Magpie'],204,17,Q2
+ACT,Ice Climbers,['yarb sarb'],0,1,Q2
+ACT,Ike,['Zxv', 'Butt'],46,4,Q2
+ACT,Incineroar,['Inf', 'Sriks'],0,2,Q2
+ACT,Inkling,['MapleMage', 'Damo', 'MCTimmyD', 'Alice'],439,27,Q2
+ACT,Isabelle,[],0,0,Q2
+ACT,Jigglypuff,['Zowayix', 'Flyingcat', 'yarb sarb'],407,23,Q2
+ACT,Joker,['Reshi', 'TJslash'],79,5,Q2
+ACT,Ken,['ruscur'],0,2,Q2
+ACT,King Dedede,['Hugh Jass', 'Dumpy'],0,2,Q2
+ACT,King K. Rool,['MapleMage', 'Danal', 'SlamFrunk!'],139,5,Q2
+ACT,Kirby,['Bless'],56,1,Q2
+ACT,Link,['DracoKnight', 'MapleMage', 'Daybo', 'James'],889,38,Q2
+ACT,Little Mac,[],0,0,Q2
+ACT,Lucario,[],0,0,Q2
+ACT,Lucas,['ft'],117,11,Q2
+ACT,Lucina,['Zowayix', 'Okkumi', 'Mikey', 'Hugh Jass'],59,6,Q2
+ACT,Mario,[],0,0,Q2
+ACT,Marth,['Hugh Jass'],0,1,Q2
+ACT,Mega Man,['Chat', 'PhoenixRave'],92,5,Q2
+ACT,Mewtwo,['Zowayix'],46,2,Q2
+ACT,Mii Swordfighter,['yarb sarb'],18,1,Q2
+ACT,Mr. Game and Watch,['<-2cm', 'Adeptus'],52,3,Q2
+ACT,Ness,['Doozy', 'Zesty', 'Bless', 'Abhi'],124,7,Q2
+ACT,Pac-Man,['yarb sarb', 'Okkumi'],1285,57,Q2
+ACT,Palutena,['Pazx', 'Reshi'],1747,80,Q2
+ACT,Peach,['Pazx', 'Danal'],405,13,Q2
+ACT,Pichu,['Zac', 'Joey'],52,6,Q2
+ACT,Pikachu,['Zac', 'TJslash'],16,5,Q2
+ACT,Pikmin & Olimar,['Bless', 'SJ Roasted'],105,5,Q2
+ACT,Piranha Plant,['Frog'],99,3,Q2
+ACT,Pit,[],0,0,Q2
+ACT,Pokémon Trainer,['yarb sarb', 'Reshi', 'Skin', 'Zac', 'MeatPi'],467,29,Q2
+ACT,Random,['yarb sarb', 'Bless', 'TJslash', 'PhoenixRave'],101,5,Q2
+ACT,Richter,['Cherry', 'yarb sarb'],1054,69,Q2
+ACT,Ridley,['Frog'],31,1,Q2
+ACT,ROB,['MAMP'],1060,43,Q2
+ACT,Robin,['Mikael'],0,2,Q2
+ACT,Rosalina & Luma,['TJslash'],191,6,Q2
+ACT,Roy,['Sriks', 'Thegoras', 'Juan'],392,19,Q2
+ACT,Ryu,[],0,0,Q2
+ACT,Samus,['Bless'],71,1,Q2
+ACT,Shulk,['BizzF'],0,1,Q2
+ACT,Simon,['Frog', 'Cherry', 'Hugh Jass'],1809,105,Q2
+ACT,Snake,['Tin Man', 'yarb sarb'],450,23,Q2
+ACT,Sonic,['Powar'],24,1,Q2
+ACT,Toon Link,[],0,0,Q2
+ACT,Villager,[],0,0,Q2
+ACT,Wario,['GVOL3'],0,2,Q2
+ACT,Wii Fit Trainer,['Inf', 'yarb sarb'],1442,59,Q2
+ACT,Wolf,['Pazx', 'Joey', 'Adeptus', 'SJ Groose'],396,18,Q2
+ACT,Yoshi,['<-2cm', 'TJslash'],0,3,Q2
+ACT,Young Link,['Boghara Stroganov', 'Apollo'],457,24,Q2
+ACT,Zelda,['Danal', 'JP'],97,3,Q2
+ACT,Zero Suit Samus,['JJ', 'TJslash', '6000j'],336,20,Q2
+WA,Bayonetta,['Cruzybecks'],0,2,Q2
+WA,Bowser,['Temper', 'RosalinaSama', 'Hellhammer', 'Sable', 'Hugh G Rection', 'BigWin | Beer'],1602,63,Q2
+WA,Bowser Jr.,['DehDehBeh'],221,13,Q2
+WA,Captain Falcon,['ChuJelly?~', 'Apollo', 'Sable', 'Jezzus', 'Floopiez', 'Orion'],390,13,Q2
+WA,Chrom,['Iggy Gee', 'Potanox'],96,9,Q2
+WA,Cloud,['jyetheguy', 'SP-lit', 'KingKing10', 'SpiltSpaghetti', 'Trent', 'Sundowns', 'MTO', 'Temper'],434,29,Q2
+WA,Corrin,['Valkallison', 'Nabnut', 'Hoga'],1050,38,Q2
+WA,Dark Pit,['Sable'],96,7,Q2
+WA,Dark Samus,['Sable', 'TinTin'],8,3,Q2
+WA,Diddy Kong,['Ever', 'Ttam', 'BigWin | Beer'],79,10,Q2
+WA,Donkey Kong,['Johan', 'Sable', 'Krystal', 'Smesty', 'Keutz'],1146,53,Q2
+WA,Dr. Mario,['Radz'],169,6,Q2
+WA,Falco,['Little Z', 'Subwaytime', 'Jezzus'],163,11,Q2
+WA,Fox,['TPZ', 'Krystal', 'Baeden', 'M'],471,28,Q2
+WA,Ganondorf,['Apollo', 'Oxytrexate', 'Ninjarisu', 'Rainbews', 'Radz', 'RosalinaSama'],169,11,Q2
+WA,Greninja,['Gresh', 'Sable', 'Little Z', 'Maxx Wizel', 'Trent'],1097,49,Q2
+WA,Ice Climbers,['Smesty'],383,23,Q2
+WA,Ike,['Orion', 'Sable', 'Smesty'],104,6,Q2
+WA,Incineroar,['Big Al', 'Zivhayr'],480,15,Q2
+WA,Inkling,['Gloomy', 'Turn Up', 'Aqua', 'Maribro'],1350,54,Q2
+WA,Jigglypuff,['Pr3zz', 'Pippy_Pal'],4,2,Q2
+WA,Joker,['YukiDraco', 'Ttam', 'TPZ', 'Rainbews', 'Dawnfire', 'grapesoda', 'Temper', 'Copycat'],2092,103,Q2
+WA,Ken,['Smesty', 'Sad'],70,8,Q2
+WA,King Dedede,['HBTV', 'huske', 'Shaunoh'],429,24,Q2
+WA,King K. Rool,['Jezzus', 'Little Z'],1106,46,Q2
+WA,Kirby,['Valkallison', 'Fabio', 'Radz'],175,6,Q2
+WA,Link,['Orion', 'Sable', 'Copycat'],1345,72,Q2
+WA,Little Mac,[],0,0,Q2
+WA,Lucario,['Temper'],0,1,Q2
+WA,Lucas,['Lachy'],181,8,Q2
+WA,Lucina,['Tempest', 'TPZ', 'Poppt1', 'Mattawho', 'Iggy Gee', 'Sable', 'KevinNyaa'],1667,95,Q2
+WA,Luigi,['Jarr', 'Hexicate'],1254,54,Q2
+WA,Mario,['Ttam', 'Fabio', 'RosalinaSama'],249,8,Q2
+WA,Marth,['Glaceon', 'Temper'],63,7,Q2
+WA,Mega Man,['Ever'],0,1,Q2
+WA,Metaknight,['Zobby', 'TinTin'],387,17,Q2
+WA,Mewtwo,['Hexicate', 'BDawg', 'Temper', 'MTO'],148,13,Q2
+WA,Mii Brawler,['Benjo', 'RosalinaSama'],116,8,Q2
+WA,Mii Gunner,['Sable', 'Benjo'],125,8,Q2
+WA,Mii Swordfighter,['Benjo', 'RosalinaSama'],748,30,Q2
+WA,Mr. Game and Watch,['Pr3zz'],1742,74,Q2
+WA,Ness,['Ever', 'HoAN', 'Poppt1', 'Tails', 'Shikasama', 'Hoodwink', 'Temper'],4117,208,Q2
+WA,Pac-Man,['RosalinaSama', 'Sleepy', 'Lachy'],55,9,Q2
+WA,Palutena,['Smesty', 'Temper', 'cmk', 'Lachy', 'NRC'],450,17,Q2
+WA,Peach,['Cruzybecks', 'Pippy_Pal', 'RosalinaSama'],152,4,Q2
+WA,Pichu,['Barney', 'YukiDraco', 'Wilson', 'Poppt1', 'Xerophyte'],800,58,Q2
+WA,Pikachu,['Pippy_Pal', 'Jaeger', 'Ninjarisu', 'KIC'],172,6,Q2
+WA,Pikmin & Olimar,['Temper'],107,10,Q2
+WA,Piranha Plant,['Temper', 'Chappos'],1169,51,Q2
+WA,Pokémon Trainer,['Copycat', 'Little Z', 'Asiatic', 'Nazzer', 'Pippy_Pal', 'Big Al', 'Big Green', 'Turn Up'],1488,64,Q2
+WA,Random,['ChuJelly?~', 'BigWin | Beer', 'LoneZen'],104,6,Q2
+WA,Richter,['Orion', 'Dascuugen', 'Neepson'],193,11,Q2
+WA,Ridley,['Barney', 'Copycat', 'kerry'],2244,105,Q2
+WA,ROB,['LoneZen', 'Spiffy', 'Zobby'],580,25,Q2
+WA,Robin,['Rocky'],1078,46,Q2
+WA,Rosalina & Luma,['RosalinaSama'],35,8,Q2
+WA,Roy,['Harfi', 'Smesty', 'SQD Ink', 'Lion (Mec)'],982,49,Q2
+WA,Samus,['RosalinaSama', 'Jezzus'],4,2,Q2
+WA,Shulk,['GreyMatter'],42,3,Q2
+WA,Simon,['RosalinaSama'],23,1,Q2
+WA,Snake,['KevinNyaa', 'Ttam', 'Suugarnips', 'Dascuugen', 'Darr'],1173,63,Q2
+WA,Sonic,['Futurecow', 'YukiDraco'],105,2,Q2
+WA,Villager,['HoAN'],169,6,Q2
+WA,Wario,['Little Z', 'Chappos'],753,33,Q2
+WA,Wii Fit Trainer,['Mattawho'],0,1,Q2
+WA,Wolf,['Johan', 'Pippy_Pal', 'BDawg', 'YGOduelistkosc', 'Nommad'],502,22,Q2
+WA,Yoshi,['Pippy_Pal', 'Potanox'],317,17,Q2
+WA,Young Link,['RMD', 'Adow', 'Rainbews', 'Turn Up', 'Sleepy'],201,14,Q2
+WA,Zelda,['RosalinaSama', 'Rocky', 'Lachy'],536,21,Q2
+WA,Zero Suit Samus,[],0,0,Q2
+NZ,Bayonetta,['iBexal', 'Dyl', 'Currypuffs', 'Wicca'],1539,56,Q2
+NZ,Bowser,['Ardeor', 'Rafifty', 'Jarcino', 'IcyK', 'Chegg'],1182,51,Q2
+NZ,Bowser Jr.,['Ichigo', '0zai'],211,4,Q2
+NZ,Captain Falcon,['Snow', 'B2k', 'Jogh', 'RAT', 'Wicca', 'joe', 'some bloke', 'E-Dude'],472,18,Q2
+NZ,Chrom,['Jermal', 'Orca', 'dragonlei1'],297,14,Q2
+NZ,Cloud,['Fank009', 'Orca', 'Boschey'],154,4,Q2
+NZ,Corrin,['Seliph', 'RhiOni', 'StarLeo'],99,5,Q2
+NZ,Dark Pit,['Double A', 'Seliph'],52,3,Q2
+NZ,Dark Samus,['Spotyus'],204,5,Q2
+NZ,Diddy Kong,['joe', 'Aluf'],87,3,Q2
+NZ,Donkey Kong,['ramble', 'eGo', 'Lllemon'],57,4,Q2
+NZ,Dr. Mario,['J2', 'cheese', 'dcs'],917,44,Q2
+NZ,Duck Hunt Duo,['ImSoChove'],0,1,Q2
+NZ,Falco,['DingyBingy', 'Jarcino', 'dingdongkid', 'RAT', 'Elderhide', 'BoyNextDoor'],198,13,Q2
+NZ,Fox,['Aluf', 'MortaL', 'iDeeKay', 'MiyKam', 'Elderhide'],1113,50,Q2
+NZ,Ganondorf,['joe', 'Narth', 'RAT', 'Flatfeet', 'Arahshii', 'some bloke', 'beachnik', 'Maruu'],739,37,Q2
+NZ,Greninja,['PONGUS', 'Shazzb0tt'],910,33,Q2
+NZ,Ike,['Double A', 'MortaL', 'Goosey Boy', 'Hori', 'Noamit', 'AbysmalAngel'],221,19,Q2
+NZ,Incineroar,['Scala', 'Blaz', 'stantheyeti', 'KFC'],118,8,Q2
+NZ,Inkling,['HikerNob', 'Shlamp', 'Fank009', 'ramble', 'vvv" | deerlord'],2247,90,Q2
+NZ,Jigglypuff,['Taurii'],306,10,Q2
+NZ,Joker,['GammaFox', 'Jogh', 'Orca', 'Mike', 'Blaz', 'Arahshii', 'Diviner', 'Taurii', 'dcs', 'iDeeKay', 'Maruu', 'Wicca', 'Miralis', 'MetaSlave '],1154,54,Q2
+NZ,Ken,['Aluf', 'Plaz', 'Ignis Fates', 'Gooley'],135,9,Q2
+NZ,King Dedede,['Aluf', 'Dog IRL', 'FIN'],30,4,Q2
+NZ,King K. Rool,['iBexal'],153,5,Q2
+NZ,Kirby,['joe', 'Aluf'],2,5,Q2
+NZ,Link,['Taka', 'British Rice', 'Valos', 'JoXaZe', 'Storm', 'Kruger'],176,12,Q2
+NZ,Little Mac,['dingdongkid', 'Jinxamus', 'B2k'],494,17,Q2
+NZ,Lucario,['dcs'],60,1,Q2
+NZ,Lucas,['Expand__Dong', 'Duoface', 'Arrowskee'],104,11,Q2
+NZ,Lucina,['Aluf', 'mizu', 'Jinxamus', 'Hori', 'KFC', 'Orca', 'HikerNob', 'Maruu'],1689,86,Q2
+NZ,Mario,['Aluf', 'Jermal', 'GammaFox', 'B2k'],571,50,Q2
+NZ,Marth,['Noisy Boy', 'Fank009', 'Orca', 'Jogh'],138,5,Q2
+NZ,Mega Man,['dingdongkid'],584,24,Q2
+NZ,Metaknight,['Aluf'],59,7,Q2
+NZ,Mewtwo,['Aluf', 'Cusmo', 'Dolo'],1,4,Q2
+NZ,Mii Brawler,['Aluf', 'Queue', 'BreeD'],63,4,Q2
+NZ,Mii Gunner,['Aluf', 'KFC'],144,8,Q2
+NZ,Mii Swordfighter,['Aluf', 'pap5er', 'Arrowskee'],14,5,Q2
+NZ,Mr. Game and Watch,['Vontell'],0,1,Q2
+NZ,Ness,['SBOmega', 'Phases', 'Durameter'],697,32,Q2
+NZ,Pac-Man,['Aluf', 'British Rice'],252,17,Q2
+NZ,Palutena,['Aluf', 'Taurii', 'GammaFox', 'Beep', 'Viny', 'KFC', 'Maruu', 'Orca', 'Durameter'],595,29,Q2
+NZ,Peach,['Unladen', 'BlueVapour'],31,3,Q2
+NZ,Pichu,['Red', 'Bozzie'],1048,36,Q2
+NZ,Pikachu,['Kingo', 'joe', 'FloiFlob', 'Bozzie', 'Maruu'],275,16,Q2
+NZ,Piranha Plant,['stantheyeti', 'Arrowskee'],490,22,Q2
+NZ,Pit,['Ichigo', 'MiyKam'],352,11,Q2
+NZ,Pokémon Trainer,['Taurii', 'MULE', 'Durameter', 'Lima'],56,8,Q2
+NZ,Random,['YaMumNz', 'Shlamp'],41,2,Q2
+NZ,Richter,['CherryPanda', 'iDeeKay', 'Viny'],559,15,Q2
+NZ,Ridley,['Cusmo', 'BoyNextDoor', 'Tejido'],246,6,Q2
+NZ,ROB,['Big Schmango', 'Boschey', 'Shlamp'],123,4,Q2
+NZ,Robin,['stantheyeti'],41,2,Q2
+NZ,Rosalina & Luma,['Taurii'],55,2,Q2
+NZ,Roy,['Ichigo', 'Mook', 'Noisy Boy', 'Orca', 'iDeeKay', 'HarshJello'],602,25,Q2
+NZ,Sheik,['Cusmo', 'KFC', 'Akabird'],36,6,Q2
+NZ,Shulk,['BoozeBender'],0,1,Q2
+NZ,Simon,['iDeeKay'],43,1,Q2
+NZ,Snake,['eGo', 'Aluf', 'PONGUS', 'dcs'],265,18,Q2
+NZ,Sonic,['pap5er', 'joe'],0,3,Q2
+NZ,Toon Link,['Taka', 'pap5er'],574,26,Q2
+NZ,Villager,['Uepa', 'Blaz', 'N0skiII', 'joe'],988,28,Q2
+NZ,Wario,['iDeeKay', 'ImSoChove'],276,14,Q2
+NZ,Wii Fit Trainer,['CubT'],42,3,Q2
+NZ,Wolf,['cheese', 'La_Lapin', '0zai', 'Orca', 'Ayowddupmang', 'Maruu', 'Spoo'],984,42,Q2
+NZ,Yoshi,['stantheyeti', 'Åsh', 'GGSammy', 'Kdog', 'Dolo', 'CubT', 'cheese', 'Wicca', 'Chegg', 'Red'],2235,104,Q2
+NZ,Young Link,['AbysmalAngel', 'J2', 'Knee', 'Taka', 'Mook', 'Double A', 'cheese'],296,17,Q2
+NZ,Zelda,['Aluf', 'Akabird'],440,26,Q2
+NZ,Zero Suit Samus,['FIN', 'Amber', 'AmCan'],77,6,Q2
+VIC,Bayonetta,['P9', 'w00tkins'],179,10,Q2
+VIC,Bowser,['Gary', 'Booper', 'Mast', 'Skitter', 'YousomoKazefu', 'Grim', 'Stroodleornah', 'Antwerp'],924,55,Q2
+VIC,Bowser Jr.,['Fishy'],183,5,Q2
+VIC,Captain Falcon,['Migs', 'Extra', 'Sodaman', 'BigChilli', 'Simple', 'Yellow', 'Jash', 'Banjo String', 'Chin', 'Pandux', 'Xettman', 'Jazzy', 'Gwola', 'DN', 'Flow'],503,36,Q2
+VIC,Chrom,['Princess', 'KingKobruh', 'P9', 'Saber', 'JASP', 'Mar', 'Mast', 'Lord Femto', 'Sandman'],163,26,Q2
+VIC,Cloud,['Zaki', 'Arnie', 'Kevvlar', 'The Crynek', 'Hunta', 'Aya', 'Corvid', 'dunkMATTic', 'JASP', 'Jules'],1314,80,Q2
+VIC,Corrin,['Kimah', 'Corvid', 'JASP'],196,15,Q2
+VIC,Daisy,['Grim', 'Shen'],0,3,Q2
+VIC,Dark Pit,['RaZe'],1197,57,Q2
+VIC,Dark Samus,['Microsoft J', 'Kevvlar', 'Comma'],71,6,Q2
+VIC,Diddy Kong,['DD', 'Piski', 'Murkiri'],195,16,Q2
+VIC,Donkey Kong,['B-2', 'Haris', 'AllGameNoTalk', 'Kong', 'King', 'cuminpant', 'Alan', 'Dr Omega', 'DD', 'Wiener', 'Gwola'],1654,75,Q2
+VIC,Dr. Mario,['Dampé'],184,3,Q2
+VIC,Falco,['Dampé', 'Earl', 'Extra', 'CMoon', 'Crozzy', 'Pandux', 'Corvid', 'Nothing', 'Jayd', 'Andrew'],2147,89,Q2
+VIC,Fox,['Duon', 'Catburger', 'Nevarc', 'Murkiri', 'Shen', 'Nothing', 'Chin', 'paradox', 'Mar', 'Coward', 'SKG', 'shockwave', 'Sandman'],1868,83,Q2
+VIC,Ganondorf,['Dan', 'MGK', 'Simple', 'Dampé', 'Rap Breon', 'Daddy Ganny', 'Jazzy', 'Staunch', 'RaZe', 'Pat Sanders', 'Dom', 'SKG', 'Sei', 'Ketchup', 'AllGameNoTalk', 'Gary'],1267,79,Q2
+VIC,Greninja,['No Skills', 'Ergon', 'Dr Omega', 'Skitter', 'nate', 'VeloCitY', 'Isyuhaye', 'Naga', 'Arc', 'Prism', 'RaZe', 'Duon', 'JASP'],3147,152,Q2
+VIC,Ice Climbers,['nate', 'Princess', 'Kaito'],127,16,Q2
+VIC,Ike,['Zaki', 'Insie', 'Dragunov', 'Jayd', 'Pat Cash', 'Arnie', 'Rren'],4179,212,Q2
+VIC,Incineroar,['Booper', 'Hazzacka', 'Pat Sanders', 'Insie', 'Corvid'],238,12,Q2
+VIC,Inkling,['Havok', 'Sodaman', 'Sim', 'Flow', 'Corvid', 'Googers', 'dunkMATTic', 'SebPro101', 'ABXY', 'Stroodleornah', 'Jaypam', 'B-2', 'Catburger', 'DD'],4958,251,Q2
+VIC,Isabelle,['B-2', 'Queenie', 'P9'],0,3,Q2
+VIC,Jigglypuff,[],0,0,Q2
+VIC,Joker,['Zaki', 'B-2', 'Arkio', 'RaZe', 'Googers', 'T-Bone', 'Saber', 'Supernova', 'Animegamelover63', 'Earl', 'Dampé', 'DD', 'Bussy', 'Ignis', 'P9', 'SebPro101', 'Fortune', 'Tomo009', 'Corvid', 'Neoblade', 'cuminpant', 'Princess'],3554,193,Q2
+VIC,Ken,['Zaki', 'Mar', 'Umtard', 'DD'],279,18,Q2
+VIC,King Dedede,['cag', 'Static', 'Aya', 'Low', 'Dese', 'Legato'],757,37,Q2
+VIC,King K. Rool,['Gary', 'Jazzy', 'Booper', 'John', 'Dampé', 'Jdizzle', 'DD', 'Corvid'],1174,52,Q2
+VIC,Kirby,['Kevvlar', 'Red'],21,4,Q2
+VIC,Link,['Chibi', 'JASP', 'Xettman', 'Wings', 'Mr. Mc Guffin', 'Nova', 'Ignis'],542,27,Q2
+VIC,Little Mac,['T.boy', 'OnePhoAll', '2Simple'],1969,99,Q2
+VIC,Lucario,['Deez', 'Toffee', 'Kimah', 'VeloCitY', 'Jazzy'],513,36,Q2
+VIC,Lucas,['dollarydoos', 'Jamwa', 'longboy'],1352,59,Q2
+VIC,Lucina,['El', 'Jayd', 'iB', 'blas', 'Saber', 'Haris', 'Catburger', 'SKG', 'Ledge', 'Lizam', 'Bussy', 'Jaypam', 'Leliel', 'Migs', 'Corvid', 'Ketchup', 'SebPro101', 'Zee'],2726,137,Q2
+VIC,Luigi,['FoxStar'],0,1,Q2
+VIC,Mario,['Corvid', 'Ignis', 'P9', 'Gwola', 'JASP', 'Alpal'],542,25,Q2
+VIC,Marth,['Dampé', 'Jayd', 'El', 'Mar'],92,6,Q2
+VIC,Mega Man,['Techless', 'Aya', 'DD', 'Gary'],416,37,Q2
+VIC,Metaknight,['Melotech', 'Corvid'],125,8,Q2
+VIC,Mewtwo,['Jash', 'Ergon', 'Hazzacka'],176,12,Q2
+VIC,Mii Brawler,['Spaz'],0,2,Q2
+VIC,Mii Gunner,['Revax'],579,23,Q2
+VIC,Mii Swordfighter,['Danklin', 'Dyna_Hole', 'Fortune'],1857,104,Q2
+VIC,Mr. Game and Watch,['DD', 'Extra', 'Bussy', 'VineGreen'],853,56,Q2
+VIC,Ness,['Biggles', 'Chin', 'Hijoord', 'nihao', 'JASP'],205,12,Q2
+VIC,Pac-Man,['VineGreen'],2733,119,Q2
+VIC,Palutena,['Ignis', 'Princess', 'Dragunov', 'dunccy', 'Snowpoint', 'Julian K', 'Xambie'],4522,204,Q2
+VIC,Peach,['Catburger', 'Shen', 'bebop'],1027,58,Q2
+VIC,Pichu,['Havok', 'KmS', 'Sandman', 'Hunta', 'John', 'B-2'],2306,123,Q2
+VIC,Pikachu,['Piski', 'Duon', 'Banjo String', 'Orphen', 'Alan', 'Alpal'],1889,97,Q2
+VIC,Pikmin & Olimar,['Piski', 'Corvid', 'Jazzy', 'Naruto', 'Banjo String'],67,10,Q2
+VIC,Piranha Plant,['Toffee', 'Extra', 'Jazzy'],61,4,Q2
+VIC,Pit,['RaZe', 'AquaClaw'],335,12,Q2
+VIC,Pokémon Trainer,['Corvid', 'Neoblade', 'SebPro101', 'Dr Omega', 'Proph', 'Pudge', 'haiku'],3468,153,Q2
+VIC,Random,['DD', 'Gary'],91,9,Q2
+VIC,Richter,['Nevarc', 'TukkaBag', 'Mar', 'Corvid'],5,8,Q2
+VIC,Ridley,['Gary', 'Booper', 'Daddy Ganny', 'Corvid'],951,70,Q2
+VIC,ROB,['MarchOfHell', 'MasterofDisaster', 'Jaypam', 'SebPro101', 'Robit', 'Splice', 'Extra', 'Danza', 'Tomie', 'Banjo String', 'Auselote'],4228,208,Q2
+VIC,Robin,['Bussy', 'Skitter', 'Naga', 'AquaClaw', 'Asura'],976,49,Q2
+VIC,Rosalina & Luma,['Techless'],219,21,Q2
+VIC,Roy,['Mast', 'Duon', 'Fortune', 'Murkiri', 'Arnie', 'Sandman', 'Guyanide'],1396,73,Q2
+VIC,Ryu,['Mar', 'Pat Sanders'],436,17,Q2
+VIC,Samus,['Whis Dom', 'Dogivet', 'Kevvlar', 'MrJibs', 'Comma', 'TheVegabus'],932,37,Q2
+VIC,Sheik,['Hunta', 'DD_', 'Chin'],222,12,Q2
+VIC,Shulk,['Conan', 'Supernova', 'Deez', 'Kaito', 'Whis Dom'],789,43,Q2
+VIC,Simon,['Nevarc'],0,1,Q2
+VIC,Snake,['Bussy', 'Tomie', 'Duon', 'Sandman', 'DD', 'BigChilli', 'Mar', 'Raid', 'Jash', 'uwu'],8430,430,Q2
+VIC,Sonic,['Sliith'],0,2,Q2
+VIC,Terry,[],0,0,Q2
+VIC,Toon Link,['Becchino'],186,6,Q2
+VIC,Villager,['P9', 'B-2', 'Jayd', 'SebPro101', 'Gwola', 'Mikki'],3191,144,Q2
+VIC,Wario,['DD', 'Sodaman', 'DD_', 'Dampé', 'B-2'],2228,120,Q2
+VIC,Wii Fit Trainer,['Sir Banana', 'Cool Mum', 'Jaypam', 'FoxStar', 'Tekk', 'Matty', 'BlitzkrieG'],2014,82,Q2
+VIC,Wolf,['iB', 'TinkFloyd', 'Aya', 'Bobby', 'Insie', 'Mast', 'dunccy', 'Spaz', 'Fiskit', 'Haris', 'Arnie', 'Fortune', 'B-2', 'Murkiri', 'Kaito', 'Corvid', 'KmS', 'John', 'Booper', 'Denz', 'Guyanide', 'pk', 'Extra', 'Ollie', 'LooseGoose', 'SebPro101'],4571,207,Q2
+VIC,Yoshi,['Dylba', 'dunkMATTic', 'Jazzy', 'Slimboy17', 'DD', 'Sweens', 'P8', 'Nicks', 'F!zzi', 'Jei', 'Jash', 'B-2', 'Nick'],4806,239,Q2
+VIC,Young Link,['Jdizzle', 'Insie', 'Duon', 'DD', 'P9', 'CG90', 'Zaki', 'Mar', 'Ketchup', 'Corvid', 'Hunta'],2340,131,Q2
+VIC,Zelda,['GotMilk', 'Falchion', 'Darkness', 'MrJibs', 'Jazzy', 'Epitome', 'Leliel'],3306,129,Q2
+VIC,Zero Suit Samus,['Princess', 'Pat Cash', 'Little Mark', 'Timic83', 'Fortune', 'Digbick', 'Mistletoe'],1897,134,Q2
+TAS,Cloud,[],0,0,Q2
+TAS,Daisy,[],0,0,Q2
+TAS,Dark Pit,[],0,0,Q2
+TAS,Donkey Kong,[],0,0,Q2
+TAS,Fox,[],0,0,Q2
+TAS,Greninja,[],0,0,Q2
+TAS,Ike,[],0,0,Q2
+TAS,Joker,[],0,0,Q2
+TAS,Lucina,[],0,0,Q2
+TAS,Marth,[],0,0,Q2
+TAS,Mega Man,[],0,0,Q2
+TAS,Mii Gunner,[],0,0,Q2
+TAS,Mii Swordfighter,[],0,0,Q2
+TAS,Mr. Game and Watch,[],0,0,Q2
+TAS,Ness,['Kraw'],270,6,Q2
+TAS,Palutena,['Luma'],148,7,Q2
+TAS,Peach,[],0,0,Q2
+TAS,Pichu,[],0,0,Q2
+TAS,Piranha Plant,[],0,0,Q2
+TAS,Pokémon Trainer,['Luma'],8,2,Q2
+TAS,Shulk,[],0,0,Q2
+TAS,Simon,[],0,0,Q2
+TAS,Snake,[],0,0,Q2
+TAS,Wolf,[],0,0,Q2
+TAS,Yoshi,[],0,0,Q2
+TAS,Young Link,[],0,0,Q2
+TAS,Zelda,[],0,0,Q2
+INT,Bowser,['Lord Snackington'],0,3,Q2
+INT,Captain Falcon,['chuan'],0,2,Q2
+INT,Chrom,[],0,0,Q2
+INT,Cloud,[],0,0,Q2
+INT,Corrin,[],0,0,Q2
+INT,Daisy,[],0,0,Q2
+INT,Dark Pit,[],0,0,Q2
+INT,Donkey Kong,[],0,0,Q2
+INT,Falco,[],0,0,Q2
+INT,Fox,[],0,0,Q2
+INT,Ganondorf,['Vermanubis'],0,2,Q2
+INT,Greninja,['Techno'],0,10,Q2
+INT,Ike,[],0,0,Q2
+INT,Inkling,['Kyeean', 'Hackoru'],0,4,Q2
+INT,Isabelle,['jordenjorden'],0,1,Q2
+INT,Joker,[],0,0,Q2
+INT,Ken,[],0,0,Q2
+INT,Link,[],0,0,Q2
+INT,Little Mac,[],0,0,Q2
+INT,Lucas,[],0,0,Q2
+INT,Lucina,['Kyeean'],0,1,Q2
+INT,Mario,[],0,0,Q2
+INT,Marth,[],0,0,Q2
+INT,Mega Man,[],0,0,Q2
+INT,Metaknight,[],0,0,Q2
+INT,Mii Swordfighter,[],0,0,Q2
+INT,Mr. Game and Watch,[],0,0,Q2
+INT,Ness,[],0,0,Q2
+INT,Palutena,['Lord Snackington'],0,2,Q2
+INT,Peach,['Tommella'],0,21,Q2
+INT,Pichu,['NAKAT'],0,1,Q2
+INT,Pokémon Trainer,[],0,0,Q2
+INT,Richter,['Lyonaris'],0,1,Q2
+INT,Ridley,[],0,0,Q2
+INT,ROB,[],0,0,Q2
+INT,Robin,[],0,0,Q2
+INT,Roy,[],0,0,Q2
+INT,Sheik,['Techno'],0,1,Q2
+INT,Shulk,[],0,0,Q2
+INT,Simon,['Lyonaris'],0,2,Q2
+INT,Snake,['Kyeean', 'Hackoru'],0,2,Q2
+INT,Villager,[],0,0,Q2
+INT,Wario,[],0,0,Q2
+INT,Wii Fit Trainer,[],0,0,Q2
+INT,Wolf,['InKognito'],0,4,Q2
+INT,Yoshi,[],0,0,Q2
+INT,Young Link,[],0,0,Q2
+INT,Zero Suit Samus,[],0,0,Q2
+QLD,Banjo & Kazooie,['Mint2', 'Milis', 'Verse', 'Jett', 'MrHoboBob', 'Luminescent', 'Breezy', 'Xondrell', 'Mastodon', 'Kaboose', 'Lt', 'Exist'],1887,103,Q3
+QLD,Bayonetta,['PillowTalk', 'Astra+', 'Cajeck', 'Fly', 'Gameraid453', 'Linoone'],1140,39,Q3
+QLD,Bowser,['Mint2', 'Flamboyanthamster', 'Ben Gold', 'ZethG', 'Jett', 'DimiChrys', 'Atare', 'Negima', 'Doziam', 'C Biscuit', 'Hammerhead96', 'Milis', 'Kurogane Hammer', 'Mittens', 'Rababity', 'Ryan', 'SeaborneThrone', 'PapaCheese', 'Syke', 'Cajeck'],5040,259,Q3
+QLD,Bowser Jr.,['Aurion', 'Aidento', 'CLEH', 'BattleDolphin'],393,22,Q3
+QLD,Captain Falcon,['Conductus', 'Iroh', 'SnowiestAngeman', 'hezzadude12', 'Cal', 'PlurpleNurple', 'Zeus', 'Revlis', 'conso'],872,49,Q3
+QLD,Chrom,['Latex', 'Omta', 'FC', 'Breezy', 'SiqNiq', 'Flex', 'LUSH'],312,23,Q3
+QLD,Cloud,['Nitzayra', 'CroW', 'Kwaksy', 'Toilet Store', 'SpaZzy', 'Epsilon'],89,20,Q3
+QLD,Corrin,['Nitzayra', 'Recon', 'Churropon'],93,7,Q3
+QLD,Daisy,['Aurion'],173,7,Q3
+QLD,Dark Pit,['Gustav'],0,2,Q3
+QLD,Dark Samus,['Python', 'Cmonster'],929,38,Q3
+QLD,Diddy Kong,['UMKO', 'Delve', 'MP', 'Toketchan'],475,24,Q3
+QLD,Donkey Kong,['Artery', 'Recon', 'Tom', 'Branyb', 'Omta', 'Cajeck', 'Taishi', 'Breezy', 'SnowiestAngeman', 'Flex', 'Will05thom', 'DareDevil01', 'Crabfish', 'Toketchan', 'noobar', 'Kwaksy', 'Delve', 'Will'],1457,97,Q3
+QLD,Dr. Mario,['Exist', 'DaddyMD', 'Cajeck', 'Fiasco', 'conso'],861,46,Q3
+QLD,Duck Hunt Duo,['Kwaksy', 'Aurion'],63,8,Q3
+QLD,Falco,['theninja420', 'Stacked', 'XuDong', 'schooner', 'Blurry', 'Bigfatelli', 'Boost', 'Sam', 'Sam Drew'],2014,95,Q3
+QLD,Fox,['Fly', 'Bigfatelli', 'Taishi', 'InfamousL', 'Dark Knight', 'Himbo', 'Johzyn', 'Spammage', 'Joz.'],1997,95,Q3
+QLD,Ganondorf,['Vye', 'Cmonster', 'DaddyMD', 'Brennn', 'Aurion', 'Kaboose', 'Cajeck', 'Will05thom', 'Ryan', 'ApolloCJ', 'Loki', 'Recon', 'Joz.', 'Kwaksy', 'Jyoshi', 'FC', 'Will'],2516,134,Q3
+QLD,Greninja,['toucan man', 'Aurion', 'Diddle', 'Zyphenor', 'Aki', 'Jonkey', 'Sifo1', 'Azriel'],1285,62,Q3
+QLD,Hero,['Negima', 'Aurion', 'Rainth', 'Ether', 'Kaboose', 'Sam Drew', 'Code_E', 'Fly', 'Kurogane Hammer', 'Himbo', 'Atare', 'Mx', 'Talie', 'Lt', 'SiqNiq', 'SpaZzy'],1059,54,Q3
+QLD,Ice Climbers,['Spammage'],872,60,Q3
+QLD,Ike,['Joz.', 'Ari', 'Jem', 'SpaZzy', 'Jumbuck', 'EJ', 'Hammerhead96', 'Recon', 'tohmais'],2806,196,Q3
+QLD,Incineroar,['Fly', 'Gravydice', 'Kaboose', 'Smog', 'Mr Fungasm'],2628,124,Q3
+QLD,Inkling,['Toketchan', 'Negima', 'Antec', 'Wildermold', 'Crabfish', 'CarrotAxe', 'Jyoshi', 'DFS', 'Seymour Butts', 'eggggg', 'Crozzy', 'Baead', 'Delve', 'Z-MAGGOT95'],1848,111,Q3
+QLD,Isabelle,['goob', 'Floating Stools', 'Diddle', 'Joser'],581,23,Q3
+QLD,Jigglypuff,['BattleDolphin', 'TheJazzyman', 'Cajeck', 'Bigfatelli', 'Blaze'],1032,64,Q3
+QLD,Joker,['Vye', 'Rews', 'Joser', 'DFS', 'Churropon', 'Meliame', 'Astra+', 'Negima', 'brayd0z', 'Lomar', 'PillowTalk', 'Enma', 'SpaZzy', 'Antec', 'Poporun', 'Dags', 'Thompsinus', 'Raibok', 'Timtam', 'Toketchan', 'Fingrtrouble', 'barcus'],7238,351,Q3
+QLD,Ken,['Shadrew', 'SpaZzy', 'WeedLan', 'JuicyJust1n', 'Fingrtrouble'],1671,130,Q3
+QLD,King Dedede,['Joser', 'Milis', 'Exist', 'Murke', 'Senky', 'noobar', 'XDDD', 'Bean', 'Zunjo', 'BattleDolphin'],4456,207,Q3
+QLD,King K. Rool,['Jix', 'Ben Gold', 'Aurion', 'Taishi', 'Michi', 'Will05thom', 'Jett', 'Brennn', 'MP', 'Johzyn', 'Boost', 'JANGLIO!', 'Dags'],2082,96,Q3
+QLD,Kirby,['BattleDolphin', 'KaiDASH', 'Zunjo', 'DareDevil01', 'asa'],926,49,Q3
+QLD,Link,['Darklight', 'OmegaPirate28', 'Lt', 'Mx', 'Thompsinus', 'Narcissus', 'Supa', 'Rews'],1272,56,Q3
+QLD,Little Mac,['squidfist', 'Skitz', 'Crozzy'],0,4,Q3
+QLD,Lucario,['ras', 'Aurion'],972,32,Q3
+QLD,Lucas,['Mabi', 'XuDong', 'Floating Stools', 'Nicc', 'Jay Gee'],2300,109,Q3
+QLD,Lucina,['SadHour', 'Joz.', 'DimiChrys', 'Scrail', 'Cupu', 'Johzyn', 'OohSpooky', 'asa', 'FC', 'Sam Drew'],1661,111,Q3
+QLD,Luigi,['GBread', 'Boost', 'Raibok', 'InfamousL', 'Jay Gee', 'Cajeck'],1415,58,Q3
+QLD,Mario,['Spoony', 'Hashimo', 'Pickle', 'Jix', 'Mastodon', 'Monarch', 'LUSH', 'CLEH'],1345,66,Q3
+QLD,Marth,['Aurion', 'SnowiestAngeman', 'SpaZzy', 'Diddle'],130,9,Q3
+QLD,Mega Man,['Xondrell', 'Slash', 'Shitashi', 'Yean'],2102,164,Q3
+QLD,Metaknight,['Pinkie', 'Murke', 'Flex', 'Himbo'],2802,140,Q3
+QLD,Mewtwo,['Mint2', 'Joz.', 'Zunjo', 'Aurion', 'Hammerhead96', 'Monarch'],1430,84,Q3
+QLD,Mii Brawler,['KaiDASH', 'Skullkid'],906,48,Q3
+QLD,Mii Gunner,['Diddle', 'Floating Stools', 'Serein', 'Himbo'],152,7,Q3
+QLD,Mii Swordfighter,['BattleDolphin', 'Negima'],1658,78,Q3
+QLD,Mr. Game and Watch,['Gravydice', 'Mittens', 'Blizzy', 'eggggg', 'Aidento', 'Toketchan', 'McJobo'],776,44,Q3
+QLD,Ness,['TheJazzyman', 'Kwaksy', 'BattleDolphin', 'Cap', 'Blaze', 'Delve', 'ALP1NE', 'Prince', 'Cagey', 'theninja420', 'Pyro', 'DimiChrys', 'Aki', 'Money_Doller', 'Jay Gee'],8673,427,Q3
+QLD,Pac-Man,['Blizzy', 'Toilet Store', 'Timtam', 'Xondrell', 'Zunjo'],538,34,Q3
+QLD,Palutena,['FC', 'Cajeck', 'ApolloCJ', 'Brennn', 'Crimson', 'Pielord', 'MysteriousMr.E', 'Stilts', 'ClassicJono', 'Blaze', 'Recon', 'Aurion'],6682,354,Q3
+QLD,Peach,['Bigfatelli', 'Blizzy', 'Aaron', 'Recon'],113,5,Q3
+QLD,Pichu,['RoZ', 'Gravitas', 'Nicc'],194,20,Q3
+QLD,Pikachu,['DFS', 'SoMa', 'Pielord', 'Sifo1', 'Mastodon', 'EpicTiffy', 'Raibok', 'Nicc', 'BoingBoing'],1308,57,Q3
+QLD,Pikmin & Olimar,['Himbo', 'Boost'],51,2,Q3
+QLD,Piranha Plant,['Zunjo', 'Aidento', 'GrindGod', 'Raibok', 'AndyStandy'],1111,61,Q3
+QLD,Pit,['RedRider65', 'MP', 'Wildermold', 'Gameraid453'],484,14,Q3
+QLD,Pokémon Trainer,['Gekk-0h', 'Recon', 'Limit', 'BoingBoing', 'Parralize', 'Thatch', 'Snuggles', 'Negima', 'Mastodon', 'Money_Doller', 'Rews', 'Fly', 'Verse', 'schooner', 'Patch', 'Raibok', 'Delve', 'Patchy'],3599,162,Q3
+QLD,Random,['Jix', 'Joser', 'Cajeck'],75,6,Q3
+QLD,Richter,[],0,0,Q3
+QLD,Ridley,['Diddle', 'Prince', 'hezzadude12', 'MetaBhreat', 'Cmonster', 'Hammerhead96', 'ClassicJono', 'Wildermold'],3429,174,Q3
+QLD,ROB,['Weeb', 'Swate', 'Kazuma', 'JANGLIO!', 'Mastodon', 'Verse'],3674,169,Q3
+QLD,Robin,['HeaL', 'Belph', 'FC', 'Churropon', 'Himbo', 'Aurion'],223,18,Q3
+QLD,Rosalina & Luma,['PillowTalk', 'Jaice'],58,6,Q3
+QLD,Roy,['Churropon', 'SiqNiq', 'Recon', 'T-ReX', 'LUSH'],1259,67,Q3
+QLD,Ryu,['Diddle', 'WeedLan'],83,6,Q3
+QLD,Samus,['Python', 'DFS', 'Kwaksy'],840,40,Q3
+QLD,Sheik,['Cajeck', 'LUSH'],135,13,Q3
+QLD,Shulk,['Churropon', 'Darklight', 'RedRider65', 'Aurion', 'Kaboose', 'ZipperTheRipper', 'OohSpooky', 'Fly'],200,22,Q3
+QLD,Simon,['Cap', 'Thatch'],70,9,Q3
+QLD,Snake,['ZipperTheRipper', 'Loki', 'SadHour', 'Latex', 'Weeb', 'Recon', 'Cmonster', 'Serein', 'Michi', 'Kaboose', 'Hmm', 'Rainth', 'Toketchan'],1388,80,Q3
+QLD,Sonic,['SpaZzy', 'GrindGod', 'Blizzy', 'TheJazzyman'],2318,119,Q3
+QLD,Terry,['Negima'],2442,143,Q3
+QLD,Toon Link,['Umbrella', 'Vye', 'Ash', 'Aidento'],1270,46,Q3
+QLD,Villager,['Gravydice'],0,4,Q3
+QLD,Wario,['Gravydice', 'Boost', 'Himbo', 'Fly', 'GBread', 'Johzyn', 'Omta', 'McJobo'],1063,57,Q3
+QLD,Wii Fit Trainer,['squidfist', 'Dags', 'Luminescent', 'Jojo', 'Toilet Store'],4346,196,Q3
+QLD,Wolf,['Gravydice', 'Antec', 'Aurion', 'JANGLIO!', 'Faora', 'Crimson', 'Jumbuck', 'Michi', 'Kurogane Hammer', 'Hammerhead96', 'Truckaz', 'Lt', 'Bigfatelli', 'Breezy', 'Loki'],4853,245,Q3
+QLD,Yoshi,['Radiant Pheonix', 'Xondrell', 'Aki', 'Stilts', 'Seymour Butts', 'Yo-Yo'],746,40,Q3
+QLD,Young Link,['Xondrell', 'MrHoboBob', 'Blaze', 'Chow', 'OmegaPirate28', 'Kwaksy', 'Jyoshi', 'Smog', 'Verse', 'Rainth', 'Milis', 'Umbrella', 'DimiChrys'],387,36,Q3
+QLD,Zelda,['Fly', 'HeaL', 'Talie', 'Umbrella', 'Rababity', 'Bigfatelli'],1769,71,Q3
+QLD,Zero Suit Samus,['Yean', 'Kazuma', 'Jett', 'Fly', 'Suspect', 'OohSpooky', 'Jarrod', 'Daddy.', 'Moo'],161,16,Q3
+NSW,Banjo & Kazooie,['Enn', 'Killy', 'Purple~H', 'Kanga.exe', 'Spike', 'Veness', 'bounsies', 'Lumidyne', 'Invisi', 'FumbleJr', 'Joe', 'Johtothan'],848,44,Q3
+NSW,Bayonetta,['Lain', 'Kanako', 'Abadingo', 'Newiee'],510,24,Q3
+NSW,Bowser,['Staunch', 'AT LOWES', 'Valyfor', 'FumbleJr', 'MegaloManiAsh', 'Trojans'],1174,62,Q3
+NSW,Bowser Jr.,['Spike', 'FumbleJr'],3279,176,Q3
+NSW,Captain Falcon,['Spike', 'Trojans', 'Fez', 'Speedy Geblin', 'Pierce', 'Truth'],399,23,Q3
+NSW,Chrom,['Johtothan', 'Vic', 'Fez', 'Nyantic', 'Faust', 'EmanSaur', 'Shmu', 'Sherwood', 'TurtleCat', 'Truth'],2413,107,Q3
+NSW,Cloud,['Zedi', 'Vic', 'EmanSaur', 'CORG', 'Trojans', 'BahamutType0'],48,9,Q3
+NSW,Corrin,['Vostok'],213,10,Q3
+NSW,Daisy,['Haber', 'EmanSaur', 'CAOTIC'],56,4,Q3
+NSW,Dark Pit,['Newiee'],0,1,Q3
+NSW,Dark Samus,['Grizz', 'Doctor A.Ness', 'WhitePointer', 'Jumboj1m', 'Tevan', 'snz', 'Manta'],876,55,Q3
+NSW,Diddy Kong,['Neath', 'Ryan', 'Lumidyne', 'GumbleGore', 'Kanga.exe', 'Revman'],2967,131,Q3
+NSW,Donkey Kong,['Lunchy', 'Jackpot', 'Ryan', 'Favi', 'Doctor A.Ness', 'Korotai', 'EmanSaur', 'Gumbo', 'BJSchoey'],3037,184,Q3
+NSW,Dr. Mario,['Fruit'],91,5,Q3
+NSW,Duck Hunt Duo,['Enn', 'EmanSaur'],71,2,Q3
+NSW,Falco,['Fez', 'Beet', 'Fruit', 'Rog', 'BahamutType0', 'Vostok'],2223,91,Q3
+NSW,Fox,['AboRoza', 'Doctor A.Ness', 'Fez', 'BattleKatBunker', 'Sock', 'Mikkle', 'Beet', 'EmanSaur', 'Trojans', 'CheMarama', 'Chef', 'Yan'],728,45,Q3
+NSW,Ganondorf,['Spaceghost', 'KizzaBam', 'Rocket', 'Oliman', 'Pretzel'],73,9,Q3
+NSW,Greninja,['Sponge', 'Friekugel', 'Revman', 'Mikkle', 'FumbleJr'],26,5,Q3
+NSW,Hero,['Rocket', 'bounsies', 'Vic', 'Lain', 'ChunIsMeK', 'Lumidyne', 'Fez', 'Joe', 'Palooka', 'Llamas', 'Gav', 'Doctor A.Ness'],270,25,Q3
+NSW,Ice Climbers,[],0,0,Q3
+NSW,Ike,['Lanatra', 'Trojans', 'Flx'],129,5,Q3
+NSW,Incineroar,['BJSchoey', 'Rocket', 'Dapto Dog', 'Fruit'],526,29,Q3
+NSW,Inkling,['Lain', 'Andrew Lin', 'Phyco', 'EmanSaur', 'Gabe'],618,41,Q3
+NSW,Isabelle,['Olag', 'Minch', 'Gords', 'Cotton', 'Rocket', 'Killy', 'Vic'],342,29,Q3
+NSW,Jigglypuff,['Invisi', 'Nyantic'],578,18,Q3
+NSW,Joker,['Shaoweater', 'Hyper', 'GaryLoak', 'Beet', 'Johtothan', 'Nyantic', 'Pataron', 'Gibson', 'Sponge', 'Lora', 'Trojans', 'Shmu', 'EmanSaur', 'Yosh', 'Enigma', 'Dkimnam', 'Joe', 'Mr Leak', 'Enn', 'Kanga.exe', 'Framah', 'KdMatt'],2015,121,Q3
+NSW,Ken,['Flurkin', 'LilR0otin', 'Mildsome', 'Lain', 'Scarpian'],325,10,Q3
+NSW,King Dedede,['Bass', 'Chipotle', 'Olag', 'Loza', 'Wumbology'],334,16,Q3
+NSW,King K. Rool,['K Fool', 'Sweetchilli'],146,14,Q3
+NSW,Kirby,['Fruit'],0,1,Q3
+NSW,Link,['Vic', 'DoorBashr', 'Scarpian'],1011,51,Q3
+NSW,Little Mac,['K Fool', 'Gabe', 'DoorBashr', 'Ozz', 'Lain'],949,46,Q3
+NSW,Lucario,['Glace', 'chizzL'],0,2,Q3
+NSW,Lucas,['Vic'],19,3,Q3
+NSW,Lucina,['Shaoweater', 'Vic', 'GaryLoak', 'Lain', 'Bananafish', 'TrogboSlice', 'KingTide', 'EmanSaur', 'Lumidyne', 'Coach Calves', 'Lora', 'Chef', 'Oliman', 'CheMarama', 'Truth', 'Scarpian', 'Beet', 'mb166'],493,41,Q3
+NSW,Luigi,['Shiro', 'Dr Smash', 'Olag', 'UltimateScrappy', 'Lumidyne', 'Halosydne', 'clancybreaux'],493,33,Q3
+NSW,Mario,['Bananafish', 'Spike', 'J-smax', 'Joe', 'Mr Leak', 'PO3', 'Ambrosia', 'TurtleCat'],1767,100,Q3
+NSW,Marth,['Oliman', 'EmanSaur', 'Bananafish', 'Fez'],283,17,Q3
+NSW,Mega Man,['krysell', 'Doctor A.Ness', 'Chipotle'],90,10,Q3
+NSW,Metaknight,['El Chimpe', 'Doctor A.Ness', 'EmanSaur'],32,6,Q3
+NSW,Mewtwo,['KingTide', 'Tevan', 'EmanSaur', 'SaucyDancer'],346,11,Q3
+NSW,Mii Brawler,['Sebcell'],322,14,Q3
+NSW,Mii Gunner,['Ryan'],30,5,Q3
+NSW,Mii Swordfighter,['Sebcell', 'Star'],149,4,Q3
+NSW,Mr. Game and Watch,['F1ERCE', 'BattleKatBunker', 'EmanSaur', 'Lumidyne', 'Palooka'],1192,58,Q3
+NSW,Ness,['4par', 'Kitt', 'TurtleCat', 'GaryLoak', 'Jisp', 'Ryzuul', 'Sebcell', 'Lumidyne', 'Enigma', 'Pierce', 'Luco'],2521,116,Q3
+NSW,Pac-Man,['Party Cats'],46,1,Q3
+NSW,Palutena,['Shmu', 'TurtleCat', 'Lora', 'Kevin', 'Zellon', 'VoO0m', 'cubes!', 'Ninsai', 'Ablice', 'Beet'],911,44,Q3
+NSW,Peach,['Naomi Campbelltown', 'Lain', 'EmanSaur', 'Spamsung'],179,8,Q3
+NSW,Pichu,['Day'],0,1,Q3
+NSW,Pikachu,['Day', 'Shmu', 'Merebry', 'Lora'],1578,88,Q3
+NSW,Pikmin & Olimar,['Muzzard'],0,1,Q3
+NSW,Piranha Plant,['Jeese', 'EmanSaur', 'Lumidyne', 'Lain'],266,18,Q3
+NSW,Pit,[],0,0,Q3
+NSW,Pokémon Trainer,['Fez', 'Lain', 'Vic', 'Glace', 'Thrillhouse', '6116', 'Omubird', 'Enn', 'EmanSaur', 'Gav', 'OnionRing'],3446,165,Q3
+NSW,Random,['Lain', 'Trojans'],143,3,Q3
+NSW,Richter,['Minch'],0,2,Q3
+NSW,Ridley,['2Girls1Gus', 'Lain', 'Mr Leak', 'Pierce'],1029,35,Q3
+NSW,ROB,['Lora', 'Rocket', 'Lumidyne', 'Tallow', 'Spike', 'BJSchoey', 'Fortnite'],1503,73,Q3
+NSW,Robin,['Trojans'],0,1,Q3
+NSW,Rosalina & Luma,['Invisi'],0,1,Q3
+NSW,Roy,['Jackpot', 'Dugongs', 'Strange', 'Lain', 'EmanSaur', 'Oliman', 'StrangerDanger', 'Merebry', 'Matter', 'Governor', 'Truth', 'Johtothan'],1077,56,Q3
+NSW,Ryu,['Trojans', 'DeltaRay'],0,2,Q3
+NSW,Samus,['Jumboj1m', 'Grizz', 'Profile Name', 'Phazonizer'],96,4,Q3
+NSW,Sheik,['Trojans', 'Shmu', 'EmanSaur', 'chizzL'],124,9,Q3
+NSW,Shulk,[],0,0,Q3
+NSW,Simon,['Invisi'],1470,67,Q3
+NSW,Snake,['Purple~H', 'Kanga.exe', 'Killy', 'Hyper', 'charies', 'Metal Force', 'EmanSaur', 'Lumidyne', 'Johtothan', 'Kait', 'Framah'],1933,102,Q3
+NSW,Terry,[],0,0,Q3
+NSW,Toon Link,['Gords', 'EmanSaur', 'Lumidyne'],254,11,Q3
+NSW,Villager,['EmanSaur', 'EiRiK', 'Mr Leak', 'Fruit'],94,4,Q3
+NSW,Wario,['Thrillhouse', 'Lora', 'Lumidyne', 'Sock', 'Veness', 'clancybreaux'],355,31,Q3
+NSW,Wii Fit Trainer,['LilR0otin', 'EmanSaur', 'Gregalope'],2,3,Q3
+NSW,Wolf,['krysell', 'Matter', 'BJSchoey', 'JDfreeUZI', 'K Fool', 'Lumidyne', 'Trojans', 'Shmu', 'Hyper', 'GaryLoak', 'Weed', 'TurtleCat', 'Truth'],1153,80,Q3
+NSW,Yoshi,['EmanSaur', 'Lumidyne', 'Veness', 'Pat', 'Techlord', 'Valyfor', 'Thorpenado', 'Lain'],4468,239,Q3
+NSW,Young Link,['TWIRLY', 'Doctor A.Ness', 'Kanako', 'El Chimpe'],479,23,Q3
+NSW,Zelda,['F1ERCE', 'Dag', 'Lora', 'ChunIsMeK', 'Sketch'],973,43,Q3
+NSW,Zero Suit Samus,['Trojans', 'Lora', 'Joe', 'Lumidyne', 'Abard'],1796,92,Q3
+SA,Banjo & Kazooie,['Jacko', 'Rasputin', 'Con', 'Andre', 'Q', 'Tiger99', 'BLU'],396,25,Q3
+SA,Bayonetta,['Zekora', 'Celebii'],28,2,Q3
+SA,Bowser,['Vivi', 'Wowser', 'Rasputin', 'TacoSpartan', 'Moth Plague', 'McFly', 'Q', 'Spewis'],1728,98,Q3
+SA,Bowser Jr.,['Taicho'],5,4,Q3
+SA,Captain Falcon,['Wowser', 'Fan2Fromage', 'Jimbles', 'Phoenix', 'Bentley', 'Oli', 'Mimco', 'Tideray'],471,42,Q3
+SA,Chrom,['Paulek', 'F1shy'],48,2,Q3
+SA,Cloud,['Tails', 'BLU', 'Taco', 'Giorno'],136,15,Q3
+SA,Corrin,['Zekora', 'Q', 'smoret', 'TacoSpartan'],50,10,Q3
+SA,Daisy,['Ghost', 'Paulek'],136,13,Q3
+SA,Dark Pit,[],0,0,Q3
+SA,Dark Samus,['BLU'],7,4,Q3
+SA,Diddy Kong,['Jacko', 'SNAP!', 'Inyakee'],482,25,Q3
+SA,Donkey Kong,['Boofer H', 'Q', 'BLU', 'L33', 'Fenno', 'Jacko'],519,18,Q3
+SA,Dr. Mario,['TJ', 'Lilhiero'],0,2,Q3
+SA,Duck Hunt Duo,['Finn'],128,7,Q3
+SA,Falco,['Flow Rats', 'Sly'],42,3,Q3
+SA,Fox,['Aetos', 'Stawz', 'Con', 'Macka', 'BlueShell', 'Yellow', 'Lilhiero'],1172,54,Q3
+SA,Ganondorf,['Snake', 'Dynasty', 'Captain Diddler', 'BlueShell', 'Ninhon', 'Nicosar', 'Andre'],388,24,Q3
+SA,Greninja,['Spicy', 'Taicho', 'Muscat', 'Flow Rats', 'Faelyon', 'Odyssey'],3582,177,Q3
+SA,Hero,['Ghost', 'Lemons', 'Queen', 'Fenno', 'Oscar'],341,31,Q3
+SA,Ice Climbers,['Jon'],589,28,Q3
+SA,Ike,['Theef', 'BLU', 'Macka', 'Nicosar', 'Queen'],803,35,Q3
+SA,Incineroar,['MasterDoge'],0,1,Q3
+SA,Inkling,['Kaeser', 'Paulek', 'Smid', 'Fenno', 'Q', 'Splatter', 'F1shy', 'Muscat', 'Shundog', 'Rust'],644,37,Q3
+SA,Isabelle,['Vivi'],0,1,Q3
+SA,Jigglypuff,['TJ', 'Grim Tuesday'],396,27,Q3
+SA,Joker,['Zekora', 'TG4062', 'Radioactive', 'Bizz', 'Paulek', 'Bonk', 'Ghost', 'Muscat', 'Matt', 'N', 'Nao-Cakes', 'Tideray', 'Sweet', 'Andre', 'Spewis', 'Eden'],2265,121,Q3
+SA,Ken,['Knack', 'Stabby J'],123,6,Q3
+SA,King Dedede,[],0,0,Q3
+SA,King K. Rool,['Inyakee', 'King', 'Jacko'],4,4,Q3
+SA,Kirby,['Q', 'Ness', 'ToeSocks'],204,14,Q3
+SA,Link,['Taco', 'Taximan'],1133,57,Q3
+SA,Little Mac,['Lilhiero'],0,2,Q3
+SA,Lucario,['Q', 'Odyssey'],0,5,Q3
+SA,Lucas,['LyokoBlight', 'Fenno'],63,8,Q3
+SA,Lucina,['Spewis', 'Ninhon', 'BLU', 'Camelerite', 'Q'],1208,65,Q3
+SA,Luigi,['Splatter'],103,4,Q3
+SA,Mario,['L33', 'Bentley', 'Dubs', 'CaptainCoolade', 'Q', 'Taicho', 'Samezie', 'Ghost'],582,39,Q3
+SA,Marth,['ToeSocks', 'IceClear'],0,2,Q3
+SA,Mega Man,['Fenno', 'Jacko', 'Oscar'],75,7,Q3
+SA,Metaknight,['Fenno', 'Q'],7,14,Q3
+SA,Mewtwo,['Ninhon', 'Taicho'],46,3,Q3
+SA,Mii Brawler,['Ghost', 'Nao-Cakes'],480,57,Q3
+SA,Mii Swordfighter,['Yellow'],0,3,Q3
+SA,Mr. Game and Watch,['Mallee', 'Sweet', 'SNAP!'],53,8,Q3
+SA,Ness,['Dacksonjann', 'TJ', 'Mal', 'E Drip', 'Sweet', 'Ness'],33,8,Q3
+SA,Pac-Man,['CaptainCoolade'],192,5,Q3
+SA,Palutena,['Jacko', 'Paulek', 'Zekora', 'Flow Rats', 'BLU', 'Odyssey'],1571,72,Q3
+SA,Peach,['Paulek', 'Ghost'],213,12,Q3
+SA,Pichu,['Yauhyeah', 'Paulek', 'Celebii'],925,32,Q3
+SA,Pikachu,['Dashie', 'Goof', 'King', 'Inyakee', 'Balzac', 'Q', 'Tiger99', 'Bentley'],1220,62,Q3
+SA,Piranha Plant,['Moth Plague', 'Alecat', 'Big Juice', 'Taicho'],547,31,Q3
+SA,Pit,['Q'],67,1,Q3
+SA,Pokémon Trainer,['Taicho', 'Tideray', 'Spewis', 'Q', 'Rasputin', 'Muscat', 'Dog Fort', 'SpudBud3', 'Mash', 'Spicy', 'Odyssey'],1146,64,Q3
+SA,Ridley,['Dog Fort', 'Q', 'Grim Tuesday', 'Flow Rats'],1541,81,Q3
+SA,ROB,['Oscar', 'Dog Fort', 'Lewis', 'Ninhon', 'im23bro'],1831,81,Q3
+SA,Robin,['Zekora', 'F1shy', 'TacoSpartan'],122,11,Q3
+SA,Rosalina & Luma,['Fenno', 'King'],151,10,Q3
+SA,Roy,['Aetos', 'Fenno', 'Andre'],184,14,Q3
+SA,Samus,['Q', 'Gol.D', 'BLU'],207,14,Q3
+SA,Sheik,['Paulek'],0,1,Q3
+SA,Shulk,['Zekora', 'Ninhon', 'Paulek'],627,34,Q3
+SA,Simon,['Nao-Cakes'],440,20,Q3
+SA,Snake,['Stabby J', 'Versky', 'Oscar', 'BLU'],1929,97,Q3
+SA,Sonic,['HTem', 'LyokoBlight'],241,15,Q3
+SA,Terry,[],0,0,Q3
+SA,Toon Link,['Jon', 'Q', 'Yauhyeah'],1217,36,Q3
+SA,Villager,['Yellow', 'Jon'],199,12,Q3
+SA,Wario,['Vivi'],0,1,Q3
+SA,Wii Fit Trainer,['Whissle'],680,30,Q3
+SA,Wolf,['Aetos', 'Stawz', 'Con', 'Spewis', 'Justice', 'Nod', 'Faelyon', 'Stabby J', 'Dog Fort', 'Ninhon'],2194,114,Q3
+SA,Yoshi,['Nikes', 'Vivi', 'Sloshi', 'Q', 'Christolaki', 'Aero'],763,44,Q3
+SA,Young Link,['Yauhyeah', 'Phoenix', 'Dashie', 'Aetos', 'BillyBoi'],46,6,Q3
+SA,Zelda,['TacoSpartan'],358,14,Q3
+SA,Zero Suit Samus,['Andre', 'Spewis', 'Camelerite', 'LyokoBlight', 'King'],982,61,Q3
+ACT,Banjo & Kazooie,['Zowayix', 'Boghara Stroganov', 'Xander', 'yarb sarb', 'Inf', 'Mikey', 'Apollo'],293,31,Q3
+ACT,Bayonetta,['Danal'],54,4,Q3
+ACT,Bowser,['Flyingcat', 'Juan', 'yarb sarb', 'Hugh Jass', 'Dogs Unite', 'Connor', 'Steepan', 'Patrya', 'Awex', 'Zac'],1465,62,Q3
+ACT,Bowser Jr.,[],0,0,Q3
+ACT,Captain Falcon,['Lambo', 'Dumpy'],0,3,Q3
+ACT,Chrom,['Jay', 'Sriks', 'Juan', 'Rohan', 'Zac', 'Davox', 'Peanut Butter'],1195,72,Q3
+ACT,Cloud,['Kinaji', 'Steepan', 'Inxtnc', 'Awex'],192,15,Q3
+ACT,Corrin,['Milsch', 'Kats'],89,7,Q3
+ACT,Daisy,['Pazx'],272,22,Q3
+ACT,Dark Pit,[],0,0,Q3
+ACT,Dark Samus,['Bless', 'Milsch', 'yarb sarb', 'Inf'],80,8,Q3
+ACT,Diddy Kong,['Sriks', 'Pazx', 'Danal'],301,24,Q3
+ACT,Donkey Kong,['Adeptus', 'MeatPi'],41,5,Q3
+ACT,Dr. Mario,[],0,0,Q3
+ACT,Duck Hunt Duo,['Bloom', 'Dr Niceyum', 'Inf'],645,34,Q3
+ACT,Falco,['6000j', 'Xander', 'FLWal'],575,30,Q3
+ACT,Fox,['Adeptus'],0,1,Q3
+ACT,Ganondorf,['CW', 'Mikey', 'Pat', 'Boghara Stroganov', 'Peanut Butter'],47,10,Q3
+ACT,Greninja,['Tommy', 'Adeptus', 'Rune', 'Waveguider', 'Kinaji'],1159,38,Q3
+ACT,Hero,['Inf', 'Reshi', 'Milsch', 'Will', 'Adeptus', 'Zxv', 'Rohan', 'Sriks', 'MapleMage', 'Pazx', 'Danal'],415,31,Q3
+ACT,Ice Climbers,['l4mr124'],0,1,Q3
+ACT,Ike,['Zxv', 'Thegoras'],270,5,Q3
+ACT,Incineroar,['Connor', 'Nincata'],83,2,Q3
+ACT,Inkling,['MCTimmyD', 'MapleMage', 'Damo', 'Akechi', 'Joey'],824,52,Q3
+ACT,Isabelle,['Dumpy', 'Mikey', 'Zappy', 'ALMAO'],26,6,Q3
+ACT,Jigglypuff,['Zowayix', 'Flyingcat'],2173,101,Q3
+ACT,Joker,['Victor', 'TJslash', 'Mosa', 'yarb sarb', 'DracoKnight', '.jpeg', 'Akechi', 'MapleMage'],1811,79,Q3
+ACT,Ken,['Zac'],0,1,Q3
+ACT,King Dedede,['Fetch', 'Dumpy', 'Stu', 'Abhi', 'Boghara Stroganov'],299,17,Q3
+ACT,King K. Rool,['MapleMage', 'SlamFrunk!'],4,3,Q3
+ACT,Kirby,['Bless'],10,2,Q3
+ACT,Link,['MapleMage', 'DracoKnight', 'Daybo'],216,11,Q3
+ACT,Little Mac,[],0,0,Q3
+ACT,Lucario,['ProfTeak', 'Uncolect'],111,2,Q3
+ACT,Lucas,['ft'],139,10,Q3
+ACT,Lucina,['Kinaji', 'Zac', 'Mikey', 'Zowayix'],359,23,Q3
+ACT,Luigi,['Darwin', 'Skin', 'Zeus (new)', 'Tommy', 'Danal'],278,17,Q3
+ACT,Mario,['Inxtnc', 'Pazx', 'Adeptus', 'Thegoras', 'Boghara Stroganov'],186,14,Q3
+ACT,Marth,['Joey', 'Pazx', 'Thegoras'],67,4,Q3
+ACT,Mega Man,['Chat'],235,11,Q3
+ACT,Mewtwo,['ProfTeak', 'Mosa', 'Bless', 'Adeptus'],56,6,Q3
+ACT,Mii Brawler,['Danal', 'yarb sarb'],4,2,Q3
+ACT,Mii Gunner,['Zowayix', 'MapleMage', 'Adeptus'],382,25,Q3
+ACT,Mii Swordfighter,['Flyingcat'],0,1,Q3
+ACT,Mr. Game and Watch,['Sriks'],79,7,Q3
+ACT,Ness,['Doozy', 'Abhi', 'Zesty', 'Hiro', 'Nardia'],140,13,Q3
+ACT,Pac-Man,['yarb sarb', 'ALMAO', 'Uncle Meat'],1048,42,Q3
+ACT,Palutena,['Pazx', 'Reshi', 'MeatPi'],2570,106,Q3
+ACT,Peach,['Danal'],21,2,Q3
+ACT,Pichu,['MrZubber', 'Inf', 'Joey'],0,4,Q3
+ACT,Pikachu,['MeatPi', 'Adeptus', 'Zeus (new)', 'Zac', 'Ciarda', 'MapleMage'],47,16,Q3
+ACT,Pikmin & Olimar,['Tin Man'],79,7,Q3
+ACT,Piranha Plant,['Frog'],14,5,Q3
+ACT,Pit,['Nardia', 'Nincata'],0,2,Q3
+ACT,Pokémon Trainer,['Servofood', 'yarb sarb', 'Nexus', 'Reshi'],994,56,Q3
+ACT,Random,['MeatPi'],20,1,Q3
+ACT,Richter,['Cherry', 'Hugh Jass'],790,58,Q3
+ACT,Ridley,['Cameroni', 'MeatPi', 'Frog', 'Jamberry'],154,8,Q3
+ACT,ROB,['MAMP', 'Zac', 'Awex'],1784,86,Q3
+ACT,Robin,['Kats'],0,1,Q3
+ACT,Roy,['Sriks', 'Thegoras', 'Juan'],595,45,Q3
+ACT,Samus,['Bless', 'Darwin', 'Milsch', 'DarkSlayer', 'Uncolect'],414,20,Q3
+ACT,Sheik,['Joey'],4,2,Q3
+ACT,Shulk,['Sriks'],3,5,Q3
+ACT,Simon,['Cherry', 'Frog'],1126,70,Q3
+ACT,Snake,['Kinaji', 'yarb sarb', 'Pazx', 'Tin Man'],827,47,Q3
+ACT,Terry,[],0,0,Q3
+ACT,Villager,['ALMAO'],0,1,Q3
+ACT,Wario,['DracoKnight', 'Pazx'],182,8,Q3
+ACT,Wii Fit Trainer,['Inf', 'Sriks'],1220,56,Q3
+ACT,Wolf,['Inxtnc', 'Victor', 'Pazx', 'Joey', '.jpeg', 'Reshi'],622,39,Q3
+ACT,Yoshi,['<-2cm', 'Jamberry'],123,5,Q3
+ACT,Young Link,['Boghara Stroganov', 'Sriks', 'Danal', 'Apollo'],841,54,Q3
+ACT,Zelda,['JP'],163,2,Q3
+ACT,Zero Suit Samus,['Pazx', 'Fetch', 'Mikey', 'Josh', 'Seal', 'JJ', 'Hugh Jass'],73,9,Q3
+WA,Banjo & Kazooie,['Smesty', 'Shikasama', 'Temper'],1482,68,Q3
+WA,Bowser,['nmne', 'Temper', 'Hellhammer', 'RosalinaSama', 'Caz', 'Musitaku', 'Little Z'],1199,61,Q3
+WA,Bowser Jr.,['Shikasama', 'DehDehBeh', 'Shiva', 'DrZu'],480,16,Q3
+WA,Captain Falcon,['TinTin', 'Nazzer', 'Killeroo', 'Orion', 'ChuJelly?~', 'Hoodwink', 'RosalinaSama', 'KingKing10', 'D4C', 'Apollo'],670,40,Q3
+WA,Chrom,['Nabnut', 'Smesty', 'Temper', 'RosalinaSama'],286,11,Q3
+WA,Cloud,['orlandoblitz', 'jyetheguy', 'SpiltSpaghetti', 'SP-lit', 'Tog', 'RosalinaSama', 'JonCheee', 'Sundowns'],383,29,Q3
+WA,Corrin,['Nabnut', 'ChuJelly?~'],456,23,Q3
+WA,Daisy,[],0,0,Q3
+WA,Dark Pit,['JonCheee'],0,2,Q3
+WA,Dark Samus,['Nommad'],2,1,Q3
+WA,Diddy Kong,['Dealta'],318,9,Q3
+WA,Donkey Kong,['Sable', 'Johan', 'Subwaytime', 'Turn Up', 'Keutz', 'Krystal'],634,34,Q3
+WA,Dr. Mario,['Sable', 'Johan'],345,17,Q3
+WA,Duck Hunt Duo,['BigWin | Beer'],241,11,Q3
+WA,Falco,['Subwaytime', 'Orion', 'Chef'],490,30,Q3
+WA,Fox,['M', 'Pippy_Pal', 'Goofis'],672,22,Q3
+WA,Ganondorf,['ChuJelly?~', 'Orion', 'Poppt1', 'Ninjarisu', 'PG Khan'],102,10,Q3
+WA,Greninja,['Gresh', 'orlandoblitz', 'Sable', 'LoneZen', 'Rocky', 'Maxx Wizel', 'Leapo'],881,49,Q3
+WA,Hero,['Temper', 'RosalinaSama', 'Smesty', 'Poppt1', 'Rainbews', 'Little Z', 'Zivhayr', 'Pr3zz', 'YukiDraco'],344,27,Q3
+WA,Ice Climbers,['Smesty'],318,18,Q3
+WA,Ike,['Orion', 'TinTin'],0,2,Q3
+WA,Incineroar,['Zivhayr', 'Nazzer'],108,8,Q3
+WA,Inkling,['Encore', 'porkhub', 'Temper', 'Turn Up', 'Maribro'],332,25,Q3
+WA,Jigglypuff,['Pr3zz'],88,1,Q3
+WA,Joker,['YukiDraco', 'TPZ', 'Tempest', 'Ttam', 'Rainbews', 'grapesoda', 'BT Smith'],3047,161,Q3
+WA,Ken,['Jaeger', 'Cale, a vegetable', 'JJack'],31,4,Q3
+WA,King Dedede,['HBTV', 'huske'],459,27,Q3
+WA,King K. Rool,['Jezzus', 'HBTV', 'RosalinaSama'],252,10,Q3
+WA,Kirby,['Harryhardways'],0,1,Q3
+WA,Link,['Benjo', 'Orion', 'Hoodwink', 'Sable', 'Larry', 'Trextar', 'JonCheee'],1650,78,Q3
+WA,Little Mac,['Sable', 'Nabnut', 'Harryhardways'],227,13,Q3
+WA,Lucas,['Udinii'],22,1,Q3
+WA,Lucina,['Poppt1', 'TPZ', 'Sump', 'Tempest', 'Mattawho', 'sleptema', 'GUWOP'],1325,101,Q3
+WA,Luigi,['Jarr', 'Chicken49'],2579,123,Q3
+WA,Mario,['Fabio', 'Smesty'],262,17,Q3
+WA,Marth,['Glaceon', 'Ttam', 'Gogo'],54,3,Q3
+WA,Mega Man,['JonCheee', 'Misty'],271,7,Q3
+WA,Metaknight,['Turn Up', 'TinTin'],73,6,Q3
+WA,Mewtwo,['BDawg'],0,1,Q3
+WA,Mii Gunner,['Trent'],0,1,Q3
+WA,Mii Swordfighter,['Benjo'],453,27,Q3
+WA,Mr. Game and Watch,['Pr3zz', 'Poppt1'],1475,72,Q3
+WA,Ness,['Ever', 'Dan', 'HoAN', 'Tails', 'Poppt1', 'Turn Up', 'TWIDDLY', 'Chef'],3863,216,Q3
+WA,Pac-Man,['toomuchdog'],40,1,Q3
+WA,Palutena,['Trent', 'Jason', 'Dealta', 'NRC', 'Smesty', 'Temper', 'DrZu'],238,32,Q3
+WA,Peach,['Mashu', 'YGOduelistkosc', 'Pippy_Pal', 'Asiatic'],195,8,Q3
+WA,Pichu,['Trent', 'YukiDraco'],0,2,Q3
+WA,Pikachu,['Pr3zz', 'Lil yeo', 'Pippy_Pal', 'Ninjarisu'],0,5,Q3
+WA,Piranha Plant,['Temper', 'Hoodwink', 'RosalinaSama', 'Chappos'],2717,121,Q3
+WA,Pokémon Trainer,['Copycat', 'Nazzer', 'YGOduelistkosc', 'Smesty', 'Big Green', 'Big Al', 'Asiatic', 'JonCheee', 'Xerophyte'],1636,91,Q3
+WA,Random,['Temper', 'Little Z', 'LoneZen', 'Rainbews', 'Barney'],155,12,Q3
+WA,Richter,['Orion'],92,8,Q3
+WA,Ridley,['Encore', 'Copycat', 'Barney', 'K4Y2$0'],1018,59,Q3
+WA,ROB,['LoneZen', 'Troovus', 'Spiffy'],962,38,Q3
+WA,Robin,['Turn Up', 'ChuJelly?~', 'Rocky'],296,14,Q3
+WA,Rosalina & Luma,['Rocky', 'Poppt1', 'RosalinaSama'],179,12,Q3
+WA,Roy,['Harfi', 'TPZ', 'Ever', 'ChuJelly?~', 'Ttam', 'Smesty', 'Darr', 'Trent', 'Turn Up'],942,56,Q3
+WA,Samus,['Chicken49', 'Sable', 'Nommad'],53,8,Q3
+WA,Sheik,['Benjo', 'Moth'],0,2,Q3
+WA,Shulk,['AlvisCPU', 'Temper', 'Potanox'],191,12,Q3
+WA,Snake,['Copycat', 'Darr', 'Ttam', 'BigWin | Beer', 'KevinNyaa', 'Jtrain'],190,24,Q3
+WA,Sonic,['Fabio'],0,1,Q3
+WA,Toon Link,['Ttam'],44,5,Q3
+WA,Villager,[],0,0,Q3
+WA,Wario,['some_dingus', 'Almenara', 'Poppt1', 'Little Z'],366,26,Q3
+WA,Wii Fit Trainer,['Mattawho', 'Hoodwink'],170,9,Q3
+WA,Wolf,['YGOduelistkosc', 'Johan', 'Shae', 'Copycat', 'Thrash'],95,11,Q3
+WA,Yoshi,['Goofis', 'Potanox', 'Pippy_Pal', 'Nazzer', 'Random'],826,44,Q3
+WA,Young Link,['Benjo', 'nmne', 'TWIDDLY'],577,20,Q3
+WA,Zelda,['Rocky', 'Udinii', 'Rainbews', 'Han'],151,14,Q3
+WA,Zero Suit Samus,['Jason', 'Trent', 'Shiva'],90,3,Q3
+NZ,Banjo & Kazooie,['cheese', 'British Rice', 'Spotyus', 'joe', 'Arrowskee', 'Orca'],590,28,Q3
+NZ,Bayonetta,['Dyl', 'Knarf97', 'iBexal', 'Arahshii'],1801,70,Q3
+NZ,Bowser,['joe', 'Yuragi', 'Jarcino', 'IcyK', 'Ardeor', 'Goosey Boy', 'CallMeHoju', 'Mr Gerkinz', 'ImSoChove', 'Durameter'],1026,51,Q3
+NZ,Bowser Jr.,['0zai', 'Orca', 'Aluf'],169,12,Q3
+NZ,Captain Falcon,['B2k', 'Snow', 'Jogh', 'MikeTu', 'Vontell', 'E-Dude', 'Simikins'],125,12,Q3
+NZ,Chrom,['dragonlei1', 'Hori', 'Snow', 'Noamit', 'eSpi', 'Rhyloth'],248,16,Q3
+NZ,Cloud,['Orca'],46,2,Q3
+NZ,Corrin,['RhiOni'],0,1,Q3
+NZ,Daisy,['BlueVapour', 'Unladen', 'Aluf', 'Taurii'],5,9,Q3
+NZ,Dark Pit,['Seliph', 'Double A'],91,3,Q3
+NZ,Dark Samus,['Egg time'],46,3,Q3
+NZ,Diddy Kong,['PBtechguy', 'turpitron'],73,4,Q3
+NZ,Donkey Kong,['Egg time', 'Arahshii', 'ramble', 'dingdongkid'],298,18,Q3
+NZ,Dr. Mario,['J2', 'cheese'],630,28,Q3
+NZ,Duck Hunt Duo,['ImSoChove', 'Dog IRL'],0,2,Q3
+NZ,Falco,['Angel', 'BoyNextDoor', 'Åsh', 'RAT'],42,6,Q3
+NZ,Fox,['Orca', 'Kingo', 'Elderhide', 'Puffer McSparkleFace', 'Wicca', 'MortaL', 'iDeeKay'],196,14,Q3
+NZ,Ganondorf,['RAT', 'Viny', 'Vontell', 'Flatfeet', 'Hori', 'AIR', 'joe', 'iDeeKay'],590,27,Q3
+NZ,Greninja,['Nightlife', 'PONGUS', 'Shazzb0tt'],171,4,Q3
+NZ,Hero,['HughManChu', 'SpaceApe', 'Fank009', 'Big Schmango', 'dcs', 'Orca', 'Nightlife'],682,22,Q3
+NZ,Ike,['Goosey Boy', 'Double A', 'AbysmalAngel', 'Hori', 'Noamit', 'Ichigo', 'MortaL'],1052,43,Q3
+NZ,Incineroar,['Goosey Boy', 'Blaz', 'Dawr', 'stantheyeti'],95,4,Q3
+NZ,Inkling,['HikerNob', 'Flatfeet', 'Fank009', 'chimps', 'ramble', 'Taurii', 'Rhyloth', 'mizu', 'joe'],1834,88,Q3
+NZ,Isabelle,['Knarf97'],94,2,Q3
+NZ,Jigglypuff,['Taurii', 'Skyyyyyyyy'],115,8,Q3
+NZ,Joker,['SolasNS', 'GammaFox', 'Jinxamus', 'KFC', 'Arahshii', 'Blaz', 'Orca', 'Jogh', 'mizu', 'Strike', 'Dyl'],590,32,Q3
+NZ,Ken,['Ignis Fates', 'Plaz'],0,4,Q3
+NZ,King Dedede,['Double A', 'Dog IRL', 'alpacas'],445,17,Q3
+NZ,King K. Rool,['iBexal'],29,2,Q3
+NZ,Link,['British Rice', 'Valos', 'murrayfish', 'Snacks', 'Taka', 'Storm', 'Simikins'],268,14,Q3
+NZ,Little Mac,['E-Dude', 'Jinxamus'],187,7,Q3
+NZ,Lucario,['ube', 'Reed'],56,2,Q3
+NZ,Lucas,['Arrowskee', 'Duoface', 'stantheyeti'],595,33,Q3
+NZ,Lucina,['Simikins', 'KFC', 'Tangerine', 'mizu', 'Taurii', 'Jinxamus', 'Åsh', 'Muso'],1597,84,Q3
+NZ,Mario,['GammaFox', 'Aluf', 'Jarcino', 'Maorio', 'B2k'],494,31,Q3
+NZ,Marth,['Simikins', 'Orca', 'BoyNextDoor', 'Muso'],68,9,Q3
+NZ,Mega Man,['dingdongkid'],517,20,Q3
+NZ,Metaknight,['BoyNextDoor', 'Majinboo', 'Umami Boy'],0,3,Q3
+NZ,Mewtwo,['Jarcino'],0,1,Q3
+NZ,Mii Brawler,['Queue', 'alpacas', 'Chegg'],259,10,Q3
+NZ,Mii Gunner,['KFC', 'Blaz'],91,9,Q3
+NZ,Mii Swordfighter,['pap5er', 'Blaz'],5,5,Q3
+NZ,Mr. Game and Watch,['iBexal', 'HughManChu', 'drockery', 'Spotyus', 'Arahshii'],254,20,Q3
+NZ,Ness,['SBOmega', '0cha', 'Swanji', 'Player1', 'Phases', 'Durameter', 'Father_Ragoo'],1077,53,Q3
+NZ,Pac-Man,['British Rice'],95,5,Q3
+NZ,Palutena,['GammaFox', 'MiyKam', 'HarshJello', 'Knarf97', 'eSpi', 'Taurii', 'RAT', 'Viny', 'Beep', 'KFC', 'Cadence', 'LilMochi', 'Wicca', 'mizu', 'Aluf'],1416,60,Q3
+NZ,Peach,['BlueVapour', 'Unladen'],0,5,Q3
+NZ,Pichu,['Bozzie', 'Red', 'mizu'],354,21,Q3
+NZ,Pikachu,['FloiFlob', 'Kingo', 'Red', 'booN', 'Bozzie'],288,19,Q3
+NZ,Pikmin & Olimar,['ImSoChove'],0,2,Q3
+NZ,Piranha Plant,['Arrowskee', 'Aesthetics', 'Spotyus'],292,14,Q3
+NZ,Pit,['Seliph', 'MiyKam', 'Ichigo'],1043,32,Q3
+NZ,Pokémon Trainer,['MULE', 'Hori', 'Spotyus', 'GammaFox', 'Durameter', 'Wicca', 'Orca', 'Lima', 'Taurii', 'Jarcino'],237,25,Q3
+NZ,Random,['cheese', 'eSpi', 'YaMumNz', 'Hori', 'Unladen', 'Åsh'],94,10,Q3
+NZ,Richter,['leongrav', 'chimps', 'beachnik', 'CherryPanda'],810,25,Q3
+NZ,Ridley,['Josto', 'Flatfeet'],0,3,Q3
+NZ,ROB,['Axorr', 'Big Schmango', 'Boschey', 'Spotyus'],715,20,Q3
+NZ,Robin,['GammaFox', 'Dyl', 'Raaizul', 'Xantao'],64,8,Q3
+NZ,Rosalina & Luma,['Crunkle', 'Taurii'],142,9,Q3
+NZ,Roy,['Valos', 'eSpi', 'Noisy Boy', 'Mook', 'Chex', 'Hori', 'uprightman', 'Orca', 'Ichigo', 'binger', 'Lunchmillion', 'Åsh'],360,23,Q3
+NZ,Ryu,['Ignis Fates', 'Kai'],0,2,Q3
+NZ,Samus,['Snacks', 'Jermal', 'Spotyus', 'Kai'],215,9,Q3
+NZ,Sheik,['Aluf', 'KFC', 'Akabird', '0zai'],51,9,Q3
+NZ,Shulk,['Flatfeet', 'Reed'],0,3,Q3
+NZ,Simon,['iDeeKay'],22,1,Q3
+NZ,Snake,['PONGUS', 'Swanji', 'eGo', 'JoXaZe', 'Hoja Santa'],431,22,Q3
+NZ,Sonic,['stantheyeti'],183,6,Q3
+NZ,Toon Link,['pap5er', 'Taka'],1438,54,Q3
+NZ,Villager,['Zingar', 'Uepa', 'Blaz'],779,38,Q3
+NZ,Wario,['ImSoChove', 'iDeeKay', '0zai', 'Maorio', 'Blaz'],906,41,Q3
+NZ,Wii Fit Trainer,['CubT', 'Knarf97'],343,18,Q3
+NZ,Wolf,['La_Lapin', '0zai', 'Spoo', 'Red', 'Crunkle', 'joe', 'cheese', 'Kdog', 'Orca'],1428,65,Q3
+NZ,Yoshi,['Åsh', 'stantheyeti', 'Chegg', 'GGSammy', 'CubT', 'Wicca', 'Kdog', 'spootle'],1968,78,Q3
+NZ,Young Link,['Knee', 'binger', 'AbysmalAngel', 'Taka', 'captain_snack '],298,15,Q3
+NZ,Zelda,['TREE', 'Cadence', 'Akabird', 'RiverSendra'],51,9,Q3
+NZ,Zero Suit Samus,['Nightlife', 'FIN', 'Knarf97', 'Orca', 'Simikins', 'Plums'],330,10,Q3
+VIC,Banjo & Kazooie,['Extra', 'Corvid', 'FoxStar', 'VineGreen', 'Jazzy', 'Lizam', 'Ergon', 'More Chilli', 'Duon', 'Mar', 'DD'],574,48,Q3
+VIC,Bayonetta,['P9', 'w00tkins'],68,3,Q3
+VIC,Bowser,['Young Frisbee', 'DD', 'dunkMATTic', 'Aya', 'Mast', 'kaotic', 'cuminpant', 'Booper', '2Simple', 'Corvid', 'Jash', 'Jazzy', 'Gary', 'Duon', 'Bear', 'Stoddy'],1793,102,Q3
+VIC,Bowser Jr.,['Kebab'],274,10,Q3
+VIC,Captain Falcon,['Iyavana1', 'Connorzam', 'Tomie', 'The Lag', 'Flow', 'Banjo String', 'Whis Dom', 'Insie', 'Xettman'],520,28,Q3
+VIC,Chrom,['Saber', 'RaZe', 'Mar', 'Luggy', 'Corvid', 'Duon', 'Bussy', 'Haris', 'Princess'],898,41,Q3
+VIC,Cloud,['Luggy', 'Fidilduck', 'DD', 'Aya', 'Node202', 'Arnie', 'chardylka', 'unrealsora', 'Zaki'],1835,81,Q3
+VIC,Corrin,['Neoblade', 'Corvid'],136,13,Q3
+VIC,Daisy,['Shen', 'Sindocus'],0,2,Q3
+VIC,Dark Pit,['RaZe', 'Soda'],970,57,Q3
+VIC,Dark Samus,['Microsoft J'],0,1,Q3
+VIC,Diddy Kong,['Piski'],120,9,Q3
+VIC,Donkey Kong,['Haris', 'Duon', 'Danza', 'Zaki'],2666,166,Q3
+VIC,Dr. Mario,['Shen'],91,9,Q3
+VIC,Duck Hunt Duo,['skduk'],0,1,Q3
+VIC,Falco,['Crozzy', 'Earl', 'SkippyDinglchalk', 'CMoon', 'Shaidy', 'Corvid', 'Static', 'Firestorm', 'JEANS', 'Extra'],1746,100,Q3
+VIC,Fox,['Agnn', 'Guyanide', 'Jax', 'Murkiri', 'Alfonzo', 'Duon', 'Insie', 'Shen', 'Catburger'],737,55,Q3
+VIC,Ganondorf,['MGK', 'PrankN', 'JoE-mAn!', 'Simple', 'Reborn', 'Jazzy', 'Daddy Ganny', 'CMoon', 'SKG', 'DSiM', 'Pat Sanders', 'Zaki', 'Dan'],943,37,Q3
+VIC,Greninja,['RaZe', 'Ergon', 'Prism', 'VeloCitY', 'Arc', 'BlitzkrieG', 'Dr Omega'],777,42,Q3
+VIC,Hero,['P9', 'BIGBOSS', 'Daddy Ganny', 'Simple', 'Toast', 'Booper', 'haiku', 'Haris', 'Gary', 'Googers', 'Extra', 'Dampé', 'Arnie', 'SebPro101', 'Knack'],496,44,Q3
+VIC,Ice Climbers,['nate'],2261,112,Q3
+VIC,Ike,['Haris', 'T.boy', 'Zaki', 'Fidilduck', 'Insie', 'Jayd', 'Arnie', 'Pat Cash', 'Havok'],3127,188,Q3
+VIC,Incineroar,['Hazzacka', 'Moops', 'RaZe', 'Booper', 'Corvid'],79,7,Q3
+VIC,Inkling,['Flow', 'Sodaman', 'Sim', 'UBOA', 'marie', 'SebPro101', 'B-2', 'dunccy', 'Havok', 'Eternal', 'ABXY', 'Jaypam', 'Googers'],5249,272,Q3
+VIC,Isabelle,['Haris'],2,2,Q3
+VIC,Jigglypuff,['Alpal', 'Jamwa', 'P9'],249,12,Q3
+VIC,Joker,['Falchion', 'Akino', 'RaZe', 'Kaito', 'LachyD', 'Troongy', 'Kodos', 'unrealsora', 'Duon', 'Cabbage', 'Corvid', 'Joeyboi', 'Isucc', 'B-2', 'Simple', 'Supernova', 'AmiiboKing', 'Murkiri', 'KmS', 'Zaki', 'Googers', 'Neoblade', 'james'],3594,213,Q3
+VIC,Ken,['Shen', 'Zaki'],326,13,Q3
+VIC,King Dedede,['Static', 'cag', 'Aya', 'Blackheart'],501,28,Q3
+VIC,King K. Rool,['Dampé', 'Jazzy', 'Gary', 'Blackheart', 'Booper', 'JEANS'],253,26,Q3
+VIC,Kirby,['Simple', 'RenderedSpy'],224,8,Q3
+VIC,Link,['RaZe', 'Nerpna', 'AmiiboKing', 'Rafe', 'Simple'],530,33,Q3
+VIC,Little Mac,['OnePhoAll', 'T.boy', 'Virgil', '2Simple', 'Shaggy'],2604,149,Q3
+VIC,Lucario,['Deez', 'Toffee'],514,32,Q3
+VIC,Lucas,['Jamwa', 'dollarydoos', 'St. Avalon'],682,42,Q3
+VIC,Lucina,['Aurora', 'Elergy', 'El', 'Tomie', 'Havok', 'Ledge', 'Corvid', 'Chin', 'Jayd', 'Bussy', 'SKG', 'Haris', 'Jules', 'Lizam', 'Saber'],1634,74,Q3
+VIC,Luigi,['Duon', 'Maedus', 'DD', 'Whis Dom'],469,33,Q3
+VIC,Mario,['Ignis', 'Banjo String', 'Soda', 'DD', 'Extra', 'ChoiceOxide', 'Corvid', 'P9', 'F!zzi'],737,65,Q3
+VIC,Marth,['P9', 'iB', 'Jayd', 'DD', 'Shen'],137,22,Q3
+VIC,Mega Man,['Aya', 'Soda'],1931,83,Q3
+VIC,Metaknight,['Dogivet', 'Corvid'],190,11,Q3
+VIC,Mewtwo,['Revax', 'Ergon', 'Timic83', 'Jash'],22,6,Q3
+VIC,Mii Brawler,['Spaz', 'C+'],116,3,Q3
+VIC,Mii Gunner,['UBOA', 'Revax', 'Gary'],439,13,Q3
+VIC,Mii Swordfighter,['Danklin'],2377,131,Q3
+VIC,Mr. Game and Watch,['Extra', 'Soda', 'DD', 'Blackheart', 'Danza'],1338,74,Q3
+VIC,Ness,['China', 'Khami'],1431,44,Q3
+VIC,Pac-Man,['VineGreen', 'More Chilli', 'LKel', 'nate', 'xenon', 'Wack-Man'],1555,97,Q3
+VIC,Palutena,['Dragon', 'Ignis', 'Pabu', 'Darkness', 'unrealsora', 'Xambie', 'Princess', 'Haris', 'Mast'],4403,253,Q3
+VIC,Peach,['Catburger', 'chardylka'],1479,87,Q3
+VIC,Pichu,['Stoddy', 'Havok', 'KmS'],271,14,Q3
+VIC,Pikachu,['Piski', 'PartyGrappler', 'Alpal'],621,37,Q3
+VIC,Pikmin & Olimar,['Piski', 'Haris'],89,4,Q3
+VIC,Piranha Plant,['Dampé', 'sinnaoi', 'F!zzi', 'Corvid', 'Yackreck', 'Toffee', 'Jazzy', 'Techless'],237,17,Q3
+VIC,Pit,['RaZe', 'Reborn', 'AuraPaladin'],455,23,Q3
+VIC,Pokémon Trainer,['Neoblade', 'Cygnus', 'Corvid', 'Pudge', 'PartyGrappler', 'SebPro101', 'Ergon', 'Dr Omega', 'haiku', 'Fortune', 'Dampé'],3955,197,Q3
+VIC,Random,['Gary', 'DD', 'Daddy Ganny'],244,20,Q3
+VIC,Richter,['Corvid'],3,3,Q3
+VIC,Ridley,['Jazzy', 'Booper', 'Corvid', 'Legion', 'C+', 'Gary', 'Daddy Ganny'],903,49,Q3
+VIC,ROB,['MasterofDisaster', 'SebPro101', 'Radio#1117', 'Tomie', 'Danza', 'Extra', 'DD', 'Kaito', 'Mongo_is_me', 'JordanEra', 'MarchOfHell', 'Robit'],7131,386,Q3
+VIC,Robin,['Skitter', 'Raid', 'Corvid', 'Bussy'],913,52,Q3
+VIC,Rosalina & Luma,['Denz', 'Techless'],733,18,Q3
+VIC,Roy,['Saber', 'Nevarc', 'Mast', 'Fingerless', 'Cyanide', 'Arnie', 'unrealsora', 'Mar', 'Extra', 'Zee'],987,48,Q3
+VIC,Ryu,['Mar'],73,4,Q3
+VIC,Samus,['Whis Dom', 'Kevvlar', 'Dogivet'],942,36,Q3
+VIC,Sheik,['Akino'],372,28,Q3
+VIC,Shulk,['Kaito', 'Supernova', 'Conan', 'Speedster', 'Stringsona'],430,21,Q3
+VIC,Simon,[],0,0,Q3
+VIC,Snake,['Duon', 'BigChilli', 'Tomie', 'BIGBOSS', 'Timic83', 'DD', 'Entei', 'Sandman', 'Bussy', 'Haris', 'ItSebas123', 'Raid', 'winnie', 'Mar', 'Vices', 'Jash', 'PAL'],8500,496,Q3
+VIC,Sonic,['Dogivet'],101,1,Q3
+VIC,Terry,[],0,0,Q3
+VIC,Toon Link,['Soda', 'Virgil', 'Piski', 'FireFly'],429,12,Q3
+VIC,Villager,['P9', 'Extra', 'B-2', 'SebPro101'],3468,207,Q3
+VIC,Wario,['Haris', 'DD', 'More Chilli', 'Duon', 'Extra', 'Denz', 'KmS', 'Dampé', 'Sodaman'],3025,160,Q3
+VIC,Wii Fit Trainer,['Jaypam', 'Sir Banana', 'Cool Mum', 'Tekk'],1974,100,Q3
+VIC,Wolf,['Haris', 'iB', 'Fortune', 'Isyuhaye', 'Kaito', 'Vigridian', 'Mast', 'Aya', 'Insie', 'dunccy', 'Corvid', 'Extra', 'pk', '1opal', 'Guyanide', 'RazorSharp', 'El'],2155,138,Q3
+VIC,Yoshi,['Dylba', 'Maedus', 'Fidilduck', 'Slimboy17', 'Jazzy', 'dunkMATTic', 'P8', 'F!zzi', 'Cyanide', 'YousomoKazefu', 'BrentonMcBJJ', 'WilliamMac', 'Eruption'],3892,204,Q3
+VIC,Young Link,['DD', 'Jdizzle', 'Virgil', 'P9', 'ItSebas123', 'CG90', 'dunkMATTic', 'Thecooks', 'Dampé'],1407,72,Q3
+VIC,Zelda,['Falchion', 'Darkness', 'chan', 'Leliel', 'Jazzy', 'Vigridian', 'GotMilk', 'Lulu'],415,33,Q3
+VIC,Zero Suit Samus,['Little Mark', 'Arc', 'Princess', 'Pat Cash', 'Blackheart', 'Corvid', 'iB'],1542,78,Q3
+TAS,Bowser,[],0,0,Q3
+TAS,Captain Falcon,['Luma'],70,1,Q3
+TAS,Cloud,['LargeMarge'],0,1,Q3
+TAS,Dark Pit,[],0,0,Q3
+TAS,Donkey Kong,[],0,0,Q3
+TAS,Greninja,[],0,0,Q3
+TAS,Ice Climbers,[],0,0,Q3
+TAS,Ike,[],0,0,Q3
+TAS,Incineroar,[],0,0,Q3
+TAS,Jigglypuff,[],0,0,Q3
+TAS,Joker,[],0,0,Q3
+TAS,Ken,[],0,0,Q3
+TAS,Lucina,[],0,0,Q3
+TAS,Luigi,['Luma'],182,9,Q3
+TAS,Mii Brawler,[],0,0,Q3
+TAS,Mii Swordfighter,[],0,0,Q3
+TAS,Mr. Game and Watch,[],0,0,Q3
+TAS,Ness,[],0,0,Q3
+TAS,Palutena,['Luma'],382,15,Q3
+TAS,Peach,[],0,0,Q3
+TAS,Pikachu,[],0,0,Q3
+TAS,Pokémon Trainer,['Luma'],310,22,Q3
+TAS,Ridley,[],0,0,Q3
+TAS,ROB,[],0,0,Q3
+TAS,Roy,[],0,0,Q3
+TAS,Shulk,[],0,0,Q3
+TAS,Snake,[],0,0,Q3
+TAS,Wii Fit Trainer,[],0,0,Q3
+TAS,Wolf,[],0,0,Q3
+TAS,Yoshi,[],0,0,Q3
+TAS,Young Link,[],0,0,Q3
+TAS,Zero Suit Samus,['LargeMarge'],0,1,Q3
+INT,Bowser,[],0,0,Q3
+INT,Bowser Jr.,[],0,0,Q3
+INT,Captain Falcon,[],0,0,Q3
+INT,Cloud,[],0,0,Q3
+INT,Greninja,[],0,0,Q3
+INT,Ice Climbers,[],0,0,Q3
+INT,Ike,[],0,0,Q3
+INT,Inkling,[],0,0,Q3
+INT,Joker,['kenpai'],0,1,Q3
+INT,Mr. Game and Watch,[],0,0,Q3
+INT,Ness,[],0,0,Q3
+INT,Pac-Man,[],0,0,Q3
+INT,Palutena,[],0,0,Q3
+INT,Pichu,[],0,0,Q3
+INT,Pokémon Trainer,['kenpai'],0,6,Q3
+INT,ROB,[],0,0,Q3
+INT,Roy,[],0,0,Q3
+INT,Wario,[],0,0,Q3
+INT,Wolf,['Coney'],0,13,Q3
+INT,Yoshi,[],0,0,Q3
+QLD,Banjo & Kazooie,['Jett', 'MrHoboBob', 'Verse', 'Mastodon', 'Prison Mike'],2752,150,Q4
+QLD,Bayonetta,['PillowTalk', 'Astra+', 'Fly'],244,16,Q4
+QLD,Bowser,['Cmonster', 'Mittens', 'Jett', 'Atare', 'Hammerhead96', 'Kurogane Hammer', 'Jetfantastic', 'GrueOfDoom', 'Flamboyanthamster', 'Vertigo', 'Ben Gold', 'Wattson', 'Rababity', 'Koopa', 'Recon', 'Aidento', 'Negima', 'ZethG', 'Stern', 'actus reus'],2824,138,Q4
+QLD,Bowser Jr.,['Cava', 'Gustav', 'BattleDolphin', 'Aurion'],47,6,Q4
+QLD,Captain Falcon,['Jix', 'Iroh', 'conso', 'Grumbley', 'Khanage', 'Vye', 'Conductus', 'ClassicJono', 'Cajeck', 'Scott', 'Cal'],732,36,Q4
+QLD,Chrom,['ApolloCJ', 'SpaZzy', 'WickStix', 'Omta', 'Trisma', 'FC', 'TRex'],139,13,Q4
+QLD,Cloud,['Nitzayra', 'THE SAME', 'Kwaksy', 'CroW', 'VorpalRend'],1066,42,Q4
+QLD,Corrin,['PillowTalk'],62,6,Q4
+QLD,Daisy,['Luminescent', 'Fly', 'RamenKid'],0,3,Q4
+QLD,Dark Pit,['Zenzlia', 'FC', 'Cajeck'],523,25,Q4
+QLD,Dark Samus,['Python', 'Cmonster'],331,23,Q4
+QLD,Diddy Kong,['Delve', 'UMKO'],90,7,Q4
+QLD,Donkey Kong,['Omta', 'Branyb', 'noobar', 'Hashimo', 'Leaf', 'Grumbley', "Dom's Tomato", 'Cmonster', 'Flex', 'Breezy', 'Jojo', 'drSlump', 'Taishi', 'Tom', 'Cajeck', 'Kwaksy', 'Will05thom', 'JuiceGoose', 'Recon'],587,42,Q4
+QLD,Dr. Mario,['Fiasco', 'conso', 'DaddyMD'],33,6,Q4
+QLD,Duck Hunt Duo,['Kwaksy', 'Jakalanche'],28,6,Q4
+QLD,Falco,['Blurry', 'Sam Drew', 'theninja420', 'Stacked', 'Conductus', 'Cajeck', 'conso', 'Bigfatelli'],2698,118,Q4
+QLD,Fox,['Bigfatelli', 'Flex', 'Spammage', 'JANGLIO!', 'Taishi', 'Money_Doller', 'Fly', 'InfamousL'],1650,68,Q4
+QLD,Ganondorf,['Cmonster', 'Vye', 'Diddle', 'Kaboose', 'Jetfantastic', 'Joz.', 'Vorb', 'VoidUpdate', 'Artful', 'Brennn', 'DaddyMD', 'MP', 'Cajeck'],3741,193,Q4
+QLD,Greninja,['Milis', 'Sifo1', 'Diddle', 'Lomar', 'Hmm', 'Zyphenor', 'Aurion'],848,53,Q4
+QLD,Hero,["Dom's Tomato", 'SiqNiq', 'Kaboose', 'Joser', 'CarrotAxe', 'FC', 'MP', 'Bigfatelli', 'PillowTalk', 'MOTY_BaeGhouls', 'Boopy', 'Aurion', 'Negima'],612,28,Q4
+QLD,Ice Climbers,['Spammage', 'Prince', 'R3M'],70,8,Q4
+QLD,Ike,['Jem', 'Ari', 'Zenzlia', 'Coffee', 'theninja420', 'Wattson', 'Joz.', 'tohmais', 'Jumbuck'],467,35,Q4
+QLD,Incineroar,['Fly', 'Gravydice', 'Kaboose', 'Grumbley', 'THE SAME', 'Aidento', 'Joser'],2951,109,Q4
+QLD,Inkling,['DFS', 'Crabfish', 'Wildermold', 'Hol up', 'CarrotAxe', 'Jyoshi', 'Kwaksy', 'Negima', 'Bigfatelli', 'Antec'],588,27,Q4
+QLD,Isabelle,['Zenzlia', 'Talie', 'Aidento', 'Floating Stools', 'XDDD'],59,11,Q4
+QLD,Jigglypuff,['BattleDolphin', 'Cajeck', 'Himbo', 'keenanmod'],815,39,Q4
+QLD,Joker,['Churropon', 'Joser', 'Vye', 'Lomar', 'Recon', 'JBoy', 'Slash', 'Thompsinus', 'Astra+', 'Coffee', 'Negima', 'Jarrod', 'Spammage', 'barcus', 'Zydro'],4226,205,Q4
+QLD,Ken,['Shadrew', 'WeedLan'],1533,141,Q4
+QLD,King Dedede,['Milis', 'Exist', 'Joser', 'XDDD', 'MilkingChicken', 'Slayer'],3085,131,Q4
+QLD,King K. Rool,['Jix', 'Mittens', 'Ben Gold', 'Jett', 'Michi', 'VoidUpdate', 'Diddle'],3023,149,Q4
+QLD,Kirby,['BattleDolphin', 'KaiDASH', 'asa', 'UMKO', 'Mastodon', 'Zunjo', 'Emily'],1356,81,Q4
+QLD,Link,['Misenka', 'Lt', 'Narcissus', 'Thompsinus', 'Mx', 'namnam'],351,22,Q4
+QLD,Little Mac,['Skitz', 'Unethical', 'Vye', 'squidfist', 'Fly'],272,7,Q4
+QLD,Lucario,['Will05thom', 'ras', 'Aurion', 'Aidento'],163,8,Q4
+QLD,Lucas,['Chief99', 'Mabi', 'Diddle'],1297,61,Q4
+QLD,Lucina,['Jetfantastic', 'Joz.', 'Coffee', 'Himbo', 'SadHour', 'Vye', 'Scrail', 'Nitzayra'],2568,135,Q4
+QLD,Luigi,['Jay Gee', 'JuiceGoose', 'Boost', 'GBread'],1665,57,Q4
+QLD,Mario,['Jumbiny', 'Hashimo', 'XDDD', 'Mastodon', 'Spoony', 'Stacked', 'Rainth', 'Dags', 'Joz.', 'Jix', 'FabulousDork'],1380,71,Q4
+QLD,Marth,['Scrail', 'conso'],76,2,Q4
+QLD,Mega Man,['Slash', 'Shitashi', 'Xondrell'],541,35,Q4
+QLD,Metaknight,['Murke', 'Pinkie', 'Flex'],3006,155,Q4
+QLD,Mewtwo,['Mint2', 'Joz.', 'Danzah', 'Monarch', 'Koopa'],307,25,Q4
+QLD,Mii Brawler,['KaiDASH', 'Bigfatelli'],92,9,Q4
+QLD,Mii Gunner,['UMKO', 'Floating Stools', 'Diddle', 'Mondrow'],128,7,Q4
+QLD,Mii Swordfighter,['BattleDolphin', 'Negima'],363,24,Q4
+QLD,Mr. Game and Watch,['Jetfantastic', 'Mittens', 'squidfist', 'Dom', 'Jix', 'eggggg', 'VoidUpdate', 'SadHour', 'Sway_DWL', 'Egg', 'Gravydice', 'PillowTalk'],1219,71,Q4
+QLD,Ness,['Jay Gee', 'Money_Doller', 'Chief99', 'ALP1NE', 'Blaze', 'Night12', 'Kwaksy', 'Delve', 'BattleDolphin', '_menswear', 'TheJazzyman', 'Cagey', 'Prince', 'Mint'],5234,248,Q4
+QLD,Pac-Man,['Xondrell', 'Blizzy', 'Timtam', 'Toki', 'Toilet Store', 'Serein'],1071,62,Q4
+QLD,Palutena,['Cajeck', 'WeedLan', 'Kurogane Hammer', 'Antec', 'FC', 'Crimson', 'ApolloCJ', 'Brennn', 'ClassicJono', 'Danzah', 'Blaze', 'Rainth', 'Swan'],5088,296,Q4
+QLD,Peach,['Money_Doller', 'Jaice', 'EJ', 'squidfist', 'Nicc', 'RamenKid'],196,8,Q4
+QLD,Pichu,['RoZ', 'flak street'],0,6,Q4
+QLD,Pikachu,['Money_Doller', 'Magik', 'SoMa', 'Mastodon', 'Himbo', 'DFS', 'Sifo1', 'Nicc'],669,34,Q4
+QLD,Pikmin & Olimar,['Vertigo', 'Jaice'],0,7,Q4
+QLD,Piranha Plant,['Aidento', 'Jed', 'Zunjo', 'Prison Mike'],847,30,Q4
+QLD,Pit,['Churropon', 'Wildermold', 'MP'],125,11,Q4
+QLD,Pokémon Trainer,['BoingBoing', 'schooner', 'Diddle', 'Recon', 'Cajeck', 'Money_Doller', 'Mint', 'Gekk-0h', 'Slayden'],2282,97,Q4
+QLD,Random,['Diddle', 'Jix', 'Cmonster', 'Joser', 'Ben Gold', 'Mastodon', 'R3M'],880,27,Q4
+QLD,Ridley,['Diddle', 'Will05thom', 'MetaBhreat', 'ClassicJono'],4665,207,Q4
+QLD,ROB,['Swate', 'Weeb', 'Dom', 'Mastodon', 'Kieness', 'Crab', 'JANGLIO!', 'barcus'],2501,128,Q4
+QLD,Robin,['HeaL', 'Hashimo', 'UMKO', 'Pikkip', 'Diddle', 'flak street'],69,15,Q4
+QLD,Rosalina & Luma,['Jaice', 'PillowTalk'],33,4,Q4
+QLD,Roy,['SiqNiq', 'Churropon', 'Sam Drew', 'Unethical', 'LUSH', 'DaddyMD', 'SpaZzy', 'theninja420', 'Buffetbeatle', 'Gekk-0h', 'TRex'],940,49,Q4
+QLD,Ryu,['WeedLan', 'Diddle', 'Aidento'],0,4,Q4
+QLD,Samus,['Python', 'Cmonster'],389,18,Q4
+QLD,Sheik,['LUSH', 'Coffee', 'Thompsinus', 'Cajeck', 'Zyphenor'],139,19,Q4
+QLD,Shulk,['Churropon', 'LUSH', 'MOTY_BaeGhouls', 'RedRider65'],116,10,Q4
+QLD,Simon,[],0,0,Q4
+QLD,Snake,['Loki', 'SadHour', 'Himbo', 'Michi', 'Serein', 'Kuri', 'Jetfantastic', 'Recon', 'Kair0s', 'Antec', 'LUSH', 'Ben Gold', 'ZipperTheRipper', 'Sway_DWL', 'Cmonster', 'FabulousDork'],1128,83,Q4
+QLD,Sonic,['SpaZzy', 'Kaboose', 'Blizzy', 'Bellboi'],1193,53,Q4
+QLD,Terry,['Chief99', 'Diddle', 'Toilet Store', 'Lt', 'Dags', 'RedRider65', 'Negima', 'SpaZzy', 'Himbo', 'katoptron', 'Scrail'],1803,102,Q4
+QLD,Toon Link,['Vye', 'Umbrella'],1381,73,Q4
+QLD,Villager,['Mint2', 'MilkingChicken', 'GBread', 'Aidento'],32,4,Q4
+QLD,Wario,['HueHue', 'Antec', 'Nicc', 'Himbo', 'Curtain', 'Mondrow'],1315,64,Q4
+QLD,Wii Fit Trainer,['Dags', 'squidfist', 'Luminescent', 'Toilet Store'],4016,194,Q4
+QLD,Wolf,['Bigfatelli', 'Gravydice', 'Moo', 'JANGLIO!', 'Kurogane Hammer', 'Sifo1', 'Antec', 'Crimson', 'Homer', 'Prison Mike', 'Stilts', 'Michi'],3538,167,Q4
+QLD,Yoshi,['Radiant Pheonix', 'Stilts', 'Zunjo', 'Seymour Butts', 'Semore', 'Taishi', 'WickStix', 'Dizzzy', 'Aki'],1520,67,Q4
+QLD,Young Link,['Unethical', 'Vye', 'Joz.', 'SpaZzy', 'Rainth', 'Jyoshi', 'Kwaksy', 'Thompsinus'],222,12,Q4
+QLD,Zelda,['Rababity', 'Talie', 'Fly', 'HeaL', 'Will05thom', 'Bigfatelli', 'Sbcreepy'],2382,112,Q4
+QLD,Zero Suit Samus,['Cap', 'Jett', 'Himbo', 'DareDevil01', 'Danzah', 'Jarrod', 'SpaZzy', 'Loki'],1514,56,Q4
+NSW,Banjo & Kazooie,['Lunchy', 'Veness', 'Spike', 'Invisi', 'Enn'],343,25,Q4
+NSW,Bayonetta,['Lain', 'Spike'],415,27,Q4
+NSW,Bowser,['NV', 'IntenseQuack', 'Lunchy', 'Johtothan', 'Spike', 'MegaloManiAsh', 'Delta', 'CureWounds', 'Staunch', 'Maurr', 'Treesus', 'Warlordhero'],639,31,Q4
+NSW,Bowser Jr.,['Spike', 'Day', 'FumbleJr', 'Nuke'],3083,163,Q4
+NSW,Captain Falcon,['JayBird', 'Ant', 'Toxic', 'Toonara', 'AboRoza', 'IcKc', 'chizzL', 'BroKeN', 'Pierce'],378,21,Q4
+NSW,Chrom,['Johtothan', 'Nyantic', 'Delta', 'Trojans', 'Ryan', 'Fez'],1179,74,Q4
+NSW,Cloud,['NV', 'CORG', 'Nintenboy', 'KizzaBam'],0,7,Q4
+NSW,Corrin,['Shaoweater', 'Vostok'],38,4,Q4
+NSW,Daisy,['Haber'],89,1,Q4
+NSW,Dark Pit,['Poless', 'Spike', 'Palooka'],121,7,Q4
+NSW,Dark Samus,['Spike', 'chizzL', 'snz', 'Grizz', 'Doctor A.Ness', 'WhitePointer', 'Ryan'],612,23,Q4
+NSW,Diddy Kong,['Cynical', 'Ryan', 'GumbleGore', 'Neath', 'Mars'],1375,80,Q4
+NSW,Donkey Kong,['Delta', 'Lunchy', 'Fontana', 'Spike', 'Doctor A.Ness', 'Ryan', 'Favi', 'Shaoweater'],2661,144,Q4
+NSW,Dr. Mario,['Fruit', 'Zoltan', 'Lain'],307,7,Q4
+NSW,Duck Hunt Duo,['prto'],67,2,Q4
+NSW,Falco,['Beet', 'Fez', 'Doctor A.Ness', 'Rog', 'igNITR0', 'Vostok'],2988,135,Q4
+NSW,Fox,['AboRoza', 'Chez', 'Yan', 'Cynical', 'CheMarama', 'Lain', 'Vic'],1619,83,Q4
+NSW,Ganondorf,['Metal Force', 'Kinky boots', 'Ant', 'Doom', 'IcKc'],77,7,Q4
+NSW,Greninja,['Doctor A.Ness', 'Mikkle', 'Friekugel', 'Lumidyne'],264,10,Q4
+NSW,Hero,['Maurr', 'Sebcell', 'Primed', 'Kanga.exe'],303,16,Q4
+NSW,Ice Climbers,['Halosydne', 'Lain', 'Palooka'],147,6,Q4
+NSW,Ike,['Lanatra', 'Skyreth'],495,23,Q4
+NSW,Incineroar,['Delta', 'Zoltan', 'Rocket', 'Friekugel', 'BJSchoey', 'Fruit'],232,11,Q4
+NSW,Inkling,['Toonara', 'Phyco', 'Andrew Lin', 'Lain', 'Neath', 'Trojans', 'Mikkle', 'IceyFire'],381,27,Q4
+NSW,Isabelle,['Lain', 'Spike'],0,2,Q4
+NSW,Jigglypuff,['Invisi', 'Lumidyne', 'Spike', 'FumbleJr'],263,15,Q4
+NSW,Joker,['Hyper', 'Johtothan', 'Lora', 'Guava', 'Yosh', 'Nyantic', 'Toxic', 'Guts', 'Shaoweater', 'Lumidyne', 'IceyFire', 'Toonara', 'Mr Leak', 'Lain'],1550,72,Q4
+NSW,Ken,['Newiee', 'Glace', 'Phteve'],15,6,Q4
+NSW,King Dedede,['Chipotle', 'Bass', 'DeDeDez Nutz', 'WhitePointer'],429,23,Q4
+NSW,King K. Rool,['Spike', 'TWIRLY', 'Johtothan', 'K Fool', 'IntenseQuack', 'Staunch', 'Sweetchilli', 'Lain'],220,15,Q4
+NSW,Kirby,['Fruit', 'Johtothan'],140,3,Q4
+NSW,Link,['DoorBashr', '22IQ', 'Zesco', 'Fuarkles'],719,32,Q4
+NSW,Little Mac,['Rocket', 'Lain', 'DoorBashr', 'Froppy'],68,5,Q4
+NSW,Lucario,['chizzL'],110,2,Q4
+NSW,Lucas,['Vic', 'Fruit'],167,3,Q4
+NSW,Lucina,['Kinky boots', 'Bananafish', 'Flx', 'Guts', 'Shaoweater', 'Favi', 'F1ERCE', 'WolfBlue', 'Chef', 'Scarpian', 'Beet'],391,32,Q4
+NSW,Luigi,['MaxChampion', 'Olag', 'MegaloManiAsh', 'Lumidyne', 'Trojans', 'Lain', 'Dr Smash'],137,14,Q4
+NSW,Mario,['Bananafish', 'Angel', 'Zen', 'Fez', 'Lain', 'Spike'],1144,65,Q4
+NSW,Marth,['Vic', 'Bananafish', 'Fruit', 'Ryan', 'Primed', 'Scarpian'],610,28,Q4
+NSW,Mega Man,['krysell', 'Chipotle', 'Plump', 'Doctor A.Ness'],758,25,Q4
+NSW,Metaknight,['El Chimpe'],0,1,Q4
+NSW,Mewtwo,[],0,0,Q4
+NSW,Mii Brawler,['Shmu', 'Lumidyne', 'Trojans', 'UltimentM', 'Lain', 'Sebcell'],206,22,Q4
+NSW,Mii Gunner,['Ryan', 'Pierce'],5,2,Q4
+NSW,Mii Swordfighter,[],0,0,Q4
+NSW,Mr. Game and Watch,['krysell', 'Nyantic', 'F1ERCE', 'Ryan', 'Palooka'],1818,105,Q4
+NSW,Ness,['Plump', 'Ryzuul', 'Jisp', 'Kitt', 'Ryan', 'Nyantic', '4par', 'TurtleCat', 'Sebcell'],1561,92,Q4
+NSW,Pac-Man,['krysell'],173,4,Q4
+NSW,Palutena,['Shmu', 'Poless', 'Lain', 'Shaoweater', 'Lora', 'TurtleCat', 'Joe', 'Guts'],1034,52,Q4
+NSW,Peach,[],0,0,Q4
+NSW,Pichu,['Lora', 'BD', 'Shaoweater', 'Shmu', 'Lain'],67,8,Q4
+NSW,Pikachu,['Shmu', 'Day', 'Merebry'],1529,90,Q4
+NSW,Pikmin & Olimar,['DingoBear'],0,5,Q4
+NSW,Piranha Plant,['Weed', 'Lain'],32,2,Q4
+NSW,Pit,[],0,0,Q4
+NSW,Pokémon Trainer,['Fez', 'Vic', 'Omubird', 'Glace', 'Lumidyne', 'Lain', 'Purple~H', 'Shmu', 'HenSim', 'Evil Olive'],1800,89,Q4
+NSW,Random,['Fruit', 'Lain', 'Shmu'],55,3,Q4
+NSW,Richter,['Spike'],0,1,Q4
+NSW,Ridley,['Fruit', 'Lain', 'Mr Leak'],246,5,Q4
+NSW,ROB,['Pierce', 'Spike', 'Lora', 'Lumidyne', 'BJSchoey', 'Ryan'],714,31,Q4
+NSW,Robin,['Fruit'],62,1,Q4
+NSW,Rosalina & Luma,['Fruit', 'Cotton', 'Lora'],151,5,Q4
+NSW,Roy,['Dugongs', 'Delta', 'Nintenboy', 'Chef'],685,38,Q4
+NSW,Ryu,['Scarpian'],89,6,Q4
+NSW,Samus,['Grizz', 'Jumboj1m', 'Lain', 'Shaoweater', 'Fruit', 'Zesco'],370,19,Q4
+NSW,Sheik,['Shmu', 'Fruit', 'Trojans', 'Lain'],110,12,Q4
+NSW,Shulk,['Metal Force'],0,1,Q4
+NSW,Simon,['Invisi'],445,23,Q4
+NSW,Snake,['Hyper', 'Metal Force', 'Trojans', 'Kanga.exe', 'charies', 'Lain', 'Purple~H', 'BD', 'Ryan', 'Primed'],921,58,Q4
+NSW,Sonic,['Shaoweater', 'Fruit', 'JPW'],91,3,Q4
+NSW,Terry,['AmaliKada', 'Scarpian', 'WolfBlue', 'EmanSaur'],510,15,Q4
+NSW,Toon Link,['Lumidyne', 'Glace', 'Lora'],91,8,Q4
+NSW,Villager,['Fruit', 'EiRiK'],239,5,Q4
+NSW,Wario,['Spike', 'Lora', 'Skyreth'],938,55,Q4
+NSW,Wii Fit Trainer,['Lain', 'Jackpot', 'Ryan'],431,14,Q4
+NSW,Wolf,['krysell', 'Purple~H', 'Lumidyne', 'Matter', 'Blue', 'Blue22', 'Fez', 'Lain', 'Shaoweater', 'JDfreeUZI', 'TurtleCat', 'BJSchoey'],1282,75,Q4
+NSW,Yoshi,['EmanSaur', 'Veness', 'Techlord', 'Forrest', 'Lumidyne'],2784,137,Q4
+NSW,Young Link,['TWIRLY', 'Thixsev', 'Vic', 'Fruit'],405,15,Q4
+NSW,Zelda,['Lora', 'F1ERCE', 'Dag'],781,34,Q4
+NSW,Zero Suit Samus,['Trojans', 'Joe', 'Blue', 'Shaoweater', 'Day'],1996,97,Q4
+SA,Banjo & Kazooie,['Q', 'Flow Rats', 'Rasputin'],244,15,Q4
+SA,Bayonetta,['Yellow'],0,1,Q4
+SA,Bowser,['Rasputin', 'Wowser', 'Vivi', 'TheRandomHobo', 'Jacko', 'Padilan', 'BLU', 'TacoSpartan', 'Ghost', 'Captain Diddler'],2477,129,Q4
+SA,Bowser Jr.,['Vivi', 'Taicho', 'Jacko'],27,10,Q4
+SA,Captain Falcon,['Jimbles', 'im23bro', 'Fan2Fromage', 'Wowser', 'Fenno'],964,50,Q4
+SA,Chrom,['F1shy', 'Andre', 'SpudBud3'],151,15,Q4
+SA,Cloud,['BLU', 'Bizz'],0,2,Q4
+SA,Corrin,['TacoSpartan', 'Q', 'Queen'],67,11,Q4
+SA,Dark Pit,['Aceyl', 'Radioactive'],0,3,Q4
+SA,Dark Samus,[],0,0,Q4
+SA,Diddy Kong,['Jacko', 'Bizz'],155,17,Q4
+SA,Donkey Kong,['BLU', 'Bentley', 'Jacko', 'Q'],319,22,Q4
+SA,Dr. Mario,[],0,0,Q4
+SA,Duck Hunt Duo,['Jaska'],0,1,Q4
+SA,Falco,['Q', 'Wowser'],17,5,Q4
+SA,Fox,['Macka', 'Con', 'Aetos', 'Bentley'],478,38,Q4
+SA,Ganondorf,['Andre', 'Salt Bae', 'Dynasty', 'TG4062', 'Snake'],247,12,Q4
+SA,Greninja,['Spicy', 'Taicho', 'Taco', 'Calzy', 'Faelyon'],2039,119,Q4
+SA,Ike,['Macka', 'Theef', 'BLU', 'Queen', 'TG4062'],943,43,Q4
+SA,Incineroar,['Jimbles', 'Q'],0,2,Q4
+SA,Inkling,['Kaeser', 'Rust', 'Taco', 'Shaun', 'Smid'],544,31,Q4
+SA,Isabelle,[],0,0,Q4
+SA,Jigglypuff,['TJ', 'Sweet', 'Fenno'],525,32,Q4
+SA,Joker,['Sweet', 'Bizz', 'Eden', 'TG4062', 'Dynasty', 'Zekora', 'Matt'],634,44,Q4
+SA,Ken,['Knack', 'Stabby J'],0,2,Q4
+SA,King Dedede,[],0,0,Q4
+SA,King K. Rool,['Jacko', 'Dog Fort', 'Wowser'],166,16,Q4
+SA,Kirby,['Ness', 'Q'],282,15,Q4
+SA,Link,['Taco', 'Jesse', 'Taximan'],277,28,Q4
+SA,Little Mac,[],0,0,Q4
+SA,Lucario,['Stefan', 'Oscar'],31,4,Q4
+SA,Lucas,['LyokoBlight', 'Jon', 'Jacko', 'Q'],407,34,Q4
+SA,Lucina,['Spewis', 'Rizzle', 'Eden', 'Faelyon', 'Leez', 'Q', 'Shaun', 'Yang', 'Treelon', 'Zekora'],799,52,Q4
+SA,Luigi,['Destonate'],0,1,Q4
+SA,Mario,['CaptainCoolade', 'Dubs', 'Q', 'Bentley', 'Jacko', 'Shundog'],594,32,Q4
+SA,Marth,['Infoxicated', 'Q', 'Jeet', 'Paulek'],0,6,Q4
+SA,Mega Man,['Jacko'],67,6,Q4
+SA,Metaknight,['Fenno', 'Q'],0,2,Q4
+SA,Mewtwo,['Ninhon', 'Taicho'],65,5,Q4
+SA,Mii Brawler,['Ghost'],953,89,Q4
+SA,Mii Swordfighter,[],0,0,Q4
+SA,Mr. Game and Watch,['Sweet', 'Matt', 'SNAP!', 'Ghost', 'Oscar', 'Aetos', 'Yellow'],99,27,Q4
+SA,Ness,['Dacksonjann', '333', 'TJ'],0,5,Q4
+SA,Pac-Man,['CaptainCoolade', 'Soryx', 'Fenno'],402,22,Q4
+SA,Palutena,['Jacko', 'Paulek', 'Q', 'Stawz', 'Aetos', 'BLU', 'Salt Bae', 'Ghost', 'Oscar'],1631,95,Q4
+SA,Peach,['King', 'Radioactive', 'Paulek'],37,3,Q4
+SA,Pichu,['Yauhyeah', 'Paulek'],212,19,Q4
+SA,Pikachu,['Dashie', 'Tiger99'],1349,70,Q4
+SA,Piranha Plant,['Moth Plague', 'Destonate', 'Ghost'],805,35,Q4
+SA,Pit,['Q'],0,1,Q4
+SA,Pokémon Trainer,['Rasputin', 'Tideray', 'Q', 'Kale', 'Taicho', 'Spicy', 'Leez', 'Dog Fort', 'BLU'],632,60,Q4
+SA,Random,['Q', 'Yellow', 'Oscar'],22,3,Q4
+SA,Richter,['Jacko'],0,2,Q4
+SA,Ridley,['Dog Fort'],1348,71,Q4
+SA,ROB,['Oscar', 'Kaeser', 'Ninhon', 'im23bro', 'Dog Fort'],1566,83,Q4
+SA,Robin,['F1shy', 'TacoSpartan', 'Q'],59,12,Q4
+SA,Rosalina & Luma,['King'],0,1,Q4
+SA,Roy,['Andre', 'Eden', 'Zekora'],384,23,Q4
+SA,Samus,['Q', 'Dynasty'],125,7,Q4
+SA,Shulk,['Ninhon'],501,26,Q4
+SA,Simon,['Nao-Cakes'],1282,36,Q4
+SA,Snake,['Oscar', 'Versky', 'Stabby J', 'Matt'],1937,108,Q4
+SA,Sonic,['HTem'],741,47,Q4
+SA,Terry,['megghead', 'Stabby J', 'Spicy', 'Fenno', 'Nao-Cakes', 'Uforia', 'Ghost', 'Oscar', 'Jacko'],385,31,Q4
+SA,Toon Link,['Jon', 'Q', 'Yellow'],589,30,Q4
+SA,Villager,['Yellow', 'Mitch'],694,21,Q4
+SA,Wario,['Sparrowfare', 'Dynasty', 'Jon'],28,4,Q4
+SA,Wii Fit Trainer,['Whissle'],1409,48,Q4
+SA,Wolf,['Aetos', 'Stawz', 'Macka', 'Dog Fort', 'Mash', 'Faelyon', 'Sen', 'Spewis', 'Justice', 'Ninhon', 'Con'],2086,122,Q4
+SA,Yoshi,['Christolaki', 'Sloshi', 'Kaeser', 'Nikes', 'Q'],1345,69,Q4
+SA,Young Link,['Taco'],177,12,Q4
+SA,Zelda,['TacoSpartan'],630,25,Q4
+SA,Zero Suit Samus,['Andre', 'Kaitoblaze', 'Soon'],586,30,Q4
+ACT,Banjo & Kazooie,['Boghara Stroganov', 'DracoKnight', 'Inf', 'Mikey', 'yarb sarb', 'Zowayix'],1246,63,Q4
+ACT,Bayonetta,['Danal'],15,2,Q4
+ACT,Bowser,['Flyingcat', 'Juan', 'Hugh Jass', 'Pazx', 'Awex'],1037,50,Q4
+ACT,Bowser Jr.,['Inf'],12,2,Q4
+ACT,Captain Falcon,['Bloom', 'Doozy'],29,2,Q4
+ACT,Chrom,['Kinaji', 'Jay', 'Zac', 'Sriks', 'Thegoras', 'MeatPi'],536,29,Q4
+ACT,Cloud,['Thegoras', 'Xander', 'Kinaji', 'Awex'],145,5,Q4
+ACT,Daisy,['Pazx'],0,1,Q4
+ACT,Dark Pit,['Ash'],0,1,Q4
+ACT,Dark Samus,['Milsch', 'NiceNice', 'Bless', 'Zowayix'],264,15,Q4
+ACT,Diddy Kong,['Pazx', 'Casper', 'Inxtnc'],63,12,Q4
+ACT,Donkey Kong,['MeatPi', 'Hugh Jass', 'Clapdaddy'],10,7,Q4
+ACT,Duck Hunt Duo,['Bloom', 'Daniel'],845,42,Q4
+ACT,Falco,['Adeptus', 'Crowd', '6000j'],89,5,Q4
+ACT,Fox,['Joey', 'Adeptus'],114,5,Q4
+ACT,Ganondorf,['Mikey', 'Zowayix'],17,2,Q4
+ACT,Greninja,['Adeptus', 'Tommy', 'Waveguider', 'Tilted'],213,12,Q4
+ACT,Hero,['Reshi', 'MapleMage', 'Adeptus', 'Inf', 'Will', 'Milsch'],675,31,Q4
+ACT,Ike,[],0,0,Q4
+ACT,Incineroar,['Nincata', 'Inf', 'Chat'],106,11,Q4
+ACT,Inkling,['MapleMage', 'Dogs Unite', 'Damo'],76,12,Q4
+ACT,Jigglypuff,['Zowayix', 'Flyingcat', 'MrZubber'],1277,59,Q4
+ACT,Joker,['TJslash', 'Cryptic', 'DracoKnight', 'Kinaji', 'Dogs Unite'],400,24,Q4
+ACT,Ken,['ruscur'],134,7,Q4
+ACT,King Dedede,['Fetch', 'Dumpy'],30,2,Q4
+ACT,King K. Rool,['yarb sarb'],0,1,Q4
+ACT,Kirby,['Inf', 'Dumpy', 'Zowayix', 'Fetch'],11,5,Q4
+ACT,Link,['Skin', 'DracoKnight', 'Damo', 'MapleMage'],302,15,Q4
+ACT,Little Mac,[],0,0,Q4
+ACT,Lucario,['ProfTeak'],0,1,Q4
+ACT,Lucas,['ft'],72,1,Q4
+ACT,Lucina,['Danal', 'Mikey', 'Daniel', 'Zac', 'Thegoras', 'Josh'],130,10,Q4
+ACT,Luigi,['Darwin', 'Sriks'],156,6,Q4
+ACT,Mario,['Inxtnc'],172,9,Q4
+ACT,Marth,['Bloom', 'Thegoras', 'Joey', 'Adeptus', 'Sriks', 'Flyingcat', '6000j'],322,20,Q4
+ACT,Mega Man,['Chat', 'Frog', 'Dogs Unite', 'PhoenixRave'],558,30,Q4
+ACT,Mewtwo,['Mosa', 'Bless'],23,2,Q4
+ACT,Mii Brawler,['Inf', 'yarb sarb'],0,2,Q4
+ACT,Mii Gunner,['Zowayix'],615,27,Q4
+ACT,Mii Swordfighter,[],0,0,Q4
+ACT,Mr. Game and Watch,['Daybo', 'Flyingcat', 'yarb sarb', 'Chat', 'Sriks', 'Adeptus'],206,9,Q4
+ACT,Ness,['Zesty', 'Doozy'],261,7,Q4
+ACT,Pac-Man,['yarb sarb', 'MeatPi'],124,14,Q4
+ACT,Palutena,['Reshi', 'Pazx', 'yarb sarb', 'MAMP'],1772,107,Q4
+ACT,Peach,['Danal'],90,3,Q4
+ACT,Pichu,['MrZubber', 'Dumpy'],96,2,Q4
+ACT,Pikachu,['MeatPi'],230,12,Q4
+ACT,Pikmin & Olimar,['Tin Man'],0,1,Q4
+ACT,Piranha Plant,['GoombaLamp', 'PhoenixRave', 'Inf', 'Danal'],172,12,Q4
+ACT,Pit,['Nincata', 'Danal'],150,4,Q4
+ACT,Pokémon Trainer,['MapleMage', 'yarb sarb', 'Servofood', 'Reshi', 'MrZubber'],1506,77,Q4
+ACT,Random,['Reshi', 'MeatPi', 'Sriks'],138,3,Q4
+ACT,Richter,['yarb sarb', 'Cherry', 'Danal'],303,17,Q4
+ACT,Ridley,['Cameroni', 'DarkSlayer', 'Frog', 'Mikey'],140,6,Q4
+ACT,ROB,['Zac', 'MAMP', 'MeatPi'],1090,50,Q4
+ACT,Robin,['Inf'],12,1,Q4
+ACT,Rosalina & Luma,['TJslash'],42,3,Q4
+ACT,Roy,['Thegoras', 'Sriks', 'Eight', 'Juan'],569,23,Q4
+ACT,Ryu,['Funky Boi'],0,1,Q4
+ACT,Samus,['DarkSlayer', 'Bless', 'Darwin', 'Uncolect'],193,12,Q4
+ACT,Sheik,['Bloom', 'Joey', 'Eight'],49,7,Q4
+ACT,Shulk,['Sriks'],1,2,Q4
+ACT,Simon,['Cherry'],432,25,Q4
+ACT,Snake,['Kinaji', 'Zac', 'yarb sarb', 'Tin Man'],639,38,Q4
+ACT,Sonic,['Adeptus', 'Dogs Unite'],27,2,Q4
+ACT,Terry,['Zowayix', 'Dogs Unite', 'Zac', 'Cherry', 'Adeptus'],67,5,Q4
+ACT,Toon Link,[],0,0,Q4
+ACT,Villager,[],0,0,Q4
+ACT,Wario,['Kinaji', 'DracoKnight'],1,2,Q4
+ACT,Wii Fit Trainer,['Inf', 'Daniel', 'Waveguider', 'Juan'],1154,47,Q4
+ACT,Wolf,['Thegoras', 'Reshi', 'Cryptic', 'Joey', '6000j', 'MeatPi', 'Victor'],212,10,Q4
+ACT,Yoshi,['MeatPi', 'Chat'],39,2,Q4
+ACT,Young Link,['Adeptus', 'Boghara Stroganov', 'Hugh Jass'],205,21,Q4
+ACT,Zelda,['Casper', 'Ash', 'Danal'],383,12,Q4
+ACT,Zero Suit Samus,['Pazx', 'quen', 'Danal', 'JJ', 'Josh', 'Fetch', 'Thegoras', 'Uncolect'],130,13,Q4
+WA,Banjo & Kazooie,['Smesty', 'Sharnypooza', 'Copycat'],1441,107,Q4
+WA,Bayonetta,['Copycat'],10,2,Q4
+WA,Bowser,['RosalinaSama', 'The Sack Rat', 'Hellhammer', 'SUPERDOG', 'Musitaku', 'YukiDraco', 'Hugh G Rection'],599,26,Q4
+WA,Bowser Jr.,['DehDehBeh'],11,3,Q4
+WA,Captain Falcon,['TinTin', 'ChuJelly?~', 'RosalinaSama'],525,18,Q4
+WA,Chrom,['sugarblackdog', 'TPZ', 'Potanox', 'Hoodwink', 'Nabnut'],244,20,Q4
+WA,Cloud,['RosalinaSama'],9,2,Q4
+WA,Corrin,['Nabnut'],68,2,Q4
+WA,Dark Pit,['Sable', 'TWIDDLY'],12,3,Q4
+WA,Diddy Kong,['ChuJelly?~'],58,5,Q4
+WA,Donkey Kong,['DrZu', 'Sable', 'RosalinaSama', 'Keutz', 'Johan', 'Ace'],267,20,Q4
+WA,Dr. Mario,['Sable'],183,8,Q4
+WA,Duck Hunt Duo,['BigWin | Beer', 'Hoodwink'],2,4,Q4
+WA,Falco,['Goosey', 'Orion', 'Subwaytime'],101,6,Q4
+WA,Fox,['TPZ', 'M', 'Baeden'],172,6,Q4
+WA,Ganondorf,[],0,0,Q4
+WA,Greninja,['Sable', 'Rainbews', 'Maxx Wizel'],0,6,Q4
+WA,Hero,['RosalinaSama', 'Temper', 'porkhub'],18,5,Q4
+WA,Ike,['Trent', 'HBTV', 'Temper'],61,7,Q4
+WA,Inkling,['YukiDraco', 'Muppit', 'LoneZen'],37,5,Q4
+WA,Isabelle,['Shae'],63,3,Q4
+WA,Jigglypuff,['Goofis', 'Pippy_Pal'],8,3,Q4
+WA,Joker,['YukiDraco', 'Tempest', 'TPZ', 'Turn Up'],2146,101,Q4
+WA,Ken,['Bandido', 'Cale, a vegetable'],0,2,Q4
+WA,King Dedede,['HBTV'],178,7,Q4
+WA,King K. Rool,['Jezzus', 'YukiDraco', 'Temper', 'HBTV'],28,5,Q4
+WA,Kirby,['Arbitrary', 'Shiva'],75,6,Q4
+WA,Link,['Larry', 'Orion', 'Sable', 'Benjo', 'Blenny27'],716,34,Q4
+WA,Little Mac,[],0,0,Q4
+WA,Lucario,['Lowlander2'],0,1,Q4
+WA,Lucas,[],0,0,Q4
+WA,Lucina,['JayVoltage', 'Poppt1', 'TPZ'],85,13,Q4
+WA,Luigi,['Dogforpm', 'Jarr', 'Ace'],1100,69,Q4
+WA,Mario,['Fabio', 'Ttam', 'Johan'],273,16,Q4
+WA,Mega Man,['Temper'],146,9,Q4
+WA,Mii Brawler,[],0,0,Q4
+WA,Mii Gunner,['Sable'],0,1,Q4
+WA,Mii Swordfighter,['Benjo'],132,4,Q4
+WA,Mr. Game and Watch,['LoneZen', 'Pr3zz', 'Seth', 'Poppt1', 'Ttam'],560,33,Q4
+WA,Ness,['Ever', 'Chef', 'Tails', 'HoAN', 'TWIDDLY', 'Poppt1'],1819,120,Q4
+WA,Pac-Man,[':^)', 'Sleepy'],0,2,Q4
+WA,Palutena,['Pippy_Pal', 'Trent', 'Turn Up', 'HoAN', 'Temper', 'M'],143,12,Q4
+WA,Peach,['YGOduelistkosc'],109,2,Q4
+WA,Pichu,['YukiDraco'],4,2,Q4
+WA,Pikachu,['Pippy_Pal'],224,11,Q4
+WA,Piranha Plant,['Temper', 'YukiDraco', 'Hoodwink'],1868,76,Q4
+WA,Pokémon Trainer,['Copycat', 'Ever', 'Nazzer', 'Trent'],2008,98,Q4
+WA,Random,['Pr3zz', 'Turn Up'],55,3,Q4
+WA,Richter,['Coogs', 'Orion'],448,10,Q4
+WA,Ridley,['FLOB', 'Copycat', 'Barney'],436,18,Q4
+WA,ROB,['LoneZen', 'DrZu', 'Turn Up', 'Benjo', 'some_dingus'],434,23,Q4
+WA,Robin,['Rocky'],88,2,Q4
+WA,Rosalina & Luma,['Rocky', 'RosalinaSama', 'danyon'],244,10,Q4
+WA,Roy,['TPZ'],892,42,Q4
+WA,Ryu,['Bandido'],0,1,Q4
+WA,Samus,['PeiBack'],13,1,Q4
+WA,Sheik,['YukiDraco', 'Ttam'],0,2,Q4
+WA,Simon,[],0,0,Q4
+WA,Snake,['Darr', 'Ttam', 'Jtrain'],511,20,Q4
+WA,Sonic,[],0,0,Q4
+WA,Terry,['Coogs', 'Copycat'],63,2,Q4
+WA,Toon Link,['Hoodwink'],766,24,Q4
+WA,Wario,['some_dingus', 'Almenara'],64,11,Q4
+WA,Wii Fit Trainer,['Mattawho', 'sum13'],105,5,Q4
+WA,Wolf,['Temper', 'Shae', 'Glaceon'],230,17,Q4
+WA,Yoshi,['Goofis'],57,7,Q4
+WA,Young Link,['Benjo', 'Turn Up', 'Sleepy'],243,8,Q4
+WA,Zelda,['Rainbews', 'Rocky', 'RosalinaSama'],440,12,Q4
+WA,Zero Suit Samus,['Shiva', 'Ttam'],244,15,Q4
+NZ,Banjo & Kazooie,['Spotyus', 'cheese', 'Dyl', 'iDeeKay', 'TtimTtam', 'Shazzb0tt', 'British Rice'],955,48,Q4
+NZ,Bayonetta,['Dyl', 'iBexal'],596,17,Q4
+NZ,Bowser,['Jarcino', 'Ardeor', 'IcyK', 'Goosey Boy', 'CallMeHoju', 'HikerNob', 'Shlamp', 'ImSoChove'],580,35,Q4
+NZ,Bowser Jr.,['Mook', 'HikerNob', 'Aluf', 'Ichigo'],140,18,Q4
+NZ,Captain Falcon,['Aluf', 'Narth', 'Snow', 'E-Dude'],136,8,Q4
+NZ,Chrom,['Double A', 'Noamit', 'Red', 'Plaz', 'Snow'],144,15,Q4
+NZ,Cloud,['Jarcino', 'Fank009'],198,10,Q4
+NZ,Daisy,['Unladen', 'Aluf', 'iBexal'],157,8,Q4
+NZ,Dark Pit,['Seliph', 'Taurii', 'Orca', 'GammaFox', 'Ichigo'],439,17,Q4
+NZ,Dark Samus,['Egg time'],0,1,Q4
+NZ,Diddy Kong,['ImSoChove', 'Maorio', 'turpitron', 'Aluf', 'BoyNextDoor', 'Ori'],65,8,Q4
+NZ,Donkey Kong,['eGo', 'Egg time', 'B2k', 'HughManChu', 'ramble', 'Kibbs', 'Simikins', 'dingdongkid', 'Gamer01'],1076,46,Q4
+NZ,Dr. Mario,['J2', 'YaMumNz'],202,13,Q4
+NZ,Falco,['HawkEye', 'BlueVapour', 'Angel'],0,4,Q4
+NZ,Fox,['Crunkle'],0,1,Q4
+NZ,Ganondorf,['Flatfeet', 'RAT', 'sler', 'joe', 'Hipncool', 'AsAnything'],434,19,Q4
+NZ,Greninja,['Vontell', 'PONGUS'],50,2,Q4
+NZ,Hero,['J2', 'HughManChu', 'dcs', 'SpaceApe'],420,14,Q4
+NZ,Ice Climbers,['GGSammy'],47,4,Q4
+NZ,Ike,['MetaSlave ', 'Goosey Boy', 'Ichigo', 'Double A'],216,15,Q4
+NZ,Incineroar,['SpaceApe', 'Tradey', 'Blaz', 'eSpi'],21,5,Q4
+NZ,Inkling,['HikerNob', 'Fank009', 'ramble', 'Shlamp'],1324,46,Q4
+NZ,Isabelle,['TREE', 'Knarf97', 'dingdongkid'],40,6,Q4
+NZ,Jigglypuff,['Taurii'],0,2,Q4
+NZ,Joker,['420blazeit', 'GammaFox', 'Blaz', 'Dyl', 'HughManChu', 'Ichigo', 'JoXaZe', 'Orca', 'Jinxamus', 'Shlamp'],1378,41,Q4
+NZ,Ken,['Ignis Fates', '420blazeit', 'Plaz'],233,10,Q4
+NZ,King Dedede,['SpaceApe', 'Double A', 'Ori'],124,6,Q4
+NZ,King K. Rool,['Vontell', 'iBexal', 'Llama Juice'],34,4,Q4
+NZ,Kirby,['Egg time', 'Cusmo'],0,2,Q4
+NZ,Link,['Valos', 'Simikins', 'British Rice', 'MetaSlave ', 'Parlo'],63,6,Q4
+NZ,Little Mac,['TtimTtam', 'SpaceApe', 'B2k', 'E-Dude'],64,6,Q4
+NZ,Lucario,['ube', 'stantheyeti', 'Bizui'],3,3,Q4
+NZ,Lucas,['Duoface', 'Rhasta', 'Arrowskee', 'guancarlos12'],1079,46,Q4
+NZ,Lucina,['mizu', 'BoyNextDoor', 'Simikins', 'Tangerine', 'Taurii', 'sler', '420blazeit', 'Aluf', 'Knarf97', 'eSpi'],321,22,Q4
+NZ,Luigi,['Meatwagon'],0,1,Q4
+NZ,Mario,['Åsh', 'Aluf', 'Big Schmango', 'Knarf97', 'Darma', 'B2k'],83,18,Q4
+NZ,Marth,['Arrowskee', 'Noisy Boy'],18,2,Q4
+NZ,Mega Man,['Jermal', 'dingdongkid'],36,4,Q4
+NZ,Metaknight,['Aluf', 'BoyNextDoor'],0,2,Q4
+NZ,Mewtwo,['BoyNextDoor', 'Cusmo'],0,2,Q4
+NZ,Mii Brawler,['Queue'],0,2,Q4
+NZ,Mii Gunner,[],0,0,Q4
+NZ,Mii Swordfighter,['IcyK'],0,2,Q4
+NZ,Mr. Game and Watch,['iBexal', 'buhikon', 'drockery', 'Skyyyyyyyy'],618,26,Q4
+NZ,Ness,['SBOmega', 'Aluf', 'Knarf97'],476,23,Q4
+NZ,Pac-Man,['TREE', 'British Rice'],79,6,Q4
+NZ,Palutena,['pap5er', 'Taurii', 'Crunkle', 'MiyKam', 'Unladen', 'Knarf97', 'HarshJello', 'Cookbook', 'Aluf'],615,37,Q4
+NZ,Peach,['ramble', 'Unladen', 'Dyl', 'YaMumNz', 'BlueVapour'],176,11,Q4
+NZ,Pichu,['Red', 'Bozzie'],459,28,Q4
+NZ,Pikachu,['MiyKam', 'FloiFlob', 'booN'],157,10,Q4
+NZ,Pikmin & Olimar,['ImSoChove', 'Kelots'],0,2,Q4
+NZ,Piranha Plant,['Arrowskee', 'Gamer01'],112,6,Q4
+NZ,Pit,['Seliph'],112,3,Q4
+NZ,Pokémon Trainer,['Luckcio', 'Taurii', 'Valos', 'MULE', 'Kingo', 'AsAnything', 'MiyKam'],188,11,Q4
+NZ,Random,['Åsh', 'Vontell', 'HikerNob', 'Ichigo', 'Knarf97', 'Aluf'],305,18,Q4
+NZ,Richter,['beachnik', 'CherryPanda', 'leongrav'],147,14,Q4
+NZ,Ridley,['+1'],0,1,Q4
+NZ,ROB,['Big Schmango', 'Boschey', 'Axorr'],42,3,Q4
+NZ,Rosalina & Luma,['Taurii'],276,9,Q4
+NZ,Roy,['eSpi', '420blazeit', 'Chex', 'Noisy Boy', 'Ignis Fates', 'Mook', 'Tragic', 'Double A', 'uprightman'],615,21,Q4
+NZ,Ryu,['Aluf'],0,1,Q4
+NZ,Sheik,['Aluf', 'Akabird'],1,2,Q4
+NZ,Snake,['Swanji', 'eGo', 'Strike', 'Aluf', 'JoXaZe'],167,12,Q4
+NZ,Sonic,['stantheyeti'],0,1,Q4
+NZ,Terry,['Ignis Fates', 'RAT', 'BoyNextDoor'],288,11,Q4
+NZ,Toon Link,['pap5er', 'GammaFox'],1171,43,Q4
+NZ,Villager,['Blaz', 'Zingar', 'Aluf'],279,18,Q4
+NZ,Wario,['ImSoChove', 'HughManChu'],338,7,Q4
+NZ,Wii Fit Trainer,['CubT', 'Goosey Boy'],537,17,Q4
+NZ,Wolf,['Red', 'Spoo', 'joe', 'HughManChu', '0zai'],297,26,Q4
+NZ,Yoshi,['Åsh', 'cheese', 'stantheyeti', 'Chegg', 'CubT'],837,42,Q4
+NZ,Young Link,['Big Schmango', 'Bozzie', 'AbysmalAngel'],408,20,Q4
+NZ,Zelda,['Akabird', 'TREE'],0,4,Q4
+NZ,Zero Suit Samus,['Knarf97'],0,1,Q4
+VIC,Banjo & Kazooie,['Milun', 'Lizam', 'gluwu', 'Falchion', 'Corvid', 'bp', 'Wazikamawata', 'VineGreen', 'Extra'],429,29,Q4
+VIC,Bayonetta,['Stormchaser', 'w00tkins', 'Razor', 'Sir Banana'],896,33,Q4
+VIC,Bowser,['Young Frisbee', 'dunkMATTic', 'Fiskit', 'Booper', 'Arc', 'DD', 'TheWalshinator', 'Techless', 'krabkaek', 'Jazzy', 'Gary', 'Baphy', 'Shell', 'Razor', 'Greeko', 'YousomoKazefu', 'cuminpant', 'Banjo String', 'Corvid', 'McOZ'],2175,115,Q4
+VIC,Bowser Jr.,['Googers', 'Kebab'],480,33,Q4
+VIC,Captain Falcon,['Alpal', 'Banjo String', 'JOKER', 'MigorengMaster', 'Connorzam', 'The Lag'],646,23,Q4
+VIC,Chrom,['unrealsora', 'Saber', 'RaZe', 'ACE', 'Mar', 'Pipedreamer', 'Banjo String', 'Princess', 'KingKobruh', 'Bussy', 'Rodi', 'Na_an', 'Gravy', 'Sandman', 'DD'],2475,118,Q4
+VIC,Cloud,['Aya', 'Fidilduck', 'Princess', 'Luggy', 'Arnie', 'Corvid', 'unrealsora'],1157,83,Q4
+VIC,Corrin,['stepho'],0,1,Q4
+VIC,Daisy,['nate', 'botmij', 'Quirkiez'],167,10,Q4
+VIC,Dark Pit,['RaZe', 'Virgil'],923,65,Q4
+VIC,Dark Samus,['Whis Dom', 'Microsoft J', 'Corvid', 'Chozo', 'neek', 'Dr Omega'],542,24,Q4
+VIC,Diddy Kong,['Hazzacka', 'Piski', 'DD'],724,37,Q4
+VIC,Donkey Kong,['Haris', 'CursedYe74', 'Jamwa', 'cuminpant', 'Duon', 'Churro', 'Fidilduck', 'Kong', 'Dr Omega', 'Chibi', 'JEANS', 'DD', 'Sweetfeet'],2455,130,Q4
+VIC,Dr. Mario,['Shen', 'JoE-mAn!'],604,20,Q4
+VIC,Duck Hunt Duo,['Darce'],171,8,Q4
+VIC,Falco,['Corvid', 'CMoon', 'Duon', 'Earl', 'Crozzy', 'SkippyDinglchalk', 'Extra', 'Firestorm', 'Shaidy', 'JEANS', 'Nothing', 'TKS', 'Stacked'],3792,197,Q4
+VIC,Fox,['Guyanide', 'Murkiri', 'shockwave', 'Chin', 'Aron', 'Alfonzo', 'iB', 'Insie', 'Catburger', 'paradox'],1986,88,Q4
+VIC,Ganondorf,['RAMBO', 'Simple', 'DD', 'Just Daniel', 'SKG', 'JoE-mAn!', 'Deano', 'CMoon', 'jamebs', 'Dan'],703,26,Q4
+VIC,Greninja,['Tommy', 'Dr Omega', 'Duon', 'RaZe', 'Ergon', 'nate', 'dodo', 'One-Trick', 'BlitzkrieG', 'B-2', 'Vio', 'Extra'],2649,162,Q4
+VIC,Hero,['Alpal', 'Falchion', 'B-2', 'Dylba', 'Dampé', 'Cygnus', 'Cactx', 'iB', 'Haris', 'Daddy Ganny', 'Simple', 'Dr Omega', 'Legic', 'P9'],755,32,Q4
+VIC,Ice Climbers,['nate', 'TinkFloyd'],2686,138,Q4
+VIC,Ike,['Richie', 'SlaniaMJL', 'Insie', 'Pipedreamer', 'JimmyT', 'Arnie', 'Zaki', 'DD', 'Bee'],755,48,Q4
+VIC,Incineroar,['Nevarc', 'Cyanide', 'SKG'],110,4,Q4
+VIC,Inkling,['Flow', 'SebPro101', 'Pho', 'B-2', 'Sodaman', 'ENIGMA', 'Sim', 'Extra', 'WhiteLine'],3988,211,Q4
+VIC,Isabelle,['MarchOfHell', 'FoxStar', 'Dyna_Hole'],0,15,Q4
+VIC,Jigglypuff,['Alpal', 'VineGreen', 'Deku Meister', 'Jamwa', 'Banjo String', 'Dear_info', 'Extra'],1066,38,Q4
+VIC,Joker,['Kaito', 'B-2', 'Falchion', 'Zaki', 'Troongy', 'RaZe', 'Supernova', 'Deez', 'Princess', 'Ledge', 'Ignis', 'Pudge', 'Cabbage', 'Corvid', 'unrealsora', 'Jyrus3005', 'Dr Omega', 'SebPro101', 'dunkMATTic', 'Akino'],4057,213,Q4
+VIC,Ken,['GozPacho', 'Shen', 'Zaki'],911,37,Q4
+VIC,King Dedede,['Static', 'Abrahamilton', 'theysleep', 'cag', 'Amph', 'Kezdog'],1628,66,Q4
+VIC,King K. Rool,['cuminpant', 'Jazzy', 'Kong', 'Gary', 'T.boy', 'Just Daniel', 'Dampé', 'Timic83', 'DD'],514,28,Q4
+VIC,Kirby,['DD', 'RenderedSpy', 'Gooey', 'Aquato', 'Deku Meister', 'Dragunov', 'Razor', 'Legic'],2027,72,Q4
+VIC,Link,['Cygnus', 'RaZe', 'Becchino', 'Jash', 'Nerpna', 'CG90', 'Guistako', 'Blackheart', 'DMC', 'Blonk', 'Xettman', 'Chibi', 'Milk'],2009,105,Q4
+VIC,Little Mac,['OnePhoAll', 'T.boy', 'Quack', 'The Lag', 'DD'],2894,161,Q4
+VIC,Lucario,['Kimah', 'Isucc', 'El', 'Deez', 'DD'],184,26,Q4
+VIC,Lucas,['dollarydoos', 'Jamwa', 'St. Avalon', 'Knack', 'Churro', 'Khami'],2228,99,Q4
+VIC,Lucina,['El', 'Biggles', 'CMoon', 'Jacket', 'Skitter', 'Havok', 'Lizam', 'lordp', 'P9', 'Haris', 'BIGBOSS', 'Ledge', 'blas'],1922,99,Q4
+VIC,Luigi,['FoxStar', 'DD', 'Whis Dom', 'Kolpa', 'Pudge'],663,51,Q4
+VIC,Mario,['Corvid', 'Ignis', 'ChoiceOxide', 'Dr Omega', 'P9', 'Kong', 'dunkMATTic', 'Mozart', 'DD'],1062,61,Q4
+VIC,Marth,['Aloly', 'iB'],66,7,Q4
+VIC,Mega Man,['Aya', 'Soda'],2447,123,Q4
+VIC,Metaknight,['Corvid'],93,12,Q4
+VIC,Mewtwo,['dunkMATTic', 'Ultra Instinct', 'WhtGuy249', 'Na_an', 'Revax', 'Wack-Man'],212,13,Q4
+VIC,Mii Brawler,['Aya', 'Spaz', 'Kappacman', 'DD', 'Piski'],812,48,Q4
+VIC,Mii Gunner,['Revax', 'HiImAiden', 'DD', 'UBOA'],843,41,Q4
+VIC,Mii Swordfighter,['Danklin', 'Dyna_Hole', 'DD'],1754,87,Q4
+VIC,Mr. Game and Watch,['Extra', 'Jypr', 'DD', 'Drogo Spry', 'Soda', 'Danza', 'Piski', 'Corvid'],1710,102,Q4
+VIC,Ness,['Tigurr', 'Khami', 'Phalanx', 'China', 'Stormchaser', 'DD'],1527,67,Q4
+VIC,Pac-Man,['VineGreen', 'B-2', 'xenon', 'One-Trick', 'Wack-Man', 'JT', 'Kolpa'],920,62,Q4
+VIC,Palutena,['Ignis', 'Princess', 'Snowpoint', 'Sim', 'lordp', 'TheVegabus', 'Darkness', 'dunccy', 'Xambie'],4250,221,Q4
+VIC,Peach,['Catburger', 'JurorTwo', 'botmij', 'Quirkiez'],1762,93,Q4
+VIC,Pichu,['Stoddy', 'B-2', 'Havok', 'nate'],318,15,Q4
+VIC,Pikachu,['Jaypam', 'Piski', 'B1', 'Greenhood', 'Catburger'],1446,78,Q4
+VIC,Pikmin & Olimar,['VineGreen', 'UBOA', 'Corvid'],276,19,Q4
+VIC,Piranha Plant,['Toffee', 'Mozzy', 'Dampé', 'GarlicTwist', 'Flow', 'bp', 'chan'],977,49,Q4
+VIC,Pit,['Bluetown', 'Samsungintheshower', 'RaZe', 'Blue'],592,36,Q4
+VIC,Pokémon Trainer,['Ergon', 'Piski', 'Neoblade', 'Dampé', 'Cygnus', 'Corvid', 'Dr Omega', 'Greenhood', 'PartyGrappler', 'JimmyT', 'drinkwater', 'Pudge'],3099,175,Q4
+VIC,Random,['DD', 'Insie'],91,11,Q4
+VIC,Richter,['Corvid', 'TukkaBag', 'Fingerless', 'Eagle'],641,41,Q4
+VIC,Ridley,['Booper', 'RAMBO', 'Corvid', 'SpongeBev'],539,43,Q4
+VIC,ROB,['SebPro101', 'Kaito', 'MasterofDisaster', 'Radio#1117', 'Robit', 'MarchOfHell', 'Danza', 'Saikou', 'DD', 'Splice'],6048,353,Q4
+VIC,Robin,['B-2', 'Skitter', 'Raid', 'Corvid', 'Asura', 'Dalmnation', 'Ignis'],1113,73,Q4
+VIC,Rosalina & Luma,['JurorTwo', 'Techless', 'Supernova', 'Darkness', 'Extra'],453,26,Q4
+VIC,Roy,['unrealsora', 'Nevarc', 'SudoNymm', 'Mast', 'Cyanide', 'Arnie'],431,28,Q4
+VIC,Ryu,['GozPacho'],0,1,Q4
+VIC,Samus,['Dogivet', 'Hazzacka', 'Corvid', 'Benji', 'Whis Dom', 'Kevvlar'],2362,124,Q4
+VIC,Sheik,['iB', 'Akino', 'Chin', 'Dr Omega'],425,39,Q4
+VIC,Shulk,['Kaito', 'gall.P', 'Supernova', 'Conan', 'Catalyst'],1667,64,Q4
+VIC,Simon,['JEANS', 'TukkaBag'],45,2,Q4
+VIC,Snake,['BigChilli', 'B-2', 'Raid', 'Bussy', 'DD', 'Tomie', 'Sandman', 'BIGBOSS', 'Duon'],5424,295,Q4
+VIC,Sonic,['ggesus', 'HiImAiden', 'Eagle'],560,22,Q4
+VIC,Terry,['Justice', 'Shen', 'Simple', 'KmS', 'Mar', 'Cyanide', 'PH8TAL PHOEN1X', 'Supernova', 'Kebab', 'Aidycus', 'Remy', 'Pat Sanders'],1364,71,Q4
+VIC,Toon Link,['Soda', 'Becchino', 'RAMBO', 'DD'],305,25,Q4
+VIC,Villager,['P9', 'B-2', 'Haris'],2480,145,Q4
+VIC,Wario,['DD', 'Piski', 'Extra', 'Flum', 'Slimboy17', 'More Chilli', 'Pudge'],2600,144,Q4
+VIC,Wii Fit Trainer,['Tekk', 'Cool Mum', 'Jaypam', 'RAMBO', 'Eggcellent', 'Extra', 'Sir Banana'],2165,113,Q4
+VIC,Wolf,['iB', 'Corvid', 'Duon', 'Fiskit', 'B-2', 'shockwave', 'Haris', 'Extra', 'Fortune', 'dunccy', 'Guyanide', 'Kaito', 'Sma', 'Insie', 'homer', 'Aya', 'Krasic', 'Tomie'],1679,131,Q4
+VIC,Yoshi,['Slimboy17', 'Fidilduck', 'Dylba', 'Jazzy', 'dunkMATTic', 'Becchino', 'Melotech', 'P8', 'Duon', 'baggy', 'DD'],5562,299,Q4
+VIC,Young Link,['Crimson', 'Jdizzle', 'CG90', 'DD', 'P9', 'The Croods', 'Fiskit'],2041,125,Q4
+VIC,Zelda,['Falchion', 'Leliel', 'jahan', 'Jonut', 'chan', 'Darkness'],1003,38,Q4
+VIC,Zero Suit Samus,['Little Mark', 'Jacket', 'Princess', 'Pat Cash', 'Kebab'],1346,94,Q4
+TAS,Banjo & Kazooie,['Luma'],0,1,Q4
+TAS,Captain Falcon,['Luma'],18,2,Q4
+TAS,Donkey Kong,[],0,0,Q4
+TAS,Fox,[],0,0,Q4
+TAS,Hero,['Luma'],45,4,Q4
+TAS,Ice Climbers,[],0,0,Q4
+TAS,Inkling,['Luma'],45,1,Q4
+TAS,Joker,[],0,0,Q4
+TAS,King K. Rool,[],0,0,Q4
+TAS,Little Mac,[],0,0,Q4
+TAS,Luigi,['Luma'],67,5,Q4
+TAS,Mega Man,[],0,0,Q4
+TAS,Mii Brawler,[],0,0,Q4
+TAS,Mr. Game and Watch,[],0,0,Q4
+TAS,Ness,['Kraw'],25,3,Q4
+TAS,Pac-Man,[],0,0,Q4
+TAS,Palutena,['Luma'],130,6,Q4
+TAS,Peach,[],0,0,Q4
+TAS,Pikachu,[],0,0,Q4
+TAS,Pokémon Trainer,['Luma'],35,5,Q4
+TAS,Simon,[],0,0,Q4
+TAS,Snake,[],0,0,Q4
+TAS,Toon Link,[],0,0,Q4
+TAS,Villager,[],0,0,Q4
+TAS,Wario,[],0,0,Q4
+TAS,Young Link,[],0,0,Q4
+TAS,Zero Suit Samus,[],0,0,Q4
+INT,Metaknight,[],0,0,Q4
+INT,Snake,['LlTheos'],0,1,Q4
+INT,Yoshi,[],0,0,Q4
