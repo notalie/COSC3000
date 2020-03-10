@@ -1,5 +1,5 @@
 var ICONS = {
-  "Banjo & Kazooie": "https://www.ssbwiki.com/images/1/12/Banjo%26KazooieHg",
+  "Banjo & Kazooie": "https://www.ssbwiki.com/images/1/12/Banjo%26KazooieHeadSSBUWebsite.png",
   "Bayonetta":"https://www.ssbwiki.com/images/2/27/BayonettaHeadSSBUWebsite.png",
   "Bowser":"https://www.ssbwiki.com/images/0/0b/BowserHeadSSBUWebsite.png",
   "Bowser Jr.": "https://www.ssbwiki.com/images/3/3e/BowserJrHeadSSBUWebsite.png",

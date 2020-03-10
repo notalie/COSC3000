@@ -22534,8 +22534,12 @@ data = {
 for quarter in data:
     for state in data[quarter]:
         for character in data[quarter][state]:
+            players = str(data[quarter][state][character][0])
+            players = players.replace("[", "")
+            players = players.replace("]", "")
+            players = players.replace("'", "")
             
-            print("{},{},{},{},{},{}".format(state, character, data[quarter][state][character][0], data[quarter][state][character][1], data[quarter][state][character][2], quarter))
+            print('{},{},"{}",{},{},{}'.format(state, character, players, data[quarter][state][character][1], data[quarter][state][character][2], quarter))
 
 
 # Example data
