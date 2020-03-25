@@ -1,0 +1,38 @@
+#elo-chart {    
+    margin-top: -20px;
+    width: 1200;
+    height: 800;
+}   
+
+#states {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color:grey;
+    font-size: 2vw;
+    font-family: Roboto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#icons img{
+    list-style-type: none;
+    height:32px;
+    width: 32px;
+    padding-left: 120px; 
+    display: flex;
+    margin: 6px;
+}
+
+#icons {
+    position: absolute;
+    z-index: 1;
+    top: 160px;
+}
+
+#icons li {
+    list-style-type: none;
+}
+
+
