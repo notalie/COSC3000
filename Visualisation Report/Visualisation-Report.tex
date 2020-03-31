@@ -1,0 +1,71 @@
+% Document class options:
+% 11pt for 11 point font
+% oneside for not weird margins between odd and even pages
+% (omitting oneside gives a better margin setup for print
+% but i'm guessing  you're handing this in)
+% a4paper to A4 page size, because LaTeX by default is setup
+% to use US Letter paper size, because Donald Knuth
+% the article class, as the book class is designed for
+% larger documents and you probably don't need chapter
+% environments
+\documentclass[11pt, oneside, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\urlstyle{same}
+% Set spacing (i set it to 1.2x)
+\renewcommand{\baselinestretch}{1}
+% Indentation (set this to zero for normal prose)
+\setlength{\parindent}{0em}
+% Line breaking (spacing between paragraphs)
+\setlength{\parskip}{0.5em}
+
+% Use the whole page
+\usepackage{geometry}
+% Extra math glyphs
+\usepackage{amsmath}
+% Proper enumerate spacing
+\usepackage{enumitem}
+% More pleasing screen fonts
+\usepackage{lmodern}
+% Fancy headers
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+% Allows absolute positioning of images
+\usepackage{float}
+
+% Set no separation
+\setlist{noitemsep}
+% Set margins to reasonable
+\geometry{margin=2.5cm}
+% Sets graphics path
+\graphicspath{ {./images/} }
+% Sets up fancy headers
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Natalie Hong Visualization Project Proposal}
+\rhead{COSC3000}
+
+\begin{document}
+\section*{Introduction}
+Hi, my name is Natalie Hong and I am a third year Software Engineering Student. I have chosen to take this course as I enjoy visualising data and am super interested in the graphics section of the course as I was able to brush over it in highschool, but was never able to further my knowledge in it.
+I also am heavily involved in a certain gaming community which has serves as the main factor of choice for my visualization project decision.
+
+\subsection*{Bubble Graph}
+{%
+\setlength{\fboxsep}{0pt}%
+\setlength{\fboxrule}{1pt}%
+\fbox{
+    \includegraphics[scale=0.25]{BubbleChart.png}%
+}%https://www.overleaf.com/learn/latex/Lists_of_tables_and_figures
+
+
+\end{document}
