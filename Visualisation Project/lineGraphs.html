@@ -1,0 +1,112 @@
+<html>
+        <head>
+          <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+          <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+          <script type="text/javascript" src="formatted.js"></script>
+          <script type="text/javascript" src="character_visuals.js"></script>
+          <script type="text/javascript">
+                google.charts.load('current', {'packages':['corechart']});
+                google.charts.setOnLoadCallback(drawChart1);
+                google.charts.setOnLoadCallback(drawChart2);
+                var stateList = ["QLD", "NSW", "VIC", "SA", "ACT", "NZ", "WA"];
+                var QUARTERS = ["Q1", "Q2", "Q3", "Q4"]
+                var overallData = []
+                overallData.push(['Quarter', "QLD", "NSW", "VIC", "SA", "ACT", "NZ", "WA"]);
+                for (var k in QUARTERS) {
+                    var currentQuarter = QUARTERS[k];
+                    var quarterData = []
+                    quarterData.push(currentQuarter);
+                    for (var i in stateList) {
+                        var state = stateList[i];
+                        var eloGain = 0
+                        
+                        for (var j in CHARACTERS) {
+                            if(stateData[currentQuarter][state][CHARACTERS[j]] !== undefined) {
+                                eloGain += stateData[currentQuarter][state][CHARACTERS[j]][1];
+                            }
+                        }
+                        quarterData.push(eloGain);
+                    }
+                    overallData.push(quarterData);
+                }
+                function drawChart1() {
+                    var data = google.visualization.arrayToDataTable(
+                        overallData
+                    );
+
+                    var options = {
+                        title: 'State Total Elo Gain Per Quarter',
+                        legend: { position: 'bottom' },
+                        hAxis: {
+                            title: 'Quarter'
+                        },
+                        vAxis: {
+                            title: 'Elo Gain'
+                        },
+                        lineWidth: 10,
+                    };
+
+                    var chart = new google.visualization.LineChart(document.getElementById('quarter_elo'));
+
+                    chart.draw(data, options);
+                }
+
+                var overallData2 = []
+                
+                overallData2.push(['Quarter', "QLD", "NSW", "VIC", "SA", "ACT", "NZ", "WA"]);
+                for (var k in QUARTERS) {
+                    
+                    var currentQuarter = QUARTERS[k];
+                    var quarterData = []
+                    quarterData.push(currentQuarter);
+                    for (var i in stateList) {
+                        var playersInQuarter = []
+                        var state = stateList[i];
+                        var uniquePlayers = 0
+                        
+                        for (var j in CHARACTERS) {
+                            if(stateData[currentQuarter][state][CHARACTERS[j]] !== undefined) {
+                                var a = stateData[currentQuarter][state][CHARACTERS[j]][0]
+                                for (var l in a) {
+                                    if (!playersInQuarter.includes(a[l])) {
+                                        uniquePlayers++;
+                                        playersInQuarter.push(a[l])
+                                    }
+                                }
+                            }
+                        }
+                        quarterData.push(uniquePlayers);
+                    } 
+                    overallData2.push(quarterData);
+                    
+                }
+                function drawChart2() {
+                    var data = google.visualization.arrayToDataTable(
+                        overallData2
+                    );
+
+                    var options = {
+                        title: 'Amount of Unique Players per Quarter',
+                        legend: { position: 'bottom' },
+                        curveType: 'function',
+                        hAxis: {
+                            title: 'Quarter'
+                        },
+                        vAxis: {
+                            title: 'Amount of Unique Players'
+                        },
+                        lineWidth: 10,
+                    };
+
+                    var chart = new google.visualization.LineChart(document.getElementById('quarter-players'));
+
+                    chart.draw(data, options);
+                }
+
+          </script>
+        </head>
+        <body>
+          <div id="quarter_elo" style="width: 100%; height: 100%"></div>
+          <div id="quarter-players" style="width: 100%; height: 100%"></div>
+        </body>
+      </html>
