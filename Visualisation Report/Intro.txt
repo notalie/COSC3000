@@ -1,17 +1,3 @@
-Top Text
-Super Smash Bros. Ultimate, a game for the Nintendo Switch is an immensely popular game with an amazing community nationwide. This report was created with the aims of giving the Australian community a better insight into character changes and skill gaps between each quarter of 2019 and differences between rising skill levels of states. This insight will be properly visualised through multiple data graphs including that of univariate, bivariate and multivariate representations.
-
-Introduction
-Hello and welcome to my report about data visualisation. My name is Natalie and I am a third year Software Engineering student and I'm enjoying this course so far.
-
-The data set I have chosen is that of character usage, skill gain and played tournaments revolving around that of a local gaming community in Australia. The way I have chosen to present this data set is through that of local JavaScript which calls the Google Chart library. This means that I will be able to deploy a live website showing this data for later viewing and later analysis. 
-
-As data is always changing in database I was using, I decided to only pull data from last year (2019) to give a more accurate representation of data and split them into each quarter (every 3 months). Since I am an active player within this community, I believe that releasing this data publically will allow for a more insightful look into the past and how the metagame (accepted norm) of the community has changed.
-
-I hope that you will find this interesting even if you don't play games.
-
-Techniques, Methods and Execution
-
 Techniques
 - Data was held here: https://api.ausmash.com.au/swagger/ui/index
 - JSON format
@@ -29,3 +15,22 @@ Execution
 Data Analysis
 
 Results
+
+
+
+[References]
+% Python Code Block
+\begin{lstlisting}    
+def main():
+    hello world
+
+\end{lstlisting}
+
+\begin{figure}[!ht]
+\setlength{\fboxrule}{1pt}%
+    \fbox{
+        \includegraphics[scale=0.25]{BubbleChart.png}%
+    }
+\caption{Graph Name}
+\label{fig:figure1}
+\end{figure}

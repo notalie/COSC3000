@@ -15,12 +15,18 @@
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
+    linkcolor=black,
     filecolor=magenta,      
     urlcolor=cyan,
 }
 
 \urlstyle{same}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{array}
+
+
 % Set spacing (i set it to 1.2x)
 \renewcommand{\baselinestretch}{1}
 % Indentation (set this to zero for normal prose)
@@ -41,7 +47,7 @@
 \usepackage{graphicx}
 % Allows absolute positioning of images
 \usepackage{float}
-
+% \usepackage[section]{placeins}
 % Set no separation
 \setlist{noitemsep}
 % Set margins to reasonable
@@ -51,21 +57,83 @@
 % Sets up fancy headers
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{Natalie Hong Visualization Project Proposal}
+\lhead{Natalie Hong Data Visualization Project Report}
 \rhead{COSC3000}
 
-\begin{document}
-\section*{Introduction}
-Hi, my name is Natalie Hong and I am a third year Software Engineering Student. I have chosen to take this course as I enjoy visualising data and am super interested in the graphics section of the course as I was able to brush over it in highschool, but was never able to further my knowledge in it.
-I also am heavily involved in a certain gaming community which has serves as the main factor of choice for my visualization project decision.
+\addto\captionsenglish{
+\renewcommand{\listfigurename}{List of Graphs}
+}
 
-\subsection*{Bubble Graph}
-{%
-\setlength{\fboxsep}{0pt}%
-\setlength{\fboxrule}{1pt}%
-\fbox{
-    \includegraphics[scale=0.25]{BubbleChart.png}%
-}%https://www.overleaf.com/learn/latex/Lists_of_tables_and_figures
+\usepackage{listings}
+\usepackage{color}
+
+
+\begin{document}
+
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\thispagestyle{empty}
+
+\tableofcontents
+
+\listoffigures
+
+\newpage
+
+\pagenumbering{arabic}
+
+\section{Introduction}
+Super Smash Bros. Ultimate, a game for the Nintendo Switch is an immensely popular game with an amazing community nationwide. This report was created with the aims of giving the Australian community a better insight into character changes and skill gaps between each quarter of 2019 and differences between rising skill levels of states. This insight will be properly visualised through multiple data graphs including that of univariate, bivariate and multivariate representations.
+
+
+\section{The Data Set}
+Hello and welcome to my report about data visualisation. My name is Natalie and I am a third year Software Engineering student and I'm enjoying this course so far.
+\
+
+The data set I have chosen is that of character usage, skill gain and played tournaments revolving around that of a local gaming community in Australia. The way I have chosen to present this data set is through that of local JavaScript which calls the Google Chart library. This means that I will be able to deploy a live website showing this data for later viewing and later analysis. 
+\
+
+As data is always changing in database I was using, I decided to only pull data from last year (2019) to give a more accurate representation of data and split them into each quarter (every 3 months). Since I am an active player within this community, I believe that releasing this data publically will allow for a more insightful look into the past and how the metagame (accepted norm) of the community has changed.
+\
+
+I hope that you will find this interesting even if you don't play games.
+
+\section{Techniques, Methods and Execution}
+In this section, I will talk about what I used to collect the data; how I handled the data and how I displayed the data.
+\subsection{Techniques}
+
+
+
+\subsection{Methods}
+
+\newpage %might need to change later??
+\subsection{Execution}
+
+
+
+\section{Data Analysis}
+
+\section{Extras}
 
 
 \end{document}
