@@ -119,16 +119,42 @@ As data is always changing in database I was using, I decided to only pull data 
 I hope that you will find this interesting even if you don't play games.
 
 \section{Techniques, Methods and Execution}
-In this section, I will talk about what I used to collect the data; how I handled the data and how I displayed the data.
-\subsection{Techniques}
+In this section, I will talk about my approach to the data collection; how I handled the data and how I displayed the data.
+\subsection{Techniques - The Approach to the Data}
+The data that I was trying to access was that of a public API that I was to access easily through Python. The data was stored in JSON form which meant that I had to iterate through various levels of data to get the data that I wanted. 
+
+Since I was on a mac, I had to create a virtual environment to be able to access the API. Once I set up this environment, I created a Python script then called the API using a variety of similar functions to the code block below.
+
+\begin{lstlisting}    
+headers = {'Content-Type': 'application/json',
+           'X-ApiKey': '6PG3OWV9UCVFZNTXQJKR'}
+
+# ID being the character ID
+def character_matches(id):
+    url = 'https://api.ausmash.com.au/characters/{}/matches'.format(id)
+    response = requests.get(url, headers=headers)
+    
+    content = json.loads(response.content)
+    # JSON file of the content received
+    return content
+
+\end{lstlisting}
+
+How I was able to sort this data into a more interactable form can be seen in the next section.
+
+\href{https://api.ausmash.com.au/swagger/ui/index#/}{(Click for API Documentation)}
+
+\subsection{Methods - How I Handled the Data}
+Before working towards getting my data, I had decided that I wanted to pull elo gain (skill gain, it will be called elo throughout the report), the unique amount of players who played each character and the amount of tournaments entered for the specific character. Each character's data would then be sorted into states which would then further be stored into quarters (every 3 months e.g. Q1 is from January 1st 2019 to March 31st 2019).
+
+To do this, I iterated through every single character's logged matches and got each unique player, their state and the won elo if the player won the match. I would also get the date and would match the date to the associated quarter. Once this was done, I then added their data to a large dictionary data structure.
+
+Once the data was fully sorted, I wrote the contents of the dictionary into a JSON file which was then to be used for my JavaScript file which would display the data using Google Charts. This JavaScript usage will be explained in the next section.
 
 
-
-\subsection{Methods}
-
-\newpage %might need to change later??
-\subsection{Execution}
-
+\newpage % might need to change later??
+\subsection{Execution - Displaying the Data}
+Using Google Charts, I was able
 
 
 \section{Data Analysis}

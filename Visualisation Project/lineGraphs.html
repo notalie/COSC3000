@@ -43,10 +43,10 @@
                         vAxis: {
                             title: 'Elo Gain'
                         },
-                        lineWidth: 10,
+                        lineWidth: 2,
                     };
 
-                    var chart = new google.visualization.LineChart(document.getElementById('quarter_elo'));
+                    var chart = new google.visualization.AreaChart(document.getElementById('quarter_elo'));
 
                     chart.draw(data, options);
                 }

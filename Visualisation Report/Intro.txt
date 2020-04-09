@@ -1,7 +1,3 @@
-Techniques
-- Data was held here: https://api.ausmash.com.au/swagger/ui/index
-- JSON format
-
 Methods
 To get the data, I first needed 
 - Python3
@@ -26,8 +22,9 @@ def main():
 
 \end{lstlisting}
 
+% Inserting Figure
 \begin{figure}[!ht]
-\setlength{\fboxrule}{1pt}%
+\setlength{\fboxrule}{1pt}
     \fbox{
         \includegraphics[scale=0.25]{BubbleChart.png}%
     }
