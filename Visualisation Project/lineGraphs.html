@@ -8,6 +8,7 @@
                 google.charts.load('current', {'packages':['corechart']});
                 google.charts.setOnLoadCallback(drawChart1);
                 google.charts.setOnLoadCallback(drawChart2);
+                google.charts.setOnLoadCallback(drawChart3);
                 var stateList = ["QLD", "NSW", "VIC", "SA", "ACT", "NZ", "WA"];
                 var QUARTERS = ["Q1", "Q2", "Q3", "Q4"]
                 var overallData = []
@@ -75,10 +76,9 @@
                                 }
                             }
                         }
-                        quarterData.push(uniquePlayers);
+                        quarterData.push(overallData[parseInt(k) + 1][parseInt(i) + 1] / uniquePlayers);
                     } 
                     overallData2.push(quarterData);
-                    
                 }
                 function drawChart2() {
                     var data = google.visualization.arrayToDataTable(
@@ -86,27 +86,51 @@
                     );
 
                     var options = {
-                        title: 'Amount of Unique Players per Quarter',
+                        title: 'Average Elo Gain per State',
                         legend: { position: 'bottom' },
-                        curveType: 'function',
                         hAxis: {
                             title: 'Quarter'
                         },
                         vAxis: {
-                            title: 'Amount of Unique Players'
+                            title: 'Average Elo Gain'
                         },
-                        lineWidth: 10,
+                        lineWidth: 2,
                     };
 
-                    var chart = new google.visualization.LineChart(document.getElementById('quarter-players'));
+                    var chart = new google.visualization.AreaChart(document.getElementById('average-elo-line'));
 
                     chart.draw(data, options);
                 }
+
+                function drawChart3() {
+                    var data = google.visualization.arrayToDataTable(
+                        overallData2
+                    );
+
+                    var options = {
+                        title: 'Average Elo Gain per State',
+                        legend: { position: 'bottom' },
+                        hAxis: {
+                            title: 'Average Elo Gain'
+                        },
+                        vAxis: {
+                            title: 'Quarter'
+                        },
+                        lineWidth: 2,
+                    };
+
+                    var chart = new google.visualization.BarChart(document.getElementById('average-elo-bar'));
+
+                    chart.draw(data, options);
+                }
+
+
 
           </script>
         </head>
         <body>
           <div id="quarter_elo" style="width: 100%; height: 100%"></div>
-          <div id="quarter-players" style="width: 100%; height: 100%"></div>
+          <div id="average-elo-line" style="width: 100%; height: 100%"></div>
+          <div id="average-elo-bar" style="width: 100%; height: 100%"></div>
         </body>
       </html>

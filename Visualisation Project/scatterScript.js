@@ -10,7 +10,7 @@ function drawIt(dataToUse, location, chartTitle) {
           var options = {
             title: chartTitle,
             hAxis: {title: 'Amount of Registered Players', maxValue:300},
-            vAxis: {title: 'Elo Gain', maxValue:150000},
+            vAxis: {title: 'Elo Gain', maxValue:130000},
             bubble: {textStyle: {fontSize: 11}},
             explorer: { keepInBounds: true }
         };
