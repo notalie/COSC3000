@@ -67,6 +67,7 @@
 \usepackage{listings}
 \usepackage{color}
 
+\pagestyle{plain}
 
 \begin{document}
 
@@ -119,9 +120,11 @@ As data is always changing in database I was using, I decided to only pull data 
 I hope that you will find this interesting even if you don't play games.
 
 \section{Techniques, Methods and Execution}
-In this section, I will talk about my approach to the data collection; how I handled the data and how I displayed the data.
+In this section, I will talk about my approach to the data collection; how I handled the data and how I displayed the data in web form.
 \subsection{Techniques - The Approach to the Data}
-The data that I was trying to access was that of a public API that I was to access easily through Python. The data was stored in JSON form which meant that I had to iterate through various levels of data to get the data that I wanted. 
+The data that I was trying to access was that of a public API that I could easily access through Python. I preferenced m
+
+The data was stored in JSON form which meant that I had to iterate through various levels of data to get the data that I wanted. 
 
 Since I was on a mac, I had to create a virtual environment to be able to access the API. Once I set up this environment, I created a Python script then called the API using a variety of similar functions to the code block below.
 
@@ -140,7 +143,7 @@ def character_matches(id):
 
 \end{lstlisting}
 
-How I was able to sort this data into a more interactable form can be seen in the next section.
+How I was able to sort this data into a more readable and interactable form can be seen in the next section.
 
 \href{https://api.ausmash.com.au/swagger/ui/index#/}{(Click for API Documentation)}
 
@@ -151,13 +154,69 @@ To do this, I iterated through every single character's logged matches and got e
 
 Once the data was fully sorted, I wrote the contents of the dictionary into a JSON file which was then to be used for my JavaScript file which would display the data using Google Charts. This JavaScript usage will be explained in the next section.
 
-
-\newpage % might need to change later??
 \subsection{Execution - Displaying the Data}
-Using Google Charts, I was able
+Using \href{https://developers.google.com/chart}{Google Charts} I was able to create various suitable graphs for my collected data using native JavaScript. The chosen graphs that were used for my data visualisation were that of:
+\begin{itemize}
+	\item Bar Charts
+	\item Bubble Charts
+	\item Line/Area Charts
+	\item Scatter Plots (using the same library as Bubble Charts)
+	\item Step Graphs
+\end{itemize}
 
+Order of iteration through my chosen data would change depending on which graph I had chosen and and what I wanted to display. This lead to many different variances of the same code which would each have different outcomes. For example, for some code I would need to iterate through quarters rather than the states. 
+
+When I wanted to create the specified chart, I would create an array to hold the data in it called 'overallData'. This array would then hold more arrays which would correspond to different datapoints and axis that I wanted to display depending on the chart that I had chosen. 
+
+A demonstration of the JavaScript code used to display the chart can be seen below.
+
+\begin{lstlisting}    
+    function drawChart() {
+		var data = google.visualization.arrayToDataTable(
+			overallData
+		);
+		
+		var options = {
+			title: chartTitle,
+			width: 1800,
+			height: 800,
+			vAxis: {
+				title: 'Y axis name'
+			},
+			hAxis: {
+				title: 'X axis name'
+			}
+		};
+									
+		var chart = new google.visualization.ChartType(document.getElementById("chart-div"));
+		chart.draw(view, options);
+	}
+\end{lstlisting}
+
+Using similar code blocks to this, I was able to create the following graphs which will be analysed in the next section. 
+
+Note: For a more detailed look into my code check out my %\href{}{GitHub Repo}
+\newpage
 
 \section{Data Analysis}
+\subsection{Character Analysis}
+\begin{figure}[!ht]
+	\setlength{\fboxrule}{1pt}
+		\fbox{
+			\includegraphics[scale=0.25]{bubblechart.png}
+		}
+	\caption{Bar Graph}
+	\label{fig:figure1}
+\end{figure}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
+\newpage
+
 
 \section{Extras}
 
