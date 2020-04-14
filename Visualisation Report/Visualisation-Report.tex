@@ -164,7 +164,7 @@ Using \href{https://developers.google.com/chart}{Google Charts} I was able to cr
 	\item Step Graphs
 \end{itemize}
 
-Order of iteration through my chosen data would change depending on which graph I had chosen and and what I wanted to display. This lead to many different variances of the same code which would each have different outcomes. For example, for some code I would need to iterate through quarters rather than the states. 
+Order of iteration through my chosen data would change depending on which graph I had chosen and and what I wanted to display. This lead to many different variances of the same code which would each have different outcomes. For example, for some code I would need to iterate through quarters rather than the states. When running the script for my data, I also made sure to check the player's state of origin rather than where they competed to account for interstate tournaments and visits. 
 
 When I wanted to create the specified chart, I would create an array to hold the data in it called 'overallData'. This array would then hold more arrays which would correspond to different datapoints and axis that I wanted to display depending on the chart that I had chosen. 
 
@@ -193,30 +193,47 @@ A demonstration of the JavaScript code used to display the chart can be seen bel
 	}
 \end{lstlisting}
 
-Using similar code blocks to this, I was able to create the following graphs which will be analysed in the next section. 
+Using similar code blocks to this, I was able to create the following graphs which will be analysed in the next section.
 
 Note: For a more detailed look into my code check out my %\href{}{GitHub Repo}
 \newpage
 
 \section{Data Analysis}
-\subsection{Character Analysis}
+Before beginning my data analysis, I decided to group my data into little subsections. These being:
+\begin{itemize}
+	\item{Player and Match Data}
+	\item{Character Data}
+	\item{Elo Data}
+	\item{Combined Data}
+\end{itemize}
+
+
+\subsection{Player and Match Data Analysis}
 \begin{figure}[!ht]
-	\setlength{\fboxrule}{1pt}
-		\fbox{
-			\includegraphics[scale=0.25]{bubblechart.png}
-		}
-	\caption{Bar Graph}
+	\centerline{\includegraphics[scale=0.35]{/playerMatchGraphs/RegisteredPeople.png}}
+	\caption{The Total Amount of Registered Players in Each State (2019)}
 	\label{fig:figure1}
 \end{figure}
+The first graph that I wanted to display was that of unique players that had participated within tournaments for each state. From this graph, it is possible to see that Victoria (VIC) had the most registered players in 2019 while Tasmania (TAS) and International (INT) players have the smallest registered players, this may be due to the populus size of TAS and the lack of international competitors entering Australian tournaments. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+It's worth noting that New South Wales (NSW) should have a much larger registered playerbase due to its large population compared to all the other states. This however, does not seem to be the case, making it an outlier in the dataset. This could be due to a lack of tournaments held per week which can lead to a struggle in encouraging new players to join the gaming scene.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
 \newpage
 
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.35]{/playerMatchGraphs/stepChart.png}}
+	\caption{Step Graph Representing The Amount of Matches Played in Each State (2019)}
+	\label{fig:figure2}
+\end{figure}
+Figure 2 shows the amount of matches that were played each quarter (Q) for each state. From the analysis of Figure 1, it is clear that the amount of players in a state can impact the total amount of matches played each quarter. As per Figure 1, VIC remains the state with the most amount of matches played across the year due to their large registered playerbase. 
+
+Something not seen within Figure 1 that is seen in that of Figure 2 is that in the first quarter, NSW and QLD had a similar amount of matches played. This may have been due to the game's recent release as it came out in December which would've have brought many new players to start the year off with but as time went on, NSW players started to drop out of the scene and stop playing which resulted in less matches played in NSW for the rest of the year as the quarters following Q1 resulted in less matches played. One reason for NSW to have such a drop off in player base may be due to its community not being able to engage with new players properly unlike that of VIC and QLD's older communities which have been around since early 2010's, allowing them to be more experienced with new players.
+
+It is also noticeable that TAS has almost no matches played in every quarter, each being around 27 for most of them which was also evident in Figure 1.
+
+Since matches played isn't too much of a good measure of constant activity within a community. I decided to divide the total amount of matches by the players within each quarter to see if any trend could be found.
+
+\subsection{Character Data Analysis}
 
 \section{Extras}
 

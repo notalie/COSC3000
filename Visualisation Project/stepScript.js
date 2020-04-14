@@ -9,11 +9,12 @@ function drawStepChart(dataToParse, chartTitle) {
 
         var options = {
             title: chartTitle,
-            vAxis: {title: 'Collective Tournaments Entered'},
+            vAxis: {title: 'Collective Matches Played'},
             isStacked: true,
             hAxis: {
                 title: 'State'
             },
+            
         };
 
         var chart = new google.visualization.SteppedAreaChart(document.getElementById('chart_div'));
