@@ -26,7 +26,7 @@ def main():
 \begin{figure}[!ht]
 \setlength{\fboxrule}{1pt}
     \fbox{
-        \includegraphics[scale=0.25]{BubbleChart.png}%
+        \includegraphics[scale=0.25]{BubbleChart.png}
     }
 \caption{Graph Name}
 \label{fig:figure1}

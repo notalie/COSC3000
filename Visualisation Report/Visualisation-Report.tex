@@ -233,8 +233,49 @@ It is also noticeable that TAS has almost no matches played in every quarter, ea
 
 Since matches played isn't too much of a good measure of constant activity within a community. I decided to divide the total amount of matches by the players within each quarter to see if any trend could be found.
 
+
+\newpage
 \subsection{Character Data Analysis}
 
+\subsection{Elo Analysis}
+Elo is that of skill rating within the smash community and acts as a way of seeing who is truly the best. When two players play a set against each other, they are to gain or lose elo based on an algorithm built into ausmash's backend. I however chose to look into purely elo gain as graphs could be more interesting as more elo is usually gained than lost within each state. Due to the previous figures having a lack of TAS and INT data, I have decided to take it out.
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.35]{/eloGraphs/EloGainLine.png}}
+	\caption{Line Graph Representing Total Elo Gain within each State (2019)}
+	\label{fig:figure2}
+\end{figure}
+
+The above line area graph show that of the fluctuating elo gain over each quarter of 2019. As seen in all previous graphs, QLD and VIC are always competing for the most elo/matches played due to their larger playerbases compared to other states. It's worth noting that VIC currently has the most top players residing in it which could result in more elo gain for players due to larger losses. Similar to what was seen in Figure 2, NSW has a large decline from Q1 to Q2 due to the player base greately decreasing which results in less elo being gained. It's also noteable that Q3 (July - September) has the largest difference between VIC and QLD. This was due to a lack of large events (majors) happening during this quarter. Only two majors were present during this quarter with one being in WA and the other being in QLD. This meant there were more opportunities for QLD players to gain elo as the tournament was local.
+
+Since lo gain is similar to that of player size, I decided to divide to total elo gain by the amount of unique players each quarter to get an average elo gain within each state.
+\newpage
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.35]{/eloGraphs/AverageGainLine.png}}
+	\caption{Bar Graph Representing Average Elo Gain within each State (2019)}
+	\label{fig:figure2}
+\end{figure}
+
+This change in from total to average elo gain can be drastically be seen. A main difference is that of the QLD vs VIC comparison and that of WA's spike in Q2. WA's spike particularly has not been seen in other graphs due to the player base size but due to the average calculation, it is easier to see the spike in Q2 where WA overtakes NSW in average elo gain. This could have been due to new characters being added to the game (Banjo \& Kazooie specifically) which could have allowed for players to perform better in tournaments.
+
+From this figure alone, it is safe to assume that QLD had better players all around when compared to all other states in 2019. Although QLD was behind on average elo gain in Q1, as the game evolved, QLD was able to catchup and eventually have a better average elo gain.
+
+As this was hard to analyse due to the line graph's colouring, I decided to use the same data points for a bar graph which can be seen in the figure below
+
+\newpage
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.4]{/eloGraphs/AverageGainBar.png}}
+	\caption{Bar Graph Representing Average Elo Gain within each State  (2019)}
+	\label{fig:figure2}
+\end{figure}
+
+What can mainly be seen within this bar graph is similar to that of the previous line graph but with states being easier to see. As stated before, WA had a large spike in average elo gain in Q2. This can be seen more clearly in the bottom bar of each quarter as WA slowly increases and spikes in Q2 before slowly going down for Q3 and Q4. It's also easier to see that ACT had a very steady average elo gain with no fluctuations. This may have been due to the relatively small but active player base. 
+
+Once again, it is safe to assume that QLD has better players all around due to its average elo gain across 2019 being much higher than other states for the majority of the year.
+
+\newpage
 \section{Extras}
 
 
