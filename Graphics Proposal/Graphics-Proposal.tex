@@ -1,0 +1,93 @@
+% Document class options:
+% 11pt for 11 point font
+% oneside for not weird margins between odd and even pages
+% (omitting oneside gives a better margin setup for print
+% but i'm guessing  you're handing this in)
+% a4paper to A4 page size, because LaTeX by default is setup
+% to use US Letter paper size, because Donald Knuth
+% the article class, as the book class is designed for
+% larger documents and you probably don't need chapter
+% environments
+\documentclass[11pt, oneside, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\urlstyle{same}
+% Set spacing (i set it to 1.2x)
+\renewcommand{\baselinestretch}{1}
+% Indentation (set this to zero for normal prose)
+\setlength{\parindent}{0em}
+% Line breaking (spacing between paragraphs)
+\setlength{\parskip}{0.5em}
+
+% Use the whole page
+\usepackage{geometry}
+% Extra math glyphs
+\usepackage{amsmath}
+% Proper enumerate spacing
+\usepackage{enumitem}
+% More pleasing screen fonts
+\usepackage{lmodern}
+% Fancy headers
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+% Allows absolute positioning of images
+\usepackage{float}
+
+% Set no separation
+\setlist{noitemsep}
+% Set margins to reasonable
+\geometry{margin=2.5cm}
+% Sets graphics path
+\graphicspath{ {./images/} }
+% Sets up fancy headers
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Natalie Hong Graphics Project Proposal}
+\rhead{COSC3000}
+
+\begin{document}
+\section*{Introduction}
+Hi, my name is Natalie Hong and I am a third year Software Engineering Student. I have chosen to take this course as I enjoy playing games as a past time, so it shouldn't be a surprise that I take lots of interest in this section of the course.
+
+\section*{What?}
+The computer graphics that I will be producing will be that of building upon supplied code. This supplied code is that of a basic game and my project will document my improvement upon it to hopefully create a visually pleasing experience.
+
+Possible techniques that could be used:
+\begin{itemize}
+    \item Scaling
+    \item Shadow Mapping
+    \item Raytracing
+    \item Transforming
+    \item Axis-rotation
+\end{itemize}
+
+Possible features that could be added:
+\begin{itemize}
+    \item Model Placement
+    \item Shaded Models
+    \item Camera Tracking
+    \item Tracked Lighting
+    \item Prop Creation
+    \item Particle Systems
+\end{itemize}
+
+\section*{Why?}
+The reason I am using the supplied code is because I enjoy playing and creating games from scratch. With the supplied code, I am given the opportunity to work solely on the graphics component of the game which is a change to what I am used to. Racing games are also interesting as the terrain is always changing at constant speed, which I find quite unique.
+
+\section*{How?}
+To create the graphics required for this project, I will use Python 3.5 and OpenGL to create objects and renderables within the computer graphics scene. I will also be using GitHub to allow for version control between each implemented feature in case I make any mistakes and need to roll back.
+
+
+\section*{Conclusion}
+I hope you enjoyed this short proposal. I hope you look forward to what I can produce in the end. 
+
+\end{document}

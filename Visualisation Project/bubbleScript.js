@@ -10,7 +10,7 @@ function drawIt(dataToUse, location, chartTitle, numToSplice, restrictions) {
     
           var options = {
             title: chartTitle,
-            hAxis: {title: 'Tournaments Entered', maxValue:restrictions[0]},
+            hAxis: {title: 'Matches Played', maxValue:restrictions[0]},
             vAxis: {title: 'Elo Gained', maxValue:restrictions[1]},
             bubble: {textStyle: {fontSize: 11}},
             explorer: { keepInBounds: true },
