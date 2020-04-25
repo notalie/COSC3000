@@ -1,12 +1,12 @@
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}% 
-\contentsline {section}{\numberline {2}The Data Set}{1}{section.2}% 
-\contentsline {section}{\numberline {3}Techniques, Methods and Execution}{1}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}Techniques - The Approach to the Data}{1}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Methods - How I Handled the Data}{2}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}Execution - Displaying the Data}{2}{subsection.3.3}% 
-\contentsline {section}{\numberline {4}Data Analysis}{4}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}Player and Match Data Analysis}{4}{subsection.4.1}% 
-\contentsline {subsection}{\numberline {4.2}Character Data Analysis}{6}{subsection.4.2}% 
-\contentsline {subsection}{\numberline {4.3}Elo Analysis}{7}{subsection.4.3}% 
-\contentsline {section}{\numberline {5}Extras}{10}{section.5}% 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}The Data Set}{1}{section.2}
+\contentsline {section}{\numberline {3}Techniques, Methods and Execution}{1}{section.3}
+\contentsline {subsection}{\numberline {3.1}Techniques - The Approach to the Data}{1}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Methods - How I Handled the Data}{2}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Execution - Displaying the Data}{2}{subsection.3.3}
+\contentsline {section}{\numberline {4}Data Analysis}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Player and Match Data Analysis}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Character Data Analysis}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Elo Analysis}{10}{subsection.4.3}
+\contentsline {section}{\numberline {5}Extras}{13}{section.5}
