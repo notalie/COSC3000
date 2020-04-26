@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.20)  24 APR 2020 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.20)  26 APR 2020 13:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -496,7 +496,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 160.
  [2] [3]
-<./images//playerMatchGraphs/RegisteredPeople.png, id=138, 1505.625pt x 705.63625pt>
+<./images//playerMatchGraphs/RegisteredPeople.png, id=155, 1505.625pt x 705.63625pt>
 File: ./images//playerMatchGraphs/RegisteredPeople.png Graphic file (type png)
 <use ./images//playerMatchGraphs/RegisteredPeople.png>
 Package pdftex.def Info: ./images//playerMatchGraphs/RegisteredPeople.png  used on input line 213.
@@ -507,7 +507,7 @@ Package pdftex.def Info: ./images//playerMatchGraphs/RegisteredPeople.png  used 
                                                   \fi \fi 
 l.221 \newpage
                <./images//playerMatchGraphs/RegisteredPeople.png>]
-<./images//playerMatchGraphs/stepChart.png, id=146, 1299.85625pt x 584.1825pt>
+<./images//playerMatchGraphs/stepChart.png, id=162, 1299.85625pt x 584.1825pt>
 File: ./images//playerMatchGraphs/stepChart.png Graphic file (type png)
 <use ./images//playerMatchGraphs/stepChart.png>
 Package pdftex.def Info: ./images//playerMatchGraphs/stepChart.png  used on input line 224.
@@ -518,7 +518,7 @@ Package pdftex.def Info: ./images//playerMatchGraphs/stepChart.png  used on inpu
                                                   \fi \fi 
 l.236 \newpage
                <./images//playerMatchGraphs/stepChart.png>]
-<./images//playerMatchGraphs/stepChartAverage.png, id=152, 1216.545pt x 607.51968pt>
+<./images//playerMatchGraphs/stepChartAverage.png, id=168, 1216.545pt x 607.51968pt>
 File: ./images//playerMatchGraphs/stepChartAverage.png Graphic file (type png)
 <use ./images//playerMatchGraphs/stepChartAverage.png>
 Package pdftex.def Info: ./images//playerMatchGraphs/stepChartAverage.png  used on input line 238.
@@ -529,7 +529,7 @@ Package pdftex.def Info: ./images//playerMatchGraphs/stepChartAverage.png  used 
                                                   \fi \fi 
 l.244 \newpage
                <./images//playerMatchGraphs/stepChartAverage.png>]
-<./images//characterGraphs/Q1.png, id=159, 1184.17406pt x 539.01375pt>
+<./images//characterGraphs/Q1.png, id=175, 1184.17406pt x 539.01375pt>
 File: ./images//characterGraphs/Q1.png Graphic file (type png)
 <use ./images//characterGraphs/Q1.png>
 Package pdftex.def Info: ./images//characterGraphs/Q1.png  used on input line 249.
@@ -540,12 +540,12 @@ Package pdftex.def Info: ./images//characterGraphs/Q1.png  used on input line 24
                                                   \fi \fi 
 l.258 \newpage
                <./images//characterGraphs/Q1.png>]
-<./images//characterGraphs/Q2.png, id=165, 1128.46594pt x 521.69907pt>
+<./images//characterGraphs/Q2.png, id=181, 1128.46594pt x 521.69907pt>
 File: ./images//characterGraphs/Q2.png Graphic file (type png)
 <use ./images//characterGraphs/Q2.png>
 Package pdftex.def Info: ./images//characterGraphs/Q2.png  used on input line 260.
 (pdftex.def)             Requested size: 394.969pt x 182.5974pt.
-<./images//characterGraphs/Q3.png, id=166, 1164.60094pt x 531.48563pt>
+<./images//characterGraphs/Q3.png, id=182, 1164.60094pt x 531.48563pt>
 File: ./images//characterGraphs/Q3.png Graphic file (type png)
 <use ./images//characterGraphs/Q3.png>
 Package pdftex.def Info: ./images//characterGraphs/Q3.png  used on input line 270.
@@ -554,84 +554,117 @@ Package pdftex.def Info: ./images//characterGraphs/Q3.png  used on input line 27
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.277 \newpage
-              pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+l.278 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.277 \newpage
-               <./images//characterGraphs/Q2.png> <./images//characterGraphs/Q3.png>]
-<./images//characterGraphs/Q4.png, id=173, 1190.19656pt x 531.48563pt>
+l.278 
+       <./images//characterGraphs/Q2.png> <./images//characterGraphs/Q3.png>] [9]
+<./images//characterGraphs/Q4.png, id=193, 1190.19656pt x 531.48563pt>
 File: ./images//characterGraphs/Q4.png Graphic file (type png)
 <use ./images//characterGraphs/Q4.png>
-Package pdftex.def Info: ./images//characterGraphs/Q4.png  used on input line 279.
+Package pdftex.def Info: ./images//characterGraphs/Q4.png  used on input line 281.
 (pdftex.def)             Requested size: 416.57504pt x 186.02275pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.288 \newpage
+l.290 \newpage
                <./images//characterGraphs/Q4.png>]
-<./images//eloGraphs/EloGainLine.png, id=180, 1312.905pt x 798.985pt>
+<./images//eloGraphs/EloGainLine.png, id=200, 1312.905pt x 798.985pt>
 File: ./images//eloGraphs/EloGainLine.png Graphic file (type png)
 <use ./images//eloGraphs/EloGainLine.png>
-Package pdftex.def Info: ./images//eloGraphs/EloGainLine.png  used on input line 293.
+Package pdftex.def Info: ./images//eloGraphs/EloGainLine.png  used on input line 295.
 (pdftex.def)             Requested size: 459.52364pt x 279.64894pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.300 \newpage
+l.302 \newpage
                <./images//eloGraphs/EloGainLine.png>]
-<./images//eloGraphs/AverageGainLine.png, id=186, 1303.87125pt x 840.13875pt>
+<./images//eloGraphs/AverageGainLine.png, id=206, 1303.87125pt x 840.13875pt>
 File: ./images//eloGraphs/AverageGainLine.png Graphic file (type png)
 <use ./images//eloGraphs/AverageGainLine.png>
-Package pdftex.def Info: ./images//eloGraphs/AverageGainLine.png  used on input line 304.
+Package pdftex.def Info: ./images//eloGraphs/AverageGainLine.png  used on input line 306.
 (pdftex.def)             Requested size: 456.36177pt x 294.05296pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.315 \newpage
+l.317 \newpage
                <./images//eloGraphs/AverageGainLine.png>]
-<./images//eloGraphs/AverageGainBar.png, id=192, 1308.89pt x 805.0075pt>
+<./images//eloGraphs/AverageGainBar.png, id=213, 1308.89pt x 805.0075pt>
 File: ./images//eloGraphs/AverageGainBar.png Graphic file (type png)
 <use ./images//eloGraphs/AverageGainBar.png>
-Package pdftex.def Info: ./images//eloGraphs/AverageGainBar.png  used on input line 317.
+Package pdftex.def Info: ./images//eloGraphs/AverageGainBar.png  used on input line 319.
 (pdftex.def)             Requested size: 523.54672pt x 321.9973pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.328 \newpage
                <./images//eloGraphs/AverageGainBar.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
+<./images//mixed/scatterPlotAllYear.png, id=219, 1195.46625pt x 614.295pt>
+File: ./images//mixed/scatterPlotAllYear.png Graphic file (type png)
+<use ./images//mixed/scatterPlotAllYear.png>
+Package pdftex.def Info: ./images//mixed/scatterPlotAllYear.png  used on input line 343.
+(pdftex.def)             Requested size: 478.17802pt x 245.71364pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.349 \newpage
+               <./images//mixed/scatterPlotAllYear.png (PNG copy)>]
+<./images//mixed/scatterPlotQuartersNoLabel.png, id=224, 1197.72469pt x 592.46344pt>
+File: ./images//mixed/scatterPlotQuartersNoLabel.png Graphic file (type png)
+<use ./images//mixed/scatterPlotQuartersNoLabel.png>
+Package pdftex.def Info: ./images//mixed/scatterPlotQuartersNoLabel.png  used on input line 351.
+(pdftex.def)             Requested size: 479.08139pt x 236.98117pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.364 \newpage
+               <./images//mixed/scatterPlotQuartersNoLabel.png (PNG copy)>]
+<./images//mixed/scatterPlotQuartersLabels.png, id=229, 1212.02812pt x 622.57594pt>
+File: ./images//mixed/scatterPlotQuartersLabels.png Graphic file (type png)
+<use ./images//mixed/scatterPlotQuartersLabels.png>
+Package pdftex.def Info: ./images//mixed/scatterPlotQuartersLabels.png  used on input line 366.
+(pdftex.def)             Requested size: 484.80266pt x 249.02596pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.371 \newpage
+               <./images//mixed/scatterPlotQuartersLabels.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 375.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 375.
  (/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Report/Visualisation-Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 375.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 375.
 Package rerunfilecheck Info: File `Visualisation-Report.out' has not changed.
-(rerunfilecheck)             Checksum: EA2B313C28C8723F32868568C351E601;712.
+(rerunfilecheck)             Checksum: 2D7D07B7E85ACA9DD85A8F24BF508B67;861.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 332.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 375.
  ) 
 Here is how much of TeX's memory you used:
- 9111 strings out of 492649
- 132602 string characters out of 6129622
- 262126 words of memory out of 5000000
- 12790 multiletter control sequences out of 15000+600000
+ 9142 strings out of 492649
+ 133446 string characters out of 6129622
+ 262316 words of memory out of 5000000
+ 12807 multiletter control sequences out of 15000+600000
  32949 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,7n,43p,1008b,1995s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Report/Visualisation-Report.pdf" (14 pages, 519025 bytes).
+Output written on "/Users/zenzlia/Documents/UNI/COSC3000/Visualisation Report/Visualisation-Report.pdf" (18 pages, 668928 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 70 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
