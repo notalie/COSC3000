@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "Graphics Project"/demo/*
 Graphics Project/demo/data/bmq1.jpg
 Graphics Project/demo/glfw3.dll
@@ -78,3 +79,7 @@ Graphics Project/demo/data/d17.jpg
 Graphics Project/demo/data/d10.jpg
 Graphics Project/demo/data/cockpit_mtl1_diffcol.jpg
 Graphics Project/demo/data/bmq1.jpg
+=======
+Labs/
+"Example Projects"/
+>>>>>>> 88dd2deb0aac1e6a6f330b3032f68e8c3d5edecc
