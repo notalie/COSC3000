@@ -11,4 +11,5 @@
 \contentsline {subsection}{\numberline {4.3}Elo Analysis}{11}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Multivariate Analysis}{14}{subsection.4.4}
 \contentsline {subsubsection}{\numberline {4.4.1}Player Performance}{14}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}Character Performance}{17}{subsubsection.4.4.2}
 \contentsline {section}{\numberline {5}Extras}{17}{section.5}
