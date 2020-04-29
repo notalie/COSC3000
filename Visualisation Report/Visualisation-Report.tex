@@ -55,14 +55,11 @@
 % Sets graphics path
 \graphicspath{ {./images/} }
 % Sets up fancy headers
-\pagestyle{fancy}
-\fancyhf{}
-\lhead{Natalie Hong Data Visualization Project Report}
-\rhead{COSC3000}
 
 \addto\captionsenglish{
 \renewcommand{\listfigurename}{List of Graphs}
 }
+
 
 \usepackage{listings}
 \usepackage{color}
@@ -93,28 +90,58 @@
   tabsize=3
 }
 
-\thispagestyle{empty}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Natalie Hong - Visualisation Report}
+\rhead{COSC3000}
 
+\begin{titlepage}
+\newgeometry{left=7.5cm} %defines the geometry for the titlepage
+\noindent
+\color{black}
+\makebox[0pt][l]{\rule{1.3\textwidth}{1pt}}
+
+{\Huge {Natalie Hong (45309740)}}
+\vskip\baselineskip
+\noindent
+{\huge{COSC300 Visualisation Report}}
+
+\vskip\baselineskip
+{\large {Semester 1 - 2020}}
+\end{titlepage}
+
+\newpage
 \tableofcontents
 
 \listoffigures
 
 \newpage
 
-\pagenumbering{arabic}
 
 \section{Introduction}
 Super Smash Bros. Ultimate, a game for the Nintendo Switch is an immensely popular game with an amazing competitive community nationwide. This report was created with the aims of giving the Australian competitive community a better insight into character changes and skill gaps between each quarter of 2019 and differences between rising skill levels of states. This insight will be properly visualised through multiple data graphs including that of univariate, bivariate and multivariate representations.
 
 
-\section{The Data Set}
+\section{The Data Set \& Problem Statement}
 Hello and welcome to my report about data visualisation. My name is Natalie and I am a third year Software Engineering student and I'm enjoying this course so far.
 \
-
+\subsection{The Data Set}
 The data set I have chosen is that of character usage, skill gain and played matches revolving around that of a local competitive gaming community in Australia. The way I have chosen to present this data set is through that of local JavaScript which calls the Google Chart library. This means that I will be able to deploy a live website showing this data for later viewing and later analysis. 
 \
+\subsection{Problem Statement}
+As data is always changing in database I was using, I decided to only pull data from last year (2019) to give a more accurate representation of data and split them into each quarter (every 3 months). 
 
-As data is always changing in database I was using, I decided to only pull data from last year (2019) to give a more accurate representation of data and split them into each quarter (every 3 months). Since I am an active player within this community, I believe that releasing this data publically will allow for a more insightful look into the past and how the metagame (accepted norm) of the community has changed.
+I also chose to choose this data set as I believe that no clear visualisation of character data usage, elo gain and state comparrison currently exists within the community and presenting this data in will allow for a more insightful look into the past and how the metagame (accepted norm) of the community has changed. 
+
+I also wanted to find answers to these questions using my visualisations:
+\begin{itemize}
+    \item Does the amount of players influence the elo gain?
+    \item Do more players mean better results?
+    \item What is the relation between top played characters and elo gain?
+    \item How did charcter usage change between each quarter?
+    \item Which state performed the best in which quarter?
+    \item Which quarter had the best performance?
+\end{itemize}
 \
 
 I hope that you will find this interesting even if you don't play games.
@@ -195,7 +222,7 @@ A demonstration of the JavaScript code used to display the chart can be seen bel
 
 Using similar code blocks to this, I was able to create the following graphs which will be analysed in the next section.
 
-Note: For a more detailed look into my code check out my %\href{}{GitHub Repo}
+Note: For a more detailed look into my code check out the supplied code.
 \newpage
 
 \section{Data Analysis}
@@ -216,7 +243,7 @@ Before beginning my data analysis, I decided to group my data into little subsec
 \end{figure}
 The first graph that I wanted to display was that of unique players that had played in each state. From this graph, it is possible to see that Victoria (VIC) had the most registered players in 2019 while Tasmania (TAS) and International (INT) players have the smallest registered players, this may be due to the populus size of TAS and the lack of international competitors entering Australian tournaments. 
 
-It's worth noting that New South Wales (NSW) should have a much larger registered playerbase due to its large population compared to all the other states. This however, does not seem to be the case, making it an outlier in the dataset. This could be due to a lack of tournaments held per week which can lead to a struggle in encouraging new players to join the gaming scene.
+It's worth noting that New South Wales (NSW) should have a much larger registered playerbase due to its large population compared to all the other states. This however, does not seem to be the case, making it an outlier in the dataset. This could be due to a lack of tournaments held per week which can lead to a struggle in encouraging new players to join the gaming scene. If you would like a further look into the exact values for the following graphs, please check out stepGraph.html and barGraphs.html supplied in the Visualisation Report folder.
 
 \newpage
 
@@ -243,7 +270,7 @@ Since matches played isn't too much of a good measure of constant activity withi
 This graph differs very differently from the previous one. One noticeable difference being that of Tasmania's matches played. In the previous figure, TAS was barely visible in comparrison to other states, with the average calculation in play. It is possible to see that the TAS' competitive scene is rather active as each individual player is active. Similar to the other graph, New Zealand (NZ) has very steady data, with the amount of matches played and that of active players. From this, it is possible to assume that NZ players all have very similar attendence. This may be due to the fact that NZ does not have weekly tournaments but rather monthly ones.
 \newpage
 \subsection{Character Data Analysis}
-When creating the bar graphs for this section of analysis. I decided to create an interactie bar graph which could show the character usage for each quarter per state and for the whole of Australia. Of course, this ended up with 32 different bar graphs to analyse... which I wasn't going to do. Instead, I will be analysing each quarter for the whole of Australia, there is a possibility that each graph will be looked at during the supplied presentation. It is also worth noting that due to the previous figures having a lack of non-average TAS and INT data, I have decided to take it out as they are outliers and are not good for individual analysis.
+When creating the bar graphs for this section of analysis. I decided to create an interactive bar graph which could show the character usage for each quarter per state and for the whole of Australia. Of course, this ended up with 32 different bar graphs to analyse... which I wasn't going to do. Instead, I will be analysing each quarter for the whole of Australia, there is a possibility that each graph will be looked at during the supplied presentation. It is also worth noting that due to the previous figures having a lack of non-average TAS and INT data, I have decided to take it out as they are outliers and are not good for individual analysis. If you want a further look into the interactivity and to look at all 32 bar graphs, please check out barGraphs.html supplied in the Visualisation Project folder.
 
 \begin{figure}[!ht]
 	\centerline{\includegraphics[scale=0.35]{/characterGraphs/Q1.png}}
@@ -289,7 +316,7 @@ Mr. Game and Watch has also appeared on this graph and hasn't been seen within a
 
 \newpage
 \subsection{Elo Analysis}
-Elo is that of skill rating within the smash community and acts as a way of seeing who is truly the best. When two players play a set against each other, they are to gain or lose elo based on an algorithm built into ausmash's backend. I however chose to look into purely elo gain as graphs could be more interesting as more elo is usually gained than lost within each state. 
+Elo is that of skill rating within the smash community and acts as a way of seeing who is truly the best. When two players play a set against each other, they are to gain or lose elo based on an algorithm built into ausmash's backend. I however chose to look into purely elo gain as graphs could be more interesting as more elo is usually gained than lost within each state. If you would like to look further into the graphs in this section, please check out lineGraphs.html supplied within the Visualisation Project folder.
 
 \begin{figure}[!ht]
 	\centerline{\includegraphics[scale=0.35]{/eloGraphs/EloGainLine.png}}
@@ -334,7 +361,7 @@ Multivariate analysis of the data consists of combining more than three data poi
 	\item Character Performance
 \end{itemize}
 
-The reason that I have chosen to analyse performance with multivariate data is due to the fact that I wanted to display data on more than three axis as I am able to get a good indicator of how different players and characters perform.
+The reason that I have chosen to analyse performance with multivariate data is due to the fact that I wanted to display data on more than three axis as I am able to get a good indicator of how different players and characters perform. If you want a further look into exact values in these graphs, please check out bubbleGraph.html and scatterPlot.html supplied in the Visualisation Project folder.
 
 \subsubsection{Player Performance}
 Player performance graphs used the axis of elo gain, the amount of registered players and later on, quarters and states. In later scatterplots, you will see the data becomes easier to read as I add labels and colours to them.
@@ -372,6 +399,8 @@ In Figure 13, you can see the states added to the quarter labels. It's once agai
 
 It was pointed out in the previous figure that a state in Q3 had the highest elo gain within the whole year and out of all the states. This lined up with my prediction of it being QLD due to the major event. This is also notaeble as this is the largest gap in elo gain between QLD and VIC but is still less than VIC and QLD's elo gain gap in Q4.
 
+Since the majority of the bubbles in the top right (best performing section) were from Q1, it was safe to say that Q1 was the best quarter for performance.
+
 As per previous figures, specifically in that of the elo gain analysis section. NSW can once again be seen signifcantly dropping off in elo gain after Q1. 
 
 One point that can be seen here that wasn't evident in previous figures is that of NZ in comparrison to SA's Q4 performance. While the region had larger player base than SA, NZ underperformed and did not gain more elo than SA which stands as an outlier. 
@@ -385,21 +414,73 @@ Character performance looks at quarters and 2019 as a whole. It aims to analyse 
 \begin{figure}[!ht]
 	\centerline{\includegraphics[scale=0.4]{/mixed/bubbleChartYearlyRadius.png}}
 	\caption{Character Usage Throughout (2019)}
-	\label{fig:figure13}
+	\label{fig:figure14}
 \end{figure}
 In this bubble chart, the best performing characters can be seen within the top right of the graph. The size of the bubble represents a characters unique player size. As seen within the character analysis section Wolf, Lucina, Joker and Bowser were the most popular within each quarter of 2019 and reflect this with their large radius. However, these characters are not the most popular/best performing ones as Snake and Palutena have a much higher elo gain and amount of matches played but have lower player counts. It's also clear that a trend exists between the amount of matches played and elo gained as the trend line for the data is linear. To take a further look into this data, I got the top 25 most played characters from this graph and added it to a heat graph to allow for a more in-depth look.
 
 \begin{figure}[!ht]
 	\centerline{\includegraphics[scale=0.4]{/mixed/bubbleChartYearlyColour.png}}
 	\caption{Top 25 Character Usage Throughout (2019)}
-	\label{fig:figure13}
+	\label{fig:figure15}
 \end{figure}
+This graph demonstrates a selected top amount of characters with unique player usage being represented in colours which can be seen in the gradient legend above the graph.
+
 What has changed within this graph is that of adding in colours in replacement of radius. There is an obvious hotspot near the top half of the graph where the most played characters are closer together which shows that they are performing well as they have entered many tournaments and gained a decent amount of elo. It was expected that the characters with the least players, matches and elo gained would reside in the bottom left so there are no outliers there. 
 
-With the addition of this colour gradient, it is now much more clear within this figure that ROB stands as an outlier. While other characters range more within midrange for usage within this cluster, ROB stands out as he is within the lower side of the usage spectrum. This placement of ROB may be due to a small amount of players performing well/being active within the smash community. A notaeble player, SebPro101 is one of the best ROB players within Australia and may be the sole reason for this character's placement as he is the best with his character within Australia and the only one to do so well with it. This could in turn, have allowed for ROB to perform better within 2019.
+With the addition of this colour gradient, it is now much more clear within this figure that ROB stands as an outlier. While other characters range more within midrange for usage within this cluster, ROB stands out as he is within the lower side of the usage spectrum. This placement of ROB may be due to a small amount of players performing well/being active within the smash community. A notable player, SebPro101 is one of the best ROB players within Australia and may be the sole reason for this character's placement as he is the best with his character within Australia and the only one to do so well with it. This could in turn, have allowed for ROB to perform better within 2019.
 
-\newapage
-\section{Self Evaluation & Summary of Findings}
-Overall, I was able to find some very interesting points 
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.4]{/mixed/bubbleChartQuarterlyRadius.png}}
+	\caption{Character Performance in Quarters (2019)}
+	\label{fig:figure16}
+\end{figure}
+
+In Figure 16, a graph similar to Figure 14 can be seen. As per this previous figure, the radius represents a character's unique player base with the x representing matches and y representing elo gained meaning that the closer to the top right that a bubble is, the better performing that character is. The only difference between this chart and Figure 14, is that each bubble now represents a character within a quarter which is why each maximum axis is approximately 1/4 that of Figure 14's.
+
+Previously seen within Figure 14 was that of Snake, Palutena, Wolf and Joker performing well within 2019. This trend of well performing characters has managed to stay mostly consistent with the exception of Palutena. Previously, Palutena was second as the best performing character behind Snake but has been overtaken by Joker within this figure. It's also evident that Palutena lacks results from Q2. This may be because many players stopped playing the character due to Joker's release, as seen previously in the character analysis section (Figure 6). 
+
+The strongest performance seen within this graph is that of Snake during Q1. While Snake did appear within the Character Analysis graphs, he was never a top 5 picked character meaning that the majority of Snake players performed very well at a high level and were active which resulted in Snake having the best performance for Q1 2019.
+
+To get a full grasp of performance, I once again decided to get the top 25 most played characters in their quarters. This also removed overlapping datapoints as it was not visually pleasing.
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.4]{/mixed/bubbleChartQuarterlyColour.png}}
+	\caption{Top 25 Character Usage Throughout 2019 Quarters}
+	\label{fig:figure16}
+\end{figure}
+This graph demonstrates a selected top amount of characters with unique player usage being represented in colours which can be seen in the gradient legend above the graph.
+
+As per the character data analysis, it was expected that the Joker and Wolf would have the highest player amounts which can be seen by their bright red colours. It's very interesting to note that Snake had a very small playerbase within Q1 but still remains very active and well performing character. 
+
+It's also worth looking at the matches played difference between Joker (Q3) and Snake's (Q1). They have a small gap of matches played but have a larger elo gain difference between them. A reason for this may be that Joker players in Q3 did not have a majority of high level players but rather a mix of different skill level players where as Snake players in Q1 may have consisted of high level players which would explain the difference in elo gained.
+
+\newpage
+\section{Self Evaluation \& Summary of Findings}
+Overall, I was able to find some very interesting points such as how QLD performs better than NSW and how matches played directly correlates to elo gain. It was also interesting to see the most played characters within each quarter. 
+
+If I was to take this project further, I would add elo loss and factor in negative elo loss. I would also try to use another graphing software other than Google Charts as limited to what the library could do and felt rather tedious at times to use. 
+
+As I stated in the beginning, I wanted to find answers to these questions, I believe I was able to find these answers through my visualisations:
+\begin{enumerate}
+    \item Does the amount of players influence the elo gain?
+    \item Do more players mean better results?
+    \item What is the relation between top played characters and elo gain?
+    \item How did charcter usage change between each quarter?
+    \item Which state performed the best in which quarter?
+    \item Which quarter had the best performance?
+\end{enumerate}
+
+\begin{enumerate}
+    \item The amount of players did influence elo gain. This could be seen within the mixed data analysis section.
+    \item More players do not always mean better results. These factors were found in the mixed data analysis section with obvious 		outliers and was due to top players influencing elo gain.
+    \item Top played characters usually had the most elo gain but not always, similar to the previous statement, good players would 	'carry' the small playerbase for their character.
+    \item As seen in the character analysis section, top played characters such as Lucina, Wolf and Joker remained as the top most 	played. Whenever a new character was added, they were usually popular within their quarter.
+    \item The elo analysis section showed which state performed best in which quarter. Q1 - VIC, Q2 - Q4 was QLD.
+    \item The quarter that had the best performance was in Q1 as seen in the mixed analysis section.
+\end{enumerate}
+
+If you would like to look further into character analysis or interact with the graphs to see more exact values. You are welcome to load up graphChoice.html in the Visualisation Project and pick a graph you would like to look at. I would suggest looking at the bar graphs as they are interactive and give further insight into character usage within states rather than the whole of Australia.
+
+Thanks for reading, Nat
 
 \end{document}
