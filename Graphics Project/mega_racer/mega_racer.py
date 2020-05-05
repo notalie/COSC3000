@@ -38,8 +38,8 @@ g_viewPosition = [ 100.0, 100.0, 100.0 ];
 g_viewTarget = [ 0.0, 0.0, 0.0 ];
 g_viewUp = [ 0.0, 0.0, 1.0 ];
 
-g_followCamOffset = 25.0
-g_followCamLookOffset = 10.0
+g_followCamOffset = 55.9
+g_followCamLookOffset = 25.6
 
 g_sunStartPosition = [0.0, 0.0, 1000.0]
 g_sunPosition = g_sunStartPosition
@@ -83,8 +83,6 @@ class ViewParams:
 	worldToViewTransform = lu.Mat4()
 	width = 0
 	height = 0
-
-
 
 #
 # Really just a helper class to be able to pass around shared utilities to the different modules
@@ -260,8 +258,6 @@ def sampleKeyFrames(t, kfs):
     return None
 
 
-
-
 def update(dt, keyStateMap, mouseDelta):
     global g_sunPosition
     global g_sunAngle
@@ -287,6 +283,13 @@ def update(dt, keyStateMap, mouseDelta):
 
     # TODO 1.2: Make the camera look at the racer. Code for updating the camera should be done after the 
     # racer, otherwise the offset will lag and it generally looks weird.
+    x = g_racer.position[0]
+    y = g_racer.position[1]
+    z = g_racer.position[2]
+    g_viewPosition = [x - g_followCamOffset, y, z + g_followCamLookOffset]
+    g_viewTarget = [x,y,z]
+    
+    # worldToViewTransform = lu.make_lookAt([g_followCamOffset, g_followCamLookOffset, z], [x,y,z], [0, 1, 0])
 
     if imgui.tree_node("Camera", imgui.TREE_NODE_DEFAULT_OPEN):
         _,g_followCamOffset = imgui.slider_float("FollowCamOffset ", g_followCamOffset, 2.0, 100.0)

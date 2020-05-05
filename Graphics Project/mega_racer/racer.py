@@ -26,12 +26,18 @@ class Racer:
 
     def render(self, view, renderingSystem):
         # TODO 1.3: This is a good place to draw the racer model instead of the sphere
-        lu.drawSphere(self.position, 1.5, [1,0,0,1], view)
+        x = self.position[0] 
+        y = self.position[1] 
+        z = self.position[2] 
+        worldToview = lu.make_translation(x,y,z) * lu.make_rotation_z(math.radians(90))* lu.make_rotation_x(math.radians(90))
+        renderingSystem.drawObjModel(self.model, worldToview, view)
 
     def load(self, objModelName, terrain, renderingSystem):
         self.terrain = terrain
         self.position = terrain.startLocations[0]
         # TODO 1.3: This is a good place create and load the racer model
+        self.model = ObjModel(objModelName)
+        
 
     def update(self, dt, keyStateMap):
         info = self.terrain.getInfoAt(self.position);
@@ -62,7 +68,7 @@ class Racer:
         self.position += self.velocity * dt;
 
         # TODO 1.1: After the terrain height is correct, uncomment this line to make the racer follow the ground height
-        #self.position[2] = lu.mix(self.position[2], info.height + self.zOffset, 0.1);
+        self.position[2] = lu.mix(self.position[2], info.height + self.zOffset, 0.1);
 
     def drawUi(self):
         imgui.label_text("Speed", "%0.1fm/s"%self.speed)

@@ -53,9 +53,9 @@ class Terrain:
         lu.setUniform(self.shader, "xyNormScale", xyNormScale);
         xyOffset = -(vec2(self.imageWidth, self.imageHeight) + vec2(1.0)) * self.xyScale / 2.0;
         lu.setUniform(self.shader, "xyOffset", xyOffset);
-
+        #(texUnit, textureId, defaultTexture = None):
         #TODO 1.4: Bind the grass texture to the right texture unit, hint: lu.bindTexture
-
+        #ObjModel.loadTexture('data/grass2.png', '', xyNormScale.any())
         if self.renderWireFrame:
             glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
             glLineWidth(1.0);
@@ -88,7 +88,7 @@ class Terrain:
 
                     xyPos = vec2(i, j) * self.xyScale + xyOffset;
                     # TODO 1.1: set the height
-                    zPos = 0.0
+                    zPos = self.heightScale * red
                     pt = vec3(xyPos[0], xyPos[1], zPos)
                     terrainVerts.append(pt)
 
