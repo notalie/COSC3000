@@ -38,8 +38,8 @@ g_viewPosition = [ 100.0, 100.0, 100.0 ];
 g_viewTarget = [ 0.0, 0.0, 0.0 ];
 g_viewUp = [ 0.0, 0.0, 1.0 ];
 
-g_followCamOffset = 55.9
-g_followCamLookOffset = 25.6
+g_followCamOffset = 34
+g_followCamLookOffset = 20
 
 g_sunStartPosition = [0.0, 0.0, 1000.0]
 g_sunPosition = g_sunStartPosition
@@ -286,8 +286,14 @@ def update(dt, keyStateMap, mouseDelta):
     x = g_racer.position[0]
     y = g_racer.position[1]
     z = g_racer.position[2]
-    g_viewPosition = [x - g_followCamOffset, y, z + g_followCamLookOffset]
-    g_viewTarget = [x,y,z]
+
+    for i, positionPoint in enumerate(g_racer.position): 
+        g_viewPosition[i] = positionPoint + g_followCamOffset * -g_racer.heading[i]
+        #print(positionPoint)
+        #print(g_followCamOffset * -g_racer.heading[i])
+
+    g_viewPosition[2] += g_followCamLookOffset
+    g_viewTarget = [x, y, z]
     
     # worldToViewTransform = lu.make_lookAt([g_followCamOffset, g_followCamLookOffset, z], [x,y,z], [0, 1, 0])
 

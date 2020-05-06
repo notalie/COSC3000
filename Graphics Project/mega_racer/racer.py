@@ -26,11 +26,9 @@ class Racer:
 
     def render(self, view, renderingSystem):
         # TODO 1.3: This is a good place to draw the racer model instead of the sphere
-        x = self.position[0] 
-        y = self.position[1] 
-        z = self.position[2] 
-        worldToview = lu.make_translation(x,y,z) * lu.make_rotation_z(math.radians(90))* lu.make_rotation_x(math.radians(90))
-        renderingSystem.drawObjModel(self.model, worldToview, view)
+        top = [0,0,1]
+        modelInWorld = lu.make_mat4_from_zAxis(self.position, self.heading, top)
+        renderingSystem.drawObjModel(self.model, modelInWorld, view)
 
     def load(self, objModelName, terrain, renderingSystem):
         self.terrain = terrain
@@ -62,7 +60,6 @@ class Racer:
             rotationMat = lu.make_rotation_z(dt * -self.angvel)
 
         self.heading = lu.Mat3(rotationMat) * self.heading;
-
         # get height of ground at this point.
 
         self.position += self.velocity * dt;
