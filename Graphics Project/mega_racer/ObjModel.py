@@ -258,8 +258,9 @@ class ObjModel:
             #glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAX_ANISOTROPY_EXT, 16);
             glBindTexture(GL_TEXTURE_2D, 0);
             return texId
-        except:
+        except Exception as e:
             print("WARNING: FAILED to load texture '%s'"%fileName);
+            print(e)
             #print("Could not load image :(")
 
         return -1;
