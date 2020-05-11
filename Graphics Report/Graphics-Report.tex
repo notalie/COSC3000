@@ -146,22 +146,29 @@ Scaling terrain consisted of scaling the terrain according to the path image sup
 	zPos = 0
 \end{lstlisting}
 
-Initially, the code supplied consisted of zPos =0 and I was to change it. I thought long and hard about to change and looked at the hints supplied. In it, I was told to use self.heightScale and to somehow utilize it in order to get a consistent z position for each terrain created. I had a thought that multiplying the red value calculated would allow me to get a a consistent z position. This was because red represented a value from 0 to 255 and multiplying it with the height scale would allow for different Z positions to be generated.
+Initially, the code supplied consisted of zPos = 0 and I was to change it. I thought long and hard about to change and looked at the hints supplied. In it, I was told to use self.heightScale and to somehow utilize it in order to get a consistent z position for each terrain created. I had a thought that multiplying the red value calculated would allow me to get a a consistent z position. This was because red represented a value from 0 to 255 and multiplying it with the height scale would allow for different Z positions to be generated.
 
+\newpage
 \begin{lstlisting}    
 	# TODO 1.1: set the height
 	zPos = self.heightScale * red
 \end{lstlisting}
 
 \begin{figure}[!ht]
-	\centerline{\includegraphics[scale=0.35]{/1.1.png}}
-	\caption{Step Graph Representing The Amount of Matches Played in Each State (2019)}
+	\centerline{\includegraphics[scale=0.35]{/1_1.png}}
+	\caption{Scaled Terrain}
 	\label{fig:figure2}
 \end{figure}
 
+This seemed to work as I was now able to see bumps and curves within the terrain which meant this feature was completed.
 
-This seemed to work and 
+\section*{1.2 - Setting up the Camera}
+The next feature I was to implement was that of setting up the camera so that it viewed the racer at all times and was scaled to the supplied camera offset.
 
+\section*{1.3 - Orientating and Placing the Racer Model}
+
+
+\section*{1.4 - Texturing the Terrain}
 
 
 \end{document}
