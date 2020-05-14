@@ -110,7 +110,11 @@ class RenderingSystem:
     vec3 computeShading(vec3 materialColour, vec3 viewSpacePosition, vec3 viewSpaceNormal, vec3 viewSpaceLightPos, vec3 lightColour)
     {
         // TODO 1.5: Here's where code to compute shading would be placed most conveniently
-        return materialColour;
+        vec3 viewSpaceDirToLight = 	normalize(viewSpaceLightPos - viewSpacePosition);
+        float incomingIntensity = max(0.0, dot(viewSpaceNormal, viewSpaceDirToLight));
+        vec3 incomingLight = incomingIntensity * lightColour;
+        vec3 outgoingLight = (incomingLight + globalAmbientLight) * materialColour;
+        return outgoingLight;
     }
     """
     objModelShader = None
