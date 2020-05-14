@@ -293,8 +293,6 @@ def update(dt, keyStateMap, mouseDelta):
 
     for i, positionPoint in enumerate(g_racer.position): 
         g_viewPosition[i] = positionPoint + g_followCamOffset * -g_racer.heading[i]
-        #print(positionPoint)
-        #print(g_followCamOffset * -g_racer.heading[i])
 
     g_viewPosition[2] += g_followCamLookOffset
     g_viewTarget = [x, y, z]

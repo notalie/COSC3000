@@ -129,6 +129,7 @@ The features that were made were:
 	\item{1.2 - Setting up the Camera}
 	\item{1.3 - Orientating and Placing the Racer Model}
 	\item{1.4 - Texturing the Terrain}
+	\item{1.5 - Lighting from the Sun}
 \end{itemize}
 
 In the following documentation. You will find screenshots and findings around each feature as well as how I went about approaching each feature within the project.
@@ -157,19 +158,83 @@ Initially, the code supplied consisted of zPos = 0 and I was to change it. I tho
 \begin{figure}[!ht]
 	\centerline{\includegraphics[scale=0.35]{/1_1.png}}
 	\caption{Scaled Terrain}
-	\label{fig:figure2}
+	\label{fig:figure1}
 \end{figure}
 
 This seemed to work as I was now able to see bumps and curves within the terrain which meant this feature was completed.
 
 \section*{1.2 - Setting up the Camera}
-The next feature I was to implement was that of setting up the camera so that it viewed the racer at all times and was scaled to the supplied camera offset.
+The next feature I was to implement was that of setting up the camera so that it viewed the racer at all times and was scaled to the supplied camera offset. As well as this, I wanted the camera to be able to rotate according to the heading of the racer. After much experimentation I was able to come up with the following code:
+
+\begin{lstlisting}  
+    x = g_racer.position[0]
+    y = g_racer.position[1]
+    z = g_racer.position[2]
+
+    ....
+    g_viewTarget = [x, y, z]
+\end{lstlisting}
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.35]{/2_1.png}}
+	\caption{Looking at the Racer}
+	\label{fig:figure2}
+\end{figure}
+
+Since I wanted my camera to look at the racer, I decided to make it so that the camera was always looking at where the racer was positioned. However, I did not want the camera to be at the exact same position as the racer as that would make it feel weird. To make sure the camera was positioned away from the racer, I used the assigned follow cam offsets. This code was very similar to Lab 3 of the course. The result can be seen in the above figure, please note that this screenshot was taken later into development of the game.
+
+\begin{lstlisting}  
+    for i, positionPoint in enumerate(g_racer.position): 
+        g_viewPosition[i] = positionPoint + g_followCamOffset * -g_racer.heading[i]
+
+    g_viewPosition[2] += g_followCamLookOffset
+\end{lstlisting}
+In the code above, I was able to create a viewing position for the camera to be positioned at. Position points were each of the racer's coordinates and were then added to the follow cam offset multiplied by the negative of the racer's heading coordinates. Since -1 for the heading coordinates corresponded to the right rather than the left, I made sure to make the values reverse using the negative version of the heading value.
+
+Since z-axis had an added follow camera offset as it was specified in the task sheet, I made sure that the z axis needed to have the additional multiplier of the follow cam offset to it.
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.35]{/2_2.png}}
+	\caption{Camera Rotating with the Racer}
+	\label{fig:figure2}
+\end{figure}
+The result of rotating the camera can be seen in the above figure, please note that this screenshot was taken later into development of the game.
 
 \section*{1.3 - Orientating and Placing the Racer Model}
+This task for the racer required me to rotate and orientate the model. This model loading was very similar to the of Lab 1. To place the model at the racer's location I did the following:
 
+\begin{lstlisting}  
+        top = [0,0,1] # Define top in the Z-axis
+        modelInWorld = lu.make_mat4_from_zAxis(self.position, self.heading, top)
+        # Draw model in the specified world coordinates
+        renderingSystem.drawObjModel(self.model, modelInWorld, view) 
+\end{lstlisting}
+
+First, I defined the top of the world in that of the z-axis. This was necessary as the task sheet recommended to do it and allowed me to use more functions. Using this top value, I made a 4x4 matrix using the racer's position, where it was heading and the top value defined earlier. Once I got this 4x4 matrix which represented coordinates to draw the model in, I then added the model to the coordinates and used the passed in view to place the Racer in the scene. 
+
+\begin{lstlisting}  
+	self.model = ObjModel(objModelName)
+\end{lstlisting}
+
+The last thing I did was load the model inside the racer's load function so the racer model could initialise on load. 
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.35]{/3_1.png}}
+	\caption{The Loaded Model}
+	\label{fig:figure3}
+\end{figure}
+Once loaded, I was able to rotate the model with the camera to allow for the racer model to always be facing forwards no matter which way the camera was adjusted to.
 
 \section*{1.4 - Texturing the Terrain}
+As you may have seen in previous figures, I was able to texture the terrain of the game.
 
+\section*{1.5 - Lighting from the Sun}
+- used shading solutions/what I learnt in lab 4
+- noticed that the passed in values were:
+vec3 materialColour, vec3 viewSpacePosition, vec3 viewSpaceNormal, vec3 viewSpaceLightPos, vec3 lightColour
+
+did something similar
+with global variable of globalAmbientLight
 
 \end{document}
 
