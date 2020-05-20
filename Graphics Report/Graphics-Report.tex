@@ -419,9 +419,9 @@ When I went to the \href{https://iquilezles.org/www/articles/fog/fog.htm}{websit
     \end{minipage}
 \end{figure} 
 
-As seen in Figure 8, the code demonstrated was that of an apply fog function that was to be put in the megaracer file. I initially tried to implement this function but was unsure about the rayDir and sunDir variables that were passed into it. I originally tried passing in viewSpacePosition and viewSpaceLightPosition which did not seem to do what I wanted as the sun did not end up shaded properly for some reason.
+As seen in Figure 10, the code demonstrated was that of an apply fog function that was to be put in the megaracer file. I initially tried to implement this function but was unsure about the rayDir and sunDir variables that were passed into it. I originally tried passing in viewSpacePosition and viewSpaceLightPosition which did not seem to do what I wanted as the sun did not end up shaded properly for some reason.
 
-So instead I with the approach seen in Figure 9. Once I had impmented this, I realised that the fog was kept to one colour as the fogColor variable was kept constant and turned out to just be grey which did not give too much volume to it. 
+So instead I with the approach seen in Figure 11. Once I had impmented this, I realised that the fog was kept to one colour as the fogColor variable was kept constant and turned out to just be grey which did not give too much volume to it. 
 
 I tried adding sunLightColour to be the new fog colour but that seemed to make the fog colour only be independently influenced by the sun, which I did not want. So I decided to combine it with the global ambient light colour as per the specification task.
 
@@ -434,7 +434,7 @@ I tried adding sunLightColour to be the new fog colour but that seemed to make t
     }
 \end{lstlisting}
 
-My apply fog function now looked like this. Using the code that was from the lecture slides (Figure 8), I was able to add fog to my game's code which looked like the following:
+My apply fog function now looked like this. Using the code that was from the lecture slides, I was able to add fog to my game's code which looked like the following:
 
 \begin{lstlisting}
     // Applying fog
@@ -466,7 +466,7 @@ To this:
 	\caption{The Correctly Shaded Fog}
 	\label{fig:figure10}
 \end{figure}
-The correctly shaded fog looked like that seen in Figure 11, this fog stayed constant throughout the sun cycle in the game and allowed for depth in the game to be seen more clearly.
+The correctly shaded fog looked like that seen in Figure 13, this fog stayed constant throughout the sun cycle in the game and allowed for depth in the game to be seen more clearly.
 
 
 
