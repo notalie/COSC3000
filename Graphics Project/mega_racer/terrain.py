@@ -42,9 +42,16 @@ class Terrain:
 
     # Texture ids
     grassId = None
+    highRockId = None
+    steepRockId = None
+    roadId = None
 
     # Texture unit allocaitons:
     TU_Grass = 0
+    TU_High_Rock = 1
+    TU_Steep_Rock = 2
+    TU_Road = 3
+
 
     def render(self, view, renderingSystem):
         glUseProgram(self.shader)
@@ -61,7 +68,15 @@ class Terrain:
         lu.bindTexture(self.TU_Grass, self.grassId)
         lu.setUniform(self.shader, "grassId", self.TU_Grass)
 
+        #TODO 2.1: Improve Terrain Textures
+        lu.bindTexture(self.TU_High_Rock, self.highRockId)
+        lu.setUniform(self.shader, "highRockId", self.TU_High_Rock)
 
+        lu.bindTexture(self.TU_Steep_Rock, self.steepRockId)
+        lu.setUniform(self.shader, "steepRockId", self.TU_Steep_Rock)
+
+        lu.bindTexture(self.TU_Road, self.roadId)
+        lu.setUniform(self.shader, "roadId", self.TU_Road)
 
         if self.renderWireFrame:
             glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
@@ -197,6 +212,7 @@ class Terrain:
                 vec3 v2f_viewSpacePosition;
                 vec3 v2f_viewSpaceNormal;
                 vec3 v2f_worldSpacePosition;
+                vec3 v2f_worldSpaceNormal;
             };
 
             void main() 
@@ -212,6 +228,7 @@ class Terrain:
                 // We transform the position using one matrix multiply from model to clip space. Note the added 1 at the end of the position to make the 3D
                 // coordinate homogeneous.
 	            gl_Position = modelToClipTransform * vec4(positionIn, 1.0);
+                v2f_worldSpaceNormal = normalIn;
             }
 """
 
@@ -224,29 +241,52 @@ class Terrain:
                 vec3 v2f_viewSpacePosition;
                 vec3 v2f_viewSpaceNormal;
                 vec3 v2f_worldSpacePosition;
+                vec3 v2f_worldSpaceNormal;
             };
 
             uniform float terrainHeightScale;
             uniform float terrainTextureXyScale;
 
             uniform sampler2D grassId;
+            uniform sampler2D highRockId;
+            uniform sampler2D steepRockId;
+            uniform sampler2D roadId;
 
             out vec4 fragmentColor;
 
             void main() 
             {
                 vec2 testvecw = v2f_worldSpacePosition.xy;
-            
+                //https://stackoverflow.com/questions/41984724/calculating-angle-between-two-vectors-in-glsl
+                vec3 worldSpace_Normal = normalize(v2f_worldSpaceNormal);
+                vec3 zaxis_Normal = normalize(vec3(0, 0, 1));
+                float angle =  acos(dot(worldSpace_Normal, zaxis_Normal));
                 vec3 materialColour = vec3(v2f_height/terrainHeightScale);
                 
                 // TODO 1.4: Compute the texture coordinates and sample the texture for the grass and use as material colour.
-                vec3 grassColour = texture(grassId, testvecw * terrainTextureXyScale).xyz; //+ vec3(0.1*noise(testvecw * terrainTextureXyScale));
+                vec3 grassColour = texture(grassId, testvecw * terrainTextureXyScale).xyz; 
                 
                 materialColour = grassColour;
+
+
+                if (v2f_height < 30) {
+                    materialColour = texture(roadId, testvecw * terrainTextureXyScale).xyz;
+                } 
+                
+                if (v2f_height > 60) {
+                    materialColour = texture(highRockId, testvecw * terrainTextureXyScale).xyz;
+                } 
+                
+                if (angle > 0.45) { // Angled
+                    materialColour = texture(steepRockId, testvecw * terrainTextureXyScale).xyz;
+                }
+
+
                 vec3 reflectedLight = computeShading(materialColour, v2f_viewSpacePosition, v2f_viewSpaceNormal, viewSpaceLightPosition, sunLightColour);
 	            fragmentColor = vec4(toSrgb(reflectedLight), 1.0);
 	            //fragmentColor = vec4(toSrgb(vec3(v2f_height/terrainHeightScale)), 1.0);
-
+	            // Apply fog
+	            fragmentColor = vec4(toSrgb(applyFog(reflectedLight, -v2f_viewSpacePosition.z)), 1.0);
             }
 """
         # Note how we provide lists of source code strings for the two shader stages.
@@ -258,6 +298,11 @@ class Terrain:
         # TODO 1.4: Load texture and configure the sampler
         basePath = ""
         self.grassId = ObjModel.loadTexture("data/grass2.png", basePath, True)
+
+        #TODO 2.1: Improve Terrain Textures
+        self.highRockId = ObjModel.loadTexture("data/rock 2.png", basePath, True)
+        self.steepRockId = ObjModel.loadTexture("data/rock 5.png", basePath, True)
+        self.roadId = ObjModel.loadTexture("data/paving 5.png", basePath, True)
 
     # Called by the game to drawt he UI widgets for the terrain.
     def drawUi(self):

@@ -11,8 +11,7 @@
 \documentclass[11pt, oneside, a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-
-\usepackage{hyperref}
+\usepackage{hyperref} 
 \hypersetup{
     colorlinks=true,
     linkcolor=black,
@@ -130,6 +129,7 @@ The features that were made were:
 	\item{4 - Orientating and Placing the Racer Model}
 	\item{5 - Texturing the Terrain}
 	\item{6 - Lighting from the Sun}
+	\item{7 - Adding Fog}
 \end{itemize}
 
 In the following documentation. You will find screenshots and findings around each feature as well as how I went about approaching each feature within the project.
@@ -156,7 +156,7 @@ Initially, the code supplied consisted of zPos = 0 and I was to change it. I tho
 \end{lstlisting}
 
 \begin{figure}[!ht]
-	\centerline{\includegraphics[scale=0.35]{/1_1.png}}
+	\centerline{\includegraphics[scale=0.35]{/2_1.png}}
 	\caption{Scaled Terrain}
 	\label{fig:figure1}
 \end{figure}
@@ -176,7 +176,7 @@ The next feature I was to implement was that of setting up the camera so that it
 \end{lstlisting}
 
 \begin{figure}[!ht]
-	\centerline{\includegraphics[scale=0.35]{/2_1.png}}
+	\centerline{\includegraphics[scale=0.35]{/3_1.png}}
 	\caption{Looking at the Racer}
 	\label{fig:figure2}
 \end{figure}
@@ -194,9 +194,9 @@ In the code above, I was able to create a viewing position for the camera to be 
 Since z-axis had an added follow camera offset as it was specified in the task sheet, I made sure that the z axis needed to have the additional multiplier of the follow cam offset to it.
 
 \begin{figure}[!ht]
-	\centerline{\includegraphics[scale=0.35]{/2_2.png}}
+	\centerline{\includegraphics[scale=0.35]{/3_2.png}}
 	\caption{Camera Rotating with the Racer}
-	\label{fig:figure2}
+	\label{fig:figure3}
 \end{figure}
 The result of rotating the camera can be seen in the above figure, please note that this screenshot was taken later into development of the game.
 
@@ -219,9 +219,9 @@ First, I defined the top of the world in that of the z-axis. This was necessary 
 The last thing I did was load the model inside the racer's load function so the racer model could initialise on load. 
 
 \begin{figure}[!ht]
-	\centerline{\includegraphics[scale=0.35]{/3_1.png}}
+	\centerline{\includegraphics[scale=0.35]{/4_1.png}}
 	\caption{The Loaded Model}
-	\label{fig:figure3}
+	\label{fig:figure4}
 \end{figure}
 Once loaded, I was able to rotate the model with the camera to allow for the racer model to always be facing forwards no matter which way the camera was adjusted to.
 
@@ -269,9 +269,9 @@ I then was able to finally convert the reflected light into a fragment color var
  
  The end result looked like the following:
  \begin{figure}[!ht]
-	\centerline{\includegraphics[scale=0.35]{/4_1.png}}
+	\centerline{\includegraphics[scale=0.35]{/5_1.png}}
 	\caption{The Textured Terrain}
-	\label{fig:figure4}
+	\label{fig:figure5}
 \end{figure}
 
 \section{Lighting from the Sun}
@@ -308,15 +308,49 @@ This meant that the sun was able to update according to the sunAngle which was l
     \centering
     \begin{minipage}{0.5\textwidth}
         \centering
-        \includegraphics[width=0.9\linewidth]{/5_2.png}
+        \includegraphics[width=0.9\linewidth]{/6_2.png}
         \caption{Afternoon Sun Look}
     \end{minipage}%
     \begin{minipage}{0.5\textwidth}
         \centering
-        \includegraphics[width=0.9\linewidth]{/5_1.png}
+        \includegraphics[width=0.9\linewidth]{/6_1.png}
         \caption{No Sun}
     \end{minipage}
 \end{figure}
+
+\section{Adding Fog}
+
+When I was watching lectures for this course, I noticed that one of the lecture slides had a link to a helpful website that I could use. 
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.35]{/7_1.png}}
+	\caption{}
+	\label{fig:figure10}
+\end{figure}
+
+When I went to the website, I was able to find some interesting information on how to 
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth]{/7_2.png}
+        \caption{First Look}
+    \end{minipage}%
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \includegraphics[width=0.9\linewidth]{/7_3.png}
+        \caption{Final Decision}
+    \end{minipage}
+\end{figure}
+
+As seen in Figure 9, the code demonstrated was that of an apply fog function that was to be put in the mega_racer.py file. I initially tried to implement this function but was unsure about the rayDir and sunDir variables that were passed into it. I originally tried passing in v2f_viewSpacePosition and viewSpaceLightPosition which did not seem to do what I wanted as the sun did not end up shaded properly for some reason.
+
+So instead I with the approach seen in Figure 10.
+
+I tried adding sunLightColour to be the new fog colour but that seemed to make the fog colour only be independently influenced by the sun, which I did not want. So I decided to combine it with the global ambient light colour as per the specification task.
+
+
 
 \end{document}
 

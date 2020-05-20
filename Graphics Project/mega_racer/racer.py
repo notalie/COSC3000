@@ -16,8 +16,8 @@ class Racer:
     heading = vec3(1,0,0)
     speed = 0.0
 
-    maxSpeedRoad = 50.0
-    maxSpeedRough = 15.0
+    maxSpeedRoad = 100
+    maxSpeedRough = 75
     zOffset = 3.0
     angvel = 2.0
 

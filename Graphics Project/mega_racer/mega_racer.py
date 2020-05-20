@@ -116,6 +116,14 @@ class RenderingSystem:
         vec3 outgoingLight = (incomingLight + globalAmbientLight) * materialColour;
         return outgoingLight;
     }
+
+    vec3 applyFog(in vec3 rgb, in float distance) {
+        // Taken from lecture slides and https://iquilezles.org/www/articles/fog/fog.htm
+        float b = 0.0045; 
+        float fogAmt = 1.0 - exp(-distance*b);
+        vec3  fogColor = (sunLightColour + globalAmbientLight);
+        return mix(rgb, fogColor, fogAmt);
+    }
     """
     objModelShader = None
     # Helper to set common uniforms, such as those used for global lights that should be implemetned the same way in all shaders.
