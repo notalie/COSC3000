@@ -120,7 +120,7 @@ class RenderingSystem:
     vec3 applyFog(in vec3 rgb, in float distance) {
         // Taken from lecture slides and https://iquilezles.org/www/articles/fog/fog.htm
         float b = 0.0045; 
-        float fogAmt = 1.0 - exp(-distance*b);
+        float fogAmt = 1.0 - exp(distance*b);
         vec3  fogColor = (sunLightColour + globalAmbientLight);
         return mix(rgb, fogColor, fogAmt);
     }

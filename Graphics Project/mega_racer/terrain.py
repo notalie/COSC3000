@@ -271,22 +271,18 @@ class Terrain:
 
                 if (v2f_height < 30) {
                     materialColour = texture(roadId, testvecw * terrainTextureXyScale).xyz;
-                } 
-                
-                if (v2f_height > 60) {
+                } else if (v2f_height > 60) {
                     materialColour = texture(highRockId, testvecw * terrainTextureXyScale).xyz;
-                } 
-                
-                if (angle > 0.45) { // Angled
+                } else if (angle > 0.45) { // Angled
                     materialColour = texture(steepRockId, testvecw * terrainTextureXyScale).xyz;
                 }
 
 
                 vec3 reflectedLight = computeShading(materialColour, v2f_viewSpacePosition, v2f_viewSpaceNormal, viewSpaceLightPosition, sunLightColour);
-	            fragmentColor = vec4(toSrgb(reflectedLight), 1.0);
+	            //fragmentColor = vec4(toSrgb(reflectedLight), 1.0);
 	            //fragmentColor = vec4(toSrgb(vec3(v2f_height/terrainHeightScale)), 1.0);
 	            // Apply fog
-	            fragmentColor = vec4(toSrgb(applyFog(reflectedLight, -v2f_viewSpacePosition.z)), 1.0);
+	            fragmentColor = vec4(toSrgb(applyFog(reflectedLight, v2f_viewSpacePosition.z)), 1.0);
             }
 """
         # Note how we provide lists of source code strings for the two shader stages.
