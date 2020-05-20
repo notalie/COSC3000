@@ -1,2 +1,11 @@
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {1}Introduction}{2}{section.3}
+\contentsline {subsection}{\numberline {1.1}Problem Statement}{2}{subsection.4}
+\contentsline {subsection}{\numberline {1.2}Methods, Techniques and Execution}{2}{subsection.5}
+\contentsline {section}{\numberline {2}Scaling the Terrain}{2}{section.6}
+\contentsline {section}{\numberline {3}Setting up the Camera}{3}{section.21}
+\contentsline {section}{\numberline {4}Orientating and Placing the Racer Model}{4}{section.38}
+\contentsline {section}{\numberline {5}Texturing the Terrain}{5}{section.48}
+\contentsline {section}{\numberline {6}Lighting from the Sun}{6}{section.76}
+\contentsline {section}{\numberline {7}Improving Terrain}{8}{section.94}
+\contentsline {section}{\numberline {8}Adding Fog}{10}{section.133}
