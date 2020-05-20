@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.20)  11 MAY 2020 22:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.20)  20 MAY 2020 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -106,6 +106,7 @@ Now handling font encoding PD1 ...
  (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `hypertexnames' set `false' on input line 4383.
 Package hyperref Info: Hyper figures OFF on input line 4509.
 Package hyperref Info: Link nesting OFF on input line 4514.
 Package hyperref Info: Hyper index ON on input line 4517.
@@ -147,7 +148,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip43
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+Package hyperref Info: Option `colorlinks' set `true' on input line 20.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
@@ -327,29 +328,42 @@ Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-) (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.aux)
+) (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.aux
+
+LaTeX Warning: Label `fig:figure5' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure5' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure10' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure10' multiply defined.
+
+)
 \openout1 = `Graphics-Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -357,9 +371,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count125
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
  (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.out) (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.out)
 \@outlinefile=\write3
 \openout3 = `Graphics-Report.out'.
@@ -462,30 +476,30 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
  [1
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.toc)
-\tf@toc=\write4
-\openout4 = `Graphics-Report.toc'.
-
- (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.lof
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.toc
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 2.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 2.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 2.
+(Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 2.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 2.
+(Font)              <6> on input line 3.
 )
+\tf@toc=\write4
+\openout4 = `Graphics-Report.toc'.
+
+ (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.lof)
 \tf@lof=\write5
 \openout5 = `Graphics-Report.lof'.
 
@@ -496,54 +510,122 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.118 \newpage
-               [1]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 128.
+[1]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 131.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 128.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 138.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 131.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 146.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [2]
-<./images//1_1.png, id=42, 440.39531pt x 432.86719pt>
-File: ./images//1_1.png Graphic file (type png)
-<use ./images//1_1.png>
-Package pdftex.def Info: ./images//1_1.png  used on input line 158.
+<./images//2_1.png, id=111, 440.39531pt x 432.86719pt>
+File: ./images//2_1.png Graphic file (type png)
+<use ./images//2_1.png>
+Package pdftex.def Info: ./images//2_1.png  used on input line 166.
 (pdftex.def)             Requested size: 154.14066pt x 151.50578pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.174 \end{document}
-                     <./images//1_1.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
+<./images//3_1.png, id=113, 931.22906pt x 526.96875pt>
+File: ./images//3_1.png Graphic file (type png)
+<use ./images//3_1.png>
+Package pdftex.def Info: ./images//3_1.png  used on input line 186.
+(pdftex.def)             Requested size: 325.93506pt x 184.44182pt.
+ [3 <./images//2_1.png> <./images//3_1.png>]
+<./images//3_2.png, id=132, 941.76843pt x 526.96875pt>
+File: ./images//3_2.png Graphic file (type png)
+<use ./images//3_2.png>
+Package pdftex.def Info: ./images//3_2.png  used on input line 204.
+(pdftex.def)             Requested size: 329.62389pt x 184.44182pt.
+ [4 <./images//3_2.png>]
+<./images//4_1.png, id=150, 338.76563pt x 203.25937pt>
+File: ./images//4_1.png Graphic file (type png)
+<use ./images//4_1.png>
+Package pdftex.def Info: ./images//4_1.png  used on input line 229.
+(pdftex.def)             Requested size: 118.56973pt x 71.14183pt.
+ [5 <./images//4_1.png>]
+<./images//5_1.png, id=171, 888.31876pt x 478.78876pt>
+File: ./images//5_1.png Graphic file (type png)
+<use ./images//5_1.png>
+Package pdftex.def Info: ./images//5_1.png  used on input line 279.
+(pdftex.def)             Requested size: 310.91621pt x 167.57857pt.
+ [6 <./images//5_1.png>]
+<./images//6_2.png, id=194, 897.3525pt x 465.99094pt>
+File: ./images//6_2.png Graphic file (type png)
+<use ./images//6_2.png>
+Package pdftex.def Info: ./images//6_2.png  used on input line 318.
+(pdftex.def)             Requested size: 204.85846pt x 106.37929pt.
+<./images//6_1.png, id=195, 839.38594pt x 472.76625pt>
+File: ./images//6_1.png Graphic file (type png)
+<use ./images//6_1.png>
+Package pdftex.def Info: ./images//6_1.png  used on input line 323.
+(pdftex.def)             Requested size: 204.85846pt x 115.37787pt.
+ [7 <./images//6_2.png> <./images//6_1.png>] [8]
+<./images//7_2.png, id=250, 1136.245pt x 642.4pt>
+File: ./images//7_2.png Graphic file (type png)
+<use ./images//7_2.png>
+Package pdftex.def Info: ./images//7_2.png  used on input line 375.
+(pdftex.def)             Requested size: 397.6917pt x 224.84337pt.
+<./images//7_1.png, id=251, 964.60374pt x 608.2725pt>
+File: ./images//7_1.png Graphic file (type png)
+<use ./images//7_1.png>
+Package pdftex.def Info: ./images//7_1.png  used on input line 391.
+(pdftex.def)             Requested size: 337.61636pt x 212.89856pt.
+ [9 <./images//7_2.png> <./images//7_1.png>]
+<./images//8_1.png, id=265, 1070.49937pt x 594.72188pt>
+File: ./images//8_1.png Graphic file (type png)
+<use ./images//8_1.png>
+Package pdftex.def Info: ./images//8_1.png  used on input line 402.
+(pdftex.def)             Requested size: 374.68039pt x 208.15578pt.
+<./images//8_2.png, id=267, 487.06969pt x 243.15843pt>
+File: ./images//8_2.png Graphic file (type png)
+<use ./images//8_2.png>
+Package pdftex.def Info: ./images//8_2.png  used on input line 412.
+(pdftex.def)             Requested size: 341.43307pt x 170.45462pt.
+<./images//8_3.png, id=268, 509.65407pt x 152.06813pt>
+File: ./images//8_3.png Graphic file (type png)
+<use ./images//8_3.png>
+Package pdftex.def Info: ./images//8_3.png  used on input line 417.
+(pdftex.def)             Requested size: 341.43307pt x 101.88046pt.
+ [10 <./images//8_1.png> <./images//8_2.png> <./images//8_3.png>]
+<./images//8_4.png, id=278, 1127.21124pt x 593.21625pt>
+File: ./images//8_4.png Graphic file (type png)
+<use ./images//8_4.png>
+Package pdftex.def Info: ./images//8_4.png  used on input line 449.
+(pdftex.def)             Requested size: 394.52985pt x 207.6288pt.
+ [11 <./images//8_4.png>]
+<./images//8_5.png, id=298, 1119.18124pt x 631.35875pt>
+File: ./images//8_5.png Graphic file (type png)
+<use ./images//8_5.png>
+Package pdftex.def Info: ./images//8_5.png  used on input line 465.
+(pdftex.def)             Requested size: 391.7193pt x 220.97887pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 473.
+ [12 <./images//8_5.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
  (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
 Package rerunfilecheck Info: File `Graphics-Report.out' has not changed.
-(rerunfilecheck)             Checksum: A02D95553E30B97FF125B1AA17CF9044;47.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
+(rerunfilecheck)             Checksum: 87607566A0CFD3346A6CBCDA1BE2C0D8;592.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 473.
  ) 
 Here is how much of TeX's memory you used:
- 8989 strings out of 492649
- 129700 string characters out of 6129622
- 262057 words of memory out of 5000000
- 12726 multiletter control sequences out of 15000+600000
- 35929 words of font info for 33 fonts, out of 8000000 for 9000
+ 9321 strings out of 492649
+ 134267 string characters out of 6129622
+ 281349 words of memory out of 5000000
+ 12897 multiletter control sequences out of 15000+600000
+ 38875 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,11n,43p,618b,1253s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,43p,831b,1878s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.pdf" (4 pages, 220040 bytes).
+Output written on "/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.pdf" (13 pages, 13172820 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 24 named destinations out of 1000 (max. 500000)
- 14 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 172 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

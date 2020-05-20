@@ -123,9 +123,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.toc
 INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.toc
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm
-OUTPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.toc
-INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.lof
-INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.lof
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
@@ -141,16 +138,59 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/lmsy6.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
+OUTPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.toc
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.lof
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.lof
 OUTPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.lof
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/rm-lmtt10.tfm
-INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//1_1.png
-INPUT ./images//1_1.png
-INPUT ./images//1_1.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//2_1.png
+INPUT ./images//2_1.png
+INPUT ./images//2_1.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//3_1.png
+INPUT ./images//3_1.png
+INPUT ./images//3_1.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//3_2.png
+INPUT ./images//3_2.png
+INPUT ./images//3_2.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//4_1.png
+INPUT ./images//4_1.png
+INPUT ./images//4_1.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//5_1.png
+INPUT ./images//5_1.png
+INPUT ./images//5_1.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//6_2.png
+INPUT ./images//6_2.png
+INPUT ./images//6_2.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//6_1.png
+INPUT ./images//6_1.png
+INPUT ./images//6_1.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//7_2.png
+INPUT ./images//7_2.png
+INPUT ./images//7_2.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//7_1.png
+INPUT ./images//7_1.png
+INPUT ./images//7_1.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//8_1.png
+INPUT ./images//8_1.png
+INPUT ./images//8_1.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//8_2.png
+INPUT ./images//8_2.png
+INPUT ./images//8_2.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//8_3.png
+INPUT ./images//8_3.png
+INPUT ./images//8_3.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//8_4.png
+INPUT ./images//8_4.png
+INPUT ./images//8_4.png
+INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/./images//8_5.png
+INPUT ./images//8_5.png
+INPUT ./images//8_5.png
 INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.aux
 INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.out
 INPUT /Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.out
