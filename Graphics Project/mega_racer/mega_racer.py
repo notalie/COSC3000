@@ -6,7 +6,6 @@ from ctypes import sizeof, c_float, c_void_p, c_uint, string_at
 import math
 import sys
 from PIL import Image
-
 import imgui
 
 # we use 'warnings' to remove this warning that ImGui[glfw] gives
@@ -22,6 +21,7 @@ from lab_utils import vec3, vec2
 
 from terrain import Terrain
 from racer import Racer
+from prop import Prop
 
 #
 # global variable declarations
@@ -51,6 +51,8 @@ g_sunAngle = 0.0
 
 g_terrain = None
 g_racer = None
+
+g_prop_list = []
 
 #
 # Key-frames for the sun light and ambient, picked by hand-waving to look ok. Note how most of this is nonsense from a physical point of view and 
@@ -352,8 +354,12 @@ def renderFrame(width, height):
 
     # Call each part of the scene to render itself
     g_terrain.render(view, g_renderingSystem)
+    # Print out the racer's positions in a format for easy copy and paste
+    # print("[{},{},{}]".format(g_racer.position[0], g_racer.position[1], g_racer.position[2]-3))
     g_racer.render(view, g_renderingSystem)
 
+    for prop in g_prop_list:
+        prop.render(view, g_renderingSystem)
 
 
 
@@ -532,6 +538,56 @@ g_terrain.load("data/track_01_128.png", g_renderingSystem);
 
 g_racer = Racer()
 g_racer.load("data/racer_02.obj", g_terrain, g_renderingSystem);
+
+# TODO: 2.3 - Load props here
+# Load Rocks and the trees
+rock_pos = [[-138.22238159179688,-339.0628967285156,21]]
+tree_pos = [[-138.22238159179688,-339.0628967285156,21],
+[-180.17626953125,-348.2496643066406,21],
+[-314.73455810546875,-312.04718017578125,27.941184997558594],
+[-305.4205017089844,-326.7559814453125,27.941184997558594],
+[-330.72747802734375,-303.0068359375,27.0406494140625],
+[-351.5259094238281,-259.08319091796875,27.352882385253906],
+[-361.396484375,-213.85708618164062,31.176074981689453],
+[-369.4706726074219,-175.02626037597656,35.29410171508789],
+[67.14562225341797,-353.861328125,21.76471519470215],
+[260.5380859375,-315.5840759277344,21.470596313476562],
+
+]
+
+# [17.688129425048828,-317.16802978515625,46.17648696899414] # start for large area
+# [-68.69963836669922,-260.011962890625,53.23535919189453] #end for large area
+
+
+
+# Cute little thing for the spawn area
+for i in range(0, 60, 10):
+    rock = Prop()
+    shrub = Prop()
+    shrub.load("data/trees/tree_01.obj", [-18 + (i - 5),-375.0,21.470579147338867])
+    rock.load("data/rocks/rock_01.obj", [-18 + i,-375.0,21.470579147338867])
+    g_prop_list.append(shrub)
+    g_prop_list.append(rock)
+
+for i in range(0, 60, 10):
+    rock = Prop()
+    shrub = Prop()
+    shrub.load("data/trees/tree_01.obj", [274.87774658203125,-239.0 - (i + 5),21.470596313476562])
+    rock.load("data/rocks/rock_01.obj", [274.87774658203125,-239.0 - i,21.470596313476562])
+    g_prop_list.append(shrub)
+    g_prop_list.append(rock)
+
+for pos in rock_pos:
+    rock = Prop()
+    rock.load("data/rocks/rock_01.obj", pos)
+    g_prop_list.append(rock)
+
+for pos in tree_pos:
+    tree = Prop()
+    tree.load("data/trees/birch_01_d.obj", pos)
+    g_prop_list.append(tree)
+    
+
 
 currentTime = glfw.get_time()
 prevMouseX,prevMouseY = glfw.get_cursor_pos(window)

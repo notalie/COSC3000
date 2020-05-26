@@ -52,7 +52,6 @@ class Terrain:
     TU_Steep_Rock = 2
     TU_Road = 3
 
-
     def render(self, view, renderingSystem):
         glUseProgram(self.shader)
         renderingSystem.setCommonUniforms(self.shader, view, lu.Mat4())
@@ -281,13 +280,8 @@ class Terrain:
                 vec3 reflectedLight = computeShading(materialColour, v2f_viewSpacePosition, v2f_viewSpaceNormal, viewSpaceLightPosition, sunLightColour);
 	            //fragmentColor = vec4(toSrgb(reflectedLight), 1.0);
 	            //fragmentColor = vec4(toSrgb(vec3(v2f_height/terrainHeightScale)), 1.0);
-<<<<<<< HEAD
 	            // Apply fog
 	            fragmentColor = vec4(toSrgb(applyFog(reflectedLight, v2f_viewSpacePosition.z)), 1.0);
-=======
-	            // Applying fog
-	            fragmentColor = vec4(toSrgb(applyFog(reflectedLight, -v2f_viewSpacePosition.z)), 1.0);
->>>>>>> f44620849b2a050f8144efc1fcc53d3cfbe3ff5a
             }
 """
         # Note how we provide lists of source code strings for the two shader stages.
