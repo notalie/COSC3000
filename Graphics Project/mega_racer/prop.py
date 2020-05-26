@@ -20,7 +20,7 @@ class Prop:
         renderingSystem.drawObjModel(self.model, modelInWorld, view)
 
     def load(self, objModelName, position):
-    # TODO 2.3: Load the prop
+        # TODO 2.3: Load the prop
         self.position = position
 
         self.model = ObjModel(objModelName)

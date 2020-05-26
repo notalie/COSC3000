@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.20)  20 MAY 2020 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.20)  26 MAY 2020 20:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -333,13 +333,13 @@ Package color Info: Driver file: pdftex.def on input line 147.
 LaTeX Warning: Label `fig:figure5' multiply defined.
 
 
-LaTeX Warning: Label `fig:figure5' multiply defined.
-
-
 LaTeX Warning: Label `fig:figure10' multiply defined.
 
 
-LaTeX Warning: Label `fig:figure10' multiply defined.
+LaTeX Warning: Label `fig:figure16' multiply defined.
+
+
+LaTeX Warning: Label `fig:figure16' multiply defined.
 
 )
 \openout1 = `Graphics-Report.aux'.
@@ -499,133 +499,166 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `Graphics-Report.toc'.
 
- (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.lof)
-\tf@lof=\write5
-\openout5 = `Graphics-Report.lof'.
-
-
+ (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.lof
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1]
+[1])
+\tf@lof=\write5
+\openout5 = `Graphics-Report.lof'.
+
+ [2]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 131.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 131.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 146.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 147.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2]
-<./images//2_1.png, id=111, 440.39531pt x 432.86719pt>
+) [3]
+<./images//2_1.png, id=140, 440.39531pt x 432.86719pt>
 File: ./images//2_1.png Graphic file (type png)
 <use ./images//2_1.png>
 Package pdftex.def Info: ./images//2_1.png  used on input line 166.
 (pdftex.def)             Requested size: 154.14066pt x 151.50578pt.
-<./images//3_1.png, id=113, 931.22906pt x 526.96875pt>
+<./images//3_1.png, id=142, 931.22906pt x 526.96875pt>
 File: ./images//3_1.png Graphic file (type png)
 <use ./images//3_1.png>
 Package pdftex.def Info: ./images//3_1.png  used on input line 186.
 (pdftex.def)             Requested size: 325.93506pt x 184.44182pt.
- [3 <./images//2_1.png> <./images//3_1.png>]
-<./images//3_2.png, id=132, 941.76843pt x 526.96875pt>
+ [4 <./images//2_1.png>]
+<./images//3_2.png, id=165, 941.76843pt x 526.96875pt>
 File: ./images//3_2.png Graphic file (type png)
 <use ./images//3_2.png>
 Package pdftex.def Info: ./images//3_2.png  used on input line 204.
 (pdftex.def)             Requested size: 329.62389pt x 184.44182pt.
- [4 <./images//3_2.png>]
-<./images//4_1.png, id=150, 338.76563pt x 203.25937pt>
+ [5 <./images//3_1.png> <./images//3_2.png>]
+<./images//4_1.png, id=179, 338.76563pt x 203.25937pt>
 File: ./images//4_1.png Graphic file (type png)
 <use ./images//4_1.png>
 Package pdftex.def Info: ./images//4_1.png  used on input line 229.
 (pdftex.def)             Requested size: 118.56973pt x 71.14183pt.
- [5 <./images//4_1.png>]
-<./images//5_1.png, id=171, 888.31876pt x 478.78876pt>
+ [6 <./images//4_1.png>]
+<./images//5_1.png, id=201, 888.31876pt x 478.78876pt>
 File: ./images//5_1.png Graphic file (type png)
 <use ./images//5_1.png>
 Package pdftex.def Info: ./images//5_1.png  used on input line 279.
 (pdftex.def)             Requested size: 310.91621pt x 167.57857pt.
- [6 <./images//5_1.png>]
-<./images//6_2.png, id=194, 897.3525pt x 465.99094pt>
+ [7 <./images//5_1.png>]
+<./images//6_2.png, id=221, 897.3525pt x 465.99094pt>
 File: ./images//6_2.png Graphic file (type png)
 <use ./images//6_2.png>
 Package pdftex.def Info: ./images//6_2.png  used on input line 318.
 (pdftex.def)             Requested size: 204.85846pt x 106.37929pt.
-<./images//6_1.png, id=195, 839.38594pt x 472.76625pt>
+<./images//6_1.png, id=222, 839.38594pt x 472.76625pt>
 File: ./images//6_1.png Graphic file (type png)
 <use ./images//6_1.png>
 Package pdftex.def Info: ./images//6_1.png  used on input line 323.
 (pdftex.def)             Requested size: 204.85846pt x 115.37787pt.
- [7 <./images//6_2.png> <./images//6_1.png>] [8]
-<./images//7_2.png, id=250, 1136.245pt x 642.4pt>
+ [8 <./images//6_2.png> <./images//6_1.png>] [9]
+<./images//7_2.png, id=280, 1136.245pt x 642.4pt>
 File: ./images//7_2.png Graphic file (type png)
 <use ./images//7_2.png>
 Package pdftex.def Info: ./images//7_2.png  used on input line 375.
 (pdftex.def)             Requested size: 397.6917pt x 224.84337pt.
-<./images//7_1.png, id=251, 964.60374pt x 608.2725pt>
+<./images//7_1.png, id=281, 964.60374pt x 608.2725pt>
 File: ./images//7_1.png Graphic file (type png)
 <use ./images//7_1.png>
 Package pdftex.def Info: ./images//7_1.png  used on input line 391.
 (pdftex.def)             Requested size: 337.61636pt x 212.89856pt.
- [9 <./images//7_2.png> <./images//7_1.png>]
-<./images//8_1.png, id=265, 1070.49937pt x 594.72188pt>
+ [10 <./images//7_2.png> <./images//7_1.png>]
+Overfull \hbox (279.8036pt too wide) in paragraph at lines 410--411
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+<./images//7_3.png, id=294, 836.3747pt x 498.36188pt>
+File: ./images//7_3.png Graphic file (type png)
+<use ./images//7_3.png>
+Package pdftex.def Info: ./images//7_3.png  used on input line 418.
+(pdftex.def)             Requested size: 250.91434pt x 149.5097pt.
+<./images//7_4.png, id=295, 874.01532pt x 487.8225pt>
+File: ./images//7_4.png Graphic file (type png)
+<use ./images//7_4.png>
+Package pdftex.def Info: ./images//7_4.png  used on input line 425.
+(pdftex.def)             Requested size: 262.20662pt x 146.34787pt.
+[11 <./images//7_3.png> <./images//7_4.png>]
+<./images//8_1.png, id=318, 1070.49937pt x 594.72188pt>
 File: ./images//8_1.png Graphic file (type png)
 <use ./images//8_1.png>
-Package pdftex.def Info: ./images//8_1.png  used on input line 402.
+Package pdftex.def Info: ./images//8_1.png  used on input line 435.
 (pdftex.def)             Requested size: 374.68039pt x 208.15578pt.
-<./images//8_2.png, id=267, 487.06969pt x 243.15843pt>
+<./images//8_2.png, id=320, 487.06969pt x 243.15843pt>
 File: ./images//8_2.png Graphic file (type png)
 <use ./images//8_2.png>
-Package pdftex.def Info: ./images//8_2.png  used on input line 412.
+Package pdftex.def Info: ./images//8_2.png  used on input line 445.
 (pdftex.def)             Requested size: 341.43307pt x 170.45462pt.
-<./images//8_3.png, id=268, 509.65407pt x 152.06813pt>
+<./images//8_3.png, id=321, 509.65407pt x 152.06813pt>
 File: ./images//8_3.png Graphic file (type png)
 <use ./images//8_3.png>
-Package pdftex.def Info: ./images//8_3.png  used on input line 417.
+Package pdftex.def Info: ./images//8_3.png  used on input line 450.
 (pdftex.def)             Requested size: 341.43307pt x 101.88046pt.
- [10 <./images//8_1.png> <./images//8_2.png> <./images//8_3.png>]
-<./images//8_4.png, id=278, 1127.21124pt x 593.21625pt>
+ [12 <./images//8_1.png> <./images//8_2.png> <./images//8_3.png>]
+<./images//8_4.png, id=332, 1127.21124pt x 593.21625pt>
 File: ./images//8_4.png Graphic file (type png)
 <use ./images//8_4.png>
-Package pdftex.def Info: ./images//8_4.png  used on input line 449.
+Package pdftex.def Info: ./images//8_4.png  used on input line 482.
 (pdftex.def)             Requested size: 394.52985pt x 207.6288pt.
- [11 <./images//8_4.png>]
-<./images//8_5.png, id=298, 1119.18124pt x 631.35875pt>
+ [13 <./images//8_4.png>]
+<./images//8_5.png, id=352, 1119.18124pt x 631.35875pt>
 File: ./images//8_5.png Graphic file (type png)
 <use ./images//8_5.png>
-Package pdftex.def Info: ./images//8_5.png  used on input line 465.
+Package pdftex.def Info: ./images//8_5.png  used on input line 498.
 (pdftex.def)             Requested size: 391.7193pt x 220.97887pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 473.
- [12 <./images//8_5.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
+ [14 <./images//8_5.png>]
+<./images//9_1.png, id=363, 1269.99469pt x 518.6878pt>
+File: ./images//9_1.png Graphic file (type png)
+<use ./images//9_1.png>
+Package pdftex.def Info: ./images//9_1.png  used on input line 537.
+(pdftex.def)             Requested size: 444.5048pt x 181.54344pt.
+ [15 <./images//9_1.png>]
+<./images//9_2.png, id=390, 939.51pt x 519.44063pt>
+File: ./images//9_2.png Graphic file (type png)
+<use ./images//9_2.png>
+Package pdftex.def Info: ./images//9_2.png  used on input line 557.
+(pdftex.def)             Requested size: 281.85518pt x 155.83339pt.
+<./images//9_3.png, id=391, 1071.00125pt x 540.0175pt>
+File: ./images//9_3.png Graphic file (type png)
+<use ./images//9_3.png>
+Package pdftex.def Info: ./images//9_3.png  used on input line 565.
+(pdftex.def)             Requested size: 374.85605pt x 189.00896pt.
+ [16 <./images//9_2.png> <./images//9_3.png>] [17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 626.
+ [18]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 626.
  (/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 626.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 626.
 Package rerunfilecheck Info: File `Graphics-Report.out' has not changed.
-(rerunfilecheck)             Checksum: 87607566A0CFD3346A6CBCDA1BE2C0D8;592.
+(rerunfilecheck)             Checksum: 59F3C283ED29EE905E971F46F051B956;744.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 473.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 626.
  ) 
 Here is how much of TeX's memory you used:
- 9321 strings out of 492649
- 134267 string characters out of 6129622
- 281349 words of memory out of 5000000
- 12897 multiletter control sequences out of 15000+600000
+ 9468 strings out of 492649
+ 136278 string characters out of 6129622
+ 282566 words of memory out of 5000000
+ 12953 multiletter control sequences out of 15000+600000
  38875 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,12n,43p,831b,1878s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,12n,43p,831b,1876s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.pdf" (13 pages, 13172820 bytes).
+Output written on "/Users/zenzlia/Documents/UNI/COSC3000/Graphics Report/Graphics-Report.pdf" (19 pages, 19559931 bytes).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 172 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 527 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 258 named destinations out of 1000 (max. 500000)
+ 200 words of extra memory for PDF output out of 10000 (max. 10000000)
 

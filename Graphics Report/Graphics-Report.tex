@@ -91,7 +91,7 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{Natalie Hong - Visualisation Report}
+\lhead{Natalie Hong - Computer Graphics Report}
 \rhead{COSC3000}
 
 \begin{titlepage}
@@ -135,7 +135,8 @@ The features that were made were:
 	\item{6 - Lighting from the Sun}
 	\item{7 - Improving Textures}
     \item{8 - Adding Fog}
-
+    \item{9 - Adding Props} 
+    \item{10 - Racer Headlights}
 \end{itemize}
 
 
@@ -156,7 +157,6 @@ Scaling terrain consisted of scaling the terrain according to the path image sup
 
 Initially, the code supplied consisted of zPos = 0 and I was to change it. I thought long and hard about to change and looked at the hints supplied. In it, I was told to use self.heightScale and to somehow utilize it in order to get a consistent z position for each terrain created. I had a thought that multiplying the red value calculated would allow me to get a a consistent z position. This was because red represented a value from 0 to 255 and multiplying it with the height scale would allow for different Z positions to be generated.
 
-\newpage
 \begin{lstlisting}    
 	# TODO 1.1: set the height
 	zPos = self.heightScale * red
@@ -390,9 +390,42 @@ Similar to the way I did the steep stones, I checked with the height threshold b
 \begin{figure}[!ht]
 	\centerline{\includegraphics[scale=0.35]{/7_1.png}}
 	\caption{The Textured Terrain}
-	\label{fig:figure5}
+	\label{fig:figure9}
 \end{figure}
 This allowed me to get a semi-functional road, although it did vary in length at some points which was due to the height factor not being enough to calculate it. I felt like this approach was suitable though was the road was still visible within the track and looked nice.
+
+\newpage
+
+It was suggested by a tutor that I should add noise to my terrain to add more variety and look to it. To do this, I used the code from lab 5 to implement my noise. The code looked like the block below with an added line after I calculated the material colour after all the if statements seen in the previous code blocks.
+
+\begin{lstlisting}
+    float random_gen(vec2 n) { 
+        return fract(sin(dot(n, vec2(12.9898, 4.1414))) * 43758.5453);
+    }
+    
+    float noise_gen(vec2 p) {
+        vec2 ip = floor(p);
+        vec2 u = fract(p);
+        u = u*u*(3.0-2.0*u);
+        float res = mix(mix(random_gen(ip),random_gen(ip+vec2(1.0,0.0)),u.x),mix(random_gen(ip+vec2(0.0,1.0)),random_gen(ip+vec2(1.0,1.0)),u.x),u.y);
+        return res*res;
+    }
+    ...
+    materialColour += vec3(noise_gen(testvecw * terrainTextureXyScale));
+\end{lstlisting}
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.3]{/7_3.png}}
+	\caption{The Unscaled Noise}
+	\label{fig:figure10}
+\end{figure}
+After implementing this, I realised that the noise was much too high, so I reduced it by multiplying the resulting float received from my noise gen function by 0.1. After doing this, I was able to get the following result.
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.3]{/7_4.png}}
+	\caption{The Scaled Noise}
+	\label{fig:figure10}
+\end{figure}
 
 \newpage
 \section{Adding Fog}
@@ -400,7 +433,7 @@ When I was watching lectures for this course, I noticed that one of the lecture 
 
 \begin{figure}[!ht]
 	\centerline{\includegraphics[scale=0.35]{/8_1.png}}
-	\label{fig:figure10}
+	\label{fig:figure11}
 \end{figure}
 
 When I went to the \href{https://iquilezles.org/www/articles/fog/fog.htm}{website}, I was able to find some interesting information on how to implement fog. 
@@ -419,9 +452,9 @@ When I went to the \href{https://iquilezles.org/www/articles/fog/fog.htm}{websit
     \end{minipage}
 \end{figure} 
 
-As seen in Figure 10, the code demonstrated was that of an apply fog function that was to be put in the megaracer file. I initially tried to implement this function but was unsure about the rayDir and sunDir variables that were passed into it. I originally tried passing in viewSpacePosition and viewSpaceLightPosition which did not seem to do what I wanted as the sun did not end up shaded properly for some reason.
+As seen in Figure 12, the code demonstrated was that of an apply fog function that was to be put in the megaracer file. I initially tried to implement this function but was unsure about the rayDir and sunDir variables that were passed into it. I originally tried passing in viewSpacePosition and viewSpaceLightPosition which did not seem to do what I wanted as the sun did not end up shaded properly for some reason.
 
-So instead I with the approach seen in Figure 11. Once I had impmented this, I realised that the fog was kept to one colour as the fogColor variable was kept constant and turned out to just be grey which did not give too much volume to it. 
+So instead I with the approach seen in Figure 13. Once I had impmented this, I realised that the fog was kept to one colour as the fogColor variable was kept constant and turned out to just be grey which did not give too much volume to it. 
 
 I tried adding sunLightColour to be the new fog colour but that seemed to make the fog colour only be independently influenced by the sun, which I did not want. So I decided to combine it with the global ambient light colour as per the specification task.
 
@@ -448,7 +481,7 @@ This however, resulted in my game looking like the following:
 \begin{figure}[!ht]
 	\centerline{\includegraphics[scale=0.35]{/8_4.png}}
 	\caption{The Incorrectly Shaded Fog}
-	\label{fig:figure10}
+	\label{fig:figure14}
 \end{figure}
 
 \newpage
@@ -464,12 +497,132 @@ To this:
 \begin{figure}[!ht]
 	\centerline{\includegraphics[scale=0.35]{/8_5.png}}
 	\caption{The Correctly Shaded Fog}
-	\label{fig:figure10}
+	\label{fig:figure15}
 \end{figure}
-The correctly shaded fog looked like that seen in Figure 13, this fog stayed constant throughout the sun cycle in the game and allowed for depth in the game to be seen more clearly.
+The correctly shaded fog looked like that seen in Figure 15, this fog stayed constant throughout the sun cycle in the game and allowed for depth in the game to be seen more clearly.
+
+\newpage
+\section{Adding Props}
+Adding props was very similar to that of adding the racer as it involved loading model objects directly into the game and placing them but this time there was no need to worry about an update function as the props would only need to be loaded and rendered once within the game.
+
+First, I created a Prop class and imported it into the mega racer file. This prop class was coded the following way and was very similar to the racer class without any update functions and didn't take in keybinds:
+\begin{lstlisting}
+class Prop:
+    position = vec3(0,0,0)
+    heading = vec3(1,0,0)
+    model = None
+
+    def render(self, view, renderingSystem):
+        top = [0,0,1]
+        modelInWorld = lu.make_mat4_from_zAxis(self.position, self.heading, top)
+        renderingSystem.drawObjModel(self.model, modelInWorld, view)
+
+    def load(self, objModelName, position):
+        # TODO 2.3: Load the prop
+        self.position = position
+        self.model = ObjModel(objModelName)
+\end{lstlisting}
+Once this class was made, I created a list that would hold all the props the game to be rendered. This prop list would hold a bunch of prop objects in it which would make it easier for me to place many props into populate my game.
+
+\begin{lstlisting}
+    g_prop_list = []
+\end{lstlisting}
+
+Once I had this list, I then added a function into the render function to allow for me to see the racer's coordinates so that I could place the props into the map.
+\begin{lstlisting}
+    print("[{},{},{}]".format(g_racer.position[0], g_racer.position[1], g_racer.position[2]-3))
+\end{lstlisting}
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.35]{/9_1.png}}
+	\caption{Getting the Coordinates from the Racer's Position}
+	\label{fig:figure16}
+\end{figure}
+
+Using these coordinates, I was able to create a bunch of for loops which iterated through a list of chosen coordinates and had a similar format to the following:
+\begin{lstlisting}
+    for pos in position_list:
+        prop = Prop()
+        prop.load("prop/texture/path", pos)
+        g_prop_list.append(prop)
+\end{lstlisting}
+
+I also added this for loop into the renderFrame function in the rendering system class so that the props were able to be rendered in the game:
+\begin{lstlisting}
+    for prop in g_prop_list:
+        prop.render(view, g_renderingSystem)
+\end{lstlisting}
+
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.3]{/9_2.png}}
+	\caption{The Incorrectly Placed Props}
+	\label{fig:figure16}
+\end{figure}
+This however, did not turn out to be what I wanted as the trees were not being placed direcly on the surface and looked unnatural. I figured this would be due to the racer flying on the terrain rather than touching it directly. After some trial and error I discovered that adjusting the racer's z-axis coordinate by 3 was enough to bring props back to touch the surface.
+
+One thing that I was able to make with the props was this pattern of small trees and stones. I thought it looked nice and was easy to implement. 
+\begin{figure}[!ht]
+	\centerline{\includegraphics[scale=0.35]{/9_3.png}}
+	\caption{My Prop Design}
+	\label{fig:figure16}
+\end{figure}
+
+\newpage
+\section{Racer Headlights}
+Racer headlights were a little harder to implement than other features that I had attempted, this was due to the feature not improving upon an already existing one. I did however have an idea, this idea was to build upon the already existing sun shader I had implemented earlier and use it in a similar fashion to that of a global shader which revolved around the racer. I was hinted upon by a tutor to use the follwing code within my rendering system class.
+
+\begin{lstlisting}
+    lu.setUniform(shader, "viewSpaceHeadlightPosition", g_racer.position);
+    lu.setUniform(shader, "headlightColour", g_headlightColour);
+    lu.setUniform(shader, "viewSpaceHeadlightDirection", g_racer.heading);
+\end{lstlisting}
+
+This code was then to be used within the fragment shader to calculate the global lighting of the racer's headlight. I also changed the computeShading function to take in more parameters so that it was possible to calculate this headlight.
+
+\begin{lstlisting}
+    vec3 computeShading(vec3 materialColour, vec3 viewSpacePosition, vec3 viewSpaceNormal, vec3 viewSpaceLightPos, vec3 lightColour, vec3 viewSpaceHeadlightPos, vec3 headlightColour, vec3 viewSpaceHeadlightDirection)
+
+    # Changed from
+    vec3 computeShading(vec3 materialColour, vec3 viewSpacePosition, vec3 viewSpaceNormal, vec3 viewSpaceLightPos, vec3 lightColour)
+\end{lstlisting}
+
+I then used the code supplied by the tutor to calculate the point direction and the headlight direction of the racer's headlight.
+
+\begin{lstlisting}
+    # Supplied by the tutor
+    vec3 pointDirection = normalize(viewSpacePosition - viewSpaceHeadlightPos);
+    viewSpaceHeadlightDirection.z = viewSpaceHeadlightDirection.z - 0.5;
+    vec3 headlightDirection = normalize(viewSpaceHeadlightDirection - viewSpaceHeadlightPos);
+\end{lstlisting}
+
+I tried using the same tactic that I used in the improving textures section where I got the normal of the two calculated vectors and found the dot product between them. 
+\begin{lstlisting}
+    vec3 hd = normalize(headlightDirection);
+    vec3 pd = normalize(pointDirection);  
+    float angle = dot(hd, pd);
+\end{lstlisting}
+
+I then created a threshold for the angle, if it was below 45 degres/close to the racer, make the colour brighter, if it wasn't, give the light a normal brightness.
+\begin{lstlisting}
+    if(angle < 0.45) {
+        cutOffShade = vec3(5,5,5);
+    } else {
+        cutOffShade = vec3(1.0,1.0,1.0);
+    }
+\end{lstlisting}
+
+I then multiplied the cutOffShade by the existing multipliers to add to the outgoingLight variable in hopes of creating a headlight of some sort.
+\begin{lstlisting}
+    vec3 outgoingLight =  (incomingLight + globalAmbientLight) * cutOffShade * materialColour;
+\end{lstlisting}
 
 
 
+\newpage
+\section{Conclusion}
+Overall, I was very happy with what I was able to implement within this game. I struggled a bit with the shaders and the GLSL parts in general. If I had more time I would have loved to implement nice particle effects and possibly more animations within the game.
+
+Thank you for reading this report, I hope you enjoyed my documentation and my half semester journey and experience with computer graphics.
 \end{document}
 
 

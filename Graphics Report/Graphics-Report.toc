@@ -1,11 +1,14 @@
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Introduction}{2}{section.3}
-\contentsline {subsection}{\numberline {1.1}Problem Statement}{2}{subsection.4}
-\contentsline {subsection}{\numberline {1.2}Methods, Techniques and Execution}{2}{subsection.5}
-\contentsline {section}{\numberline {2}Scaling the Terrain}{2}{section.6}
-\contentsline {section}{\numberline {3}Setting up the Camera}{3}{section.21}
-\contentsline {section}{\numberline {4}Orientating and Placing the Racer Model}{4}{section.38}
-\contentsline {section}{\numberline {5}Texturing the Terrain}{5}{section.48}
-\contentsline {section}{\numberline {6}Lighting from the Sun}{6}{section.76}
-\contentsline {section}{\numberline {7}Improving Terrain}{8}{section.94}
-\contentsline {section}{\numberline {8}Adding Fog}{10}{section.133}
+\contentsline {section}{\numberline {1}Introduction}{3}{section.3}
+\contentsline {subsection}{\numberline {1.1}Problem Statement}{3}{subsection.4}
+\contentsline {subsection}{\numberline {1.2}Methods, Techniques and Execution}{3}{subsection.5}
+\contentsline {section}{\numberline {2}Scaling the Terrain}{3}{section.6}
+\contentsline {section}{\numberline {3}Setting up the Camera}{4}{section.21}
+\contentsline {section}{\numberline {4}Orientating and Placing the Racer Model}{5}{section.38}
+\contentsline {section}{\numberline {5}Texturing the Terrain}{6}{section.48}
+\contentsline {section}{\numberline {6}Lighting from the Sun}{7}{section.76}
+\contentsline {section}{\numberline {7}Improving Terrain}{9}{section.94}
+\contentsline {section}{\numberline {8}Adding Fog}{12}{section.151}
+\contentsline {section}{\numberline {9}Adding Props}{15}{section.177}
+\contentsline {section}{\numberline {10}Racer Headlights}{17}{section.211}
+\contentsline {section}{\numberline {11}Conclusion}{18}{section.238}
