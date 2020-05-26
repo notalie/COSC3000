@@ -45,7 +45,7 @@ g_sunStartPosition = [0.0, 0.0, 1000.0]
 g_sunPosition = g_sunStartPosition
 g_globalAmbientLight = vec3(0.045,0.045,0.045)
 g_sunLightColour = [0.9, 0.8, 0.7]
-
+g_headlightColour = [0, 0, 0]
 g_updateSun = True
 g_sunAngle = 0.0
 
@@ -109,7 +109,7 @@ class RenderingSystem:
     }
 
 
-    vec3 computeShading(vec3 materialColour, vec3 viewSpacePosition, vec3 viewSpaceNormal, vec3 viewSpaceLightPos, vec3 lightColour)
+    vec3 computeTerrainShading(vec3 materialColour, vec3 viewSpacePosition, vec3 viewSpaceNormal, vec3 viewSpaceLightPos, vec3 lightColour)
     {
         // TODO 1.5: Here's where code to compute shading would be placed most conveniently
         vec3 viewSpaceDirToLight = 	normalize(viewSpaceLightPos - viewSpacePosition);
@@ -118,6 +118,35 @@ class RenderingSystem:
         vec3 outgoingLight = (incomingLight + globalAmbientLight) * materialColour;
         return outgoingLight;
     }
+
+     vec3 computeShading(vec3 materialColour, vec3 viewSpacePosition, vec3 viewSpaceNormal, vec3 viewSpaceLightPos, vec3 lightColour,
+        vec3 viewSpaceHeadlightPos, vec3 headlightColour, vec3 viewSpaceHeadlightDirection)
+    {
+        vec3 pointDirection = normalize(viewSpacePosition - viewSpaceHeadlightPos);
+        viewSpaceHeadlightDirection.z = viewSpaceHeadlightDirection.z - 0.5;
+        vec3 headlightDirection = normalize(viewSpaceHeadlightDirection - viewSpaceHeadlightPos);
+
+        vec3 hd = normalize(headlightDirection);
+        vec3 pd = normalize(pointDirection);  
+
+        float angle = dot(hd, pd);
+        vec3 cutOffShade;
+        float distance = abs(viewSpaceHeadlightPos.z - viewSpacePosition.z);
+
+        if(angle < .45) {
+            cutOffShade = vec3(5,5,5);
+        } else {
+            cutOffShade = vec3(1.0,1.0,1.0);
+        }
+
+        // TODO 1.5: Here's where code to compute shading would be placed most conveniently
+        vec3 viewSpaceDirToLight = 	normalize(viewSpaceLightPos - viewSpacePosition);
+        float incomingIntensity = max(0.0, dot(viewSpaceNormal, viewSpaceDirToLight));
+        vec3 incomingLight = incomingIntensity * lightColour; 
+        vec3 outgoingLight =  (incomingLight + globalAmbientLight) * cutOffShade * materialColour;
+        return  outgoingLight;
+    }
+
 
     vec3 applyFog(in vec3 rgb, in float distance) {
         // Taken from lecture slides and https://iquilezles.org/www/articles/fog/fog.htm
@@ -152,6 +181,10 @@ class RenderingSystem:
         lu.setUniform(shader, "viewSpaceLightPosition", viewSpaceLightPosition);
         lu.setUniform(shader, "globalAmbientLight", g_globalAmbientLight);
         lu.setUniform(shader, "sunLightColour", g_sunLightColour);
+
+        lu.setUniform(shader, "viewSpaceHeadlightPosition", g_racer.position);
+        lu.setUniform(shader, "headlightColour", g_headlightColour);
+        lu.setUniform(shader, "viewSpaceHeadlightDirection", g_racer.heading);
 
     def drawObjModel(self, model, modelToWorldTransform, view):    
         # Bind the shader program such that we can set the uniforms (model.render sets it again)
@@ -219,6 +252,10 @@ class RenderingSystem:
                 uniform sampler2D opacity_texture;
                 uniform sampler2D specular_texture;
                 uniform sampler2D normal_texture;
+                
+                uniform vec3 viewSpaceHeadlightPosition;
+                uniform vec3 headlightColour;
+                uniform vec3 viewSpaceHeadlightDirection;
 
                 out vec4 fragmentColor;
 
@@ -231,8 +268,7 @@ class RenderingSystem:
 	                }
 
 	                vec3 materialDiffuse = texture(diffuse_texture, v2f_texCoord).xyz * material_diffuse_color;
-
-                    vec3 reflectedLight = computeShading(materialDiffuse, v2f_viewSpacePosition, v2f_viewSpaceNormal, viewSpaceLightPosition, sunLightColour) + material_emissive_color;
+                    vec3 reflectedLight = computeShading(materialDiffuse, v2f_viewSpacePosition, v2f_viewSpaceNormal, viewSpaceLightPosition, sunLightColour, viewSpaceHeadlightPosition, headlightColour, viewSpaceHeadlightDirection) + material_emissive_color;
 
 	                fragmentColor = vec4(toSrgb(reflectedLight), material_alpha);
                 }

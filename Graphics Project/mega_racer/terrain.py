@@ -251,7 +251,24 @@ class Terrain:
             uniform sampler2D steepRockId;
             uniform sampler2D roadId;
 
+            uniform vec3 viewSpaceHeadlightPosition;
+            uniform vec3 headlightColour;
+            uniform vec3 viewSpaceHeadlightDirection;
+
             out vec4 fragmentColor;
+
+
+            float random_gen(vec2 n) { 
+                return fract(sin(dot(n, vec2(12.9898, 4.1414))) * 43758.5453);
+            }
+
+            float noise_gen(vec2 p) {
+                vec2 ip = floor(p);
+                vec2 u = fract(p);
+                u = u*u*(3.0-2.0*u);
+                float res = mix(mix(random_gen(ip),random_gen(ip+vec2(1.0,0.0)),u.x),mix(random_gen(ip+vec2(0.0,1.0)),random_gen(ip+vec2(1.0,1.0)),u.x),u.y);
+                return res*res;
+            }
 
             void main() 
             {
@@ -263,10 +280,9 @@ class Terrain:
                 vec3 materialColour = vec3(v2f_height/terrainHeightScale);
                 
                 // TODO 1.4: Compute the texture coordinates and sample the texture for the grass and use as material colour.
-                vec3 grassColour = texture(grassId, testvecw * terrainTextureXyScale).xyz; 
+                vec3 grassColour = texture(grassId, testvecw * terrainTextureXyScale).xyz;
                 
                 materialColour = grassColour;
-
 
                 if (v2f_height < 30) {
                     materialColour = texture(roadId, testvecw * terrainTextureXyScale).xyz;
@@ -276,8 +292,9 @@ class Terrain:
                     materialColour = texture(steepRockId, testvecw * terrainTextureXyScale).xyz;
                 }
 
+                materialColour += vec3(noise_gen(testvecw * terrainTextureXyScale));
 
-                vec3 reflectedLight = computeShading(materialColour, v2f_viewSpacePosition, v2f_viewSpaceNormal, viewSpaceLightPosition, sunLightColour);
+                vec3 reflectedLight = computeShading(materialColour, v2f_viewSpacePosition, v2f_viewSpaceNormal, viewSpaceLightPosition, sunLightColour, viewSpaceHeadlightPosition, headlightColour, viewSpaceHeadlightDirection);
 	            //fragmentColor = vec4(toSrgb(reflectedLight), 1.0);
 	            //fragmentColor = vec4(toSrgb(vec3(v2f_height/terrainHeightScale)), 1.0);
 	            // Apply fog
